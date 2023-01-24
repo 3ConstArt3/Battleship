@@ -31,8 +31,8 @@
 			this.components = new System.ComponentModel.Container();
 			this.KrptSetPlayerPalette = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
 			this.KrptnMainPanel = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
-			this.FleetDeployBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
 			this.SetPlayerGroupB = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
+			this.FleetDeployBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
 			this.RegisterBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
 			this.NameTextB = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
 			((System.ComponentModel.ISupportInitialize)(this.KrptnMainPanel)).BeginInit();
@@ -265,6 +265,7 @@
 			this.KrptSetPlayerPalette.InputControlStyles.InputControlStandalone.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
 			this.KrptSetPlayerPalette.InputControlStyles.InputControlStandalone.StateNormal.Border.Rounding = 3;
 			this.KrptSetPlayerPalette.InputControlStyles.InputControlStandalone.StateNormal.Border.Width = 0;
+			this.KrptSetPlayerPalette.PalettePaint += new System.EventHandler<ComponentFactory.Krypton.Toolkit.PaletteLayoutEventArgs>(this.KrptSetPlayerPalette_PalettePaint);
 			// 
 			// KrptnMainPanel
 			// 
@@ -285,6 +286,45 @@
 			this.KrptnMainPanel.StateNormal.ImageAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
 			this.KrptnMainPanel.StateNormal.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
 			this.KrptnMainPanel.TabIndex = 0;
+			// 
+			// SetPlayerGroupB
+			// 
+			this.SetPlayerGroupB.CaptionOrientation = ComponentFactory.Krypton.Toolkit.ButtonOrientation.FixedTop;
+			this.SetPlayerGroupB.CaptionOverlap = 1D;
+			this.SetPlayerGroupB.CaptionStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
+			this.SetPlayerGroupB.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.SetPlayerGroupB.Location = new System.Drawing.Point(0, 0);
+			this.SetPlayerGroupB.Margin = new System.Windows.Forms.Padding(0);
+			this.SetPlayerGroupB.Name = "SetPlayerGroupB";
+			this.SetPlayerGroupB.Palette = this.KrptSetPlayerPalette;
+			this.SetPlayerGroupB.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
+			// 
+			// SetPlayerGroupB.Panel
+			// 
+			this.SetPlayerGroupB.Panel.Controls.Add(this.FleetDeployBtn);
+			this.SetPlayerGroupB.Panel.Controls.Add(this.RegisterBtn);
+			this.SetPlayerGroupB.Panel.Controls.Add(this.NameTextB);
+			this.SetPlayerGroupB.Panel.Padding = new System.Windows.Forms.Padding(15);
+			this.SetPlayerGroupB.Size = new System.Drawing.Size(456, 279);
+			this.SetPlayerGroupB.StateCommon.Back.ColorAngle = 45F;
+			this.SetPlayerGroupB.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.SetPlayerGroupB.StateCommon.Back.Image = global::Battleship.Properties.Resources.SetPlayerBg;
+			this.SetPlayerGroupB.StateCommon.Back.ImageAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.SetPlayerGroupB.StateCommon.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
+			this.SetPlayerGroupB.StateCommon.Border.ColorAngle = 45F;
+			this.SetPlayerGroupB.StateCommon.Border.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
+			this.SetPlayerGroupB.StateCommon.Border.DrawBorders = ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.None;
+			this.SetPlayerGroupB.StateCommon.Content.Padding = new System.Windows.Forms.Padding(6);
+			this.SetPlayerGroupB.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+			this.SetPlayerGroupB.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
+			this.SetPlayerGroupB.StateCommon.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.SetPlayerGroupB.StateCommon.Content.ShortText.ColorAngle = 45F;
+			this.SetPlayerGroupB.StateCommon.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding2;
+			this.SetPlayerGroupB.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Sitka Banner", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+			this.SetPlayerGroupB.StateCommon.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.SetPlayerGroupB.StateCommon.Content.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Word;
+			this.SetPlayerGroupB.TabIndex = 2;
+			this.SetPlayerGroupB.Values.Heading = "Set Player";
 			// 
 			// FleetDeployBtn
 			// 
@@ -394,45 +434,6 @@
 			this.FleetDeployBtn.TabIndex = 3;
 			this.FleetDeployBtn.Values.Text = "Fleet";
 			// 
-			// SetPlayerGroupB
-			// 
-			this.SetPlayerGroupB.CaptionOrientation = ComponentFactory.Krypton.Toolkit.ButtonOrientation.FixedTop;
-			this.SetPlayerGroupB.CaptionOverlap = 1D;
-			this.SetPlayerGroupB.CaptionStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.NormalPanel;
-			this.SetPlayerGroupB.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.SetPlayerGroupB.Location = new System.Drawing.Point(0, 0);
-			this.SetPlayerGroupB.Margin = new System.Windows.Forms.Padding(0);
-			this.SetPlayerGroupB.Name = "SetPlayerGroupB";
-			this.SetPlayerGroupB.Palette = this.KrptSetPlayerPalette;
-			this.SetPlayerGroupB.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
-			// 
-			// SetPlayerGroupB.Panel
-			// 
-			this.SetPlayerGroupB.Panel.Controls.Add(this.FleetDeployBtn);
-			this.SetPlayerGroupB.Panel.Controls.Add(this.RegisterBtn);
-			this.SetPlayerGroupB.Panel.Controls.Add(this.NameTextB);
-			this.SetPlayerGroupB.Panel.Padding = new System.Windows.Forms.Padding(15);
-			this.SetPlayerGroupB.Size = new System.Drawing.Size(456, 279);
-			this.SetPlayerGroupB.StateCommon.Back.ColorAngle = 45F;
-			this.SetPlayerGroupB.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.SetPlayerGroupB.StateCommon.Back.Image = global::Battleship.Properties.Resources.SetPlayerBg;
-			this.SetPlayerGroupB.StateCommon.Back.ImageAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.SetPlayerGroupB.StateCommon.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
-			this.SetPlayerGroupB.StateCommon.Border.ColorAngle = 45F;
-			this.SetPlayerGroupB.StateCommon.Border.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
-			this.SetPlayerGroupB.StateCommon.Border.DrawBorders = ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.None;
-			this.SetPlayerGroupB.StateCommon.Content.Padding = new System.Windows.Forms.Padding(6);
-			this.SetPlayerGroupB.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.SetPlayerGroupB.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
-			this.SetPlayerGroupB.StateCommon.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.SetPlayerGroupB.StateCommon.Content.ShortText.ColorAngle = 45F;
-			this.SetPlayerGroupB.StateCommon.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding2;
-			this.SetPlayerGroupB.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Sitka Banner", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-			this.SetPlayerGroupB.StateCommon.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.SetPlayerGroupB.StateCommon.Content.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Word;
-			this.SetPlayerGroupB.TabIndex = 2;
-			this.SetPlayerGroupB.Values.Heading = "Set Player";
-			// 
 			// RegisterBtn
 			// 
 			this.RegisterBtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
@@ -522,7 +523,7 @@
 			// 
 			this.NameTextB.AlwaysActive = false;
 			this.NameTextB.Location = new System.Drawing.Point(33, 54);
-			this.NameTextB.Margin = new System.Windows.Forms.Padding(0, 0, 0, 0);
+			this.NameTextB.Margin = new System.Windows.Forms.Padding(0);
 			this.NameTextB.Name = "NameTextB";
 			this.NameTextB.Palette = this.KrptSetPlayerPalette;
 			this.NameTextB.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
