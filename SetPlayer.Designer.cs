@@ -265,7 +265,6 @@
 			this.KrptSetPlayerPalette.InputControlStyles.InputControlStandalone.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
 			this.KrptSetPlayerPalette.InputControlStyles.InputControlStandalone.StateNormal.Border.Rounding = 3;
 			this.KrptSetPlayerPalette.InputControlStyles.InputControlStandalone.StateNormal.Border.Width = 0;
-			this.KrptSetPlayerPalette.PalettePaint += new System.EventHandler<ComponentFactory.Krypton.Toolkit.PaletteLayoutEventArgs>(this.KrptSetPlayerPalette_PalettePaint);
 			// 
 			// KrptnMainPanel
 			// 

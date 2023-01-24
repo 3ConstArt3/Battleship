@@ -18,9 +18,5 @@ namespace Battleship
 			InitializeComponent();
 		}
 
-		private void KrptSetPlayerPalette_PalettePaint( object sender, PaletteLayoutEventArgs e )
-		{
-
-		}
 	}
 }
