@@ -5,20 +5,16 @@ namespace Battleship
 {
 	class Player
 	{
-		private readonly List<Ship> m_fleet = new List<Ship>();
-		private readonly List<Loc> m_hitBoxes = new List<Loc>();
-		private readonly string m_name = "";
-		private uint m_attempts = 0;
-
-		public List<Ship> GetFleet() { return m_fleet; }
-		public List<Loc> GetHitBoxes() { return m_hitBoxes; }
-		public uint GetAttempts() { return m_attempts; }
-
+		//private readonly List<Ship> m_fleet = new List<Ship>();
+		public List<Ship> Fleet { get; } = new List<Ship>();
+		public List<Loc> HitBoxes { get; } = new List<Loc>();
+		public string Name { get; } = "";
+		public uint Attempts { get; private set; } = 0;
 
 		// search for a Ship based on its position
 		public Ship SearchShip(Loc where)
 		{
-			foreach (Ship ship in m_fleet)
+			foreach (Ship ship in Fleet)
 			{
 				/*foreach (Loc shipLoc in ship.Positions)
 				{
@@ -53,7 +49,7 @@ namespace Battleship
 		public void Fire(Loc where, Player enemy)
 		{
 			bool isANewPosition = true;
-			foreach (Loc p in m_hitBoxes)
+			foreach (Loc p in HitBoxes)
 			{
 				if (p == where)
 					isANewPosition = false;
@@ -61,15 +57,15 @@ namespace Battleship
 
 			if (isANewPosition)
 			{
-				++m_attempts;
-				m_hitBoxes.Add(where);
+				++Attempts;
+				HitBoxes.Add(where);
 				enemy.DamageShipIf(where);
 			}
 		}
 
 		public Player(string name)
 		{
-			m_name = name;
+			Name = name;
 		}
 	}
 }
