@@ -16,27 +16,11 @@ namespace Battleship
 		{
 			foreach (Ship ship in Fleet)
 			{
-				/*foreach (Loc shipLoc in ship.Positions)
-				{
-					if (where == shipLoc)
-						return ship;
-				}*/
 				if (ship.IsOccupiedCell(where))
 					return ship;
 			}
 			return null;
 		}
-
-		/*// returns true if there's a ship of ours inside Loc p
-		public bool isShipIn(Loc p)
-		{
-			return searchShip(p) ? true : false;
-		}
-
-		public bool isEnemyShipIn(Loc p, Player enemy)
-		{
-			return enemy.isShipIn(p);
-		}*/
 
 		// damage a ship at a given position, if it exists
 		public void DamageShipIf(Loc where)
