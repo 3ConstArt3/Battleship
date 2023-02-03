@@ -10,13 +10,13 @@ namespace Battleship
 		private readonly string m_name = "";
 		private uint m_attempts = 0;
 
-		public List<Ship> getFleet() { return m_fleet; }
-		public List<Loc> getHitBoxes() { return m_hitBoxes; }
-		public uint getAttempts() { return m_attempts; }
+		public List<Ship> GetFleet() { return m_fleet; }
+		public List<Loc> GetHitBoxes() { return m_hitBoxes; }
+		public uint GetAttempts() { return m_attempts; }
 
 
 		// search for a Ship based on its position
-		public Ship searchShip(Loc where)
+		public Ship SearchShip(Loc where)
 		{
 			foreach (Ship ship in m_fleet)
 			{
@@ -25,7 +25,7 @@ namespace Battleship
 					if (where == shipLoc)
 						return ship;
 				}*/
-				if (ship.search(where))
+				if (ship.IsOccupiedCell(where))
 					return ship;
 			}
 			return null;
@@ -43,14 +43,14 @@ namespace Battleship
 		}*/
 
 		// damage a ship at a given position, if it exists
-		public void damageShipIf(Loc where)
+		public void DamageShipIf(Loc where)
 		{
-			Ship ship = searchShip(where);
+			Ship ship = SearchShip(where);
 			if (ship)
 				ship.damagePart(where);
 		}
 
-		public void fire(Loc where, Player enemy)
+		public void Fire(Loc where, Player enemy)
 		{
 			bool isANewPosition = true;
 			foreach (Loc p in m_hitBoxes)
@@ -63,7 +63,7 @@ namespace Battleship
 			{
 				++m_attempts;
 				m_hitBoxes.Add(where);
-				enemy.damageShipIf(where);
+				enemy.DamageShipIf(where);
 			}
 		}
 
