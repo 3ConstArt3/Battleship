@@ -42,8 +42,8 @@ namespace Battleship
 		public void DamageShipIf(Loc where)
 		{
 			Ship ship = SearchShip(where);
-			if (ship)
-				ship.damagePart(where);
+			if (ship != null)
+				ship.DamagePart(where);
 		}
 
 		public void Fire(Loc where, Player enemy)
