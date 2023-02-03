@@ -48,14 +48,7 @@ namespace Battleship
 
 		public void Fire(Loc where, Player enemy)
 		{
-			bool isANewPosition = true;
-			foreach (Loc p in HitBoxes)
-			{
-				if (p == where)
-					isANewPosition = false;
-			}
-
-			if (isANewPosition)
+			if (!HitBoxes.Contains(where))
 			{
 				++Attempts;
 				HitBoxes.Add(where);
