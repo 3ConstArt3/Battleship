@@ -60,6 +60,17 @@ namespace Battleship
         }
 
         /// <summary>
+        /// Determines whether provided ship part cell is damaged
+        /// </summary>
+        /// <param name="cell">Ship part cell</param>
+        /// <returns>True if ship part cell is damaged</returns>
+        public bool IsDamagedPart(Loc cell)
+        {
+            Debug.Assert(IsOccupiedCell(cell));
+            return damagedParts.Contains(cell);
+        }
+
+        /// <summary>
         /// Determines whether the ship has any undamaged parts left 
         /// </summary>
         /// <returns>True if no undamaged ship parts are left</returns>
