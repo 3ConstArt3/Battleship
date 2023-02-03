@@ -3,6 +3,10 @@ using System.Diagnostics;
 
 namespace Battleship
 {
+    /// <summary>
+    /// Represents a generic ship and holds all necessary information 
+    /// about its type, state and position on the battlefield.
+    /// </summary>
     internal class Ship
     {
         public uint Size { get; }
@@ -15,6 +19,12 @@ namespace Battleship
         private HashSet<Loc> occupiedCells;
         private HashSet<Loc> damagedParts;
 
+        /// <summary>
+        /// Constructor 
+        /// </summary>
+        /// <param name="type">Ship type</param>
+        /// <param name="size">Number of occupied cells in battlefield</param>
+        /// <param name="name">Name to identify the ship</param>
         public Ship (ShipType type, uint size, string name)
         {
             Type = type;
@@ -25,10 +35,13 @@ namespace Battleship
             occupiedCells = new HashSet<Loc>();
             damagedParts = new HashSet<Loc>();
 
-            InitCell = new Loc(0, 0);
             IsVertical = true;
         }
 
+        /// <summary>
+        /// Mark ship part as damaged after opponent has successfully hitted the ship
+        /// </summary>
+        /// <param name="cell">Battlefield cell opponent has shot</param>
         public void DamagePart(Loc cell)
         {
             Debug.Assert(IsOccupiedCell(cell));
@@ -36,24 +49,42 @@ namespace Battleship
             damagedParts.Add(cell);
         }
 
+        /// <summary>
+        /// Determines whether provided battlefield cell is occupied by the ship
+        /// </summary>
+        /// <param name="cell">Battlefield cell</param>
+        /// <returns>True if battlefield cell is occupied by the ship</returns>
         public bool IsOccupiedCell(Loc cell)
         {
             return occupiedCells.Contains(cell);
         }
 
+        /// <summary>
+        /// Determines whether the ship has any undamaged parts left 
+        /// </summary>
+        /// <returns>True if no undamaged ship parts are left</returns>
         public bool IsSunk()
         {
             return Size == damagedParts.Count;
         }
 
+        /// <summary>
+        /// Lock ship's position after exiting setup mode
+        /// </summary>
         public void LockPosition()
         {
             isPositionLocked = true;
         }
 
+        /// <summary>
+        /// Change ship's initial cell location during setup mode
+        /// </summary>
+        /// <param name="newInitCell">New initial cell</param>
+        /// <exception cref="InvalidShipPlacementException">Ship is out of battlefield bounds</exception>
         public void RenewPosition(Loc newInitCell)
         {
             if (isPositionLocked) 
+                // not in setup mode
                 return;
 
             if (isValidPlacement(newInitCell, IsVertical))
@@ -63,9 +94,14 @@ namespace Battleship
             setOccupiedCells();
         }
 
+        /// <summary>
+        /// Switch between vertical and horizontal ship orientation during setup mode
+        /// </summary>
+        /// <exception cref="InvalidShipPlacementException">Ship is out of battlefield bounds</exception>
         public void SwitchOrientation()
         {
             if (isPositionLocked)
+                // not in setup mode
                 return;
 
             if (isValidPlacement(InitCell, !IsVertical))
@@ -75,6 +111,9 @@ namespace Battleship
             setOccupiedCells();
         }
 
+        /// <summary>
+        /// Determine ship's position on the battlefield
+        /// </summary>
         private void setOccupiedCells()
         {
             occupiedCells.Clear();
@@ -87,6 +126,12 @@ namespace Battleship
                     occupiedCells.Add(new Loc(InitCell.row, column));
         }
 
+        /// <summary>
+        /// Check if ship is out of battlefield bounds with provided initial cell and orientation
+        /// </summary>
+        /// <param name="initCell">Ship's initial cell</param>
+        /// <param name="isVertical">Ship's orientation</param>
+        /// <returns></returns>
         private bool isValidPlacement(Loc initCell, bool isVertical)
         {
             return (isVertical && initCell.row + Size <= GameState.gridDimension) && 
