@@ -77,11 +77,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Battlefield.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Battlefield.Designer.cs">
+      <DependentUpon>Battlefield.cs</DependentUpon>
+    </Compile>
     <Compile Include="BattleShip.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="BattleShip.Designer.cs">
       <DependentUpon>BattleShip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fleet Deployment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fleet Deployment.Designer.cs">
+      <DependentUpon>Fleet Deployment.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -91,8 +103,14 @@
     <Compile Include="SetPlayer.Designer.cs">
       <DependentUpon>SetPlayer.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Battlefield.resx">
+      <DependentUpon>Battlefield.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BattleShip.resx">
       <DependentUpon>BattleShip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fleet Deployment.resx">
+      <DependentUpon>Fleet Deployment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
