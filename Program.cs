@@ -17,8 +17,8 @@ namespace Battleship
         static void Main()
         {
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run( new BattleShipForm() );
+            Application.SetCompatibleTextRenderingDefault( false );
+            Application.Run( new Fleet_Deployment() );
         }
 
     }

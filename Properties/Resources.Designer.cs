@@ -63,6 +63,26 @@ namespace Battleship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BattlefieldBgnd {
+            get {
+                object obj = ResourceManager.GetObject("BattlefieldBgnd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BattleShipBattleS {
+            get {
+                object obj = ResourceManager.GetObject("BattleShipBattleS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BattleShipIntroIcon {
             get {
                 object obj = ResourceManager.GetObject("BattleShipIntroIcon", resourceCulture);
@@ -73,9 +93,39 @@ namespace Battleship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CarrierBattleS {
+            get {
+                object obj = ResourceManager.GetObject("CarrierBattleS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap closeBtn {
             get {
                 object obj = ResourceManager.GetObject("closeBtn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CruiserBattleS {
+            get {
+                object obj = ResourceManager.GetObject("CruiserBattleS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DestroyerBattleS {
+            get {
+                object obj = ResourceManager.GetObject("DestroyerBattleS", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +163,29 @@ namespace Battleship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap RotateShip {
+            get {
+                object obj = ResourceManager.GetObject("RotateShip", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SetPlayerBg {
             get {
                 object obj = ResourceManager.GetObject("SetPlayerBg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SubmarineBattleS {
+            get {
+                object obj = ResourceManager.GetObject("SubmarineBattleS", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

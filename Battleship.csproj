@@ -82,6 +82,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Battlefield.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Battlefield.Designer.cs">
+      <DependentUpon>Battlefield.cs</DependentUpon>
+    </Compile>
     <Compile Include="BattleShip.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,12 @@
     </Compile>
     <Compile Include="CustomExceptions.cs" />
     <Compile Include="Loc.cs" />
+    <Compile Include="Fleet Deployment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fleet Deployment.Designer.cs">
+      <DependentUpon>Fleet Deployment.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SetPlayer.cs">
@@ -99,8 +111,14 @@
       <DependentUpon>SetPlayer.cs</DependentUpon>
     </Compile>
     <Compile Include="Ship.cs" />
+    <EmbeddedResource Include="Battlefield.resx">
+      <DependentUpon>Battlefield.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BattleShip.resx">
       <DependentUpon>BattleShip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fleet Deployment.resx">
+      <DependentUpon>Fleet Deployment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -160,6 +178,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SetPlayerBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CarrierBattleS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BattleShipBattleS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CruiserBattleS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SubmarineBattleS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DestroyerBattleS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RotateShip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BattlefieldBgnd.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
