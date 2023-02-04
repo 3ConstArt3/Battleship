@@ -2233,7 +2233,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
 			this.ClientSize = new System.Drawing.Size(1170, 618);
 			this.ControlBox = false;
 			this.Controls.Add(this.BattlefieldPnl);
