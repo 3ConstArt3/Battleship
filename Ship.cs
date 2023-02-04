@@ -24,7 +24,17 @@ namespace Battleship
             { ShipType.Carrier, 5 },
             { ShipType.Battleship, 4 },
             { ShipType.Cruiser, 3 },
-            { ShipType.Submarine, 2 }
+            { ShipType.Submarine, 3 },
+            { ShipType.Destroyer, 2 }
+        };
+
+        private static readonly Dictionary<ShipType, string> shipNames = new Dictionary<ShipType, string>()
+        {
+            { ShipType.Carrier, "Carrier" },
+            { ShipType.Battleship, "Battleship" },
+            { ShipType.Cruiser, "Cruiser" },
+            { ShipType.Submarine, "Submarine" },
+            { ShipType.Destroyer, "Destroyer" }
         };
 
         /// <summary>
@@ -32,10 +42,10 @@ namespace Battleship
         /// </summary>
         /// <param name="type">Ship type</param>
         /// <param name="name">Name to identify the ship</param>
-        public Ship (ShipType type, string name)
+        public Ship (ShipType type)
         {
             Type = type;
-            Name = name;
+            Name = shipNames[Type];
             Size = shipSizes[Type];
             
             isPositionLocked = false;
@@ -127,6 +137,16 @@ namespace Battleship
 
             IsVertical = !IsVertical;
             setOccupiedCells();
+        }
+
+        /// <summary>
+        /// Check if provided ship has the same orientation as this ship
+        /// </summary>
+        /// <param name="ship">Provided ship</param>
+        /// <returns>True if both ships have the same orientation</returns>
+        public bool HasEqualOrientation(Ship ship)
+        {
+            return IsVertical == ship.IsVertical;
         }
 
         /// <summary>
