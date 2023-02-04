@@ -18,7 +18,7 @@ namespace Battleship
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run( new BattleShipForm() );
+            Application.Run( new Battlefield() );
         }
 
     }

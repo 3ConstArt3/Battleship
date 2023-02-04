@@ -17,5 +17,10 @@ namespace Battleship
 		{
 			InitializeComponent();
 		}
+
+		private void BattlefieldExitBtn_Click( object sender, EventArgs e )
+		{
+			this.Close();
+		}
 	}
 }

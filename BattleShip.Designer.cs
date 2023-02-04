@@ -30,7 +30,7 @@
 		{
 			this.components = new System.ComponentModel.Container();
 			this.KrptMainPalette = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
-			this.IntroLbl = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
+			this.BattleShipsLbl = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
 			this.MainPanel = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
 			this.BattleshipsExitBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
 			this.PreparationBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
@@ -149,38 +149,47 @@
 			this.KrptMainPalette.HeaderStyles.HeaderCommon.StateCommon.ButtonEdgeInset = 15;
 			this.KrptMainPalette.HeaderStyles.HeaderCommon.StateCommon.ButtonPadding = new System.Windows.Forms.Padding(3);
 			// 
-			// IntroLbl
+			// BattleShipsLbl
 			// 
-			this.IntroLbl.AutoSize = false;
-			this.IntroLbl.Dock = System.Windows.Forms.DockStyle.Top;
-			this.IntroLbl.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldPanel;
-			this.IntroLbl.Location = new System.Drawing.Point(0, 0);
-			this.IntroLbl.Name = "IntroLbl";
-			this.IntroLbl.Size = new System.Drawing.Size(825, 272);
-			this.IntroLbl.StateCommon.LongText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
-			this.IntroLbl.StateCommon.LongText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
-			this.IntroLbl.StateCommon.LongText.ColorAngle = 66F;
-			this.IntroLbl.StateCommon.LongText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Dashed;
-			this.IntroLbl.StateCommon.LongText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-			this.IntroLbl.StateCommon.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.IntroLbl.StateCommon.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.IntroLbl.StateCommon.ShortText.ColorAngle = 0F;
-			this.IntroLbl.StateCommon.ShortText.Font = new System.Drawing.Font("Sitka Banner", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-			this.IntroLbl.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.SingleBitPerPixel;
-			this.IntroLbl.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.IntroLbl.StateCommon.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Near;
-			this.IntroLbl.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Word;
-			this.IntroLbl.StateNormal.Padding = new System.Windows.Forms.Padding(48, 24, 15, 15);
-			this.IntroLbl.StateNormal.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.IntroLbl.StateNormal.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.IntroLbl.TabIndex = 0;
-			this.IntroLbl.Values.Text = "BattleShips";
+			this.BattleShipsLbl.AutoSize = false;
+			this.BattleShipsLbl.Dock = System.Windows.Forms.DockStyle.Top;
+			this.BattleShipsLbl.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldPanel;
+			this.BattleShipsLbl.Location = new System.Drawing.Point(0, 0);
+			this.BattleShipsLbl.Name = "BattleShipsLbl";
+			this.BattleShipsLbl.Size = new System.Drawing.Size(825, 272);
+			this.BattleShipsLbl.StateCommon.LongText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleShipsLbl.StateCommon.LongText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleShipsLbl.StateCommon.LongText.ColorAngle = 66F;
+			this.BattleShipsLbl.StateCommon.LongText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Dashed;
+			this.BattleShipsLbl.StateCommon.LongText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+			this.BattleShipsLbl.StateCommon.Padding = new System.Windows.Forms.Padding(48, 24, 15, 15);
+			this.BattleShipsLbl.StateCommon.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.BattleShipsLbl.StateCommon.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.BattleShipsLbl.StateCommon.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.BattleShipsLbl.StateCommon.ShortText.ColorAngle = 36F;
+			this.BattleShipsLbl.StateCommon.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+			this.BattleShipsLbl.StateCommon.ShortText.Font = new System.Drawing.Font("Sitka Banner", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+			this.BattleShipsLbl.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+			this.BattleShipsLbl.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.BattleShipsLbl.StateCommon.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Near;
+			this.BattleShipsLbl.StateNormal.Padding = new System.Windows.Forms.Padding(48, 24, 15, 15);
+			this.BattleShipsLbl.StateNormal.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.BattleShipsLbl.StateNormal.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.BattleShipsLbl.StateNormal.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.BattleShipsLbl.StateNormal.ShortText.ColorAngle = 36F;
+			this.BattleShipsLbl.StateNormal.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+			this.BattleShipsLbl.StateNormal.ShortText.Font = new System.Drawing.Font("Sitka Banner", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+			this.BattleShipsLbl.StateNormal.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+			this.BattleShipsLbl.StateNormal.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.BattleShipsLbl.StateNormal.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Near;
+			this.BattleShipsLbl.TabIndex = 0;
+			this.BattleShipsLbl.Values.Text = "BattleShips";
 			// 
 			// MainPanel
 			// 
 			this.MainPanel.Controls.Add(this.BattleshipsExitBtn);
 			this.MainPanel.Controls.Add(this.PreparationBtn);
-			this.MainPanel.Controls.Add(this.IntroLbl);
+			this.MainPanel.Controls.Add(this.BattleShipsLbl);
 			this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.MainPanel.Location = new System.Drawing.Point(9, 9);
 			this.MainPanel.Name = "MainPanel";
@@ -196,7 +205,7 @@
 			// BattleshipsExitBtn
 			// 
 			this.BattleshipsExitBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.BattleshipsExitBtn.Location = new System.Drawing.Point(772, 12);
+			this.BattleshipsExitBtn.Location = new System.Drawing.Point(781, 3);
 			this.BattleshipsExitBtn.MaximumSize = new System.Drawing.Size(41, 45);
 			this.BattleshipsExitBtn.MinimumSize = new System.Drawing.Size(41, 45);
 			this.BattleshipsExitBtn.Name = "BattleshipsExitBtn";
@@ -470,7 +479,7 @@
 		#endregion
 
 		private ComponentFactory.Krypton.Toolkit.KryptonPalette KrptMainPalette;
-		private ComponentFactory.Krypton.Toolkit.KryptonLabel IntroLbl;
+		private ComponentFactory.Krypton.Toolkit.KryptonLabel BattleShipsLbl;
 		private ComponentFactory.Krypton.Toolkit.KryptonPanel MainPanel;
 		private ComponentFactory.Krypton.Toolkit.KryptonButton PreparationBtn;
 		private ComponentFactory.Krypton.Toolkit.KryptonButton BattleshipsExitBtn;

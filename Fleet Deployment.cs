@@ -26,8 +26,10 @@ namespace Battleship
 		#endregion
 
 		#region Function Definition
-
-
+		private void FleetDeploymentExitBtn_Click( object sender, EventArgs e )
+		{
+			this.Close();
+		}
 
 		#endregion
 

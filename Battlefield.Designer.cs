@@ -29,6 +29,108 @@
 		private void InitializeComponent()
 		{
 			this.kryptonPanel1 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
+			this.BattlefieldExitBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+			this.kryptonGroupBox2 = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
+			this.panel91 = new System.Windows.Forms.Panel();
+			this.panel92 = new System.Windows.Forms.Panel();
+			this.panel93 = new System.Windows.Forms.Panel();
+			this.panel94 = new System.Windows.Forms.Panel();
+			this.panel95 = new System.Windows.Forms.Panel();
+			this.panel96 = new System.Windows.Forms.Panel();
+			this.panel97 = new System.Windows.Forms.Panel();
+			this.panel98 = new System.Windows.Forms.Panel();
+			this.panel99 = new System.Windows.Forms.Panel();
+			this.panel100 = new System.Windows.Forms.Panel();
+			this.panel111 = new System.Windows.Forms.Panel();
+			this.panel112 = new System.Windows.Forms.Panel();
+			this.panel113 = new System.Windows.Forms.Panel();
+			this.panel114 = new System.Windows.Forms.Panel();
+			this.panel115 = new System.Windows.Forms.Panel();
+			this.panel116 = new System.Windows.Forms.Panel();
+			this.panel117 = new System.Windows.Forms.Panel();
+			this.panel118 = new System.Windows.Forms.Panel();
+			this.panel119 = new System.Windows.Forms.Panel();
+			this.panel120 = new System.Windows.Forms.Panel();
+			this.panel121 = new System.Windows.Forms.Panel();
+			this.panel122 = new System.Windows.Forms.Panel();
+			this.panel123 = new System.Windows.Forms.Panel();
+			this.panel124 = new System.Windows.Forms.Panel();
+			this.panel125 = new System.Windows.Forms.Panel();
+			this.panel126 = new System.Windows.Forms.Panel();
+			this.panel127 = new System.Windows.Forms.Panel();
+			this.panel128 = new System.Windows.Forms.Panel();
+			this.panel129 = new System.Windows.Forms.Panel();
+			this.panel130 = new System.Windows.Forms.Panel();
+			this.panel131 = new System.Windows.Forms.Panel();
+			this.panel132 = new System.Windows.Forms.Panel();
+			this.panel133 = new System.Windows.Forms.Panel();
+			this.panel134 = new System.Windows.Forms.Panel();
+			this.panel135 = new System.Windows.Forms.Panel();
+			this.panel136 = new System.Windows.Forms.Panel();
+			this.panel137 = new System.Windows.Forms.Panel();
+			this.panel138 = new System.Windows.Forms.Panel();
+			this.panel139 = new System.Windows.Forms.Panel();
+			this.panel140 = new System.Windows.Forms.Panel();
+			this.panel141 = new System.Windows.Forms.Panel();
+			this.panel142 = new System.Windows.Forms.Panel();
+			this.panel143 = new System.Windows.Forms.Panel();
+			this.panel144 = new System.Windows.Forms.Panel();
+			this.panel145 = new System.Windows.Forms.Panel();
+			this.panel146 = new System.Windows.Forms.Panel();
+			this.panel147 = new System.Windows.Forms.Panel();
+			this.panel148 = new System.Windows.Forms.Panel();
+			this.panel149 = new System.Windows.Forms.Panel();
+			this.panel150 = new System.Windows.Forms.Panel();
+			this.panel151 = new System.Windows.Forms.Panel();
+			this.panel152 = new System.Windows.Forms.Panel();
+			this.panel153 = new System.Windows.Forms.Panel();
+			this.panel154 = new System.Windows.Forms.Panel();
+			this.panel155 = new System.Windows.Forms.Panel();
+			this.panel156 = new System.Windows.Forms.Panel();
+			this.panel157 = new System.Windows.Forms.Panel();
+			this.panel158 = new System.Windows.Forms.Panel();
+			this.panel159 = new System.Windows.Forms.Panel();
+			this.panel160 = new System.Windows.Forms.Panel();
+			this.panel161 = new System.Windows.Forms.Panel();
+			this.panel162 = new System.Windows.Forms.Panel();
+			this.panel163 = new System.Windows.Forms.Panel();
+			this.panel164 = new System.Windows.Forms.Panel();
+			this.panel165 = new System.Windows.Forms.Panel();
+			this.panel166 = new System.Windows.Forms.Panel();
+			this.panel167 = new System.Windows.Forms.Panel();
+			this.panel168 = new System.Windows.Forms.Panel();
+			this.panel169 = new System.Windows.Forms.Panel();
+			this.panel170 = new System.Windows.Forms.Panel();
+			this.panel171 = new System.Windows.Forms.Panel();
+			this.panel172 = new System.Windows.Forms.Panel();
+			this.panel173 = new System.Windows.Forms.Panel();
+			this.panel174 = new System.Windows.Forms.Panel();
+			this.panel175 = new System.Windows.Forms.Panel();
+			this.panel176 = new System.Windows.Forms.Panel();
+			this.panel177 = new System.Windows.Forms.Panel();
+			this.panel178 = new System.Windows.Forms.Panel();
+			this.panel179 = new System.Windows.Forms.Panel();
+			this.panel180 = new System.Windows.Forms.Panel();
+			this.panel181 = new System.Windows.Forms.Panel();
+			this.panel182 = new System.Windows.Forms.Panel();
+			this.panel183 = new System.Windows.Forms.Panel();
+			this.panel184 = new System.Windows.Forms.Panel();
+			this.panel185 = new System.Windows.Forms.Panel();
+			this.panel186 = new System.Windows.Forms.Panel();
+			this.panel187 = new System.Windows.Forms.Panel();
+			this.panel188 = new System.Windows.Forms.Panel();
+			this.panel189 = new System.Windows.Forms.Panel();
+			this.panel190 = new System.Windows.Forms.Panel();
+			this.panel191 = new System.Windows.Forms.Panel();
+			this.panel192 = new System.Windows.Forms.Panel();
+			this.panel193 = new System.Windows.Forms.Panel();
+			this.panel194 = new System.Windows.Forms.Panel();
+			this.panel195 = new System.Windows.Forms.Panel();
+			this.panel196 = new System.Windows.Forms.Panel();
+			this.panel197 = new System.Windows.Forms.Panel();
+			this.panel198 = new System.Windows.Forms.Panel();
+			this.panel199 = new System.Windows.Forms.Panel();
+			this.panel200 = new System.Windows.Forms.Panel();
 			this.panel201 = new System.Windows.Forms.Panel();
 			this.kryptonGroupBox1 = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
 			this.panel101 = new System.Windows.Forms.Panel();
@@ -131,124 +233,22 @@
 			this.panel3 = new System.Windows.Forms.Panel();
 			this.panel2 = new System.Windows.Forms.Panel();
 			this.panel1 = new System.Windows.Forms.Panel();
-			this.kryptonGroupBox2 = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
-			this.panel91 = new System.Windows.Forms.Panel();
-			this.panel92 = new System.Windows.Forms.Panel();
-			this.panel93 = new System.Windows.Forms.Panel();
-			this.panel94 = new System.Windows.Forms.Panel();
-			this.panel95 = new System.Windows.Forms.Panel();
-			this.panel96 = new System.Windows.Forms.Panel();
-			this.panel97 = new System.Windows.Forms.Panel();
-			this.panel98 = new System.Windows.Forms.Panel();
-			this.panel99 = new System.Windows.Forms.Panel();
-			this.panel100 = new System.Windows.Forms.Panel();
-			this.panel111 = new System.Windows.Forms.Panel();
-			this.panel112 = new System.Windows.Forms.Panel();
-			this.panel113 = new System.Windows.Forms.Panel();
-			this.panel114 = new System.Windows.Forms.Panel();
-			this.panel115 = new System.Windows.Forms.Panel();
-			this.panel116 = new System.Windows.Forms.Panel();
-			this.panel117 = new System.Windows.Forms.Panel();
-			this.panel118 = new System.Windows.Forms.Panel();
-			this.panel119 = new System.Windows.Forms.Panel();
-			this.panel120 = new System.Windows.Forms.Panel();
-			this.panel121 = new System.Windows.Forms.Panel();
-			this.panel122 = new System.Windows.Forms.Panel();
-			this.panel123 = new System.Windows.Forms.Panel();
-			this.panel124 = new System.Windows.Forms.Panel();
-			this.panel125 = new System.Windows.Forms.Panel();
-			this.panel126 = new System.Windows.Forms.Panel();
-			this.panel127 = new System.Windows.Forms.Panel();
-			this.panel128 = new System.Windows.Forms.Panel();
-			this.panel129 = new System.Windows.Forms.Panel();
-			this.panel130 = new System.Windows.Forms.Panel();
-			this.panel131 = new System.Windows.Forms.Panel();
-			this.panel132 = new System.Windows.Forms.Panel();
-			this.panel133 = new System.Windows.Forms.Panel();
-			this.panel134 = new System.Windows.Forms.Panel();
-			this.panel135 = new System.Windows.Forms.Panel();
-			this.panel136 = new System.Windows.Forms.Panel();
-			this.panel137 = new System.Windows.Forms.Panel();
-			this.panel138 = new System.Windows.Forms.Panel();
-			this.panel139 = new System.Windows.Forms.Panel();
-			this.panel140 = new System.Windows.Forms.Panel();
-			this.panel141 = new System.Windows.Forms.Panel();
-			this.panel142 = new System.Windows.Forms.Panel();
-			this.panel143 = new System.Windows.Forms.Panel();
-			this.panel144 = new System.Windows.Forms.Panel();
-			this.panel145 = new System.Windows.Forms.Panel();
-			this.panel146 = new System.Windows.Forms.Panel();
-			this.panel147 = new System.Windows.Forms.Panel();
-			this.panel148 = new System.Windows.Forms.Panel();
-			this.panel149 = new System.Windows.Forms.Panel();
-			this.panel150 = new System.Windows.Forms.Panel();
-			this.panel151 = new System.Windows.Forms.Panel();
-			this.panel152 = new System.Windows.Forms.Panel();
-			this.panel153 = new System.Windows.Forms.Panel();
-			this.panel154 = new System.Windows.Forms.Panel();
-			this.panel155 = new System.Windows.Forms.Panel();
-			this.panel156 = new System.Windows.Forms.Panel();
-			this.panel157 = new System.Windows.Forms.Panel();
-			this.panel158 = new System.Windows.Forms.Panel();
-			this.panel159 = new System.Windows.Forms.Panel();
-			this.panel160 = new System.Windows.Forms.Panel();
-			this.panel161 = new System.Windows.Forms.Panel();
-			this.panel162 = new System.Windows.Forms.Panel();
-			this.panel163 = new System.Windows.Forms.Panel();
-			this.panel164 = new System.Windows.Forms.Panel();
-			this.panel165 = new System.Windows.Forms.Panel();
-			this.panel166 = new System.Windows.Forms.Panel();
-			this.panel167 = new System.Windows.Forms.Panel();
-			this.panel168 = new System.Windows.Forms.Panel();
-			this.panel169 = new System.Windows.Forms.Panel();
-			this.panel170 = new System.Windows.Forms.Panel();
-			this.panel171 = new System.Windows.Forms.Panel();
-			this.panel172 = new System.Windows.Forms.Panel();
-			this.panel173 = new System.Windows.Forms.Panel();
-			this.panel174 = new System.Windows.Forms.Panel();
-			this.panel175 = new System.Windows.Forms.Panel();
-			this.panel176 = new System.Windows.Forms.Panel();
-			this.panel177 = new System.Windows.Forms.Panel();
-			this.panel178 = new System.Windows.Forms.Panel();
-			this.panel179 = new System.Windows.Forms.Panel();
-			this.panel180 = new System.Windows.Forms.Panel();
-			this.panel181 = new System.Windows.Forms.Panel();
-			this.panel182 = new System.Windows.Forms.Panel();
-			this.panel183 = new System.Windows.Forms.Panel();
-			this.panel184 = new System.Windows.Forms.Panel();
-			this.panel185 = new System.Windows.Forms.Panel();
-			this.panel186 = new System.Windows.Forms.Panel();
-			this.panel187 = new System.Windows.Forms.Panel();
-			this.panel188 = new System.Windows.Forms.Panel();
-			this.panel189 = new System.Windows.Forms.Panel();
-			this.panel190 = new System.Windows.Forms.Panel();
-			this.panel191 = new System.Windows.Forms.Panel();
-			this.panel192 = new System.Windows.Forms.Panel();
-			this.panel193 = new System.Windows.Forms.Panel();
-			this.panel194 = new System.Windows.Forms.Panel();
-			this.panel195 = new System.Windows.Forms.Panel();
-			this.panel196 = new System.Windows.Forms.Panel();
-			this.panel197 = new System.Windows.Forms.Panel();
-			this.panel198 = new System.Windows.Forms.Panel();
-			this.panel199 = new System.Windows.Forms.Panel();
-			this.panel200 = new System.Windows.Forms.Panel();
-			this.BattleshipsExitBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
 			this.IntroLbl = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
 			((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).BeginInit();
 			this.kryptonPanel1.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox1.Panel)).BeginInit();
-			this.kryptonGroupBox1.Panel.SuspendLayout();
-			this.kryptonGroupBox1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox2.Panel)).BeginInit();
 			this.kryptonGroupBox2.Panel.SuspendLayout();
 			this.kryptonGroupBox2.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox1.Panel)).BeginInit();
+			this.kryptonGroupBox1.Panel.SuspendLayout();
+			this.kryptonGroupBox1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// kryptonPanel1
 			// 
-			this.kryptonPanel1.Controls.Add(this.BattleshipsExitBtn);
+			this.kryptonPanel1.Controls.Add(this.BattlefieldExitBtn);
 			this.kryptonPanel1.Controls.Add(this.kryptonGroupBox2);
 			this.kryptonPanel1.Controls.Add(this.panel201);
 			this.kryptonPanel1.Controls.Add(this.kryptonGroupBox1);
@@ -258,6 +258,948 @@
 			this.kryptonPanel1.Name = "kryptonPanel1";
 			this.kryptonPanel1.Size = new System.Drawing.Size(1152, 600);
 			this.kryptonPanel1.TabIndex = 0;
+			// 
+			// BattlefieldExitBtn
+			// 
+			this.BattlefieldExitBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.BattlefieldExitBtn.Location = new System.Drawing.Point(1108, 3);
+			this.BattlefieldExitBtn.MaximumSize = new System.Drawing.Size(41, 45);
+			this.BattlefieldExitBtn.MinimumSize = new System.Drawing.Size(41, 45);
+			this.BattlefieldExitBtn.Name = "BattlefieldExitBtn";
+			this.BattlefieldExitBtn.Size = new System.Drawing.Size(41, 45);
+			this.BattlefieldExitBtn.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(159)))), ((int)(((byte)(106)))));
+			this.BattlefieldExitBtn.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(189)))), ((int)(((byte)(142)))));
+			this.BattlefieldExitBtn.StateCommon.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.BattlefieldExitBtn.StateCommon.Back.ColorAngle = 24F;
+			this.BattlefieldExitBtn.StateCommon.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear25;
+			this.BattlefieldExitBtn.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattlefieldExitBtn.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
+			this.BattlefieldExitBtn.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
+			this.BattlefieldExitBtn.StateCommon.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.BattlefieldExitBtn.StateCommon.Border.ColorAngle = 45F;
+			this.BattlefieldExitBtn.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Solid;
+			this.BattlefieldExitBtn.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.BattlefieldExitBtn.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattlefieldExitBtn.StateCommon.Border.Rounding = 3;
+			this.BattlefieldExitBtn.StateCommon.Border.Width = 3;
+			this.BattlefieldExitBtn.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+			this.BattlefieldExitBtn.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+			this.BattlefieldExitBtn.StateCommon.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.BattlefieldExitBtn.StateCommon.Content.ShortText.ColorAngle = 45F;
+			this.BattlefieldExitBtn.StateCommon.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.BattlefieldExitBtn.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BattlefieldExitBtn.StateCommon.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+			this.BattlefieldExitBtn.StateDisabled.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(159)))), ((int)(((byte)(106)))));
+			this.BattlefieldExitBtn.StateDisabled.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(189)))), ((int)(((byte)(142)))));
+			this.BattlefieldExitBtn.StateDisabled.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.BattlefieldExitBtn.StateDisabled.Back.ColorAngle = 30F;
+			this.BattlefieldExitBtn.StateDisabled.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear25;
+			this.BattlefieldExitBtn.StateDisabled.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattlefieldExitBtn.StateDisabled.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
+			this.BattlefieldExitBtn.StateDisabled.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
+			this.BattlefieldExitBtn.StateDisabled.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.BattlefieldExitBtn.StateDisabled.Border.ColorAngle = 45F;
+			this.BattlefieldExitBtn.StateDisabled.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Solid;
+			this.BattlefieldExitBtn.StateDisabled.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.BattlefieldExitBtn.StateDisabled.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattlefieldExitBtn.StateDisabled.Border.Rounding = 3;
+			this.BattlefieldExitBtn.StateDisabled.Border.Width = 3;
+			this.BattlefieldExitBtn.StateDisabled.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+			this.BattlefieldExitBtn.StateDisabled.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+			this.BattlefieldExitBtn.StateDisabled.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.BattlefieldExitBtn.StateDisabled.Content.ShortText.ColorAngle = 45F;
+			this.BattlefieldExitBtn.StateDisabled.Content.ShortText.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BattlefieldExitBtn.StateDisabled.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+			this.BattlefieldExitBtn.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(159)))), ((int)(((byte)(106)))));
+			this.BattlefieldExitBtn.StateNormal.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(189)))), ((int)(((byte)(142)))));
+			this.BattlefieldExitBtn.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.BattlefieldExitBtn.StateNormal.Back.ColorAngle = 24F;
+			this.BattlefieldExitBtn.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear25;
+			this.BattlefieldExitBtn.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattlefieldExitBtn.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
+			this.BattlefieldExitBtn.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
+			this.BattlefieldExitBtn.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.BattlefieldExitBtn.StateNormal.Border.ColorAngle = 45F;
+			this.BattlefieldExitBtn.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Solid;
+			this.BattlefieldExitBtn.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.BattlefieldExitBtn.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattlefieldExitBtn.StateNormal.Border.Rounding = 3;
+			this.BattlefieldExitBtn.StateNormal.Border.Width = 3;
+			this.BattlefieldExitBtn.StateNormal.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+			this.BattlefieldExitBtn.StateNormal.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+			this.BattlefieldExitBtn.StateNormal.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.BattlefieldExitBtn.StateNormal.Content.ShortText.ColorAngle = 45F;
+			this.BattlefieldExitBtn.StateNormal.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.BattlefieldExitBtn.StateNormal.Content.ShortText.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BattlefieldExitBtn.StateNormal.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+			this.BattlefieldExitBtn.StatePressed.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(159)))), ((int)(((byte)(106)))));
+			this.BattlefieldExitBtn.StatePressed.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(189)))), ((int)(((byte)(142)))));
+			this.BattlefieldExitBtn.StatePressed.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.BattlefieldExitBtn.StatePressed.Back.ColorAngle = 24F;
+			this.BattlefieldExitBtn.StatePressed.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.GlassNormalFull;
+			this.BattlefieldExitBtn.StatePressed.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattlefieldExitBtn.StatePressed.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
+			this.BattlefieldExitBtn.StatePressed.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
+			this.BattlefieldExitBtn.StatePressed.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.BattlefieldExitBtn.StatePressed.Border.ColorAngle = 45F;
+			this.BattlefieldExitBtn.StatePressed.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Solid;
+			this.BattlefieldExitBtn.StatePressed.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.BattlefieldExitBtn.StatePressed.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattlefieldExitBtn.StatePressed.Border.Rounding = 3;
+			this.BattlefieldExitBtn.StatePressed.Border.Width = 3;
+			this.BattlefieldExitBtn.StatePressed.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+			this.BattlefieldExitBtn.StatePressed.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+			this.BattlefieldExitBtn.StatePressed.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.BattlefieldExitBtn.StatePressed.Content.ShortText.ColorAngle = 45F;
+			this.BattlefieldExitBtn.StatePressed.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.BattlefieldExitBtn.StatePressed.Content.ShortText.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BattlefieldExitBtn.StatePressed.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+			this.BattlefieldExitBtn.StateTracking.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
+			this.BattlefieldExitBtn.StateTracking.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(189)))), ((int)(((byte)(142)))));
+			this.BattlefieldExitBtn.StateTracking.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.BattlefieldExitBtn.StateTracking.Back.ColorAngle = 45F;
+			this.BattlefieldExitBtn.StateTracking.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear25;
+			this.BattlefieldExitBtn.StateTracking.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattlefieldExitBtn.StateTracking.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
+			this.BattlefieldExitBtn.StateTracking.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
+			this.BattlefieldExitBtn.StateTracking.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.BattlefieldExitBtn.StateTracking.Border.ColorAngle = 45F;
+			this.BattlefieldExitBtn.StateTracking.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Solid;
+			this.BattlefieldExitBtn.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.BattlefieldExitBtn.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattlefieldExitBtn.StateTracking.Border.Rounding = 3;
+			this.BattlefieldExitBtn.StateTracking.Border.Width = 3;
+			this.BattlefieldExitBtn.StateTracking.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+			this.BattlefieldExitBtn.StateTracking.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+			this.BattlefieldExitBtn.StateTracking.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.BattlefieldExitBtn.StateTracking.Content.ShortText.ColorAngle = 45F;
+			this.BattlefieldExitBtn.StateTracking.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.BattlefieldExitBtn.StateTracking.Content.ShortText.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BattlefieldExitBtn.StateTracking.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+			this.BattlefieldExitBtn.TabIndex = 25;
+			this.BattlefieldExitBtn.Values.Text = "X";
+			this.BattlefieldExitBtn.Click += new System.EventHandler(this.BattlefieldExitBtn_Click);
+			// 
+			// kryptonGroupBox2
+			// 
+			this.kryptonGroupBox2.Location = new System.Drawing.Point(651, 80);
+			this.kryptonGroupBox2.Name = "kryptonGroupBox2";
+			// 
+			// kryptonGroupBox2.Panel
+			// 
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel91);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel92);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel93);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel94);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel95);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel96);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel97);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel98);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel99);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel100);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel111);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel112);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel113);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel114);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel115);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel116);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel117);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel118);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel119);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel120);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel121);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel122);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel123);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel124);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel125);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel126);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel127);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel128);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel129);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel130);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel131);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel132);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel133);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel134);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel135);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel136);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel137);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel138);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel139);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel140);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel141);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel142);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel143);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel144);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel145);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel146);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel147);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel148);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel149);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel150);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel151);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel152);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel153);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel154);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel155);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel156);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel157);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel158);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel159);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel160);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel161);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel162);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel163);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel164);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel165);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel166);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel167);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel168);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel169);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel170);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel171);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel172);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel173);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel174);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel175);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel176);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel177);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel178);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel179);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel180);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel181);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel182);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel183);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel184);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel185);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel186);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel187);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel188);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel189);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel190);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel191);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel192);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel193);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel194);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel195);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel196);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel197);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel198);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel199);
+			this.kryptonGroupBox2.Panel.Controls.Add(this.panel200);
+			this.kryptonGroupBox2.Size = new System.Drawing.Size(455, 443);
+			this.kryptonGroupBox2.TabIndex = 24;
+			this.kryptonGroupBox2.Values.Heading = "Enemy Fleet";
+			// 
+			// panel91
+			// 
+			this.panel91.Location = new System.Drawing.Point(397, 366);
+			this.panel91.Name = "panel91";
+			this.panel91.Size = new System.Drawing.Size(36, 33);
+			this.panel91.TabIndex = 211;
+			// 
+			// panel92
+			// 
+			this.panel92.Location = new System.Drawing.Point(355, 366);
+			this.panel92.Name = "panel92";
+			this.panel92.Size = new System.Drawing.Size(36, 33);
+			this.panel92.TabIndex = 208;
+			// 
+			// panel93
+			// 
+			this.panel93.Location = new System.Drawing.Point(313, 366);
+			this.panel93.Name = "panel93";
+			this.panel93.Size = new System.Drawing.Size(36, 33);
+			this.panel93.TabIndex = 209;
+			// 
+			// panel94
+			// 
+			this.panel94.Location = new System.Drawing.Point(271, 366);
+			this.panel94.Name = "panel94";
+			this.panel94.Size = new System.Drawing.Size(36, 33);
+			this.panel94.TabIndex = 210;
+			// 
+			// panel95
+			// 
+			this.panel95.Location = new System.Drawing.Point(228, 366);
+			this.panel95.Name = "panel95";
+			this.panel95.Size = new System.Drawing.Size(36, 33);
+			this.panel95.TabIndex = 205;
+			// 
+			// panel96
+			// 
+			this.panel96.Location = new System.Drawing.Point(186, 366);
+			this.panel96.Name = "panel96";
+			this.panel96.Size = new System.Drawing.Size(36, 33);
+			this.panel96.TabIndex = 206;
+			// 
+			// panel97
+			// 
+			this.panel97.Location = new System.Drawing.Point(144, 366);
+			this.panel97.Name = "panel97";
+			this.panel97.Size = new System.Drawing.Size(36, 33);
+			this.panel97.TabIndex = 207;
+			// 
+			// panel98
+			// 
+			this.panel98.Location = new System.Drawing.Point(101, 366);
+			this.panel98.Name = "panel98";
+			this.panel98.Size = new System.Drawing.Size(36, 33);
+			this.panel98.TabIndex = 202;
+			// 
+			// panel99
+			// 
+			this.panel99.Location = new System.Drawing.Point(59, 366);
+			this.panel99.Name = "panel99";
+			this.panel99.Size = new System.Drawing.Size(36, 33);
+			this.panel99.TabIndex = 203;
+			// 
+			// panel100
+			// 
+			this.panel100.Location = new System.Drawing.Point(17, 366);
+			this.panel100.Name = "panel100";
+			this.panel100.Size = new System.Drawing.Size(36, 33);
+			this.panel100.TabIndex = 204;
+			// 
+			// panel111
+			// 
+			this.panel111.Location = new System.Drawing.Point(397, 327);
+			this.panel111.Name = "panel111";
+			this.panel111.Size = new System.Drawing.Size(36, 33);
+			this.panel111.TabIndex = 201;
+			// 
+			// panel112
+			// 
+			this.panel112.Location = new System.Drawing.Point(355, 327);
+			this.panel112.Name = "panel112";
+			this.panel112.Size = new System.Drawing.Size(36, 33);
+			this.panel112.TabIndex = 198;
+			// 
+			// panel113
+			// 
+			this.panel113.Location = new System.Drawing.Point(313, 327);
+			this.panel113.Name = "panel113";
+			this.panel113.Size = new System.Drawing.Size(36, 33);
+			this.panel113.TabIndex = 199;
+			// 
+			// panel114
+			// 
+			this.panel114.Location = new System.Drawing.Point(271, 327);
+			this.panel114.Name = "panel114";
+			this.panel114.Size = new System.Drawing.Size(36, 33);
+			this.panel114.TabIndex = 200;
+			// 
+			// panel115
+			// 
+			this.panel115.Location = new System.Drawing.Point(228, 327);
+			this.panel115.Name = "panel115";
+			this.panel115.Size = new System.Drawing.Size(36, 33);
+			this.panel115.TabIndex = 195;
+			// 
+			// panel116
+			// 
+			this.panel116.Location = new System.Drawing.Point(186, 327);
+			this.panel116.Name = "panel116";
+			this.panel116.Size = new System.Drawing.Size(36, 33);
+			this.panel116.TabIndex = 196;
+			// 
+			// panel117
+			// 
+			this.panel117.Location = new System.Drawing.Point(144, 327);
+			this.panel117.Name = "panel117";
+			this.panel117.Size = new System.Drawing.Size(36, 33);
+			this.panel117.TabIndex = 197;
+			// 
+			// panel118
+			// 
+			this.panel118.Location = new System.Drawing.Point(101, 327);
+			this.panel118.Name = "panel118";
+			this.panel118.Size = new System.Drawing.Size(36, 33);
+			this.panel118.TabIndex = 192;
+			// 
+			// panel119
+			// 
+			this.panel119.Location = new System.Drawing.Point(59, 327);
+			this.panel119.Name = "panel119";
+			this.panel119.Size = new System.Drawing.Size(36, 33);
+			this.panel119.TabIndex = 193;
+			// 
+			// panel120
+			// 
+			this.panel120.Location = new System.Drawing.Point(17, 327);
+			this.panel120.Name = "panel120";
+			this.panel120.Size = new System.Drawing.Size(36, 33);
+			this.panel120.TabIndex = 194;
+			// 
+			// panel121
+			// 
+			this.panel121.Location = new System.Drawing.Point(397, 288);
+			this.panel121.Name = "panel121";
+			this.panel121.Size = new System.Drawing.Size(36, 33);
+			this.panel121.TabIndex = 191;
+			// 
+			// panel122
+			// 
+			this.panel122.Location = new System.Drawing.Point(355, 288);
+			this.panel122.Name = "panel122";
+			this.panel122.Size = new System.Drawing.Size(36, 33);
+			this.panel122.TabIndex = 188;
+			// 
+			// panel123
+			// 
+			this.panel123.Location = new System.Drawing.Point(313, 288);
+			this.panel123.Name = "panel123";
+			this.panel123.Size = new System.Drawing.Size(36, 33);
+			this.panel123.TabIndex = 189;
+			// 
+			// panel124
+			// 
+			this.panel124.Location = new System.Drawing.Point(271, 288);
+			this.panel124.Name = "panel124";
+			this.panel124.Size = new System.Drawing.Size(36, 33);
+			this.panel124.TabIndex = 190;
+			// 
+			// panel125
+			// 
+			this.panel125.Location = new System.Drawing.Point(228, 288);
+			this.panel125.Name = "panel125";
+			this.panel125.Size = new System.Drawing.Size(36, 33);
+			this.panel125.TabIndex = 185;
+			// 
+			// panel126
+			// 
+			this.panel126.Location = new System.Drawing.Point(186, 288);
+			this.panel126.Name = "panel126";
+			this.panel126.Size = new System.Drawing.Size(36, 33);
+			this.panel126.TabIndex = 186;
+			// 
+			// panel127
+			// 
+			this.panel127.Location = new System.Drawing.Point(144, 288);
+			this.panel127.Name = "panel127";
+			this.panel127.Size = new System.Drawing.Size(36, 33);
+			this.panel127.TabIndex = 187;
+			// 
+			// panel128
+			// 
+			this.panel128.Location = new System.Drawing.Point(101, 288);
+			this.panel128.Name = "panel128";
+			this.panel128.Size = new System.Drawing.Size(36, 33);
+			this.panel128.TabIndex = 182;
+			// 
+			// panel129
+			// 
+			this.panel129.Location = new System.Drawing.Point(59, 288);
+			this.panel129.Name = "panel129";
+			this.panel129.Size = new System.Drawing.Size(36, 33);
+			this.panel129.TabIndex = 183;
+			// 
+			// panel130
+			// 
+			this.panel130.Location = new System.Drawing.Point(17, 288);
+			this.panel130.Name = "panel130";
+			this.panel130.Size = new System.Drawing.Size(36, 33);
+			this.panel130.TabIndex = 184;
+			// 
+			// panel131
+			// 
+			this.panel131.Location = new System.Drawing.Point(397, 249);
+			this.panel131.Name = "panel131";
+			this.panel131.Size = new System.Drawing.Size(36, 33);
+			this.panel131.TabIndex = 181;
+			// 
+			// panel132
+			// 
+			this.panel132.Location = new System.Drawing.Point(355, 249);
+			this.panel132.Name = "panel132";
+			this.panel132.Size = new System.Drawing.Size(36, 33);
+			this.panel132.TabIndex = 178;
+			// 
+			// panel133
+			// 
+			this.panel133.Location = new System.Drawing.Point(313, 249);
+			this.panel133.Name = "panel133";
+			this.panel133.Size = new System.Drawing.Size(36, 33);
+			this.panel133.TabIndex = 179;
+			// 
+			// panel134
+			// 
+			this.panel134.Location = new System.Drawing.Point(271, 249);
+			this.panel134.Name = "panel134";
+			this.panel134.Size = new System.Drawing.Size(36, 33);
+			this.panel134.TabIndex = 180;
+			// 
+			// panel135
+			// 
+			this.panel135.Location = new System.Drawing.Point(228, 249);
+			this.panel135.Name = "panel135";
+			this.panel135.Size = new System.Drawing.Size(36, 33);
+			this.panel135.TabIndex = 175;
+			// 
+			// panel136
+			// 
+			this.panel136.Location = new System.Drawing.Point(186, 249);
+			this.panel136.Name = "panel136";
+			this.panel136.Size = new System.Drawing.Size(36, 33);
+			this.panel136.TabIndex = 176;
+			// 
+			// panel137
+			// 
+			this.panel137.Location = new System.Drawing.Point(144, 249);
+			this.panel137.Name = "panel137";
+			this.panel137.Size = new System.Drawing.Size(36, 33);
+			this.panel137.TabIndex = 177;
+			// 
+			// panel138
+			// 
+			this.panel138.Location = new System.Drawing.Point(101, 249);
+			this.panel138.Name = "panel138";
+			this.panel138.Size = new System.Drawing.Size(36, 33);
+			this.panel138.TabIndex = 172;
+			// 
+			// panel139
+			// 
+			this.panel139.Location = new System.Drawing.Point(59, 249);
+			this.panel139.Name = "panel139";
+			this.panel139.Size = new System.Drawing.Size(36, 33);
+			this.panel139.TabIndex = 173;
+			// 
+			// panel140
+			// 
+			this.panel140.Location = new System.Drawing.Point(17, 249);
+			this.panel140.Name = "panel140";
+			this.panel140.Size = new System.Drawing.Size(36, 33);
+			this.panel140.TabIndex = 174;
+			// 
+			// panel141
+			// 
+			this.panel141.Location = new System.Drawing.Point(397, 210);
+			this.panel141.Name = "panel141";
+			this.panel141.Size = new System.Drawing.Size(36, 33);
+			this.panel141.TabIndex = 171;
+			// 
+			// panel142
+			// 
+			this.panel142.Location = new System.Drawing.Point(355, 210);
+			this.panel142.Name = "panel142";
+			this.panel142.Size = new System.Drawing.Size(36, 33);
+			this.panel142.TabIndex = 168;
+			// 
+			// panel143
+			// 
+			this.panel143.Location = new System.Drawing.Point(313, 210);
+			this.panel143.Name = "panel143";
+			this.panel143.Size = new System.Drawing.Size(36, 33);
+			this.panel143.TabIndex = 169;
+			// 
+			// panel144
+			// 
+			this.panel144.Location = new System.Drawing.Point(271, 210);
+			this.panel144.Name = "panel144";
+			this.panel144.Size = new System.Drawing.Size(36, 33);
+			this.panel144.TabIndex = 170;
+			// 
+			// panel145
+			// 
+			this.panel145.Location = new System.Drawing.Point(228, 210);
+			this.panel145.Name = "panel145";
+			this.panel145.Size = new System.Drawing.Size(36, 33);
+			this.panel145.TabIndex = 165;
+			// 
+			// panel146
+			// 
+			this.panel146.Location = new System.Drawing.Point(186, 210);
+			this.panel146.Name = "panel146";
+			this.panel146.Size = new System.Drawing.Size(36, 33);
+			this.panel146.TabIndex = 166;
+			// 
+			// panel147
+			// 
+			this.panel147.Location = new System.Drawing.Point(144, 210);
+			this.panel147.Name = "panel147";
+			this.panel147.Size = new System.Drawing.Size(36, 33);
+			this.panel147.TabIndex = 167;
+			// 
+			// panel148
+			// 
+			this.panel148.Location = new System.Drawing.Point(101, 210);
+			this.panel148.Name = "panel148";
+			this.panel148.Size = new System.Drawing.Size(36, 33);
+			this.panel148.TabIndex = 162;
+			// 
+			// panel149
+			// 
+			this.panel149.Location = new System.Drawing.Point(59, 210);
+			this.panel149.Name = "panel149";
+			this.panel149.Size = new System.Drawing.Size(36, 33);
+			this.panel149.TabIndex = 163;
+			// 
+			// panel150
+			// 
+			this.panel150.Location = new System.Drawing.Point(17, 210);
+			this.panel150.Name = "panel150";
+			this.panel150.Size = new System.Drawing.Size(36, 33);
+			this.panel150.TabIndex = 164;
+			// 
+			// panel151
+			// 
+			this.panel151.Location = new System.Drawing.Point(397, 171);
+			this.panel151.Name = "panel151";
+			this.panel151.Size = new System.Drawing.Size(36, 33);
+			this.panel151.TabIndex = 161;
+			// 
+			// panel152
+			// 
+			this.panel152.Location = new System.Drawing.Point(355, 171);
+			this.panel152.Name = "panel152";
+			this.panel152.Size = new System.Drawing.Size(36, 33);
+			this.panel152.TabIndex = 158;
+			// 
+			// panel153
+			// 
+			this.panel153.Location = new System.Drawing.Point(313, 171);
+			this.panel153.Name = "panel153";
+			this.panel153.Size = new System.Drawing.Size(36, 33);
+			this.panel153.TabIndex = 159;
+			// 
+			// panel154
+			// 
+			this.panel154.Location = new System.Drawing.Point(271, 171);
+			this.panel154.Name = "panel154";
+			this.panel154.Size = new System.Drawing.Size(36, 33);
+			this.panel154.TabIndex = 160;
+			// 
+			// panel155
+			// 
+			this.panel155.Location = new System.Drawing.Point(228, 171);
+			this.panel155.Name = "panel155";
+			this.panel155.Size = new System.Drawing.Size(36, 33);
+			this.panel155.TabIndex = 155;
+			// 
+			// panel156
+			// 
+			this.panel156.Location = new System.Drawing.Point(186, 171);
+			this.panel156.Name = "panel156";
+			this.panel156.Size = new System.Drawing.Size(36, 33);
+			this.panel156.TabIndex = 156;
+			// 
+			// panel157
+			// 
+			this.panel157.Location = new System.Drawing.Point(144, 171);
+			this.panel157.Name = "panel157";
+			this.panel157.Size = new System.Drawing.Size(36, 33);
+			this.panel157.TabIndex = 157;
+			// 
+			// panel158
+			// 
+			this.panel158.Location = new System.Drawing.Point(101, 171);
+			this.panel158.Name = "panel158";
+			this.panel158.Size = new System.Drawing.Size(36, 33);
+			this.panel158.TabIndex = 152;
+			// 
+			// panel159
+			// 
+			this.panel159.Location = new System.Drawing.Point(59, 171);
+			this.panel159.Name = "panel159";
+			this.panel159.Size = new System.Drawing.Size(36, 33);
+			this.panel159.TabIndex = 153;
+			// 
+			// panel160
+			// 
+			this.panel160.Location = new System.Drawing.Point(17, 171);
+			this.panel160.Name = "panel160";
+			this.panel160.Size = new System.Drawing.Size(36, 33);
+			this.panel160.TabIndex = 154;
+			// 
+			// panel161
+			// 
+			this.panel161.Location = new System.Drawing.Point(397, 132);
+			this.panel161.Name = "panel161";
+			this.panel161.Size = new System.Drawing.Size(36, 33);
+			this.panel161.TabIndex = 151;
+			// 
+			// panel162
+			// 
+			this.panel162.Location = new System.Drawing.Point(355, 132);
+			this.panel162.Name = "panel162";
+			this.panel162.Size = new System.Drawing.Size(36, 33);
+			this.panel162.TabIndex = 148;
+			// 
+			// panel163
+			// 
+			this.panel163.Location = new System.Drawing.Point(313, 132);
+			this.panel163.Name = "panel163";
+			this.panel163.Size = new System.Drawing.Size(36, 33);
+			this.panel163.TabIndex = 149;
+			// 
+			// panel164
+			// 
+			this.panel164.Location = new System.Drawing.Point(271, 132);
+			this.panel164.Name = "panel164";
+			this.panel164.Size = new System.Drawing.Size(36, 33);
+			this.panel164.TabIndex = 150;
+			// 
+			// panel165
+			// 
+			this.panel165.Location = new System.Drawing.Point(228, 132);
+			this.panel165.Name = "panel165";
+			this.panel165.Size = new System.Drawing.Size(36, 33);
+			this.panel165.TabIndex = 145;
+			// 
+			// panel166
+			// 
+			this.panel166.Location = new System.Drawing.Point(186, 132);
+			this.panel166.Name = "panel166";
+			this.panel166.Size = new System.Drawing.Size(36, 33);
+			this.panel166.TabIndex = 146;
+			// 
+			// panel167
+			// 
+			this.panel167.Location = new System.Drawing.Point(144, 132);
+			this.panel167.Name = "panel167";
+			this.panel167.Size = new System.Drawing.Size(36, 33);
+			this.panel167.TabIndex = 147;
+			// 
+			// panel168
+			// 
+			this.panel168.Location = new System.Drawing.Point(101, 132);
+			this.panel168.Name = "panel168";
+			this.panel168.Size = new System.Drawing.Size(36, 33);
+			this.panel168.TabIndex = 142;
+			// 
+			// panel169
+			// 
+			this.panel169.Location = new System.Drawing.Point(59, 132);
+			this.panel169.Name = "panel169";
+			this.panel169.Size = new System.Drawing.Size(36, 33);
+			this.panel169.TabIndex = 143;
+			// 
+			// panel170
+			// 
+			this.panel170.Location = new System.Drawing.Point(17, 132);
+			this.panel170.Name = "panel170";
+			this.panel170.Size = new System.Drawing.Size(36, 33);
+			this.panel170.TabIndex = 144;
+			// 
+			// panel171
+			// 
+			this.panel171.Location = new System.Drawing.Point(397, 93);
+			this.panel171.Name = "panel171";
+			this.panel171.Size = new System.Drawing.Size(36, 33);
+			this.panel171.TabIndex = 141;
+			// 
+			// panel172
+			// 
+			this.panel172.Location = new System.Drawing.Point(355, 93);
+			this.panel172.Name = "panel172";
+			this.panel172.Size = new System.Drawing.Size(36, 33);
+			this.panel172.TabIndex = 138;
+			// 
+			// panel173
+			// 
+			this.panel173.Location = new System.Drawing.Point(313, 93);
+			this.panel173.Name = "panel173";
+			this.panel173.Size = new System.Drawing.Size(36, 33);
+			this.panel173.TabIndex = 139;
+			// 
+			// panel174
+			// 
+			this.panel174.Location = new System.Drawing.Point(271, 93);
+			this.panel174.Name = "panel174";
+			this.panel174.Size = new System.Drawing.Size(36, 33);
+			this.panel174.TabIndex = 140;
+			// 
+			// panel175
+			// 
+			this.panel175.Location = new System.Drawing.Point(228, 93);
+			this.panel175.Name = "panel175";
+			this.panel175.Size = new System.Drawing.Size(36, 33);
+			this.panel175.TabIndex = 135;
+			// 
+			// panel176
+			// 
+			this.panel176.Location = new System.Drawing.Point(186, 93);
+			this.panel176.Name = "panel176";
+			this.panel176.Size = new System.Drawing.Size(36, 33);
+			this.panel176.TabIndex = 136;
+			// 
+			// panel177
+			// 
+			this.panel177.Location = new System.Drawing.Point(144, 93);
+			this.panel177.Name = "panel177";
+			this.panel177.Size = new System.Drawing.Size(36, 33);
+			this.panel177.TabIndex = 137;
+			// 
+			// panel178
+			// 
+			this.panel178.Location = new System.Drawing.Point(101, 93);
+			this.panel178.Name = "panel178";
+			this.panel178.Size = new System.Drawing.Size(36, 33);
+			this.panel178.TabIndex = 132;
+			// 
+			// panel179
+			// 
+			this.panel179.Location = new System.Drawing.Point(59, 93);
+			this.panel179.Name = "panel179";
+			this.panel179.Size = new System.Drawing.Size(36, 33);
+			this.panel179.TabIndex = 133;
+			// 
+			// panel180
+			// 
+			this.panel180.Location = new System.Drawing.Point(17, 93);
+			this.panel180.Name = "panel180";
+			this.panel180.Size = new System.Drawing.Size(36, 33);
+			this.panel180.TabIndex = 134;
+			// 
+			// panel181
+			// 
+			this.panel181.Location = new System.Drawing.Point(397, 54);
+			this.panel181.Name = "panel181";
+			this.panel181.Size = new System.Drawing.Size(36, 33);
+			this.panel181.TabIndex = 131;
+			// 
+			// panel182
+			// 
+			this.panel182.Location = new System.Drawing.Point(355, 54);
+			this.panel182.Name = "panel182";
+			this.panel182.Size = new System.Drawing.Size(36, 33);
+			this.panel182.TabIndex = 128;
+			// 
+			// panel183
+			// 
+			this.panel183.Location = new System.Drawing.Point(313, 54);
+			this.panel183.Name = "panel183";
+			this.panel183.Size = new System.Drawing.Size(36, 33);
+			this.panel183.TabIndex = 129;
+			// 
+			// panel184
+			// 
+			this.panel184.Location = new System.Drawing.Point(271, 54);
+			this.panel184.Name = "panel184";
+			this.panel184.Size = new System.Drawing.Size(36, 33);
+			this.panel184.TabIndex = 130;
+			// 
+			// panel185
+			// 
+			this.panel185.Location = new System.Drawing.Point(228, 54);
+			this.panel185.Name = "panel185";
+			this.panel185.Size = new System.Drawing.Size(36, 33);
+			this.panel185.TabIndex = 125;
+			// 
+			// panel186
+			// 
+			this.panel186.Location = new System.Drawing.Point(186, 54);
+			this.panel186.Name = "panel186";
+			this.panel186.Size = new System.Drawing.Size(36, 33);
+			this.panel186.TabIndex = 126;
+			// 
+			// panel187
+			// 
+			this.panel187.Location = new System.Drawing.Point(144, 54);
+			this.panel187.Name = "panel187";
+			this.panel187.Size = new System.Drawing.Size(36, 33);
+			this.panel187.TabIndex = 127;
+			// 
+			// panel188
+			// 
+			this.panel188.Location = new System.Drawing.Point(101, 54);
+			this.panel188.Name = "panel188";
+			this.panel188.Size = new System.Drawing.Size(36, 33);
+			this.panel188.TabIndex = 122;
+			// 
+			// panel189
+			// 
+			this.panel189.Location = new System.Drawing.Point(59, 54);
+			this.panel189.Name = "panel189";
+			this.panel189.Size = new System.Drawing.Size(36, 33);
+			this.panel189.TabIndex = 123;
+			// 
+			// panel190
+			// 
+			this.panel190.Location = new System.Drawing.Point(17, 54);
+			this.panel190.Name = "panel190";
+			this.panel190.Size = new System.Drawing.Size(36, 33);
+			this.panel190.TabIndex = 124;
+			// 
+			// panel191
+			// 
+			this.panel191.Location = new System.Drawing.Point(397, 15);
+			this.panel191.Name = "panel191";
+			this.panel191.Size = new System.Drawing.Size(36, 33);
+			this.panel191.TabIndex = 121;
+			// 
+			// panel192
+			// 
+			this.panel192.Location = new System.Drawing.Point(355, 15);
+			this.panel192.Name = "panel192";
+			this.panel192.Size = new System.Drawing.Size(36, 33);
+			this.panel192.TabIndex = 118;
+			// 
+			// panel193
+			// 
+			this.panel193.Location = new System.Drawing.Point(313, 15);
+			this.panel193.Name = "panel193";
+			this.panel193.Size = new System.Drawing.Size(36, 33);
+			this.panel193.TabIndex = 119;
+			// 
+			// panel194
+			// 
+			this.panel194.Location = new System.Drawing.Point(271, 15);
+			this.panel194.Name = "panel194";
+			this.panel194.Size = new System.Drawing.Size(36, 33);
+			this.panel194.TabIndex = 120;
+			// 
+			// panel195
+			// 
+			this.panel195.Location = new System.Drawing.Point(228, 15);
+			this.panel195.Name = "panel195";
+			this.panel195.Size = new System.Drawing.Size(36, 33);
+			this.panel195.TabIndex = 115;
+			// 
+			// panel196
+			// 
+			this.panel196.Location = new System.Drawing.Point(186, 15);
+			this.panel196.Name = "panel196";
+			this.panel196.Size = new System.Drawing.Size(36, 33);
+			this.panel196.TabIndex = 116;
+			// 
+			// panel197
+			// 
+			this.panel197.Location = new System.Drawing.Point(144, 15);
+			this.panel197.Name = "panel197";
+			this.panel197.Size = new System.Drawing.Size(36, 33);
+			this.panel197.TabIndex = 117;
+			// 
+			// panel198
+			// 
+			this.panel198.Location = new System.Drawing.Point(101, 15);
+			this.panel198.Name = "panel198";
+			this.panel198.Size = new System.Drawing.Size(36, 33);
+			this.panel198.TabIndex = 113;
+			// 
+			// panel199
+			// 
+			this.panel199.Location = new System.Drawing.Point(59, 15);
+			this.panel199.Name = "panel199";
+			this.panel199.Size = new System.Drawing.Size(36, 33);
+			this.panel199.TabIndex = 114;
+			// 
+			// panel200
+			// 
+			this.panel200.Location = new System.Drawing.Point(17, 15);
+			this.panel200.Name = "panel200";
+			this.panel200.Size = new System.Drawing.Size(36, 33);
+			this.panel200.TabIndex = 112;
 			// 
 			// panel201
 			// 
@@ -1078,947 +2020,6 @@
 			this.panel1.Size = new System.Drawing.Size(36, 33);
 			this.panel1.TabIndex = 112;
 			// 
-			// kryptonGroupBox2
-			// 
-			this.kryptonGroupBox2.Location = new System.Drawing.Point(651, 80);
-			this.kryptonGroupBox2.Name = "kryptonGroupBox2";
-			// 
-			// kryptonGroupBox2.Panel
-			// 
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel91);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel92);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel93);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel94);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel95);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel96);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel97);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel98);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel99);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel100);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel111);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel112);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel113);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel114);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel115);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel116);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel117);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel118);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel119);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel120);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel121);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel122);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel123);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel124);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel125);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel126);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel127);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel128);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel129);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel130);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel131);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel132);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel133);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel134);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel135);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel136);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel137);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel138);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel139);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel140);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel141);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel142);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel143);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel144);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel145);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel146);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel147);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel148);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel149);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel150);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel151);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel152);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel153);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel154);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel155);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel156);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel157);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel158);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel159);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel160);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel161);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel162);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel163);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel164);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel165);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel166);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel167);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel168);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel169);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel170);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel171);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel172);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel173);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel174);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel175);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel176);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel177);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel178);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel179);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel180);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel181);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel182);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel183);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel184);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel185);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel186);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel187);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel188);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel189);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel190);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel191);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel192);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel193);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel194);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel195);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel196);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel197);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel198);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel199);
-			this.kryptonGroupBox2.Panel.Controls.Add(this.panel200);
-			this.kryptonGroupBox2.Size = new System.Drawing.Size(455, 443);
-			this.kryptonGroupBox2.TabIndex = 24;
-			this.kryptonGroupBox2.Values.Heading = "Enemy Fleet";
-			// 
-			// panel91
-			// 
-			this.panel91.Location = new System.Drawing.Point(397, 366);
-			this.panel91.Name = "panel91";
-			this.panel91.Size = new System.Drawing.Size(36, 33);
-			this.panel91.TabIndex = 211;
-			// 
-			// panel92
-			// 
-			this.panel92.Location = new System.Drawing.Point(355, 366);
-			this.panel92.Name = "panel92";
-			this.panel92.Size = new System.Drawing.Size(36, 33);
-			this.panel92.TabIndex = 208;
-			// 
-			// panel93
-			// 
-			this.panel93.Location = new System.Drawing.Point(313, 366);
-			this.panel93.Name = "panel93";
-			this.panel93.Size = new System.Drawing.Size(36, 33);
-			this.panel93.TabIndex = 209;
-			// 
-			// panel94
-			// 
-			this.panel94.Location = new System.Drawing.Point(271, 366);
-			this.panel94.Name = "panel94";
-			this.panel94.Size = new System.Drawing.Size(36, 33);
-			this.panel94.TabIndex = 210;
-			// 
-			// panel95
-			// 
-			this.panel95.Location = new System.Drawing.Point(228, 366);
-			this.panel95.Name = "panel95";
-			this.panel95.Size = new System.Drawing.Size(36, 33);
-			this.panel95.TabIndex = 205;
-			// 
-			// panel96
-			// 
-			this.panel96.Location = new System.Drawing.Point(186, 366);
-			this.panel96.Name = "panel96";
-			this.panel96.Size = new System.Drawing.Size(36, 33);
-			this.panel96.TabIndex = 206;
-			// 
-			// panel97
-			// 
-			this.panel97.Location = new System.Drawing.Point(144, 366);
-			this.panel97.Name = "panel97";
-			this.panel97.Size = new System.Drawing.Size(36, 33);
-			this.panel97.TabIndex = 207;
-			// 
-			// panel98
-			// 
-			this.panel98.Location = new System.Drawing.Point(101, 366);
-			this.panel98.Name = "panel98";
-			this.panel98.Size = new System.Drawing.Size(36, 33);
-			this.panel98.TabIndex = 202;
-			// 
-			// panel99
-			// 
-			this.panel99.Location = new System.Drawing.Point(59, 366);
-			this.panel99.Name = "panel99";
-			this.panel99.Size = new System.Drawing.Size(36, 33);
-			this.panel99.TabIndex = 203;
-			// 
-			// panel100
-			// 
-			this.panel100.Location = new System.Drawing.Point(17, 366);
-			this.panel100.Name = "panel100";
-			this.panel100.Size = new System.Drawing.Size(36, 33);
-			this.panel100.TabIndex = 204;
-			// 
-			// panel111
-			// 
-			this.panel111.Location = new System.Drawing.Point(397, 327);
-			this.panel111.Name = "panel111";
-			this.panel111.Size = new System.Drawing.Size(36, 33);
-			this.panel111.TabIndex = 201;
-			// 
-			// panel112
-			// 
-			this.panel112.Location = new System.Drawing.Point(355, 327);
-			this.panel112.Name = "panel112";
-			this.panel112.Size = new System.Drawing.Size(36, 33);
-			this.panel112.TabIndex = 198;
-			// 
-			// panel113
-			// 
-			this.panel113.Location = new System.Drawing.Point(313, 327);
-			this.panel113.Name = "panel113";
-			this.panel113.Size = new System.Drawing.Size(36, 33);
-			this.panel113.TabIndex = 199;
-			// 
-			// panel114
-			// 
-			this.panel114.Location = new System.Drawing.Point(271, 327);
-			this.panel114.Name = "panel114";
-			this.panel114.Size = new System.Drawing.Size(36, 33);
-			this.panel114.TabIndex = 200;
-			// 
-			// panel115
-			// 
-			this.panel115.Location = new System.Drawing.Point(228, 327);
-			this.panel115.Name = "panel115";
-			this.panel115.Size = new System.Drawing.Size(36, 33);
-			this.panel115.TabIndex = 195;
-			// 
-			// panel116
-			// 
-			this.panel116.Location = new System.Drawing.Point(186, 327);
-			this.panel116.Name = "panel116";
-			this.panel116.Size = new System.Drawing.Size(36, 33);
-			this.panel116.TabIndex = 196;
-			// 
-			// panel117
-			// 
-			this.panel117.Location = new System.Drawing.Point(144, 327);
-			this.panel117.Name = "panel117";
-			this.panel117.Size = new System.Drawing.Size(36, 33);
-			this.panel117.TabIndex = 197;
-			// 
-			// panel118
-			// 
-			this.panel118.Location = new System.Drawing.Point(101, 327);
-			this.panel118.Name = "panel118";
-			this.panel118.Size = new System.Drawing.Size(36, 33);
-			this.panel118.TabIndex = 192;
-			// 
-			// panel119
-			// 
-			this.panel119.Location = new System.Drawing.Point(59, 327);
-			this.panel119.Name = "panel119";
-			this.panel119.Size = new System.Drawing.Size(36, 33);
-			this.panel119.TabIndex = 193;
-			// 
-			// panel120
-			// 
-			this.panel120.Location = new System.Drawing.Point(17, 327);
-			this.panel120.Name = "panel120";
-			this.panel120.Size = new System.Drawing.Size(36, 33);
-			this.panel120.TabIndex = 194;
-			// 
-			// panel121
-			// 
-			this.panel121.Location = new System.Drawing.Point(397, 288);
-			this.panel121.Name = "panel121";
-			this.panel121.Size = new System.Drawing.Size(36, 33);
-			this.panel121.TabIndex = 191;
-			// 
-			// panel122
-			// 
-			this.panel122.Location = new System.Drawing.Point(355, 288);
-			this.panel122.Name = "panel122";
-			this.panel122.Size = new System.Drawing.Size(36, 33);
-			this.panel122.TabIndex = 188;
-			// 
-			// panel123
-			// 
-			this.panel123.Location = new System.Drawing.Point(313, 288);
-			this.panel123.Name = "panel123";
-			this.panel123.Size = new System.Drawing.Size(36, 33);
-			this.panel123.TabIndex = 189;
-			// 
-			// panel124
-			// 
-			this.panel124.Location = new System.Drawing.Point(271, 288);
-			this.panel124.Name = "panel124";
-			this.panel124.Size = new System.Drawing.Size(36, 33);
-			this.panel124.TabIndex = 190;
-			// 
-			// panel125
-			// 
-			this.panel125.Location = new System.Drawing.Point(228, 288);
-			this.panel125.Name = "panel125";
-			this.panel125.Size = new System.Drawing.Size(36, 33);
-			this.panel125.TabIndex = 185;
-			// 
-			// panel126
-			// 
-			this.panel126.Location = new System.Drawing.Point(186, 288);
-			this.panel126.Name = "panel126";
-			this.panel126.Size = new System.Drawing.Size(36, 33);
-			this.panel126.TabIndex = 186;
-			// 
-			// panel127
-			// 
-			this.panel127.Location = new System.Drawing.Point(144, 288);
-			this.panel127.Name = "panel127";
-			this.panel127.Size = new System.Drawing.Size(36, 33);
-			this.panel127.TabIndex = 187;
-			// 
-			// panel128
-			// 
-			this.panel128.Location = new System.Drawing.Point(101, 288);
-			this.panel128.Name = "panel128";
-			this.panel128.Size = new System.Drawing.Size(36, 33);
-			this.panel128.TabIndex = 182;
-			// 
-			// panel129
-			// 
-			this.panel129.Location = new System.Drawing.Point(59, 288);
-			this.panel129.Name = "panel129";
-			this.panel129.Size = new System.Drawing.Size(36, 33);
-			this.panel129.TabIndex = 183;
-			// 
-			// panel130
-			// 
-			this.panel130.Location = new System.Drawing.Point(17, 288);
-			this.panel130.Name = "panel130";
-			this.panel130.Size = new System.Drawing.Size(36, 33);
-			this.panel130.TabIndex = 184;
-			// 
-			// panel131
-			// 
-			this.panel131.Location = new System.Drawing.Point(397, 249);
-			this.panel131.Name = "panel131";
-			this.panel131.Size = new System.Drawing.Size(36, 33);
-			this.panel131.TabIndex = 181;
-			// 
-			// panel132
-			// 
-			this.panel132.Location = new System.Drawing.Point(355, 249);
-			this.panel132.Name = "panel132";
-			this.panel132.Size = new System.Drawing.Size(36, 33);
-			this.panel132.TabIndex = 178;
-			// 
-			// panel133
-			// 
-			this.panel133.Location = new System.Drawing.Point(313, 249);
-			this.panel133.Name = "panel133";
-			this.panel133.Size = new System.Drawing.Size(36, 33);
-			this.panel133.TabIndex = 179;
-			// 
-			// panel134
-			// 
-			this.panel134.Location = new System.Drawing.Point(271, 249);
-			this.panel134.Name = "panel134";
-			this.panel134.Size = new System.Drawing.Size(36, 33);
-			this.panel134.TabIndex = 180;
-			// 
-			// panel135
-			// 
-			this.panel135.Location = new System.Drawing.Point(228, 249);
-			this.panel135.Name = "panel135";
-			this.panel135.Size = new System.Drawing.Size(36, 33);
-			this.panel135.TabIndex = 175;
-			// 
-			// panel136
-			// 
-			this.panel136.Location = new System.Drawing.Point(186, 249);
-			this.panel136.Name = "panel136";
-			this.panel136.Size = new System.Drawing.Size(36, 33);
-			this.panel136.TabIndex = 176;
-			// 
-			// panel137
-			// 
-			this.panel137.Location = new System.Drawing.Point(144, 249);
-			this.panel137.Name = "panel137";
-			this.panel137.Size = new System.Drawing.Size(36, 33);
-			this.panel137.TabIndex = 177;
-			// 
-			// panel138
-			// 
-			this.panel138.Location = new System.Drawing.Point(101, 249);
-			this.panel138.Name = "panel138";
-			this.panel138.Size = new System.Drawing.Size(36, 33);
-			this.panel138.TabIndex = 172;
-			// 
-			// panel139
-			// 
-			this.panel139.Location = new System.Drawing.Point(59, 249);
-			this.panel139.Name = "panel139";
-			this.panel139.Size = new System.Drawing.Size(36, 33);
-			this.panel139.TabIndex = 173;
-			// 
-			// panel140
-			// 
-			this.panel140.Location = new System.Drawing.Point(17, 249);
-			this.panel140.Name = "panel140";
-			this.panel140.Size = new System.Drawing.Size(36, 33);
-			this.panel140.TabIndex = 174;
-			// 
-			// panel141
-			// 
-			this.panel141.Location = new System.Drawing.Point(397, 210);
-			this.panel141.Name = "panel141";
-			this.panel141.Size = new System.Drawing.Size(36, 33);
-			this.panel141.TabIndex = 171;
-			// 
-			// panel142
-			// 
-			this.panel142.Location = new System.Drawing.Point(355, 210);
-			this.panel142.Name = "panel142";
-			this.panel142.Size = new System.Drawing.Size(36, 33);
-			this.panel142.TabIndex = 168;
-			// 
-			// panel143
-			// 
-			this.panel143.Location = new System.Drawing.Point(313, 210);
-			this.panel143.Name = "panel143";
-			this.panel143.Size = new System.Drawing.Size(36, 33);
-			this.panel143.TabIndex = 169;
-			// 
-			// panel144
-			// 
-			this.panel144.Location = new System.Drawing.Point(271, 210);
-			this.panel144.Name = "panel144";
-			this.panel144.Size = new System.Drawing.Size(36, 33);
-			this.panel144.TabIndex = 170;
-			// 
-			// panel145
-			// 
-			this.panel145.Location = new System.Drawing.Point(228, 210);
-			this.panel145.Name = "panel145";
-			this.panel145.Size = new System.Drawing.Size(36, 33);
-			this.panel145.TabIndex = 165;
-			// 
-			// panel146
-			// 
-			this.panel146.Location = new System.Drawing.Point(186, 210);
-			this.panel146.Name = "panel146";
-			this.panel146.Size = new System.Drawing.Size(36, 33);
-			this.panel146.TabIndex = 166;
-			// 
-			// panel147
-			// 
-			this.panel147.Location = new System.Drawing.Point(144, 210);
-			this.panel147.Name = "panel147";
-			this.panel147.Size = new System.Drawing.Size(36, 33);
-			this.panel147.TabIndex = 167;
-			// 
-			// panel148
-			// 
-			this.panel148.Location = new System.Drawing.Point(101, 210);
-			this.panel148.Name = "panel148";
-			this.panel148.Size = new System.Drawing.Size(36, 33);
-			this.panel148.TabIndex = 162;
-			// 
-			// panel149
-			// 
-			this.panel149.Location = new System.Drawing.Point(59, 210);
-			this.panel149.Name = "panel149";
-			this.panel149.Size = new System.Drawing.Size(36, 33);
-			this.panel149.TabIndex = 163;
-			// 
-			// panel150
-			// 
-			this.panel150.Location = new System.Drawing.Point(17, 210);
-			this.panel150.Name = "panel150";
-			this.panel150.Size = new System.Drawing.Size(36, 33);
-			this.panel150.TabIndex = 164;
-			// 
-			// panel151
-			// 
-			this.panel151.Location = new System.Drawing.Point(397, 171);
-			this.panel151.Name = "panel151";
-			this.panel151.Size = new System.Drawing.Size(36, 33);
-			this.panel151.TabIndex = 161;
-			// 
-			// panel152
-			// 
-			this.panel152.Location = new System.Drawing.Point(355, 171);
-			this.panel152.Name = "panel152";
-			this.panel152.Size = new System.Drawing.Size(36, 33);
-			this.panel152.TabIndex = 158;
-			// 
-			// panel153
-			// 
-			this.panel153.Location = new System.Drawing.Point(313, 171);
-			this.panel153.Name = "panel153";
-			this.panel153.Size = new System.Drawing.Size(36, 33);
-			this.panel153.TabIndex = 159;
-			// 
-			// panel154
-			// 
-			this.panel154.Location = new System.Drawing.Point(271, 171);
-			this.panel154.Name = "panel154";
-			this.panel154.Size = new System.Drawing.Size(36, 33);
-			this.panel154.TabIndex = 160;
-			// 
-			// panel155
-			// 
-			this.panel155.Location = new System.Drawing.Point(228, 171);
-			this.panel155.Name = "panel155";
-			this.panel155.Size = new System.Drawing.Size(36, 33);
-			this.panel155.TabIndex = 155;
-			// 
-			// panel156
-			// 
-			this.panel156.Location = new System.Drawing.Point(186, 171);
-			this.panel156.Name = "panel156";
-			this.panel156.Size = new System.Drawing.Size(36, 33);
-			this.panel156.TabIndex = 156;
-			// 
-			// panel157
-			// 
-			this.panel157.Location = new System.Drawing.Point(144, 171);
-			this.panel157.Name = "panel157";
-			this.panel157.Size = new System.Drawing.Size(36, 33);
-			this.panel157.TabIndex = 157;
-			// 
-			// panel158
-			// 
-			this.panel158.Location = new System.Drawing.Point(101, 171);
-			this.panel158.Name = "panel158";
-			this.panel158.Size = new System.Drawing.Size(36, 33);
-			this.panel158.TabIndex = 152;
-			// 
-			// panel159
-			// 
-			this.panel159.Location = new System.Drawing.Point(59, 171);
-			this.panel159.Name = "panel159";
-			this.panel159.Size = new System.Drawing.Size(36, 33);
-			this.panel159.TabIndex = 153;
-			// 
-			// panel160
-			// 
-			this.panel160.Location = new System.Drawing.Point(17, 171);
-			this.panel160.Name = "panel160";
-			this.panel160.Size = new System.Drawing.Size(36, 33);
-			this.panel160.TabIndex = 154;
-			// 
-			// panel161
-			// 
-			this.panel161.Location = new System.Drawing.Point(397, 132);
-			this.panel161.Name = "panel161";
-			this.panel161.Size = new System.Drawing.Size(36, 33);
-			this.panel161.TabIndex = 151;
-			// 
-			// panel162
-			// 
-			this.panel162.Location = new System.Drawing.Point(355, 132);
-			this.panel162.Name = "panel162";
-			this.panel162.Size = new System.Drawing.Size(36, 33);
-			this.panel162.TabIndex = 148;
-			// 
-			// panel163
-			// 
-			this.panel163.Location = new System.Drawing.Point(313, 132);
-			this.panel163.Name = "panel163";
-			this.panel163.Size = new System.Drawing.Size(36, 33);
-			this.panel163.TabIndex = 149;
-			// 
-			// panel164
-			// 
-			this.panel164.Location = new System.Drawing.Point(271, 132);
-			this.panel164.Name = "panel164";
-			this.panel164.Size = new System.Drawing.Size(36, 33);
-			this.panel164.TabIndex = 150;
-			// 
-			// panel165
-			// 
-			this.panel165.Location = new System.Drawing.Point(228, 132);
-			this.panel165.Name = "panel165";
-			this.panel165.Size = new System.Drawing.Size(36, 33);
-			this.panel165.TabIndex = 145;
-			// 
-			// panel166
-			// 
-			this.panel166.Location = new System.Drawing.Point(186, 132);
-			this.panel166.Name = "panel166";
-			this.panel166.Size = new System.Drawing.Size(36, 33);
-			this.panel166.TabIndex = 146;
-			// 
-			// panel167
-			// 
-			this.panel167.Location = new System.Drawing.Point(144, 132);
-			this.panel167.Name = "panel167";
-			this.panel167.Size = new System.Drawing.Size(36, 33);
-			this.panel167.TabIndex = 147;
-			// 
-			// panel168
-			// 
-			this.panel168.Location = new System.Drawing.Point(101, 132);
-			this.panel168.Name = "panel168";
-			this.panel168.Size = new System.Drawing.Size(36, 33);
-			this.panel168.TabIndex = 142;
-			// 
-			// panel169
-			// 
-			this.panel169.Location = new System.Drawing.Point(59, 132);
-			this.panel169.Name = "panel169";
-			this.panel169.Size = new System.Drawing.Size(36, 33);
-			this.panel169.TabIndex = 143;
-			// 
-			// panel170
-			// 
-			this.panel170.Location = new System.Drawing.Point(17, 132);
-			this.panel170.Name = "panel170";
-			this.panel170.Size = new System.Drawing.Size(36, 33);
-			this.panel170.TabIndex = 144;
-			// 
-			// panel171
-			// 
-			this.panel171.Location = new System.Drawing.Point(397, 93);
-			this.panel171.Name = "panel171";
-			this.panel171.Size = new System.Drawing.Size(36, 33);
-			this.panel171.TabIndex = 141;
-			// 
-			// panel172
-			// 
-			this.panel172.Location = new System.Drawing.Point(355, 93);
-			this.panel172.Name = "panel172";
-			this.panel172.Size = new System.Drawing.Size(36, 33);
-			this.panel172.TabIndex = 138;
-			// 
-			// panel173
-			// 
-			this.panel173.Location = new System.Drawing.Point(313, 93);
-			this.panel173.Name = "panel173";
-			this.panel173.Size = new System.Drawing.Size(36, 33);
-			this.panel173.TabIndex = 139;
-			// 
-			// panel174
-			// 
-			this.panel174.Location = new System.Drawing.Point(271, 93);
-			this.panel174.Name = "panel174";
-			this.panel174.Size = new System.Drawing.Size(36, 33);
-			this.panel174.TabIndex = 140;
-			// 
-			// panel175
-			// 
-			this.panel175.Location = new System.Drawing.Point(228, 93);
-			this.panel175.Name = "panel175";
-			this.panel175.Size = new System.Drawing.Size(36, 33);
-			this.panel175.TabIndex = 135;
-			// 
-			// panel176
-			// 
-			this.panel176.Location = new System.Drawing.Point(186, 93);
-			this.panel176.Name = "panel176";
-			this.panel176.Size = new System.Drawing.Size(36, 33);
-			this.panel176.TabIndex = 136;
-			// 
-			// panel177
-			// 
-			this.panel177.Location = new System.Drawing.Point(144, 93);
-			this.panel177.Name = "panel177";
-			this.panel177.Size = new System.Drawing.Size(36, 33);
-			this.panel177.TabIndex = 137;
-			// 
-			// panel178
-			// 
-			this.panel178.Location = new System.Drawing.Point(101, 93);
-			this.panel178.Name = "panel178";
-			this.panel178.Size = new System.Drawing.Size(36, 33);
-			this.panel178.TabIndex = 132;
-			// 
-			// panel179
-			// 
-			this.panel179.Location = new System.Drawing.Point(59, 93);
-			this.panel179.Name = "panel179";
-			this.panel179.Size = new System.Drawing.Size(36, 33);
-			this.panel179.TabIndex = 133;
-			// 
-			// panel180
-			// 
-			this.panel180.Location = new System.Drawing.Point(17, 93);
-			this.panel180.Name = "panel180";
-			this.panel180.Size = new System.Drawing.Size(36, 33);
-			this.panel180.TabIndex = 134;
-			// 
-			// panel181
-			// 
-			this.panel181.Location = new System.Drawing.Point(397, 54);
-			this.panel181.Name = "panel181";
-			this.panel181.Size = new System.Drawing.Size(36, 33);
-			this.panel181.TabIndex = 131;
-			// 
-			// panel182
-			// 
-			this.panel182.Location = new System.Drawing.Point(355, 54);
-			this.panel182.Name = "panel182";
-			this.panel182.Size = new System.Drawing.Size(36, 33);
-			this.panel182.TabIndex = 128;
-			// 
-			// panel183
-			// 
-			this.panel183.Location = new System.Drawing.Point(313, 54);
-			this.panel183.Name = "panel183";
-			this.panel183.Size = new System.Drawing.Size(36, 33);
-			this.panel183.TabIndex = 129;
-			// 
-			// panel184
-			// 
-			this.panel184.Location = new System.Drawing.Point(271, 54);
-			this.panel184.Name = "panel184";
-			this.panel184.Size = new System.Drawing.Size(36, 33);
-			this.panel184.TabIndex = 130;
-			// 
-			// panel185
-			// 
-			this.panel185.Location = new System.Drawing.Point(228, 54);
-			this.panel185.Name = "panel185";
-			this.panel185.Size = new System.Drawing.Size(36, 33);
-			this.panel185.TabIndex = 125;
-			// 
-			// panel186
-			// 
-			this.panel186.Location = new System.Drawing.Point(186, 54);
-			this.panel186.Name = "panel186";
-			this.panel186.Size = new System.Drawing.Size(36, 33);
-			this.panel186.TabIndex = 126;
-			// 
-			// panel187
-			// 
-			this.panel187.Location = new System.Drawing.Point(144, 54);
-			this.panel187.Name = "panel187";
-			this.panel187.Size = new System.Drawing.Size(36, 33);
-			this.panel187.TabIndex = 127;
-			// 
-			// panel188
-			// 
-			this.panel188.Location = new System.Drawing.Point(101, 54);
-			this.panel188.Name = "panel188";
-			this.panel188.Size = new System.Drawing.Size(36, 33);
-			this.panel188.TabIndex = 122;
-			// 
-			// panel189
-			// 
-			this.panel189.Location = new System.Drawing.Point(59, 54);
-			this.panel189.Name = "panel189";
-			this.panel189.Size = new System.Drawing.Size(36, 33);
-			this.panel189.TabIndex = 123;
-			// 
-			// panel190
-			// 
-			this.panel190.Location = new System.Drawing.Point(17, 54);
-			this.panel190.Name = "panel190";
-			this.panel190.Size = new System.Drawing.Size(36, 33);
-			this.panel190.TabIndex = 124;
-			// 
-			// panel191
-			// 
-			this.panel191.Location = new System.Drawing.Point(397, 15);
-			this.panel191.Name = "panel191";
-			this.panel191.Size = new System.Drawing.Size(36, 33);
-			this.panel191.TabIndex = 121;
-			// 
-			// panel192
-			// 
-			this.panel192.Location = new System.Drawing.Point(355, 15);
-			this.panel192.Name = "panel192";
-			this.panel192.Size = new System.Drawing.Size(36, 33);
-			this.panel192.TabIndex = 118;
-			// 
-			// panel193
-			// 
-			this.panel193.Location = new System.Drawing.Point(313, 15);
-			this.panel193.Name = "panel193";
-			this.panel193.Size = new System.Drawing.Size(36, 33);
-			this.panel193.TabIndex = 119;
-			// 
-			// panel194
-			// 
-			this.panel194.Location = new System.Drawing.Point(271, 15);
-			this.panel194.Name = "panel194";
-			this.panel194.Size = new System.Drawing.Size(36, 33);
-			this.panel194.TabIndex = 120;
-			// 
-			// panel195
-			// 
-			this.panel195.Location = new System.Drawing.Point(228, 15);
-			this.panel195.Name = "panel195";
-			this.panel195.Size = new System.Drawing.Size(36, 33);
-			this.panel195.TabIndex = 115;
-			// 
-			// panel196
-			// 
-			this.panel196.Location = new System.Drawing.Point(186, 15);
-			this.panel196.Name = "panel196";
-			this.panel196.Size = new System.Drawing.Size(36, 33);
-			this.panel196.TabIndex = 116;
-			// 
-			// panel197
-			// 
-			this.panel197.Location = new System.Drawing.Point(144, 15);
-			this.panel197.Name = "panel197";
-			this.panel197.Size = new System.Drawing.Size(36, 33);
-			this.panel197.TabIndex = 117;
-			// 
-			// panel198
-			// 
-			this.panel198.Location = new System.Drawing.Point(101, 15);
-			this.panel198.Name = "panel198";
-			this.panel198.Size = new System.Drawing.Size(36, 33);
-			this.panel198.TabIndex = 113;
-			// 
-			// panel199
-			// 
-			this.panel199.Location = new System.Drawing.Point(59, 15);
-			this.panel199.Name = "panel199";
-			this.panel199.Size = new System.Drawing.Size(36, 33);
-			this.panel199.TabIndex = 114;
-			// 
-			// panel200
-			// 
-			this.panel200.Location = new System.Drawing.Point(17, 15);
-			this.panel200.Name = "panel200";
-			this.panel200.Size = new System.Drawing.Size(36, 33);
-			this.panel200.TabIndex = 112;
-			// 
-			// BattleshipsExitBtn
-			// 
-			this.BattleshipsExitBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.BattleshipsExitBtn.Location = new System.Drawing.Point(1108, 3);
-			this.BattleshipsExitBtn.MaximumSize = new System.Drawing.Size(41, 45);
-			this.BattleshipsExitBtn.MinimumSize = new System.Drawing.Size(41, 45);
-			this.BattleshipsExitBtn.Name = "BattleshipsExitBtn";
-			this.BattleshipsExitBtn.Size = new System.Drawing.Size(41, 45);
-			this.BattleshipsExitBtn.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(159)))), ((int)(((byte)(106)))));
-			this.BattleshipsExitBtn.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(189)))), ((int)(((byte)(142)))));
-			this.BattleshipsExitBtn.StateCommon.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattleshipsExitBtn.StateCommon.Back.ColorAngle = 24F;
-			this.BattleshipsExitBtn.StateCommon.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear25;
-			this.BattleshipsExitBtn.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattleshipsExitBtn.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
-			this.BattleshipsExitBtn.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
-			this.BattleshipsExitBtn.StateCommon.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattleshipsExitBtn.StateCommon.Border.ColorAngle = 45F;
-			this.BattleshipsExitBtn.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Solid;
-			this.BattleshipsExitBtn.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.BattleshipsExitBtn.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattleshipsExitBtn.StateCommon.Border.Rounding = 3;
-			this.BattleshipsExitBtn.StateCommon.Border.Width = 3;
-			this.BattleshipsExitBtn.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattleshipsExitBtn.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattleshipsExitBtn.StateCommon.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattleshipsExitBtn.StateCommon.Content.ShortText.ColorAngle = 45F;
-			this.BattleshipsExitBtn.StateCommon.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.BattleshipsExitBtn.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.BattleshipsExitBtn.StateCommon.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-			this.BattleshipsExitBtn.StateDisabled.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(159)))), ((int)(((byte)(106)))));
-			this.BattleshipsExitBtn.StateDisabled.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(189)))), ((int)(((byte)(142)))));
-			this.BattleshipsExitBtn.StateDisabled.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattleshipsExitBtn.StateDisabled.Back.ColorAngle = 30F;
-			this.BattleshipsExitBtn.StateDisabled.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear25;
-			this.BattleshipsExitBtn.StateDisabled.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattleshipsExitBtn.StateDisabled.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
-			this.BattleshipsExitBtn.StateDisabled.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
-			this.BattleshipsExitBtn.StateDisabled.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattleshipsExitBtn.StateDisabled.Border.ColorAngle = 45F;
-			this.BattleshipsExitBtn.StateDisabled.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Solid;
-			this.BattleshipsExitBtn.StateDisabled.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.BattleshipsExitBtn.StateDisabled.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattleshipsExitBtn.StateDisabled.Border.Rounding = 3;
-			this.BattleshipsExitBtn.StateDisabled.Border.Width = 3;
-			this.BattleshipsExitBtn.StateDisabled.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattleshipsExitBtn.StateDisabled.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattleshipsExitBtn.StateDisabled.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattleshipsExitBtn.StateDisabled.Content.ShortText.ColorAngle = 45F;
-			this.BattleshipsExitBtn.StateDisabled.Content.ShortText.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.BattleshipsExitBtn.StateDisabled.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-			this.BattleshipsExitBtn.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(159)))), ((int)(((byte)(106)))));
-			this.BattleshipsExitBtn.StateNormal.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(189)))), ((int)(((byte)(142)))));
-			this.BattleshipsExitBtn.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattleshipsExitBtn.StateNormal.Back.ColorAngle = 24F;
-			this.BattleshipsExitBtn.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear25;
-			this.BattleshipsExitBtn.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattleshipsExitBtn.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
-			this.BattleshipsExitBtn.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
-			this.BattleshipsExitBtn.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattleshipsExitBtn.StateNormal.Border.ColorAngle = 45F;
-			this.BattleshipsExitBtn.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Solid;
-			this.BattleshipsExitBtn.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.BattleshipsExitBtn.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattleshipsExitBtn.StateNormal.Border.Rounding = 3;
-			this.BattleshipsExitBtn.StateNormal.Border.Width = 3;
-			this.BattleshipsExitBtn.StateNormal.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattleshipsExitBtn.StateNormal.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattleshipsExitBtn.StateNormal.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattleshipsExitBtn.StateNormal.Content.ShortText.ColorAngle = 45F;
-			this.BattleshipsExitBtn.StateNormal.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.BattleshipsExitBtn.StateNormal.Content.ShortText.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.BattleshipsExitBtn.StateNormal.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-			this.BattleshipsExitBtn.StatePressed.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(159)))), ((int)(((byte)(106)))));
-			this.BattleshipsExitBtn.StatePressed.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(189)))), ((int)(((byte)(142)))));
-			this.BattleshipsExitBtn.StatePressed.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattleshipsExitBtn.StatePressed.Back.ColorAngle = 24F;
-			this.BattleshipsExitBtn.StatePressed.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.GlassNormalFull;
-			this.BattleshipsExitBtn.StatePressed.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattleshipsExitBtn.StatePressed.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
-			this.BattleshipsExitBtn.StatePressed.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
-			this.BattleshipsExitBtn.StatePressed.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattleshipsExitBtn.StatePressed.Border.ColorAngle = 45F;
-			this.BattleshipsExitBtn.StatePressed.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Solid;
-			this.BattleshipsExitBtn.StatePressed.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.BattleshipsExitBtn.StatePressed.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattleshipsExitBtn.StatePressed.Border.Rounding = 3;
-			this.BattleshipsExitBtn.StatePressed.Border.Width = 3;
-			this.BattleshipsExitBtn.StatePressed.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattleshipsExitBtn.StatePressed.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattleshipsExitBtn.StatePressed.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattleshipsExitBtn.StatePressed.Content.ShortText.ColorAngle = 45F;
-			this.BattleshipsExitBtn.StatePressed.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.BattleshipsExitBtn.StatePressed.Content.ShortText.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.BattleshipsExitBtn.StatePressed.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-			this.BattleshipsExitBtn.StateTracking.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
-			this.BattleshipsExitBtn.StateTracking.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(189)))), ((int)(((byte)(142)))));
-			this.BattleshipsExitBtn.StateTracking.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattleshipsExitBtn.StateTracking.Back.ColorAngle = 45F;
-			this.BattleshipsExitBtn.StateTracking.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear25;
-			this.BattleshipsExitBtn.StateTracking.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattleshipsExitBtn.StateTracking.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
-			this.BattleshipsExitBtn.StateTracking.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(193)))), ((int)(((byte)(155)))));
-			this.BattleshipsExitBtn.StateTracking.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattleshipsExitBtn.StateTracking.Border.ColorAngle = 45F;
-			this.BattleshipsExitBtn.StateTracking.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Solid;
-			this.BattleshipsExitBtn.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.BattleshipsExitBtn.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattleshipsExitBtn.StateTracking.Border.Rounding = 3;
-			this.BattleshipsExitBtn.StateTracking.Border.Width = 3;
-			this.BattleshipsExitBtn.StateTracking.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattleshipsExitBtn.StateTracking.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattleshipsExitBtn.StateTracking.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattleshipsExitBtn.StateTracking.Content.ShortText.ColorAngle = 45F;
-			this.BattleshipsExitBtn.StateTracking.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.BattleshipsExitBtn.StateTracking.Content.ShortText.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.BattleshipsExitBtn.StateTracking.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-			this.BattleshipsExitBtn.TabIndex = 25;
-			this.BattleshipsExitBtn.Values.Text = "X";
-			// 
 			// IntroLbl
 			// 
 			this.IntroLbl.AutoSize = false;
@@ -2060,14 +2061,14 @@
 			this.Padding = new System.Windows.Forms.Padding(9);
 			((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).EndInit();
 			this.kryptonPanel1.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox1.Panel)).EndInit();
-			this.kryptonGroupBox1.Panel.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox1)).EndInit();
-			this.kryptonGroupBox1.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox2.Panel)).EndInit();
 			this.kryptonGroupBox2.Panel.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox2)).EndInit();
 			this.kryptonGroupBox2.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox1.Panel)).EndInit();
+			this.kryptonGroupBox1.Panel.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox1)).EndInit();
+			this.kryptonGroupBox1.ResumeLayout(false);
 			this.ResumeLayout(false);
 
 		}
@@ -2278,7 +2279,7 @@
 		private System.Windows.Forms.Panel panel3;
 		private System.Windows.Forms.Panel panel2;
 		private System.Windows.Forms.Panel panel1;
-		private ComponentFactory.Krypton.Toolkit.KryptonButton BattleshipsExitBtn;
+		private ComponentFactory.Krypton.Toolkit.KryptonButton BattlefieldExitBtn;
 		private ComponentFactory.Krypton.Toolkit.KryptonLabel IntroLbl;
 	}
 }

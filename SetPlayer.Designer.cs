@@ -34,7 +34,7 @@
 			this.RegisterBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
 			this.FleetBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
 			this.SetCommanderExitBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.IntroLbl = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
+			this.SetCommanderLbl = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
 			((System.ComponentModel.ISupportInitialize)(this.KrptnMainPanel)).BeginInit();
 			this.KrptnMainPanel.SuspendLayout();
 			this.RegisterCommanderGbx.SuspendLayout();
@@ -263,7 +263,7 @@
 			this.KrptnMainPanel.Controls.Add(this.RegisterCommanderGbx);
 			this.KrptnMainPanel.Controls.Add(this.FleetBtn);
 			this.KrptnMainPanel.Controls.Add(this.SetCommanderExitBtn);
-			this.KrptnMainPanel.Controls.Add(this.IntroLbl);
+			this.KrptnMainPanel.Controls.Add(this.SetCommanderLbl);
 			this.KrptnMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.KrptnMainPanel.Location = new System.Drawing.Point(9, 9);
 			this.KrptnMainPanel.Name = "KrptnMainPanel";
@@ -468,9 +468,9 @@
 			// FleetBtn
 			// 
 			this.FleetBtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
-			this.FleetBtn.Location = new System.Drawing.Point(195, 211);
+			this.FleetBtn.Location = new System.Drawing.Point(122, 208);
 			this.FleetBtn.Name = "FleetBtn";
-			this.FleetBtn.Size = new System.Drawing.Size(128, 65);
+			this.FleetBtn.Size = new System.Drawing.Size(260, 65);
 			this.FleetBtn.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(159)))), ((int)(((byte)(106)))));
 			this.FleetBtn.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(189)))), ((int)(((byte)(142)))));
 			this.FleetBtn.StateCommon.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
@@ -560,7 +560,7 @@
 			this.FleetBtn.StatePressed.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
 			this.FleetBtn.StateTracking.Content.Padding = new System.Windows.Forms.Padding(3);
 			this.FleetBtn.TabIndex = 7;
-			this.FleetBtn.Values.Text = "Fleet";
+			this.FleetBtn.Values.Text = "Delpoy Your Fleet";
 			// 
 			// SetCommanderExitBtn
 			// 
@@ -694,33 +694,37 @@
 			this.SetCommanderExitBtn.Values.Text = "X";
 			this.SetCommanderExitBtn.Click += new System.EventHandler(this.SetCommanderExitBtn_Click);
 			// 
-			// IntroLbl
+			// SetCommanderLbl
 			// 
-			this.IntroLbl.AutoSize = false;
-			this.IntroLbl.Dock = System.Windows.Forms.DockStyle.Top;
-			this.IntroLbl.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldPanel;
-			this.IntroLbl.Location = new System.Drawing.Point(0, 0);
-			this.IntroLbl.Name = "IntroLbl";
-			this.IntroLbl.Size = new System.Drawing.Size(497, 85);
-			this.IntroLbl.StateCommon.LongText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
-			this.IntroLbl.StateCommon.LongText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
-			this.IntroLbl.StateCommon.LongText.ColorAngle = 66F;
-			this.IntroLbl.StateCommon.LongText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Dashed;
-			this.IntroLbl.StateCommon.LongText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-			this.IntroLbl.StateCommon.ShortText.ColorAngle = 0F;
-			this.IntroLbl.StateCommon.ShortText.Font = new System.Drawing.Font("Sitka Banner", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-			this.IntroLbl.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.SingleBitPerPixel;
-			this.IntroLbl.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.IntroLbl.StateCommon.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Near;
-			this.IntroLbl.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Word;
-			this.IntroLbl.StateNormal.Padding = new System.Windows.Forms.Padding(15);
-			this.IntroLbl.StateNormal.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.IntroLbl.StateNormal.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
-			this.IntroLbl.StateNormal.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.IntroLbl.StateNormal.ShortText.ColorAngle = 45F;
-			this.IntroLbl.StateNormal.ShortText.Font = new System.Drawing.Font("Sitka Text", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-			this.IntroLbl.TabIndex = 10;
-			this.IntroLbl.Values.Text = "Set Commander";
+			this.SetCommanderLbl.AutoSize = false;
+			this.SetCommanderLbl.Dock = System.Windows.Forms.DockStyle.Top;
+			this.SetCommanderLbl.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldPanel;
+			this.SetCommanderLbl.Location = new System.Drawing.Point(0, 0);
+			this.SetCommanderLbl.Name = "SetCommanderLbl";
+			this.SetCommanderLbl.Size = new System.Drawing.Size(497, 75);
+			this.SetCommanderLbl.StateCommon.LongText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.SetCommanderLbl.StateCommon.LongText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.SetCommanderLbl.StateCommon.LongText.ColorAngle = 66F;
+			this.SetCommanderLbl.StateCommon.LongText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Dashed;
+			this.SetCommanderLbl.StateCommon.LongText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+			this.SetCommanderLbl.StateCommon.ShortText.ColorAngle = 0F;
+			this.SetCommanderLbl.StateCommon.ShortText.Font = new System.Drawing.Font("Sitka Banner", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+			this.SetCommanderLbl.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.SingleBitPerPixel;
+			this.SetCommanderLbl.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.SetCommanderLbl.StateCommon.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Near;
+			this.SetCommanderLbl.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Word;
+			this.SetCommanderLbl.StateNormal.Padding = new System.Windows.Forms.Padding(15);
+			this.SetCommanderLbl.StateNormal.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+			this.SetCommanderLbl.StateNormal.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
+			this.SetCommanderLbl.StateNormal.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.SetCommanderLbl.StateNormal.ShortText.ColorAngle = 45F;
+			this.SetCommanderLbl.StateNormal.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+			this.SetCommanderLbl.StateNormal.ShortText.Font = new System.Drawing.Font("Sitka Text", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+			this.SetCommanderLbl.StateNormal.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+			this.SetCommanderLbl.StateNormal.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.SetCommanderLbl.StateNormal.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.SetCommanderLbl.TabIndex = 10;
+			this.SetCommanderLbl.Values.Text = "Set Commander";
 			// 
 			// SetPlayerForm
 			// 
@@ -755,7 +759,7 @@
 		private ComponentFactory.Krypton.Toolkit.KryptonPalette KrptSetPlayerPalette;
 		private ComponentFactory.Krypton.Toolkit.KryptonPanel KrptnMainPanel;
 		private ComponentFactory.Krypton.Toolkit.KryptonButton SetCommanderExitBtn;
-		private ComponentFactory.Krypton.Toolkit.KryptonLabel IntroLbl;
+		private ComponentFactory.Krypton.Toolkit.KryptonLabel SetCommanderLbl;
 		private ComponentFactory.Krypton.Toolkit.KryptonButton FleetBtn;
 		private System.Windows.Forms.GroupBox RegisterCommanderGbx;
 		private ComponentFactory.Krypton.Toolkit.KryptonTextBox NameTextB;

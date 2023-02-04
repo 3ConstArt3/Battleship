@@ -171,5 +171,26 @@
   <ItemGroup>
     <None Include="Resources\SetPlayerBg.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CarrierBattleS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BattleShipBattleS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CruiserBattleS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SubmarineBattleS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DestroyerBattleS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RotateShip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BattlefieldBgnd.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
