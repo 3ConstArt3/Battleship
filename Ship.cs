@@ -130,6 +130,16 @@ namespace Battleship
         }
 
         /// <summary>
+        /// Check if provided ship has the same orientation as this ship
+        /// </summary>
+        /// <param name="ship">Provided ship</param>
+        /// <returns>True if both ships have the same orientation</returns>
+        public bool HasEqualOrientation(Ship ship)
+        {
+            return IsVertical == ship.IsVertical;
+        }
+
+        /// <summary>
         /// Determine ship's position on the battlefield
         /// </summary>
         private void setOccupiedCells()
