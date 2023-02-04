@@ -35,8 +35,7 @@ namespace Battleship
 		public void TakeHit(Loc where)
 		{
 			Ship ship = getShipFromCell(where);
-			if (ship != null)
-				ship.DamagePart(where);
+			ship?.DamagePart(where);
 		}
 
 		public void Fire(Loc where, Player enemy)
