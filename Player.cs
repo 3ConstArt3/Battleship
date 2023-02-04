@@ -155,9 +155,19 @@ namespace Battleship
 			}
 		}
 
+		private void constructFleet()
+		{
+			Fleet.Add(new Ship(ShipType.Carrier));
+			Fleet.Add(new Ship(ShipType.Battleship));
+			Fleet.Add(new Ship(ShipType.Cruiser));
+			Fleet.Add(new Ship(ShipType.Submarine));
+			Fleet.Add(new Ship(ShipType.Destroyer));
+		}
+
 		public Player(string name)
 		{
 			Name = name;
+			constructFleet();
 		}
 	}
 }
