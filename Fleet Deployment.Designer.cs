@@ -427,7 +427,7 @@
 			// 
 			// BattleFieldPreviewGbx
 			// 
-			this.BattleFieldPreviewGbx.Location = new System.Drawing.Point(503, 91);
+			this.BattleFieldPreviewGbx.Location = new System.Drawing.Point(495, 91);
 			this.BattleFieldPreviewGbx.Name = "BattleFieldPreviewGbx";
 			// 
 			// BattleFieldPreviewGbx.Panel
