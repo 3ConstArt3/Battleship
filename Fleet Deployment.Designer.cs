@@ -134,22 +134,22 @@
 			this.panel5 = new System.Windows.Forms.Panel();
 			this.panel6 = new System.Windows.Forms.Panel();
 			this.FleetDeploymentGbx = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
+			this.kryptonButton8 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+			this.kryptonButton9 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+			this.kryptonButton6 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+			this.kryptonButton7 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+			this.kryptonButton4 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+			this.kryptonButton5 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+			this.kryptonButton2 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+			this.kryptonButton3 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
 			this.SubmarinePbx = new System.Windows.Forms.PictureBox();
 			this.BattleShipPbx = new System.Windows.Forms.PictureBox();
 			this.CarrierPbx = new System.Windows.Forms.PictureBox();
 			this.DestroyerPbx = new System.Windows.Forms.PictureBox();
 			this.CruiserPbx = new System.Windows.Forms.PictureBox();
+			this.kryptonButton1 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
 			this.RotateBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
 			this.FleetDeploymentLbl = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
-			this.kryptonButton1 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.kryptonButton2 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.kryptonButton3 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.kryptonButton4 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.kryptonButton5 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.kryptonButton6 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.kryptonButton7 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.kryptonButton8 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.kryptonButton9 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
 			((System.ComponentModel.ISupportInitialize)(this.FleetDeploymentPnl)).BeginInit();
 			this.FleetDeploymentPnl.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.BattleFieldPreviewGbx)).BeginInit();
@@ -1424,6 +1424,246 @@
 			this.FleetDeploymentGbx.TabIndex = 22;
 			this.FleetDeploymentGbx.Values.Heading = "Fleet";
 			// 
+			// kryptonButton8
+			// 
+			this.kryptonButton8.Location = new System.Drawing.Point(320, 265);
+			this.kryptonButton8.Name = "kryptonButton8";
+			this.kryptonButton8.Size = new System.Drawing.Size(42, 36);
+			this.kryptonButton8.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton8.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton8.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.kryptonButton8.StateNormal.Back.ColorAngle = 45F;
+			this.kryptonButton8.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+			this.kryptonButton8.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.kryptonButton8.StateNormal.Back.Image = global::Battleship.Properties.Resources.RotateShip;
+			this.kryptonButton8.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
+			this.kryptonButton8.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.kryptonButton8.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton8.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.kryptonButton8.StateNormal.Border.ColorAngle = 24F;
+			this.kryptonButton8.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.kryptonButton8.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.kryptonButton8.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.kryptonButton8.StateNormal.Border.Rounding = 21;
+			this.kryptonButton8.StateNormal.Border.Width = 1;
+			this.kryptonButton8.StateNormal.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.kryptonButton8.StateNormal.Content.Image.ImageV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.kryptonButton8.TabIndex = 36;
+			this.kryptonButton8.Tag = "Rotate";
+			this.kryptonButton8.Values.Text = "";
+			// 
+			// kryptonButton9
+			// 
+			this.kryptonButton9.Location = new System.Drawing.Point(262, 265);
+			this.kryptonButton9.Name = "kryptonButton9";
+			this.kryptonButton9.Size = new System.Drawing.Size(42, 36);
+			this.kryptonButton9.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton9.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton9.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.kryptonButton9.StateNormal.Back.ColorAngle = 45F;
+			this.kryptonButton9.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+			this.kryptonButton9.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.kryptonButton9.StateNormal.Back.Image = global::Battleship.Properties.Resources.RotateShip;
+			this.kryptonButton9.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
+			this.kryptonButton9.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.kryptonButton9.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton9.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.kryptonButton9.StateNormal.Border.ColorAngle = 24F;
+			this.kryptonButton9.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.kryptonButton9.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.kryptonButton9.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.kryptonButton9.StateNormal.Border.Rounding = 21;
+			this.kryptonButton9.StateNormal.Border.Width = 1;
+			this.kryptonButton9.StateNormal.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.kryptonButton9.StateNormal.Content.Image.ImageV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.kryptonButton9.TabIndex = 37;
+			this.kryptonButton9.Tag = "Rotate";
+			this.kryptonButton9.Values.Text = "";
+			// 
+			// kryptonButton6
+			// 
+			this.kryptonButton6.Location = new System.Drawing.Point(320, 204);
+			this.kryptonButton6.Name = "kryptonButton6";
+			this.kryptonButton6.Size = new System.Drawing.Size(42, 36);
+			this.kryptonButton6.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton6.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton6.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.kryptonButton6.StateNormal.Back.ColorAngle = 45F;
+			this.kryptonButton6.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+			this.kryptonButton6.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.kryptonButton6.StateNormal.Back.Image = global::Battleship.Properties.Resources.RotateShip;
+			this.kryptonButton6.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
+			this.kryptonButton6.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.kryptonButton6.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton6.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.kryptonButton6.StateNormal.Border.ColorAngle = 24F;
+			this.kryptonButton6.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.kryptonButton6.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.kryptonButton6.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.kryptonButton6.StateNormal.Border.Rounding = 21;
+			this.kryptonButton6.StateNormal.Border.Width = 1;
+			this.kryptonButton6.StateNormal.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.kryptonButton6.StateNormal.Content.Image.ImageV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.kryptonButton6.TabIndex = 34;
+			this.kryptonButton6.Tag = "Rotate";
+			this.kryptonButton6.Values.Text = "";
+			// 
+			// kryptonButton7
+			// 
+			this.kryptonButton7.Location = new System.Drawing.Point(262, 204);
+			this.kryptonButton7.Name = "kryptonButton7";
+			this.kryptonButton7.Size = new System.Drawing.Size(42, 36);
+			this.kryptonButton7.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton7.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton7.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.kryptonButton7.StateNormal.Back.ColorAngle = 45F;
+			this.kryptonButton7.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+			this.kryptonButton7.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.kryptonButton7.StateNormal.Back.Image = global::Battleship.Properties.Resources.RotateShip;
+			this.kryptonButton7.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
+			this.kryptonButton7.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.kryptonButton7.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton7.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.kryptonButton7.StateNormal.Border.ColorAngle = 24F;
+			this.kryptonButton7.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.kryptonButton7.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.kryptonButton7.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.kryptonButton7.StateNormal.Border.Rounding = 21;
+			this.kryptonButton7.StateNormal.Border.Width = 1;
+			this.kryptonButton7.StateNormal.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.kryptonButton7.StateNormal.Content.Image.ImageV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.kryptonButton7.TabIndex = 35;
+			this.kryptonButton7.Tag = "Rotate";
+			this.kryptonButton7.Values.Text = "";
+			// 
+			// kryptonButton4
+			// 
+			this.kryptonButton4.Location = new System.Drawing.Point(320, 145);
+			this.kryptonButton4.Name = "kryptonButton4";
+			this.kryptonButton4.Size = new System.Drawing.Size(42, 36);
+			this.kryptonButton4.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton4.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton4.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.kryptonButton4.StateNormal.Back.ColorAngle = 45F;
+			this.kryptonButton4.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+			this.kryptonButton4.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.kryptonButton4.StateNormal.Back.Image = global::Battleship.Properties.Resources.RotateShip;
+			this.kryptonButton4.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
+			this.kryptonButton4.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.kryptonButton4.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton4.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.kryptonButton4.StateNormal.Border.ColorAngle = 24F;
+			this.kryptonButton4.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.kryptonButton4.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.kryptonButton4.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.kryptonButton4.StateNormal.Border.Rounding = 21;
+			this.kryptonButton4.StateNormal.Border.Width = 1;
+			this.kryptonButton4.StateNormal.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.kryptonButton4.StateNormal.Content.Image.ImageV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.kryptonButton4.TabIndex = 32;
+			this.kryptonButton4.Tag = "Rotate";
+			this.kryptonButton4.Values.Text = "";
+			// 
+			// kryptonButton5
+			// 
+			this.kryptonButton5.Location = new System.Drawing.Point(262, 145);
+			this.kryptonButton5.Name = "kryptonButton5";
+			this.kryptonButton5.Size = new System.Drawing.Size(42, 36);
+			this.kryptonButton5.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton5.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton5.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.kryptonButton5.StateNormal.Back.ColorAngle = 45F;
+			this.kryptonButton5.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+			this.kryptonButton5.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.kryptonButton5.StateNormal.Back.Image = global::Battleship.Properties.Resources.RotateShip;
+			this.kryptonButton5.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
+			this.kryptonButton5.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.kryptonButton5.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton5.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.kryptonButton5.StateNormal.Border.ColorAngle = 24F;
+			this.kryptonButton5.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.kryptonButton5.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.kryptonButton5.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.kryptonButton5.StateNormal.Border.Rounding = 21;
+			this.kryptonButton5.StateNormal.Border.Width = 1;
+			this.kryptonButton5.StateNormal.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.kryptonButton5.StateNormal.Content.Image.ImageV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.kryptonButton5.TabIndex = 33;
+			this.kryptonButton5.Tag = "Rotate";
+			this.kryptonButton5.Values.Text = "";
+			// 
+			// kryptonButton2
+			// 
+			this.kryptonButton2.Location = new System.Drawing.Point(320, 84);
+			this.kryptonButton2.Name = "kryptonButton2";
+			this.kryptonButton2.Size = new System.Drawing.Size(42, 36);
+			this.kryptonButton2.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton2.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton2.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.kryptonButton2.StateNormal.Back.ColorAngle = 45F;
+			this.kryptonButton2.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+			this.kryptonButton2.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.kryptonButton2.StateNormal.Back.Image = global::Battleship.Properties.Resources.RotateShip;
+			this.kryptonButton2.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
+			this.kryptonButton2.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.kryptonButton2.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton2.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.kryptonButton2.StateNormal.Border.ColorAngle = 24F;
+			this.kryptonButton2.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.kryptonButton2.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.kryptonButton2.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.kryptonButton2.StateNormal.Border.Rounding = 21;
+			this.kryptonButton2.StateNormal.Border.Width = 1;
+			this.kryptonButton2.StateNormal.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.kryptonButton2.StateNormal.Content.Image.ImageV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.kryptonButton2.TabIndex = 30;
+			this.kryptonButton2.Tag = "Rotate";
+			this.kryptonButton2.Values.Text = "";
+			// 
+			// kryptonButton3
+			// 
+			this.kryptonButton3.Location = new System.Drawing.Point(262, 84);
+			this.kryptonButton3.Name = "kryptonButton3";
+			this.kryptonButton3.Size = new System.Drawing.Size(42, 36);
+			this.kryptonButton3.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton3.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton3.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.kryptonButton3.StateNormal.Back.ColorAngle = 45F;
+			this.kryptonButton3.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+			this.kryptonButton3.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.kryptonButton3.StateNormal.Back.Image = global::Battleship.Properties.Resources.RotateShip;
+			this.kryptonButton3.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
+			this.kryptonButton3.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.kryptonButton3.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton3.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.kryptonButton3.StateNormal.Border.ColorAngle = 24F;
+			this.kryptonButton3.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.kryptonButton3.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.kryptonButton3.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.kryptonButton3.StateNormal.Border.Rounding = 21;
+			this.kryptonButton3.StateNormal.Border.Width = 1;
+			this.kryptonButton3.StateNormal.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.kryptonButton3.StateNormal.Content.Image.ImageV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.kryptonButton3.TabIndex = 31;
+			this.kryptonButton3.Tag = "Rotate";
+			this.kryptonButton3.Values.Text = "";
+			// 
 			// SubmarinePbx
 			// 
 			this.SubmarinePbx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -1483,6 +1723,36 @@
 			this.CruiserPbx.TabIndex = 23;
 			this.CruiserPbx.TabStop = false;
 			this.CruiserPbx.Tag = "Cruiser";
+			// 
+			// kryptonButton1
+			// 
+			this.kryptonButton1.Location = new System.Drawing.Point(320, 22);
+			this.kryptonButton1.Name = "kryptonButton1";
+			this.kryptonButton1.Size = new System.Drawing.Size(42, 36);
+			this.kryptonButton1.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton1.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton1.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.kryptonButton1.StateNormal.Back.ColorAngle = 45F;
+			this.kryptonButton1.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+			this.kryptonButton1.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.kryptonButton1.StateNormal.Back.Image = global::Battleship.Properties.Resources.RotateShip;
+			this.kryptonButton1.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
+			this.kryptonButton1.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.kryptonButton1.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.kryptonButton1.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.kryptonButton1.StateNormal.Border.ColorAngle = 24F;
+			this.kryptonButton1.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.kryptonButton1.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.kryptonButton1.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.kryptonButton1.StateNormal.Border.Rounding = 21;
+			this.kryptonButton1.StateNormal.Border.Width = 1;
+			this.kryptonButton1.StateNormal.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.kryptonButton1.StateNormal.Content.Image.ImageV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.kryptonButton1.TabIndex = 20;
+			this.kryptonButton1.Tag = "Rotate";
+			this.kryptonButton1.Values.Text = "";
 			// 
 			// RotateBtn
 			// 
@@ -1549,276 +1819,6 @@
 			this.FleetDeploymentLbl.StateNormal.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
 			this.FleetDeploymentLbl.TabIndex = 27;
 			this.FleetDeploymentLbl.Values.Text = "Fleet Deployment";
-			// 
-			// kryptonButton1
-			// 
-			this.kryptonButton1.Location = new System.Drawing.Point(320, 22);
-			this.kryptonButton1.Name = "kryptonButton1";
-			this.kryptonButton1.Size = new System.Drawing.Size(42, 36);
-			this.kryptonButton1.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton1.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton1.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.kryptonButton1.StateNormal.Back.ColorAngle = 45F;
-			this.kryptonButton1.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-			this.kryptonButton1.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.kryptonButton1.StateNormal.Back.Image = global::Battleship.Properties.Resources.RotateShip;
-			this.kryptonButton1.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
-			this.kryptonButton1.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.kryptonButton1.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton1.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.kryptonButton1.StateNormal.Border.ColorAngle = 24F;
-			this.kryptonButton1.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.kryptonButton1.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.kryptonButton1.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.kryptonButton1.StateNormal.Border.Rounding = 21;
-			this.kryptonButton1.StateNormal.Border.Width = 1;
-			this.kryptonButton1.StateNormal.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.kryptonButton1.StateNormal.Content.Image.ImageV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.kryptonButton1.TabIndex = 20;
-			this.kryptonButton1.Tag = "Rotate";
-			this.kryptonButton1.Values.Text = "";
-			// 
-			// kryptonButton2
-			// 
-			this.kryptonButton2.Location = new System.Drawing.Point(320, 84);
-			this.kryptonButton2.Name = "kryptonButton2";
-			this.kryptonButton2.Size = new System.Drawing.Size(42, 36);
-			this.kryptonButton2.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton2.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton2.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.kryptonButton2.StateNormal.Back.ColorAngle = 45F;
-			this.kryptonButton2.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-			this.kryptonButton2.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.kryptonButton2.StateNormal.Back.Image = global::Battleship.Properties.Resources.RotateShip;
-			this.kryptonButton2.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
-			this.kryptonButton2.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.kryptonButton2.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton2.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.kryptonButton2.StateNormal.Border.ColorAngle = 24F;
-			this.kryptonButton2.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.kryptonButton2.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.kryptonButton2.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.kryptonButton2.StateNormal.Border.Rounding = 21;
-			this.kryptonButton2.StateNormal.Border.Width = 1;
-			this.kryptonButton2.StateNormal.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.kryptonButton2.StateNormal.Content.Image.ImageV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.kryptonButton2.TabIndex = 30;
-			this.kryptonButton2.Tag = "Rotate";
-			this.kryptonButton2.Values.Text = "";
-			// 
-			// kryptonButton3
-			// 
-			this.kryptonButton3.Location = new System.Drawing.Point(262, 84);
-			this.kryptonButton3.Name = "kryptonButton3";
-			this.kryptonButton3.Size = new System.Drawing.Size(42, 36);
-			this.kryptonButton3.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton3.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton3.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.kryptonButton3.StateNormal.Back.ColorAngle = 45F;
-			this.kryptonButton3.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-			this.kryptonButton3.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.kryptonButton3.StateNormal.Back.Image = global::Battleship.Properties.Resources.RotateShip;
-			this.kryptonButton3.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
-			this.kryptonButton3.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.kryptonButton3.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton3.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.kryptonButton3.StateNormal.Border.ColorAngle = 24F;
-			this.kryptonButton3.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.kryptonButton3.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.kryptonButton3.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.kryptonButton3.StateNormal.Border.Rounding = 21;
-			this.kryptonButton3.StateNormal.Border.Width = 1;
-			this.kryptonButton3.StateNormal.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.kryptonButton3.StateNormal.Content.Image.ImageV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.kryptonButton3.TabIndex = 31;
-			this.kryptonButton3.Tag = "Rotate";
-			this.kryptonButton3.Values.Text = "";
-			// 
-			// kryptonButton4
-			// 
-			this.kryptonButton4.Location = new System.Drawing.Point(320, 145);
-			this.kryptonButton4.Name = "kryptonButton4";
-			this.kryptonButton4.Size = new System.Drawing.Size(42, 36);
-			this.kryptonButton4.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton4.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton4.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.kryptonButton4.StateNormal.Back.ColorAngle = 45F;
-			this.kryptonButton4.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-			this.kryptonButton4.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.kryptonButton4.StateNormal.Back.Image = global::Battleship.Properties.Resources.RotateShip;
-			this.kryptonButton4.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
-			this.kryptonButton4.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.kryptonButton4.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton4.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.kryptonButton4.StateNormal.Border.ColorAngle = 24F;
-			this.kryptonButton4.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.kryptonButton4.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.kryptonButton4.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.kryptonButton4.StateNormal.Border.Rounding = 21;
-			this.kryptonButton4.StateNormal.Border.Width = 1;
-			this.kryptonButton4.StateNormal.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.kryptonButton4.StateNormal.Content.Image.ImageV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.kryptonButton4.TabIndex = 32;
-			this.kryptonButton4.Tag = "Rotate";
-			this.kryptonButton4.Values.Text = "";
-			// 
-			// kryptonButton5
-			// 
-			this.kryptonButton5.Location = new System.Drawing.Point(262, 145);
-			this.kryptonButton5.Name = "kryptonButton5";
-			this.kryptonButton5.Size = new System.Drawing.Size(42, 36);
-			this.kryptonButton5.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton5.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton5.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.kryptonButton5.StateNormal.Back.ColorAngle = 45F;
-			this.kryptonButton5.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-			this.kryptonButton5.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.kryptonButton5.StateNormal.Back.Image = global::Battleship.Properties.Resources.RotateShip;
-			this.kryptonButton5.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
-			this.kryptonButton5.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.kryptonButton5.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton5.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.kryptonButton5.StateNormal.Border.ColorAngle = 24F;
-			this.kryptonButton5.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.kryptonButton5.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.kryptonButton5.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.kryptonButton5.StateNormal.Border.Rounding = 21;
-			this.kryptonButton5.StateNormal.Border.Width = 1;
-			this.kryptonButton5.StateNormal.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.kryptonButton5.StateNormal.Content.Image.ImageV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.kryptonButton5.TabIndex = 33;
-			this.kryptonButton5.Tag = "Rotate";
-			this.kryptonButton5.Values.Text = "";
-			// 
-			// kryptonButton6
-			// 
-			this.kryptonButton6.Location = new System.Drawing.Point(320, 204);
-			this.kryptonButton6.Name = "kryptonButton6";
-			this.kryptonButton6.Size = new System.Drawing.Size(42, 36);
-			this.kryptonButton6.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton6.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton6.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.kryptonButton6.StateNormal.Back.ColorAngle = 45F;
-			this.kryptonButton6.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-			this.kryptonButton6.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.kryptonButton6.StateNormal.Back.Image = global::Battleship.Properties.Resources.RotateShip;
-			this.kryptonButton6.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
-			this.kryptonButton6.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.kryptonButton6.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton6.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.kryptonButton6.StateNormal.Border.ColorAngle = 24F;
-			this.kryptonButton6.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.kryptonButton6.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.kryptonButton6.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.kryptonButton6.StateNormal.Border.Rounding = 21;
-			this.kryptonButton6.StateNormal.Border.Width = 1;
-			this.kryptonButton6.StateNormal.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.kryptonButton6.StateNormal.Content.Image.ImageV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.kryptonButton6.TabIndex = 34;
-			this.kryptonButton6.Tag = "Rotate";
-			this.kryptonButton6.Values.Text = "";
-			// 
-			// kryptonButton7
-			// 
-			this.kryptonButton7.Location = new System.Drawing.Point(262, 204);
-			this.kryptonButton7.Name = "kryptonButton7";
-			this.kryptonButton7.Size = new System.Drawing.Size(42, 36);
-			this.kryptonButton7.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton7.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton7.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.kryptonButton7.StateNormal.Back.ColorAngle = 45F;
-			this.kryptonButton7.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-			this.kryptonButton7.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.kryptonButton7.StateNormal.Back.Image = global::Battleship.Properties.Resources.RotateShip;
-			this.kryptonButton7.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
-			this.kryptonButton7.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.kryptonButton7.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton7.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.kryptonButton7.StateNormal.Border.ColorAngle = 24F;
-			this.kryptonButton7.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.kryptonButton7.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.kryptonButton7.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.kryptonButton7.StateNormal.Border.Rounding = 21;
-			this.kryptonButton7.StateNormal.Border.Width = 1;
-			this.kryptonButton7.StateNormal.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.kryptonButton7.StateNormal.Content.Image.ImageV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.kryptonButton7.TabIndex = 35;
-			this.kryptonButton7.Tag = "Rotate";
-			this.kryptonButton7.Values.Text = "";
-			// 
-			// kryptonButton8
-			// 
-			this.kryptonButton8.Location = new System.Drawing.Point(320, 265);
-			this.kryptonButton8.Name = "kryptonButton8";
-			this.kryptonButton8.Size = new System.Drawing.Size(42, 36);
-			this.kryptonButton8.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton8.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton8.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.kryptonButton8.StateNormal.Back.ColorAngle = 45F;
-			this.kryptonButton8.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-			this.kryptonButton8.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.kryptonButton8.StateNormal.Back.Image = global::Battleship.Properties.Resources.RotateShip;
-			this.kryptonButton8.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
-			this.kryptonButton8.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.kryptonButton8.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton8.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.kryptonButton8.StateNormal.Border.ColorAngle = 24F;
-			this.kryptonButton8.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.kryptonButton8.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.kryptonButton8.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.kryptonButton8.StateNormal.Border.Rounding = 21;
-			this.kryptonButton8.StateNormal.Border.Width = 1;
-			this.kryptonButton8.StateNormal.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.kryptonButton8.StateNormal.Content.Image.ImageV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.kryptonButton8.TabIndex = 36;
-			this.kryptonButton8.Tag = "Rotate";
-			this.kryptonButton8.Values.Text = "";
-			// 
-			// kryptonButton9
-			// 
-			this.kryptonButton9.Location = new System.Drawing.Point(262, 265);
-			this.kryptonButton9.Name = "kryptonButton9";
-			this.kryptonButton9.Size = new System.Drawing.Size(42, 36);
-			this.kryptonButton9.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton9.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton9.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.kryptonButton9.StateNormal.Back.ColorAngle = 45F;
-			this.kryptonButton9.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-			this.kryptonButton9.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.kryptonButton9.StateNormal.Back.Image = global::Battleship.Properties.Resources.RotateShip;
-			this.kryptonButton9.StateNormal.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
-			this.kryptonButton9.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.kryptonButton9.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.kryptonButton9.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.kryptonButton9.StateNormal.Border.ColorAngle = 24F;
-			this.kryptonButton9.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.kryptonButton9.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.kryptonButton9.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.kryptonButton9.StateNormal.Border.Rounding = 21;
-			this.kryptonButton9.StateNormal.Border.Width = 1;
-			this.kryptonButton9.StateNormal.Content.Image.ImageH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.kryptonButton9.StateNormal.Content.Image.ImageV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.kryptonButton9.TabIndex = 37;
-			this.kryptonButton9.Tag = "Rotate";
-			this.kryptonButton9.Values.Text = "";
 			// 
 			// Fleet_Deployment
 			// 
