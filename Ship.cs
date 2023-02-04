@@ -105,7 +105,7 @@ namespace Battleship
                 // not in setup mode
                 return;
 
-            if (isValidPlacement(newInitCell, IsVertical))
+            if (!isValidPlacement(newInitCell, IsVertical))
                 throw new InvalidShipPlacementException();
 
             InitCell = newInitCell;
@@ -122,7 +122,7 @@ namespace Battleship
                 // not in setup mode
                 return;
 
-            if (isValidPlacement(InitCell, !IsVertical))
+            if (!isValidPlacement(InitCell, !IsVertical))
                 throw new InvalidShipPlacementException();
 
             IsVertical = !IsVertical;
@@ -162,6 +162,7 @@ namespace Battleship
         Carrier,
         Battleship,
         Cruiser,
-        Submarine
+        Submarine,
+        Destroyer
     }
 }
