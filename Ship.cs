@@ -19,18 +19,25 @@ namespace Battleship
         private HashSet<Loc> occupiedCells;
         private HashSet<Loc> damagedParts;
 
+        private static readonly Dictionary<ShipType, uint> shipSizes = new Dictionary<ShipType, uint>() 
+        {
+            { ShipType.Carrier, 5 },
+            { ShipType.Battleship, 4 },
+            { ShipType.Cruiser, 3 },
+            { ShipType.Submarine, 2 }
+        };
+
         /// <summary>
         /// Constructor 
         /// </summary>
         /// <param name="type">Ship type</param>
-        /// <param name="size">Number of occupied cells in battlefield</param>
         /// <param name="name">Name to identify the ship</param>
-        public Ship (ShipType type, uint size, string name)
+        public Ship (ShipType type, string name)
         {
             Type = type;
-            Size = size;
             Name = name;
-
+            Size = shipSizes[Type];
+            
             isPositionLocked = false;
             occupiedCells = new HashSet<Loc>();
             damagedParts = new HashSet<Loc>();
