@@ -159,9 +159,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Ocean.gif" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\BattleShipIntroIcon.jpg" />
   </ItemGroup>
   <ItemGroup>
