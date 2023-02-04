@@ -149,7 +149,7 @@ namespace Battleship
         /// </summary>
         /// <param name="initCell">Ship's initial cell</param>
         /// <param name="isVertical">Ship's orientation</param>
-        /// <returns></returns>
+        /// <returns>True if ship is validly placed on the battlefield</returns>
         private bool isValidPlacement(Loc initCell, bool isVertical)
         {
             return (isVertical && initCell.row + Size <= GameState.gridDimension) && 
