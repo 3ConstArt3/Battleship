@@ -94,6 +94,8 @@
     <Compile Include="BattleShip.Designer.cs">
       <DependentUpon>BattleShip.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomExceptions.cs" />
+    <Compile Include="Loc.cs" />
     <Compile Include="Fleet Deployment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +110,7 @@
     <Compile Include="SetPlayer.Designer.cs">
       <DependentUpon>SetPlayer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ship.cs" />
     <EmbeddedResource Include="Battlefield.resx">
       <DependentUpon>Battlefield.cs</DependentUpon>
     </EmbeddedResource>
