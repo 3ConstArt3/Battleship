@@ -6,7 +6,7 @@ using ComponentFactory.Krypton.Toolkit;
 namespace Battleship
 {
 
-	public partial class BattleShipForm : KryptonForm
+	public partial class BattleShip : KryptonForm
 	{
 
 		#region Variable Declaration
@@ -15,14 +15,14 @@ namespace Battleship
 		#endregion
 
 		#region Constructor Definition
-		public BattleShipForm() { InitializeComponent(); }
+		public BattleShip() { InitializeComponent(); }
 		#endregion
 
 		#region Function Definition
 		private void PreparationBtn_Click( object sender, EventArgs e )
 		{
 			this.Visible = false;
-			new SetPlayerForm().Show();
+			new SetPlayer().Show();
 		}
 
 		private void BattleShipsExitBtn_Click( object sender, EventArgs e )

@@ -197,5 +197,11 @@
   <ItemGroup>
     <None Include="Resources\BattlefieldBgnd.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MilitaryHelmet.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
