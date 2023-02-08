@@ -1,6 +1,7 @@
-﻿// Necessary imports
+﻿#region Imports
 using System;
 using System.Windows.Forms;
+#endregion
 
 namespace Battleship
 {
@@ -9,7 +10,7 @@ namespace Battleship
     {
 
         /// <summary>
-        /// The main entry point for the application.
+        /// Main function.
         /// </summary>
         [STAThread]
 

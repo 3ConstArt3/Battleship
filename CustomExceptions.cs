@@ -1,7 +1,10 @@
-﻿using System;
+﻿#region Imports
+using System;
+#endregion
 
 namespace Battleship
 {
+
     public class InvalidShipPlacementException : Exception
     {
         public InvalidShipPlacementException(string message) : base(message) { }
@@ -19,4 +22,5 @@ namespace Battleship
         public InvalidShotException(string message) : base(message) { }
         public InvalidShotException() : base() { }
     }
+
 }

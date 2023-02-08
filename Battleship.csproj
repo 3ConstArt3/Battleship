@@ -96,7 +96,7 @@
     </Compile>
     <Compile Include="Player.cs" />
     <Compile Include="CustomExceptions.cs" />
-    <Compile Include="Loc.cs" />
+    <Compile Include="Location.cs" />
     <Compile Include="Fleet Deployment.cs">
       <SubType>Form</SubType>
     </Compile>

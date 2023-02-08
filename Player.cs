@@ -1,168 +1,248 @@
-﻿using System;
+﻿#region Imports
+using System;
 using System.Collections.Generic;
 using System.Linq;
+#endregion
 
 namespace Battleship
 {
+
 	class Player
 	{
+
+		#region Variable Declaration
 		public List<Ship> Fleet { get; } = new List<Ship>();
-		private List<Loc> HitBoxes { get; } = new List<Loc>();
+		private List<Location> HitBoxes { get; } = new List<Location>();
 		public string Name { get; } = "";
 		public uint Attempts { get; private set; } = 0;
-		private static Random random = new Random();
 
-		public Player(string name)
+		private static readonly Random random = new Random();
+		#endregion
+
+		/// <summary>
+		/// Constructor Definition.
+		/// </summary>
+		/// <param name="name"></param>
+		public Player( string name )
 		{
 			Name = name;
 			constructFleet();
 		}
 
-		public void TakeHit(Loc where)
+		#region Method Definitions
+		/// <summary>
+		/// Check if provided cell contains a ship and
+		/// damages that ship.
+		/// </summary>
+		/// <param name="where"></param>
+		public void TakeHit( Location where )
 		{
-			Ship ship = getShipFromCell(where);
-			ship?.DamagePart(where);
+			Ship ship = getShipFromCell( where );
+			ship?.DamagePart( where );
 		}
 
-		public void Fire(Loc where, Player enemy)
+		/// <summary>
+		/// Fires a shot towards the enemy battlefield.
+		/// </summary>
+		/// <param name="where"></param>
+		/// <param name="enemy"></param>
+		/// <exception cref="InvalidShotException"></exception>
+		public void Fire( Location where, Player enemy )
 		{
-			checkCellsValidity(where);
+			checkCellsValidity( where );
 
-			if (HitBoxes.Contains(where))
-				throw new InvalidShotException();
+			if( HitBoxes.Contains( where ) ) { throw new InvalidShotException(); }
+				
 			++Attempts;
-			HitBoxes.Add(where);
-			enemy.TakeHit(where);
+			HitBoxes.Add( where );
+			enemy.TakeHit( where );
 		}
 
-		public bool IsShipPartCell(Loc where)
+		/// <summary>
+		/// Checks if provided cell, contains a ship part.
+		/// </summary>
+		/// <param name="where"></param>
+		/// <returns>True if ship exits in that Location, else false.</returns>
+		public bool IsCellPartOfShip( Location where )
 		{
-			foreach (Ship ship in Fleet)
+			foreach( var ship in Fleet )
 			{
-				if (ship.IsOccupiedCell(where))
-					return true;
+				if( ship.IsOccupiedCell( where ) ) { return true; }	
 			}
 			return false;
 		}
 
-		public void PlaceShip(Loc pos, ShipType shipType)
+		/// <summary>
+		/// Places ship at given position, if it doesn't
+		/// collide with another ship.
+		/// </summary>
+		/// <param name="pos"></param>
+		/// <param name="shipType"></param>
+		public void PlaceShip( Location pos, ShipType shipType )
 		{
-			// select ship to be placed, based on ShipType
-			Ship selectedShip = getShipFromType(shipType);
-			checkOverlap(selectedShip);
-			selectedShip.RenewPosition(pos);
+			Ship selectedShip = getShipFromType( shipType );
+			checkOverlap( selectedShip );
+			selectedShip.RenewPosition( pos );
 		}
 
-		public void RotateShip(ShipType shipType)
+		/// <summary>
+		/// Switch orientation of ship, if it doesn't
+		/// collide with another ship, after the rotation.
+		/// </summary>
+		/// <param name="shipType"></param>
+		public void RotateShip( ShipType shipType )
 		{
-            Ship selectedShip = getShipFromType(shipType);
-			checkOverlap(selectedShip);
-            selectedShip.SwitchOrientation();
+			Ship selectedShip = getShipFromType( shipType );
+			checkOverlap( selectedShip );
+			selectedShip.SwitchOrientation();
 		}
 
+		/// <summary>
+		/// Places each ship of the Fleet, at a
+		/// random Location inside the grid.
+		/// </summary>
 		public void RandomFleetPlacement()
 		{
-			foreach (Ship ship in Fleet)
+			foreach( var ship in Fleet )
 			{
-				while (true)
+				while( true )
 				{
-					Loc randPos = generateRandomLoc();
+					Location randPos = generateRandomLocation();
 					try
 					{
-						PlaceShip(randPos, ship.Type);
+						PlaceShip( randPos, ship.Type );
 						break;
 					}
-					catch (InvalidShipPlacementException) {}
+					catch( InvalidShipPlacementException ) {}
 				}
 			}
 		}
 
+		/// <summary>
+		/// Creates the Fleet.
+		/// </summary>
 		private void constructFleet()
 		{
-			Fleet.Add(new Ship(ShipType.Carrier));
-			Fleet.Add(new Ship(ShipType.Battleship));
-			Fleet.Add(new Ship(ShipType.Cruiser));
-			Fleet.Add(new Ship(ShipType.Submarine));
-			Fleet.Add(new Ship(ShipType.Destroyer));
+			//foreach( var ship in Enum.GetValues( typeof( ShipType ) ) )
+			//{
+			//	Fleet.Add( new Ship( ship ) );
+			//}
+			Fleet.Add( new Ship( ShipType.Battleship ) );
+			Fleet.Add( new Ship( ShipType.Cruiser ) );
+			Fleet.Add( new Ship( ShipType.Submarine ) );
+			Fleet.Add( new Ship( ShipType.Destroyer ) );
 		}
 
-		private void checkCellsValidity(Loc loc)
+		/// <summary>
+		/// Checks if the corresponding Location, is
+		/// inside the grid's bounds.
+		/// </summary>
+		/// <param name="Location"></param>
+		/// <exception cref="InvalidCellException"></exception>
+		private void checkCellsValidity( Location Location )
 		{
-			if (loc.row > GameState.GridDimension ||
-				loc.column > GameState.GridDimension)
-				throw new InvalidCellException();
-		}
-
-		// search for a Ship based on its position
-		private Ship getShipFromCell(Loc where)
-		{
-			checkCellsValidity(where);
-
-			foreach (Ship ship in Fleet)
+			if( Location.row > GameState.GridDimension || Location.column > GameState.GridDimension )
 			{
-				if (ship.IsOccupiedCell(where))
-					return ship;
+				throw new InvalidCellException();
+			}
+		}
+
+		/// <summary>
+		/// Searches for a ship in the Fleet, based
+		/// on its grid position.
+		/// </summary>
+		/// <param name="where"></param>
+		/// <returns></returns>
+		private Ship getShipFromCell( Location where )
+		{
+			checkCellsValidity( where );
+
+			foreach( var ship in Fleet )
+			{
+				if( ship.IsOccupiedCell( where ) ) { return ship; }
 			}
 			return null;
 		}
 
-		private void checkOverlap(Ship selectedShip)
+		/// <summary>
+		/// Checks if 2 ships are overlaping each other.
+		/// </summary>
+		/// <param name="selectedShip"></param>
+		private void checkOverlap( Ship selectedShip )
 		{
-			foreach (Ship ship in Fleet)
+			foreach( var ship in Fleet )
 			{
-				// iterate through fleet
-				if (selectedShip.Equals(ship))
-					// selected ship is the current ship
-					continue;
+				if( selectedShip.Equals( ship ) ) { continue; }
 
-				uint deltaColumn = (uint)Math.Abs(selectedShip.InitCell.column - ship.InitCell.column);
-				uint deltaRow = (uint)Math.Abs(selectedShip.InitCell.row - ship.InitCell.row);
+				uint deltaColumn = ( uint )Math.Abs( selectedShip.InitCell.column - ship.InitCell.column );
+				uint deltaRow = ( uint )Math.Abs( selectedShip.InitCell.row - ship.InitCell.row );
 
-				if (selectedShip.HasEqualOrientation(ship))
+				if( selectedShip.HasEqualOrientation( ship ) )
 				{
-					// selected ship and current ship have the same orientation
-					uint maxSize = Math.Max(selectedShip.Size, ship.Size);
+					uint maxSize = Math.Max( selectedShip.Size, ship.Size );
 
-					if (selectedShip.IsVertical)
-						checkOverlapSameOrientation(maxSize, deltaColumn, deltaRow);
-					else
-						checkOverlapSameOrientation(maxSize, deltaRow, deltaColumn);
+					(deltaColumn, deltaRow) = selectedShip.IsVertical ? (deltaColumn, deltaRow) : (deltaRow, deltaColumn);
+					checkOverlapSameOrientation( maxSize, deltaColumn, deltaRow );
 				}
 				else
 				{
-					// selected ship and current ship have different orientations
-					if (selectedShip.IsVertical)
-						checkOverlapDifferentOrientation(ship.Size, selectedShip.Size, deltaRow, deltaColumn);
-					else
-						checkOverlapDifferentOrientation(selectedShip.Size, ship.Size, deltaRow, deltaColumn);
+					if( selectedShip.IsVertical )
+					{
+						checkOverlapDifferentOrientation( ship.Size, selectedShip.Size, deltaRow, deltaColumn );
+						return;
+					}
+					checkOverlapDifferentOrientation( selectedShip.Size, ship.Size, deltaRow, deltaColumn );
 				}
 			}
 		}
 
-		private void checkOverlapSameOrientation(uint maxSize, params uint[] deltaDimension)
+		/// <summary>
+		/// Validates if 2 ships with same orientations
+		/// collide with each other.
+		/// </summary>
+		/// <param name="maxSize"></param>
+		/// <param name="deltaDimension"></param>
+		/// <exception cref="InvalidShipPlacementException"></exception>
+		private void checkOverlapSameOrientation( uint maxSize, params uint[] deltaDimension )
 		{
-			if (deltaDimension[0] == 0 && deltaDimension[1] < maxSize)
+			if( deltaDimension[ 0 ] == 0 && deltaDimension[ 1 ] < maxSize )
+			{
 				throw new InvalidShipPlacementException();
+			}
 		}
 
-		private void checkOverlapDifferentOrientation(uint horizontalShipSize, uint verticalShipSize, params uint[] deltaDimension)
+		/// <summary>
+		/// Validates if 2 ships with different orientations
+		/// collide with each other.
+		/// </summary>
+		/// <param name="horizontalShipSize"></param>
+		/// <param name="verticalShipSize"></param>
+		/// <param name="deltaDimension"></param>
+		/// <exception cref="InvalidShipPlacementException"></exception>
+		private void checkOverlapDifferentOrientation( uint horizontalShipSize, uint verticalShipSize, params uint[] deltaDimension )
 		{
-			if (deltaDimension[0] <= horizontalShipSize || deltaDimension[1] <= verticalShipSize)
+			if( deltaDimension[ 0 ] <= horizontalShipSize || deltaDimension[ 1 ] <= verticalShipSize )
+			{
 				throw new InvalidShipPlacementException();
+			}
 		}
 
-		private Ship getShipFromType(ShipType shipType)
-		{
-			/*Ship ship = from theShip in Fleet
-			where ship.Type == shipType
-			select theShip;*/
-			return Fleet.Single(sampleShip => sampleShip.Type == shipType);
-		}
+		/// <summary>
+		/// Ship ship = from theShip in Fleet where ship.Type == shipType select theShip;
+		/// Finds the corresponding ship in the Fleet.
+		/// </summary>
+		/// <param name="shipType"></param>
+		/// <returns>Ship from Fleet with provided type</returns>
+		private Ship getShipFromType( ShipType shipType ) => Fleet.Single( sampleShip => sampleShip.Type == shipType );
 
-		private Loc generateRandomLoc()
-		{
-			return new Loc(random.Next(0, GameState.GridDimension),
-				random.Next(0, GameState.GridDimension));
-		}
+		/// <summary>
+		/// Random Location generator.
+		/// </summary>
+		/// <returns>A random Location inside the grid's bounds.</returns>
+		private Location generateRandomLocation() => new Location( random.Next( 0, GameState.GridDimension ),
+																   random.Next( 0, GameState.GridDimension ) );
+		#endregion
+
 	}
+
 }
