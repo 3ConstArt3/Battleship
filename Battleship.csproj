@@ -94,6 +94,7 @@
     <Compile Include="BattleShip.Designer.cs">
       <DependentUpon>BattleShip.cs</DependentUpon>
     </Compile>
+    <Compile Include="Player.cs" />
     <Compile Include="CustomExceptions.cs" />
     <Compile Include="Loc.cs" />
     <Compile Include="Fleet Deployment.cs">
