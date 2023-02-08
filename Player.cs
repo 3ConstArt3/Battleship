@@ -239,8 +239,8 @@ namespace Battleship
 		/// Random Location generator.
 		/// </summary>
 		/// <returns>A random Location inside the grid's bounds.</returns>
-		private Location generateRandomLocation() => new Location( random.Next( 0, GameState.GridDimension ),
-																   random.Next( 0, GameState.GridDimension ) );
+		private Location generateRandomLocation() => new Location( (uint)random.Next( 0, GameState.GridDimension ),
+																   (uint)random.Next( 0, GameState.GridDimension ) );
 		#endregion
 
 	}
