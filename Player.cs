@@ -55,9 +55,9 @@ namespace Battleship
 
 		public void RotateShip(ShipType shipType)
 		{
-			Ship ship = getShipFromType(shipType);
+            Ship selectedShip = getShipFromType(shipType);
 			checkOverlap(selectedShip);
-			ship.SwitchOrientation();
+            selectedShip.SwitchOrientation();
 		}
 
 		public void RandomFleetPlacement()
@@ -69,7 +69,7 @@ namespace Battleship
 					Loc randPos = generateRandomLoc();
 					try
 					{
-						ship.PlaceShip(randPos, ship.Type);
+						PlaceShip(randPos, ship.Type);
 						break;
 					}
 					catch (InvalidShipPlacementException) {}
@@ -115,13 +115,13 @@ namespace Battleship
 					// selected ship is the current ship
 					continue;
 
-				const uint deltaColumn = Math.Abs(selectedShip.InitCell.column - ship.InitCell.column);
-				const uint deltaRow = Math.Abs(selectedShip.InitCell.row - ship.InitCell.row);
+				uint deltaColumn = (uint)Math.Abs(selectedShip.InitCell.column - ship.InitCell.column);
+				uint deltaRow = (uint)Math.Abs(selectedShip.InitCell.row - ship.InitCell.row);
 
 				if (selectedShip.HasEqualOrientation(ship))
 				{
 					// selected ship and current ship have the same orientation
-					const uint maxSize = Math.Max(selectedShip.Size, ship.Size);
+					uint maxSize = Math.Max(selectedShip.Size, ship.Size);
 
 					if (selectedShip.IsVertical)
 						checkOverlapSameOrientation(maxSize, deltaColumn, deltaRow);
