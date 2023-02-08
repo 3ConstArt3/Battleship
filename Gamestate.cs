@@ -24,7 +24,7 @@ namespace Battleship
 			player2 = new Player( player2Name );
 		}
 
-		#region Method Declaration
+		#region Method Definition
 		public void PlayerFires( Location where )
 		{
 			Player currentPlayer = getTargetPlayer( isPlayer1Turn );

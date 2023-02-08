@@ -13,7 +13,7 @@ namespace Battleship
 	{
 
 		#region Variable Declaration
-
+		private GameState gameState;
 
 
 		#endregion
@@ -23,7 +23,7 @@ namespace Battleship
 		/// </summary>
 		public GameManager()
 		{
-
+			
 		}
 
 		#region Method Declaration
