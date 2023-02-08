@@ -166,8 +166,8 @@ namespace Battleship
         /// <returns>True if ship is validly placed on the battlefield</returns>
         private bool isValidPlacement( Location initCell, bool isVertical )
         {
-            return (isVertical && initCell.row + Size <= GameState.gridDimension) &&
-                   (!isVertical && initCell.column + Size <= GameState.gridDimension);
+            return (isVertical && initCell.row + Size <= GameState.GridDimension) &&
+                   (!isVertical && initCell.column + Size <= GameState.GridDimension);
         }
         #endregion
 
