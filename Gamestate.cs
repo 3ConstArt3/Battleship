@@ -5,19 +5,20 @@ using System.Collections.Generic;
 namespace Battleship
 {
 
-	internal class Gamestate
+	internal class GameState
 	{
 
 		#region Variable Declaration
 		private Player player1;
 		private Player player2;
+		public const int GridDimension = 9;
 		private bool isPlayer1Turn;
 		#endregion
 
 		/// <summary>
 		/// Constructor Definition.
 		/// </summary>
-		public Gamestate( string player1Name, string player2Name )
+		public GameState( string player1Name, string player2Name )
 		{
 			player1 = new Player( player1Name );
 			player2 = new Player( player2Name );

@@ -95,7 +95,7 @@
       <DependentUpon>BattleShip.cs</DependentUpon>
     </Compile>
     <Compile Include="GameManager.cs" />
-    <Compile Include="Gamestate.cs" />
+    <Compile Include="GameState.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="CustomExceptions.cs" />
     <Compile Include="Location.cs" />
