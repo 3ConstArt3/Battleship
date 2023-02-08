@@ -143,16 +143,6 @@ namespace Battleship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap MilitaryHelmet {
-            get {
-                object obj = ResourceManager.GetObject("MilitaryHelmet", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap minimize_Btn {
             get {
                 object obj = ResourceManager.GetObject("minimize.Btn", resourceCulture);
@@ -176,6 +166,16 @@ namespace Battleship.Properties {
         internal static System.Drawing.Bitmap RotateShip {
             get {
                 object obj = ResourceManager.GetObject("RotateShip", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sailorhat {
+            get {
+                object obj = ResourceManager.GetObject("Sailorhat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
