@@ -13,8 +13,8 @@ namespace Battleship
 	{
 
 		#region Variable Declaration
-		private GameState gameState;
-
+		public GameState GameState{ get; private set; }
+		//public DatabaseMgr DatabaseMgr{ get; private set; }
 
 		#endregion
 
@@ -28,7 +28,10 @@ namespace Battleship
 
 		#region Method Declaration
 
-
+		public void StartNewGame(string playerName)
+		{
+			GameState = new GameState(playerName, "Computer");
+		}
 
 		#endregion
 
