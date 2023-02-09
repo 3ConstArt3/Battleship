@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace Battleship
 {
 
-	internal class GameState
+	public class GameState
 	{
 
 		#region Variable Declaration

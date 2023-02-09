@@ -1,7 +1,7 @@
 ﻿namespace Battleship
 {
 
-    internal class Location
+    public class Location
     {
 
 		#region Variable Declaration

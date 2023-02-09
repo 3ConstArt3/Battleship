@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Battleship
 {
 
-	internal class GameManager
+	public class GameManager
 	{
 
 		#region Variable Declaration

@@ -10,7 +10,7 @@ namespace Battleship
     /// Represents a generic ship and holds all necessary information 
     /// about its type, state and position on the battlefield.
     /// </summary>
-    internal class Ship
+    public class Ship
     {
 
 		#region Variable Declaration
