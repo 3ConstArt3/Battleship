@@ -21,8 +21,7 @@ namespace Battleship
 		public FleetDeploymentForm(GameManager gameManager)
 		{
 			InitializeComponent();
-			AutoScaleMode= AutoScaleMode.None;
-			this.gameManager = gameManager;
+            this.gameManager = gameManager;
 		}
 
 		#region Function Definition
@@ -65,7 +64,7 @@ namespace Battleship
 			catch (InvalidShipPlacementException) { return; }
 
 			Image img = CarrierPbx.Image;
-			CarrierPbx.Size = new Size(CarrierPbx.Size.Height, CarrierPbx.Size.Width);
+			CarrierPbx.Size = new Size(CarrierPbx.Size.Height , CarrierPbx.Size.Width);
 			img.RotateFlip(RotateFlipType.Rotate90FlipNone);
 			CarrierPbx.Image = img;
 		}
@@ -216,7 +215,7 @@ namespace Battleship
 			}
 			catch (InvalidShipPlacementException) { return; }
 
-			newShip.Location = new Point(PreviewGrbx.Location.X + targetPanel.Location.X + 4,
+			newShip.Location = new Point(PreviewGrbx.Location.X + targetPanel.Location.X + 6,
 			PreviewGrbx.Location.Y + targetPanel.Location.Y + targetPanel.Height + 2);
 		}
 
