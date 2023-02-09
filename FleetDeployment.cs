@@ -41,8 +41,12 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void AttackBtn_Click( object sender, System.EventArgs e )
 		{
+			foreach( var ship in gameManager.GameState.GetPlayerFleet(true) )
+				if (ship.InitCell == null)
+					return;
+
 			new BattleFieldForm(gameManager).Show();
-			this.Close();
+			Close();
 		}
 
 		/// <summary>
