@@ -123,11 +123,12 @@ namespace Battleship
 		/// </summary>
 		private void constructFleet()
 		{
-			//foreach( var ship in Enum.GetValues( typeof( ShipType ) ) )
-			//{
-			//	Fleet.Add( new Ship( ship ) );
-			//}
-			Fleet.Add( new Ship( ShipType.Battleship ) );
+            //foreach( var ship in Enum.GetValues( typeof( ShipType ) ) )
+            //{
+            //	Fleet.Add( new Ship( ship ) );
+            //}
+            Fleet.Add( new Ship( ShipType.Carrier ) );
+            Fleet.Add( new Ship( ShipType.Battleship ) );
 			Fleet.Add( new Ship( ShipType.Cruiser ) );
 			Fleet.Add( new Ship( ShipType.Submarine ) );
 			Fleet.Add( new Ship( ShipType.Destroyer ) );
