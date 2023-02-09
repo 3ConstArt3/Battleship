@@ -133,68 +133,16 @@
 			this.panel5 = new System.Windows.Forms.Panel();
 			this.panel6 = new System.Windows.Forms.Panel();
 			this.EnemyFieldGbx = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
-			this.PosA2Pnl = new System.Windows.Forms.Panel();
-			this.PosA1Pnl = new System.Windows.Forms.Panel();
-			this.PosA3Pnl = new System.Windows.Forms.Panel();
-			this.PosA10Pnl = new System.Windows.Forms.Panel();
-			this.PosA9Pnl = new System.Windows.Forms.Panel();
-			this.PosA8Pnl = new System.Windows.Forms.Panel();
-			this.PosA7Pnl = new System.Windows.Forms.Panel();
-			this.PosA6Pnl = new System.Windows.Forms.Panel();
-			this.PosA5Pnl = new System.Windows.Forms.Panel();
-			this.PosA4Pnl = new System.Windows.Forms.Panel();
-			this.BattlefieldLbl = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
-			this.BorderPnl = new System.Windows.Forms.Panel();
-			this.PosB2Pnl = new System.Windows.Forms.Panel();
-			this.PosB1Pnl = new System.Windows.Forms.Panel();
-			this.PosB3Pnl = new System.Windows.Forms.Panel();
-			this.PosB10Pnl = new System.Windows.Forms.Panel();
-			this.PosB9Pnl = new System.Windows.Forms.Panel();
-			this.PosB8Pnl = new System.Windows.Forms.Panel();
-			this.PosB7Pnl = new System.Windows.Forms.Panel();
-			this.PosB6Pnl = new System.Windows.Forms.Panel();
-			this.PosB5Pnl = new System.Windows.Forms.Panel();
-			this.PosB4Pnl = new System.Windows.Forms.Panel();
-			this.PosC2Pnl = new System.Windows.Forms.Panel();
-			this.PosC1Pnl = new System.Windows.Forms.Panel();
-			this.PosC3Pnl = new System.Windows.Forms.Panel();
-			this.PosC10Pnl = new System.Windows.Forms.Panel();
-			this.PosC9Pnl = new System.Windows.Forms.Panel();
-			this.PosC8Pnl = new System.Windows.Forms.Panel();
-			this.PosC7Pnl = new System.Windows.Forms.Panel();
-			this.PosC6Pnl = new System.Windows.Forms.Panel();
-			this.PosC5Pnl = new System.Windows.Forms.Panel();
-			this.PosC4Pnl = new System.Windows.Forms.Panel();
-			this.PosF2Pnl = new System.Windows.Forms.Panel();
-			this.PosF1Pnl = new System.Windows.Forms.Panel();
-			this.PosF3Pnl = new System.Windows.Forms.Panel();
-			this.PosF10Pnl = new System.Windows.Forms.Panel();
-			this.PosF9Pnl = new System.Windows.Forms.Panel();
-			this.PosF8Pnl = new System.Windows.Forms.Panel();
-			this.PosF7Pnl = new System.Windows.Forms.Panel();
-			this.PosF6Pnl = new System.Windows.Forms.Panel();
-			this.PosF5Pnl = new System.Windows.Forms.Panel();
-			this.PosF4Pnl = new System.Windows.Forms.Panel();
-			this.PosE2Pnl = new System.Windows.Forms.Panel();
-			this.PosE1Pnl = new System.Windows.Forms.Panel();
-			this.PosE3Pnl = new System.Windows.Forms.Panel();
-			this.PosE10Pnl = new System.Windows.Forms.Panel();
-			this.PosE9Pnl = new System.Windows.Forms.Panel();
-			this.PosE8Pnl = new System.Windows.Forms.Panel();
-			this.PosE7Pnl = new System.Windows.Forms.Panel();
-			this.PosE6Pnl = new System.Windows.Forms.Panel();
-			this.PosE5Pnl = new System.Windows.Forms.Panel();
-			this.PosE4Pnl = new System.Windows.Forms.Panel();
-			this.PosD2Pnl = new System.Windows.Forms.Panel();
-			this.PosD1Pnl = new System.Windows.Forms.Panel();
-			this.PosD3Pnl = new System.Windows.Forms.Panel();
-			this.PosD10Pnl = new System.Windows.Forms.Panel();
-			this.PosD9Pnl = new System.Windows.Forms.Panel();
-			this.PosD8Pnl = new System.Windows.Forms.Panel();
-			this.PosD7Pnl = new System.Windows.Forms.Panel();
-			this.PosD6Pnl = new System.Windows.Forms.Panel();
-			this.PosD5Pnl = new System.Windows.Forms.Panel();
-			this.PosD4Pnl = new System.Windows.Forms.Panel();
+			this.PosJ2Pnl = new System.Windows.Forms.Panel();
+			this.PosJ1Pnl = new System.Windows.Forms.Panel();
+			this.PosJ3Pnl = new System.Windows.Forms.Panel();
+			this.PosJ10Pnl = new System.Windows.Forms.Panel();
+			this.PosJ9Pnl = new System.Windows.Forms.Panel();
+			this.PosJ8Pnl = new System.Windows.Forms.Panel();
+			this.PosJ7Pnl = new System.Windows.Forms.Panel();
+			this.PosJ6Pnl = new System.Windows.Forms.Panel();
+			this.PosJ5Pnl = new System.Windows.Forms.Panel();
+			this.PosJ4Pnl = new System.Windows.Forms.Panel();
 			this.PosI2Pnl = new System.Windows.Forms.Panel();
 			this.PosI1Pnl = new System.Windows.Forms.Panel();
 			this.PosI3Pnl = new System.Windows.Forms.Panel();
@@ -225,16 +173,68 @@
 			this.PosG6Pnl = new System.Windows.Forms.Panel();
 			this.PosG5Pnl = new System.Windows.Forms.Panel();
 			this.PosG4Pnl = new System.Windows.Forms.Panel();
-			this.PosJ2Pnl = new System.Windows.Forms.Panel();
-			this.PosJ1Pnl = new System.Windows.Forms.Panel();
-			this.PosJ3Pnl = new System.Windows.Forms.Panel();
-			this.PosJ10Pnl = new System.Windows.Forms.Panel();
-			this.PosJ9Pnl = new System.Windows.Forms.Panel();
-			this.PosJ8Pnl = new System.Windows.Forms.Panel();
-			this.PosJ7Pnl = new System.Windows.Forms.Panel();
-			this.PosJ6Pnl = new System.Windows.Forms.Panel();
-			this.PosJ5Pnl = new System.Windows.Forms.Panel();
-			this.PosJ4Pnl = new System.Windows.Forms.Panel();
+			this.PosF2Pnl = new System.Windows.Forms.Panel();
+			this.PosF1Pnl = new System.Windows.Forms.Panel();
+			this.PosF3Pnl = new System.Windows.Forms.Panel();
+			this.PosF10Pnl = new System.Windows.Forms.Panel();
+			this.PosF9Pnl = new System.Windows.Forms.Panel();
+			this.PosF8Pnl = new System.Windows.Forms.Panel();
+			this.PosF7Pnl = new System.Windows.Forms.Panel();
+			this.PosF6Pnl = new System.Windows.Forms.Panel();
+			this.PosF5Pnl = new System.Windows.Forms.Panel();
+			this.PosF4Pnl = new System.Windows.Forms.Panel();
+			this.PosE2Pnl = new System.Windows.Forms.Panel();
+			this.PosE1Pnl = new System.Windows.Forms.Panel();
+			this.PosE3Pnl = new System.Windows.Forms.Panel();
+			this.PosE10Pnl = new System.Windows.Forms.Panel();
+			this.PosE9Pnl = new System.Windows.Forms.Panel();
+			this.PosE8Pnl = new System.Windows.Forms.Panel();
+			this.PosE7Pnl = new System.Windows.Forms.Panel();
+			this.PosE6Pnl = new System.Windows.Forms.Panel();
+			this.PosE5Pnl = new System.Windows.Forms.Panel();
+			this.PosE4Pnl = new System.Windows.Forms.Panel();
+			this.PosD2Pnl = new System.Windows.Forms.Panel();
+			this.PosD1Pnl = new System.Windows.Forms.Panel();
+			this.PosD3Pnl = new System.Windows.Forms.Panel();
+			this.PosD10Pnl = new System.Windows.Forms.Panel();
+			this.PosD9Pnl = new System.Windows.Forms.Panel();
+			this.PosD8Pnl = new System.Windows.Forms.Panel();
+			this.PosD7Pnl = new System.Windows.Forms.Panel();
+			this.PosD6Pnl = new System.Windows.Forms.Panel();
+			this.PosD5Pnl = new System.Windows.Forms.Panel();
+			this.PosD4Pnl = new System.Windows.Forms.Panel();
+			this.PosC2Pnl = new System.Windows.Forms.Panel();
+			this.PosC1Pnl = new System.Windows.Forms.Panel();
+			this.PosC3Pnl = new System.Windows.Forms.Panel();
+			this.PosC10Pnl = new System.Windows.Forms.Panel();
+			this.PosC9Pnl = new System.Windows.Forms.Panel();
+			this.PosC8Pnl = new System.Windows.Forms.Panel();
+			this.PosC7Pnl = new System.Windows.Forms.Panel();
+			this.PosC6Pnl = new System.Windows.Forms.Panel();
+			this.PosC5Pnl = new System.Windows.Forms.Panel();
+			this.PosC4Pnl = new System.Windows.Forms.Panel();
+			this.PosB2Pnl = new System.Windows.Forms.Panel();
+			this.PosB1Pnl = new System.Windows.Forms.Panel();
+			this.PosB3Pnl = new System.Windows.Forms.Panel();
+			this.PosB10Pnl = new System.Windows.Forms.Panel();
+			this.PosB9Pnl = new System.Windows.Forms.Panel();
+			this.PosB8Pnl = new System.Windows.Forms.Panel();
+			this.PosB7Pnl = new System.Windows.Forms.Panel();
+			this.PosB6Pnl = new System.Windows.Forms.Panel();
+			this.PosB5Pnl = new System.Windows.Forms.Panel();
+			this.PosB4Pnl = new System.Windows.Forms.Panel();
+			this.PosA2Pnl = new System.Windows.Forms.Panel();
+			this.PosA1Pnl = new System.Windows.Forms.Panel();
+			this.PosA3Pnl = new System.Windows.Forms.Panel();
+			this.PosA10Pnl = new System.Windows.Forms.Panel();
+			this.PosA9Pnl = new System.Windows.Forms.Panel();
+			this.PosA8Pnl = new System.Windows.Forms.Panel();
+			this.PosA7Pnl = new System.Windows.Forms.Panel();
+			this.PosA6Pnl = new System.Windows.Forms.Panel();
+			this.PosA5Pnl = new System.Windows.Forms.Panel();
+			this.PosA4Pnl = new System.Windows.Forms.Panel();
+			this.BattlefieldLbl = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
+			this.BorderPnl = new System.Windows.Forms.Panel();
 			((System.ComponentModel.ISupportInitialize)(this.MainPnl)).BeginInit();
 			this.MainPnl.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.CommanderFieldGbx)).BeginInit();
@@ -1458,12 +1458,733 @@
 			this.EnemyFieldGbx.TabIndex = 38;
 			this.EnemyFieldGbx.Values.Heading = "Enemy    Fleet";
 			// 
+			// PosJ2Pnl
+			// 
+			this.PosJ2Pnl.Location = new System.Drawing.Point(59, 363);
+			this.PosJ2Pnl.Name = "PosJ2Pnl";
+			this.PosJ2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ2Pnl.TabIndex = 404;
+			this.PosJ2Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosJ2Pnl_MouseClick);
+			// 
+			// PosJ1Pnl
+			// 
+			this.PosJ1Pnl.Location = new System.Drawing.Point(17, 363);
+			this.PosJ1Pnl.Name = "PosJ1Pnl";
+			this.PosJ1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ1Pnl.TabIndex = 402;
+			this.PosJ1Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosJ1Pnl_MouseClick);
+			// 
+			// PosJ3Pnl
+			// 
+			this.PosJ3Pnl.Location = new System.Drawing.Point(101, 363);
+			this.PosJ3Pnl.Name = "PosJ3Pnl";
+			this.PosJ3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ3Pnl.TabIndex = 403;
+			this.PosJ3Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosJ3Pnl_MouseClick);
+			// 
+			// PosJ10Pnl
+			// 
+			this.PosJ10Pnl.Location = new System.Drawing.Point(397, 363);
+			this.PosJ10Pnl.Name = "PosJ10Pnl";
+			this.PosJ10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ10Pnl.TabIndex = 411;
+			this.PosJ10Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosJ10Pnl_MouseClick);
+			// 
+			// PosJ9Pnl
+			// 
+			this.PosJ9Pnl.Location = new System.Drawing.Point(355, 363);
+			this.PosJ9Pnl.Name = "PosJ9Pnl";
+			this.PosJ9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ9Pnl.TabIndex = 408;
+			this.PosJ9Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosJ9Pnl_MouseClick);
+			// 
+			// PosJ8Pnl
+			// 
+			this.PosJ8Pnl.Location = new System.Drawing.Point(313, 363);
+			this.PosJ8Pnl.Name = "PosJ8Pnl";
+			this.PosJ8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ8Pnl.TabIndex = 409;
+			this.PosJ8Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosJ8Pnl_MouseClick);
+			// 
+			// PosJ7Pnl
+			// 
+			this.PosJ7Pnl.Location = new System.Drawing.Point(271, 363);
+			this.PosJ7Pnl.Name = "PosJ7Pnl";
+			this.PosJ7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ7Pnl.TabIndex = 410;
+			this.PosJ7Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosJ7Pnl_MouseClick);
+			// 
+			// PosJ6Pnl
+			// 
+			this.PosJ6Pnl.Location = new System.Drawing.Point(228, 363);
+			this.PosJ6Pnl.Name = "PosJ6Pnl";
+			this.PosJ6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ6Pnl.TabIndex = 405;
+			this.PosJ6Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosJ6Pnl_MouseClick);
+			// 
+			// PosJ5Pnl
+			// 
+			this.PosJ5Pnl.Location = new System.Drawing.Point(186, 363);
+			this.PosJ5Pnl.Name = "PosJ5Pnl";
+			this.PosJ5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ5Pnl.TabIndex = 406;
+			this.PosJ5Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosJ5Pnl_MouseClick);
+			// 
+			// PosJ4Pnl
+			// 
+			this.PosJ4Pnl.Location = new System.Drawing.Point(144, 363);
+			this.PosJ4Pnl.Name = "PosJ4Pnl";
+			this.PosJ4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ4Pnl.TabIndex = 407;
+			this.PosJ4Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosJ4Pnl_MouseClick);
+			// 
+			// PosI2Pnl
+			// 
+			this.PosI2Pnl.Location = new System.Drawing.Point(59, 324);
+			this.PosI2Pnl.Name = "PosI2Pnl";
+			this.PosI2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI2Pnl.TabIndex = 394;
+			this.PosI2Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosI2Pnl_MouseClick);
+			// 
+			// PosI1Pnl
+			// 
+			this.PosI1Pnl.Location = new System.Drawing.Point(17, 324);
+			this.PosI1Pnl.Name = "PosI1Pnl";
+			this.PosI1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI1Pnl.TabIndex = 392;
+			this.PosI1Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosI1Pnl_MouseClick);
+			// 
+			// PosI3Pnl
+			// 
+			this.PosI3Pnl.Location = new System.Drawing.Point(101, 324);
+			this.PosI3Pnl.Name = "PosI3Pnl";
+			this.PosI3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI3Pnl.TabIndex = 393;
+			this.PosI3Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosI3Pnl_MouseClick);
+			// 
+			// PosI10Pnl
+			// 
+			this.PosI10Pnl.Location = new System.Drawing.Point(397, 324);
+			this.PosI10Pnl.Name = "PosI10Pnl";
+			this.PosI10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI10Pnl.TabIndex = 401;
+			this.PosI10Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosI10Pnl_MouseClick);
+			// 
+			// PosI9Pnl
+			// 
+			this.PosI9Pnl.Location = new System.Drawing.Point(355, 324);
+			this.PosI9Pnl.Name = "PosI9Pnl";
+			this.PosI9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI9Pnl.TabIndex = 398;
+			this.PosI9Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosI9Pnl_MouseClick);
+			// 
+			// PosI8Pnl
+			// 
+			this.PosI8Pnl.Location = new System.Drawing.Point(313, 324);
+			this.PosI8Pnl.Name = "PosI8Pnl";
+			this.PosI8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI8Pnl.TabIndex = 399;
+			this.PosI8Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosI8Pnl_MouseClick);
+			// 
+			// PosI7Pnl
+			// 
+			this.PosI7Pnl.Location = new System.Drawing.Point(271, 324);
+			this.PosI7Pnl.Name = "PosI7Pnl";
+			this.PosI7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI7Pnl.TabIndex = 400;
+			this.PosI7Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosI7Pnl_MouseClick);
+			// 
+			// PosI6Pnl
+			// 
+			this.PosI6Pnl.Location = new System.Drawing.Point(228, 324);
+			this.PosI6Pnl.Name = "PosI6Pnl";
+			this.PosI6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI6Pnl.TabIndex = 395;
+			this.PosI6Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosI6Pnl_MouseClick);
+			// 
+			// PosI5Pnl
+			// 
+			this.PosI5Pnl.Location = new System.Drawing.Point(186, 324);
+			this.PosI5Pnl.Name = "PosI5Pnl";
+			this.PosI5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI5Pnl.TabIndex = 396;
+			this.PosI5Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosI5Pnl_MouseClick);
+			// 
+			// PosI4Pnl
+			// 
+			this.PosI4Pnl.Location = new System.Drawing.Point(144, 324);
+			this.PosI4Pnl.Name = "PosI4Pnl";
+			this.PosI4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI4Pnl.TabIndex = 397;
+			this.PosI4Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosI4Pnl_MouseClick);
+			// 
+			// PosH2Pnl
+			// 
+			this.PosH2Pnl.Location = new System.Drawing.Point(59, 285);
+			this.PosH2Pnl.Name = "PosH2Pnl";
+			this.PosH2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH2Pnl.TabIndex = 384;
+			this.PosH2Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosH2Pnl_MouseClick);
+			// 
+			// PosH1Pnl
+			// 
+			this.PosH1Pnl.Location = new System.Drawing.Point(17, 285);
+			this.PosH1Pnl.Name = "PosH1Pnl";
+			this.PosH1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH1Pnl.TabIndex = 382;
+			this.PosH1Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosH1Pnl_MouseClick);
+			// 
+			// PosH3Pnl
+			// 
+			this.PosH3Pnl.Location = new System.Drawing.Point(101, 285);
+			this.PosH3Pnl.Name = "PosH3Pnl";
+			this.PosH3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH3Pnl.TabIndex = 383;
+			this.PosH3Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosH3Pnl_MouseClick);
+			// 
+			// PosH10Pnl
+			// 
+			this.PosH10Pnl.Location = new System.Drawing.Point(397, 285);
+			this.PosH10Pnl.Name = "PosH10Pnl";
+			this.PosH10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH10Pnl.TabIndex = 391;
+			this.PosH10Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosH10Pnl_MouseClick);
+			// 
+			// PosH9Pnl
+			// 
+			this.PosH9Pnl.Location = new System.Drawing.Point(355, 285);
+			this.PosH9Pnl.Name = "PosH9Pnl";
+			this.PosH9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH9Pnl.TabIndex = 388;
+			this.PosH9Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosH9Pnl_MouseClick);
+			// 
+			// PosH8Pnl
+			// 
+			this.PosH8Pnl.Location = new System.Drawing.Point(313, 285);
+			this.PosH8Pnl.Name = "PosH8Pnl";
+			this.PosH8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH8Pnl.TabIndex = 389;
+			this.PosH8Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosH8Pnl_MouseClick);
+			// 
+			// PosH7Pnl
+			// 
+			this.PosH7Pnl.Location = new System.Drawing.Point(271, 285);
+			this.PosH7Pnl.Name = "PosH7Pnl";
+			this.PosH7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH7Pnl.TabIndex = 390;
+			this.PosH7Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosH7Pnl_MouseClick);
+			// 
+			// PosH6Pnl
+			// 
+			this.PosH6Pnl.Location = new System.Drawing.Point(228, 285);
+			this.PosH6Pnl.Name = "PosH6Pnl";
+			this.PosH6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH6Pnl.TabIndex = 385;
+			this.PosH6Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosH6Pnl_MouseClick);
+			// 
+			// PosH5Pnl
+			// 
+			this.PosH5Pnl.Location = new System.Drawing.Point(186, 285);
+			this.PosH5Pnl.Name = "PosH5Pnl";
+			this.PosH5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH5Pnl.TabIndex = 386;
+			this.PosH5Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosH5Pnl_MouseClick);
+			// 
+			// PosH4Pnl
+			// 
+			this.PosH4Pnl.Location = new System.Drawing.Point(144, 285);
+			this.PosH4Pnl.Name = "PosH4Pnl";
+			this.PosH4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH4Pnl.TabIndex = 387;
+			this.PosH4Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosH4Pnl_MouseClick);
+			// 
+			// PosG2Pnl
+			// 
+			this.PosG2Pnl.Location = new System.Drawing.Point(59, 246);
+			this.PosG2Pnl.Name = "PosG2Pnl";
+			this.PosG2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG2Pnl.TabIndex = 374;
+			this.PosG2Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosG2Pnl_MouseClick);
+			// 
+			// PosG1Pnl
+			// 
+			this.PosG1Pnl.Location = new System.Drawing.Point(17, 246);
+			this.PosG1Pnl.Name = "PosG1Pnl";
+			this.PosG1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG1Pnl.TabIndex = 372;
+			this.PosG1Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosG1Pnl_MouseClick);
+			// 
+			// PosG3Pnl
+			// 
+			this.PosG3Pnl.Location = new System.Drawing.Point(101, 246);
+			this.PosG3Pnl.Name = "PosG3Pnl";
+			this.PosG3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG3Pnl.TabIndex = 373;
+			this.PosG3Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosG3Pnl_MouseClick);
+			// 
+			// PosG10Pnl
+			// 
+			this.PosG10Pnl.Location = new System.Drawing.Point(397, 246);
+			this.PosG10Pnl.Name = "PosG10Pnl";
+			this.PosG10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG10Pnl.TabIndex = 381;
+			this.PosG10Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosG10Pnl_MouseClick);
+			// 
+			// PosG9Pnl
+			// 
+			this.PosG9Pnl.Location = new System.Drawing.Point(355, 246);
+			this.PosG9Pnl.Name = "PosG9Pnl";
+			this.PosG9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG9Pnl.TabIndex = 378;
+			this.PosG9Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosG9Pnl_MouseClick);
+			// 
+			// PosG8Pnl
+			// 
+			this.PosG8Pnl.Location = new System.Drawing.Point(313, 246);
+			this.PosG8Pnl.Name = "PosG8Pnl";
+			this.PosG8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG8Pnl.TabIndex = 379;
+			this.PosG8Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosG8Pnl_MouseClick);
+			// 
+			// PosG7Pnl
+			// 
+			this.PosG7Pnl.Location = new System.Drawing.Point(271, 246);
+			this.PosG7Pnl.Name = "PosG7Pnl";
+			this.PosG7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG7Pnl.TabIndex = 380;
+			this.PosG7Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosG7Pnl_MouseClick);
+			// 
+			// PosG6Pnl
+			// 
+			this.PosG6Pnl.Location = new System.Drawing.Point(228, 246);
+			this.PosG6Pnl.Name = "PosG6Pnl";
+			this.PosG6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG6Pnl.TabIndex = 375;
+			this.PosG6Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosG6Pnl_MouseClick);
+			// 
+			// PosG5Pnl
+			// 
+			this.PosG5Pnl.Location = new System.Drawing.Point(186, 246);
+			this.PosG5Pnl.Name = "PosG5Pnl";
+			this.PosG5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG5Pnl.TabIndex = 376;
+			this.PosG5Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosG5Pnl_MouseClick);
+			// 
+			// PosG4Pnl
+			// 
+			this.PosG4Pnl.Location = new System.Drawing.Point(144, 246);
+			this.PosG4Pnl.Name = "PosG4Pnl";
+			this.PosG4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG4Pnl.TabIndex = 377;
+			this.PosG4Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosG4Pnl_MouseClick);
+			// 
+			// PosF2Pnl
+			// 
+			this.PosF2Pnl.Location = new System.Drawing.Point(59, 207);
+			this.PosF2Pnl.Name = "PosF2Pnl";
+			this.PosF2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF2Pnl.TabIndex = 364;
+			this.PosF2Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosF2Pnl_MouseClick);
+			// 
+			// PosF1Pnl
+			// 
+			this.PosF1Pnl.Location = new System.Drawing.Point(17, 207);
+			this.PosF1Pnl.Name = "PosF1Pnl";
+			this.PosF1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF1Pnl.TabIndex = 362;
+			this.PosF1Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosF1Pnl_MouseClick);
+			// 
+			// PosF3Pnl
+			// 
+			this.PosF3Pnl.Location = new System.Drawing.Point(101, 207);
+			this.PosF3Pnl.Name = "PosF3Pnl";
+			this.PosF3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF3Pnl.TabIndex = 363;
+			this.PosF3Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosF3Pnl_MouseClick);
+			// 
+			// PosF10Pnl
+			// 
+			this.PosF10Pnl.Location = new System.Drawing.Point(397, 207);
+			this.PosF10Pnl.Name = "PosF10Pnl";
+			this.PosF10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF10Pnl.TabIndex = 371;
+			this.PosF10Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosF10Pnl_MouseClick);
+			// 
+			// PosF9Pnl
+			// 
+			this.PosF9Pnl.Location = new System.Drawing.Point(355, 207);
+			this.PosF9Pnl.Name = "PosF9Pnl";
+			this.PosF9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF9Pnl.TabIndex = 368;
+			this.PosF9Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosF9Pnl_MouseClick);
+			// 
+			// PosF8Pnl
+			// 
+			this.PosF8Pnl.Location = new System.Drawing.Point(313, 207);
+			this.PosF8Pnl.Name = "PosF8Pnl";
+			this.PosF8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF8Pnl.TabIndex = 369;
+			this.PosF8Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosF8Pnl_MouseClick);
+			// 
+			// PosF7Pnl
+			// 
+			this.PosF7Pnl.Location = new System.Drawing.Point(271, 207);
+			this.PosF7Pnl.Name = "PosF7Pnl";
+			this.PosF7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF7Pnl.TabIndex = 370;
+			this.PosF7Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosF7Pnl_MouseClick);
+			// 
+			// PosF6Pnl
+			// 
+			this.PosF6Pnl.Location = new System.Drawing.Point(228, 207);
+			this.PosF6Pnl.Name = "PosF6Pnl";
+			this.PosF6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF6Pnl.TabIndex = 365;
+			this.PosF6Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosF6Pnl_MouseClick);
+			// 
+			// PosF5Pnl
+			// 
+			this.PosF5Pnl.Location = new System.Drawing.Point(186, 207);
+			this.PosF5Pnl.Name = "PosF5Pnl";
+			this.PosF5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF5Pnl.TabIndex = 366;
+			this.PosF5Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosF5Pnl_MouseClick);
+			// 
+			// PosF4Pnl
+			// 
+			this.PosF4Pnl.Location = new System.Drawing.Point(144, 207);
+			this.PosF4Pnl.Name = "PosF4Pnl";
+			this.PosF4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF4Pnl.TabIndex = 367;
+			this.PosF4Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosF4Pnl_MouseClick);
+			// 
+			// PosE2Pnl
+			// 
+			this.PosE2Pnl.Location = new System.Drawing.Point(59, 168);
+			this.PosE2Pnl.Name = "PosE2Pnl";
+			this.PosE2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE2Pnl.TabIndex = 354;
+			this.PosE2Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosE2Pnl_MouseClick);
+			// 
+			// PosE1Pnl
+			// 
+			this.PosE1Pnl.Location = new System.Drawing.Point(17, 168);
+			this.PosE1Pnl.Name = "PosE1Pnl";
+			this.PosE1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE1Pnl.TabIndex = 352;
+			this.PosE1Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosE1Pnl_MouseClick);
+			// 
+			// PosE3Pnl
+			// 
+			this.PosE3Pnl.Location = new System.Drawing.Point(101, 168);
+			this.PosE3Pnl.Name = "PosE3Pnl";
+			this.PosE3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE3Pnl.TabIndex = 353;
+			this.PosE3Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosE3Pnl_MouseClick);
+			// 
+			// PosE10Pnl
+			// 
+			this.PosE10Pnl.Location = new System.Drawing.Point(397, 168);
+			this.PosE10Pnl.Name = "PosE10Pnl";
+			this.PosE10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE10Pnl.TabIndex = 361;
+			this.PosE10Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosE10Pnl_MouseClick);
+			// 
+			// PosE9Pnl
+			// 
+			this.PosE9Pnl.Location = new System.Drawing.Point(355, 168);
+			this.PosE9Pnl.Name = "PosE9Pnl";
+			this.PosE9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE9Pnl.TabIndex = 358;
+			this.PosE9Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosE9Pnl_MouseClick);
+			// 
+			// PosE8Pnl
+			// 
+			this.PosE8Pnl.Location = new System.Drawing.Point(313, 168);
+			this.PosE8Pnl.Name = "PosE8Pnl";
+			this.PosE8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE8Pnl.TabIndex = 359;
+			this.PosE8Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosE8Pnl_MouseClick);
+			// 
+			// PosE7Pnl
+			// 
+			this.PosE7Pnl.Location = new System.Drawing.Point(271, 168);
+			this.PosE7Pnl.Name = "PosE7Pnl";
+			this.PosE7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE7Pnl.TabIndex = 360;
+			this.PosE7Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosE7Pnl_MouseClick);
+			// 
+			// PosE6Pnl
+			// 
+			this.PosE6Pnl.Location = new System.Drawing.Point(228, 168);
+			this.PosE6Pnl.Name = "PosE6Pnl";
+			this.PosE6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE6Pnl.TabIndex = 355;
+			this.PosE6Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosE6Pnl_MouseClick);
+			// 
+			// PosE5Pnl
+			// 
+			this.PosE5Pnl.Location = new System.Drawing.Point(186, 168);
+			this.PosE5Pnl.Name = "PosE5Pnl";
+			this.PosE5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE5Pnl.TabIndex = 356;
+			this.PosE5Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosE5Pnl_MouseClick);
+			// 
+			// PosE4Pnl
+			// 
+			this.PosE4Pnl.Location = new System.Drawing.Point(144, 168);
+			this.PosE4Pnl.Name = "PosE4Pnl";
+			this.PosE4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE4Pnl.TabIndex = 357;
+			this.PosE4Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosE4Pnl_MouseClick);
+			// 
+			// PosD2Pnl
+			// 
+			this.PosD2Pnl.Location = new System.Drawing.Point(59, 129);
+			this.PosD2Pnl.Name = "PosD2Pnl";
+			this.PosD2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD2Pnl.TabIndex = 344;
+			this.PosD2Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosD2Pnl_MouseClick);
+			// 
+			// PosD1Pnl
+			// 
+			this.PosD1Pnl.Location = new System.Drawing.Point(17, 129);
+			this.PosD1Pnl.Name = "PosD1Pnl";
+			this.PosD1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD1Pnl.TabIndex = 342;
+			this.PosD1Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosD1Pnl_MouseClick);
+			// 
+			// PosD3Pnl
+			// 
+			this.PosD3Pnl.Location = new System.Drawing.Point(101, 129);
+			this.PosD3Pnl.Name = "PosD3Pnl";
+			this.PosD3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD3Pnl.TabIndex = 343;
+			this.PosD3Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosD3Pnl_MouseClick);
+			// 
+			// PosD10Pnl
+			// 
+			this.PosD10Pnl.Location = new System.Drawing.Point(397, 129);
+			this.PosD10Pnl.Name = "PosD10Pnl";
+			this.PosD10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD10Pnl.TabIndex = 351;
+			this.PosD10Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosD10Pnl_MouseClick);
+			// 
+			// PosD9Pnl
+			// 
+			this.PosD9Pnl.Location = new System.Drawing.Point(355, 129);
+			this.PosD9Pnl.Name = "PosD9Pnl";
+			this.PosD9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD9Pnl.TabIndex = 348;
+			this.PosD9Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosD9Pnl_MouseClick);
+			// 
+			// PosD8Pnl
+			// 
+			this.PosD8Pnl.Location = new System.Drawing.Point(313, 129);
+			this.PosD8Pnl.Name = "PosD8Pnl";
+			this.PosD8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD8Pnl.TabIndex = 349;
+			this.PosD8Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosD8Pnl_MouseClick);
+			// 
+			// PosD7Pnl
+			// 
+			this.PosD7Pnl.Location = new System.Drawing.Point(271, 129);
+			this.PosD7Pnl.Name = "PosD7Pnl";
+			this.PosD7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD7Pnl.TabIndex = 350;
+			this.PosD7Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosD7Pnl_MouseClick);
+			// 
+			// PosD6Pnl
+			// 
+			this.PosD6Pnl.Location = new System.Drawing.Point(228, 129);
+			this.PosD6Pnl.Name = "PosD6Pnl";
+			this.PosD6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD6Pnl.TabIndex = 345;
+			this.PosD6Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosD6Pnl_MouseClick);
+			// 
+			// PosD5Pnl
+			// 
+			this.PosD5Pnl.Location = new System.Drawing.Point(186, 129);
+			this.PosD5Pnl.Name = "PosD5Pnl";
+			this.PosD5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD5Pnl.TabIndex = 346;
+			this.PosD5Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosD5Pnl_MouseClick);
+			// 
+			// PosD4Pnl
+			// 
+			this.PosD4Pnl.Location = new System.Drawing.Point(144, 129);
+			this.PosD4Pnl.Name = "PosD4Pnl";
+			this.PosD4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD4Pnl.TabIndex = 347;
+			this.PosD4Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosD4Pnl_MouseClick);
+			// 
+			// PosC2Pnl
+			// 
+			this.PosC2Pnl.Location = new System.Drawing.Point(59, 90);
+			this.PosC2Pnl.Name = "PosC2Pnl";
+			this.PosC2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC2Pnl.TabIndex = 334;
+			this.PosC2Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosC2Pnl_MouseClick);
+			// 
+			// PosC1Pnl
+			// 
+			this.PosC1Pnl.Location = new System.Drawing.Point(17, 90);
+			this.PosC1Pnl.Name = "PosC1Pnl";
+			this.PosC1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC1Pnl.TabIndex = 332;
+			this.PosC1Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosC1Pnl_MouseClick);
+			// 
+			// PosC3Pnl
+			// 
+			this.PosC3Pnl.Location = new System.Drawing.Point(101, 90);
+			this.PosC3Pnl.Name = "PosC3Pnl";
+			this.PosC3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC3Pnl.TabIndex = 333;
+			this.PosC3Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosC3Pnl_MouseClick);
+			// 
+			// PosC10Pnl
+			// 
+			this.PosC10Pnl.Location = new System.Drawing.Point(397, 90);
+			this.PosC10Pnl.Name = "PosC10Pnl";
+			this.PosC10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC10Pnl.TabIndex = 341;
+			this.PosC10Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosC10Pnl_MouseClick);
+			// 
+			// PosC9Pnl
+			// 
+			this.PosC9Pnl.Location = new System.Drawing.Point(355, 90);
+			this.PosC9Pnl.Name = "PosC9Pnl";
+			this.PosC9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC9Pnl.TabIndex = 338;
+			this.PosC9Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosC9Pnl_MouseClick);
+			// 
+			// PosC8Pnl
+			// 
+			this.PosC8Pnl.Location = new System.Drawing.Point(313, 90);
+			this.PosC8Pnl.Name = "PosC8Pnl";
+			this.PosC8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC8Pnl.TabIndex = 339;
+			this.PosC8Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosC8Pnl_MouseClick);
+			// 
+			// PosC7Pnl
+			// 
+			this.PosC7Pnl.Location = new System.Drawing.Point(271, 90);
+			this.PosC7Pnl.Name = "PosC7Pnl";
+			this.PosC7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC7Pnl.TabIndex = 340;
+			this.PosC7Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosC7Pnl_MouseClick);
+			// 
+			// PosC6Pnl
+			// 
+			this.PosC6Pnl.Location = new System.Drawing.Point(228, 90);
+			this.PosC6Pnl.Name = "PosC6Pnl";
+			this.PosC6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC6Pnl.TabIndex = 335;
+			this.PosC6Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosC6Pnl_MouseClick);
+			// 
+			// PosC5Pnl
+			// 
+			this.PosC5Pnl.Location = new System.Drawing.Point(186, 90);
+			this.PosC5Pnl.Name = "PosC5Pnl";
+			this.PosC5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC5Pnl.TabIndex = 336;
+			this.PosC5Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosC5Pnl_MouseClick);
+			// 
+			// PosC4Pnl
+			// 
+			this.PosC4Pnl.Location = new System.Drawing.Point(144, 90);
+			this.PosC4Pnl.Name = "PosC4Pnl";
+			this.PosC4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC4Pnl.TabIndex = 337;
+			this.PosC4Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosC4Pnl_MouseClick);
+			// 
+			// PosB2Pnl
+			// 
+			this.PosB2Pnl.Location = new System.Drawing.Point(59, 51);
+			this.PosB2Pnl.Name = "PosB2Pnl";
+			this.PosB2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB2Pnl.TabIndex = 324;
+			this.PosB2Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosB2Pnl_MouseClick);
+			// 
+			// PosB1Pnl
+			// 
+			this.PosB1Pnl.Location = new System.Drawing.Point(17, 51);
+			this.PosB1Pnl.Name = "PosB1Pnl";
+			this.PosB1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB1Pnl.TabIndex = 322;
+			this.PosB1Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosB1Pnl_MouseClick);
+			// 
+			// PosB3Pnl
+			// 
+			this.PosB3Pnl.Location = new System.Drawing.Point(101, 51);
+			this.PosB3Pnl.Name = "PosB3Pnl";
+			this.PosB3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB3Pnl.TabIndex = 323;
+			this.PosB3Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosB3Pnl_MouseClick);
+			// 
+			// PosB10Pnl
+			// 
+			this.PosB10Pnl.Location = new System.Drawing.Point(397, 51);
+			this.PosB10Pnl.Name = "PosB10Pnl";
+			this.PosB10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB10Pnl.TabIndex = 331;
+			this.PosB10Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosB10Pnl_MouseClick);
+			// 
+			// PosB9Pnl
+			// 
+			this.PosB9Pnl.Location = new System.Drawing.Point(355, 51);
+			this.PosB9Pnl.Name = "PosB9Pnl";
+			this.PosB9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB9Pnl.TabIndex = 328;
+			this.PosB9Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosB9Pnl_MouseClick);
+			// 
+			// PosB8Pnl
+			// 
+			this.PosB8Pnl.Location = new System.Drawing.Point(313, 51);
+			this.PosB8Pnl.Name = "PosB8Pnl";
+			this.PosB8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB8Pnl.TabIndex = 329;
+			this.PosB8Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosB8Pnl_MouseClick);
+			// 
+			// PosB7Pnl
+			// 
+			this.PosB7Pnl.Location = new System.Drawing.Point(271, 51);
+			this.PosB7Pnl.Name = "PosB7Pnl";
+			this.PosB7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB7Pnl.TabIndex = 330;
+			this.PosB7Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosB7Pnl_MouseClick);
+			// 
+			// PosB6Pnl
+			// 
+			this.PosB6Pnl.Location = new System.Drawing.Point(228, 51);
+			this.PosB6Pnl.Name = "PosB6Pnl";
+			this.PosB6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB6Pnl.TabIndex = 325;
+			this.PosB6Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosB6Pnl_MouseClick);
+			// 
+			// PosB5Pnl
+			// 
+			this.PosB5Pnl.Location = new System.Drawing.Point(186, 51);
+			this.PosB5Pnl.Name = "PosB5Pnl";
+			this.PosB5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB5Pnl.TabIndex = 326;
+			this.PosB5Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosB5Pnl_MouseClick);
+			// 
+			// PosB4Pnl
+			// 
+			this.PosB4Pnl.Location = new System.Drawing.Point(144, 51);
+			this.PosB4Pnl.Name = "PosB4Pnl";
+			this.PosB4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB4Pnl.TabIndex = 327;
+			this.PosB4Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosB4Pnl_MouseClick);
+			// 
 			// PosA2Pnl
 			// 
 			this.PosA2Pnl.Location = new System.Drawing.Point(59, 12);
 			this.PosA2Pnl.Name = "PosA2Pnl";
 			this.PosA2Pnl.Size = new System.Drawing.Size(36, 33);
 			this.PosA2Pnl.TabIndex = 314;
+			this.PosA2Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosA2Pnl_MouseClick);
 			// 
 			// PosA1Pnl
 			// 
@@ -1471,6 +2192,7 @@
 			this.PosA1Pnl.Name = "PosA1Pnl";
 			this.PosA1Pnl.Size = new System.Drawing.Size(36, 33);
 			this.PosA1Pnl.TabIndex = 312;
+			this.PosA1Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosA1Pnl_MouseClick);
 			// 
 			// PosA3Pnl
 			// 
@@ -1478,6 +2200,7 @@
 			this.PosA3Pnl.Name = "PosA3Pnl";
 			this.PosA3Pnl.Size = new System.Drawing.Size(36, 33);
 			this.PosA3Pnl.TabIndex = 313;
+			this.PosA3Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosA3Pnl_MouseClick);
 			// 
 			// PosA10Pnl
 			// 
@@ -1485,6 +2208,7 @@
 			this.PosA10Pnl.Name = "PosA10Pnl";
 			this.PosA10Pnl.Size = new System.Drawing.Size(36, 33);
 			this.PosA10Pnl.TabIndex = 321;
+			this.PosA10Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosA10Pnl_MouseClick);
 			// 
 			// PosA9Pnl
 			// 
@@ -1492,6 +2216,7 @@
 			this.PosA9Pnl.Name = "PosA9Pnl";
 			this.PosA9Pnl.Size = new System.Drawing.Size(36, 33);
 			this.PosA9Pnl.TabIndex = 318;
+			this.PosA9Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosA9Pnl_MouseClick);
 			// 
 			// PosA8Pnl
 			// 
@@ -1499,6 +2224,7 @@
 			this.PosA8Pnl.Name = "PosA8Pnl";
 			this.PosA8Pnl.Size = new System.Drawing.Size(36, 33);
 			this.PosA8Pnl.TabIndex = 319;
+			this.PosA8Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosA8Pnl_MouseClick);
 			// 
 			// PosA7Pnl
 			// 
@@ -1506,6 +2232,7 @@
 			this.PosA7Pnl.Name = "PosA7Pnl";
 			this.PosA7Pnl.Size = new System.Drawing.Size(36, 33);
 			this.PosA7Pnl.TabIndex = 320;
+			this.PosA7Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosA7Pnl_MouseClick);
 			// 
 			// PosA6Pnl
 			// 
@@ -1513,6 +2240,7 @@
 			this.PosA6Pnl.Name = "PosA6Pnl";
 			this.PosA6Pnl.Size = new System.Drawing.Size(36, 33);
 			this.PosA6Pnl.TabIndex = 315;
+			this.PosA6Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosA6Pnl_MouseClick);
 			// 
 			// PosA5Pnl
 			// 
@@ -1520,6 +2248,7 @@
 			this.PosA5Pnl.Name = "PosA5Pnl";
 			this.PosA5Pnl.Size = new System.Drawing.Size(36, 33);
 			this.PosA5Pnl.TabIndex = 316;
+			this.PosA5Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosA5Pnl_MouseClick);
 			// 
 			// PosA4Pnl
 			// 
@@ -1527,6 +2256,7 @@
 			this.PosA4Pnl.Name = "PosA4Pnl";
 			this.PosA4Pnl.Size = new System.Drawing.Size(36, 33);
 			this.PosA4Pnl.TabIndex = 317;
+			this.PosA4Pnl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PosA4Pnl_MouseClick);
 			// 
 			// BattlefieldLbl
 			// 
@@ -1571,636 +2301,6 @@
 			this.BorderPnl.Name = "BorderPnl";
 			this.BorderPnl.Size = new System.Drawing.Size(23, 504);
 			this.BorderPnl.TabIndex = 37;
-			// 
-			// PosB2Pnl
-			// 
-			this.PosB2Pnl.Location = new System.Drawing.Point(59, 51);
-			this.PosB2Pnl.Name = "PosB2Pnl";
-			this.PosB2Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosB2Pnl.TabIndex = 324;
-			// 
-			// PosB1Pnl
-			// 
-			this.PosB1Pnl.Location = new System.Drawing.Point(17, 51);
-			this.PosB1Pnl.Name = "PosB1Pnl";
-			this.PosB1Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosB1Pnl.TabIndex = 322;
-			// 
-			// PosB3Pnl
-			// 
-			this.PosB3Pnl.Location = new System.Drawing.Point(101, 51);
-			this.PosB3Pnl.Name = "PosB3Pnl";
-			this.PosB3Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosB3Pnl.TabIndex = 323;
-			// 
-			// PosB10Pnl
-			// 
-			this.PosB10Pnl.Location = new System.Drawing.Point(397, 51);
-			this.PosB10Pnl.Name = "PosB10Pnl";
-			this.PosB10Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosB10Pnl.TabIndex = 331;
-			// 
-			// PosB9Pnl
-			// 
-			this.PosB9Pnl.Location = new System.Drawing.Point(355, 51);
-			this.PosB9Pnl.Name = "PosB9Pnl";
-			this.PosB9Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosB9Pnl.TabIndex = 328;
-			// 
-			// PosB8Pnl
-			// 
-			this.PosB8Pnl.Location = new System.Drawing.Point(313, 51);
-			this.PosB8Pnl.Name = "PosB8Pnl";
-			this.PosB8Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosB8Pnl.TabIndex = 329;
-			// 
-			// PosB7Pnl
-			// 
-			this.PosB7Pnl.Location = new System.Drawing.Point(271, 51);
-			this.PosB7Pnl.Name = "PosB7Pnl";
-			this.PosB7Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosB7Pnl.TabIndex = 330;
-			// 
-			// PosB6Pnl
-			// 
-			this.PosB6Pnl.Location = new System.Drawing.Point(228, 51);
-			this.PosB6Pnl.Name = "PosB6Pnl";
-			this.PosB6Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosB6Pnl.TabIndex = 325;
-			// 
-			// PosB5Pnl
-			// 
-			this.PosB5Pnl.Location = new System.Drawing.Point(186, 51);
-			this.PosB5Pnl.Name = "PosB5Pnl";
-			this.PosB5Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosB5Pnl.TabIndex = 326;
-			// 
-			// PosB4Pnl
-			// 
-			this.PosB4Pnl.Location = new System.Drawing.Point(144, 51);
-			this.PosB4Pnl.Name = "PosB4Pnl";
-			this.PosB4Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosB4Pnl.TabIndex = 327;
-			// 
-			// PosC2Pnl
-			// 
-			this.PosC2Pnl.Location = new System.Drawing.Point(59, 90);
-			this.PosC2Pnl.Name = "PosC2Pnl";
-			this.PosC2Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosC2Pnl.TabIndex = 334;
-			// 
-			// PosC1Pnl
-			// 
-			this.PosC1Pnl.Location = new System.Drawing.Point(17, 90);
-			this.PosC1Pnl.Name = "PosC1Pnl";
-			this.PosC1Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosC1Pnl.TabIndex = 332;
-			// 
-			// PosC3Pnl
-			// 
-			this.PosC3Pnl.Location = new System.Drawing.Point(101, 90);
-			this.PosC3Pnl.Name = "PosC3Pnl";
-			this.PosC3Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosC3Pnl.TabIndex = 333;
-			// 
-			// PosC10Pnl
-			// 
-			this.PosC10Pnl.Location = new System.Drawing.Point(397, 90);
-			this.PosC10Pnl.Name = "PosC10Pnl";
-			this.PosC10Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosC10Pnl.TabIndex = 341;
-			// 
-			// PosC9Pnl
-			// 
-			this.PosC9Pnl.Location = new System.Drawing.Point(355, 90);
-			this.PosC9Pnl.Name = "PosC9Pnl";
-			this.PosC9Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosC9Pnl.TabIndex = 338;
-			// 
-			// PosC8Pnl
-			// 
-			this.PosC8Pnl.Location = new System.Drawing.Point(313, 90);
-			this.PosC8Pnl.Name = "PosC8Pnl";
-			this.PosC8Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosC8Pnl.TabIndex = 339;
-			// 
-			// PosC7Pnl
-			// 
-			this.PosC7Pnl.Location = new System.Drawing.Point(271, 90);
-			this.PosC7Pnl.Name = "PosC7Pnl";
-			this.PosC7Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosC7Pnl.TabIndex = 340;
-			// 
-			// PosC6Pnl
-			// 
-			this.PosC6Pnl.Location = new System.Drawing.Point(228, 90);
-			this.PosC6Pnl.Name = "PosC6Pnl";
-			this.PosC6Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosC6Pnl.TabIndex = 335;
-			// 
-			// PosC5Pnl
-			// 
-			this.PosC5Pnl.Location = new System.Drawing.Point(186, 90);
-			this.PosC5Pnl.Name = "PosC5Pnl";
-			this.PosC5Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosC5Pnl.TabIndex = 336;
-			// 
-			// PosC4Pnl
-			// 
-			this.PosC4Pnl.Location = new System.Drawing.Point(144, 90);
-			this.PosC4Pnl.Name = "PosC4Pnl";
-			this.PosC4Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosC4Pnl.TabIndex = 337;
-			// 
-			// PosF2Pnl
-			// 
-			this.PosF2Pnl.Location = new System.Drawing.Point(59, 207);
-			this.PosF2Pnl.Name = "PosF2Pnl";
-			this.PosF2Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosF2Pnl.TabIndex = 364;
-			// 
-			// PosF1Pnl
-			// 
-			this.PosF1Pnl.Location = new System.Drawing.Point(17, 207);
-			this.PosF1Pnl.Name = "PosF1Pnl";
-			this.PosF1Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosF1Pnl.TabIndex = 362;
-			// 
-			// PosF3Pnl
-			// 
-			this.PosF3Pnl.Location = new System.Drawing.Point(101, 207);
-			this.PosF3Pnl.Name = "PosF3Pnl";
-			this.PosF3Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosF3Pnl.TabIndex = 363;
-			// 
-			// PosF10Pnl
-			// 
-			this.PosF10Pnl.Location = new System.Drawing.Point(397, 207);
-			this.PosF10Pnl.Name = "PosF10Pnl";
-			this.PosF10Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosF10Pnl.TabIndex = 371;
-			// 
-			// PosF9Pnl
-			// 
-			this.PosF9Pnl.Location = new System.Drawing.Point(355, 207);
-			this.PosF9Pnl.Name = "PosF9Pnl";
-			this.PosF9Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosF9Pnl.TabIndex = 368;
-			// 
-			// PosF8Pnl
-			// 
-			this.PosF8Pnl.Location = new System.Drawing.Point(313, 207);
-			this.PosF8Pnl.Name = "PosF8Pnl";
-			this.PosF8Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosF8Pnl.TabIndex = 369;
-			// 
-			// PosF7Pnl
-			// 
-			this.PosF7Pnl.Location = new System.Drawing.Point(271, 207);
-			this.PosF7Pnl.Name = "PosF7Pnl";
-			this.PosF7Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosF7Pnl.TabIndex = 370;
-			// 
-			// PosF6Pnl
-			// 
-			this.PosF6Pnl.Location = new System.Drawing.Point(228, 207);
-			this.PosF6Pnl.Name = "PosF6Pnl";
-			this.PosF6Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosF6Pnl.TabIndex = 365;
-			// 
-			// PosF5Pnl
-			// 
-			this.PosF5Pnl.Location = new System.Drawing.Point(186, 207);
-			this.PosF5Pnl.Name = "PosF5Pnl";
-			this.PosF5Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosF5Pnl.TabIndex = 366;
-			// 
-			// PosF4Pnl
-			// 
-			this.PosF4Pnl.Location = new System.Drawing.Point(144, 207);
-			this.PosF4Pnl.Name = "PosF4Pnl";
-			this.PosF4Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosF4Pnl.TabIndex = 367;
-			// 
-			// PosE2Pnl
-			// 
-			this.PosE2Pnl.Location = new System.Drawing.Point(59, 168);
-			this.PosE2Pnl.Name = "PosE2Pnl";
-			this.PosE2Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosE2Pnl.TabIndex = 354;
-			// 
-			// PosE1Pnl
-			// 
-			this.PosE1Pnl.Location = new System.Drawing.Point(17, 168);
-			this.PosE1Pnl.Name = "PosE1Pnl";
-			this.PosE1Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosE1Pnl.TabIndex = 352;
-			// 
-			// PosE3Pnl
-			// 
-			this.PosE3Pnl.Location = new System.Drawing.Point(101, 168);
-			this.PosE3Pnl.Name = "PosE3Pnl";
-			this.PosE3Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosE3Pnl.TabIndex = 353;
-			// 
-			// PosE10Pnl
-			// 
-			this.PosE10Pnl.Location = new System.Drawing.Point(397, 168);
-			this.PosE10Pnl.Name = "PosE10Pnl";
-			this.PosE10Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosE10Pnl.TabIndex = 361;
-			// 
-			// PosE9Pnl
-			// 
-			this.PosE9Pnl.Location = new System.Drawing.Point(355, 168);
-			this.PosE9Pnl.Name = "PosE9Pnl";
-			this.PosE9Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosE9Pnl.TabIndex = 358;
-			// 
-			// PosE8Pnl
-			// 
-			this.PosE8Pnl.Location = new System.Drawing.Point(313, 168);
-			this.PosE8Pnl.Name = "PosE8Pnl";
-			this.PosE8Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosE8Pnl.TabIndex = 359;
-			// 
-			// PosE7Pnl
-			// 
-			this.PosE7Pnl.Location = new System.Drawing.Point(271, 168);
-			this.PosE7Pnl.Name = "PosE7Pnl";
-			this.PosE7Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosE7Pnl.TabIndex = 360;
-			// 
-			// PosE6Pnl
-			// 
-			this.PosE6Pnl.Location = new System.Drawing.Point(228, 168);
-			this.PosE6Pnl.Name = "PosE6Pnl";
-			this.PosE6Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosE6Pnl.TabIndex = 355;
-			// 
-			// PosE5Pnl
-			// 
-			this.PosE5Pnl.Location = new System.Drawing.Point(186, 168);
-			this.PosE5Pnl.Name = "PosE5Pnl";
-			this.PosE5Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosE5Pnl.TabIndex = 356;
-			// 
-			// PosE4Pnl
-			// 
-			this.PosE4Pnl.Location = new System.Drawing.Point(144, 168);
-			this.PosE4Pnl.Name = "PosE4Pnl";
-			this.PosE4Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosE4Pnl.TabIndex = 357;
-			// 
-			// PosD2Pnl
-			// 
-			this.PosD2Pnl.Location = new System.Drawing.Point(59, 129);
-			this.PosD2Pnl.Name = "PosD2Pnl";
-			this.PosD2Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosD2Pnl.TabIndex = 344;
-			// 
-			// PosD1Pnl
-			// 
-			this.PosD1Pnl.Location = new System.Drawing.Point(17, 129);
-			this.PosD1Pnl.Name = "PosD1Pnl";
-			this.PosD1Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosD1Pnl.TabIndex = 342;
-			// 
-			// PosD3Pnl
-			// 
-			this.PosD3Pnl.Location = new System.Drawing.Point(101, 129);
-			this.PosD3Pnl.Name = "PosD3Pnl";
-			this.PosD3Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosD3Pnl.TabIndex = 343;
-			// 
-			// PosD10Pnl
-			// 
-			this.PosD10Pnl.Location = new System.Drawing.Point(397, 129);
-			this.PosD10Pnl.Name = "PosD10Pnl";
-			this.PosD10Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosD10Pnl.TabIndex = 351;
-			// 
-			// PosD9Pnl
-			// 
-			this.PosD9Pnl.Location = new System.Drawing.Point(355, 129);
-			this.PosD9Pnl.Name = "PosD9Pnl";
-			this.PosD9Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosD9Pnl.TabIndex = 348;
-			// 
-			// PosD8Pnl
-			// 
-			this.PosD8Pnl.Location = new System.Drawing.Point(313, 129);
-			this.PosD8Pnl.Name = "PosD8Pnl";
-			this.PosD8Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosD8Pnl.TabIndex = 349;
-			// 
-			// PosD7Pnl
-			// 
-			this.PosD7Pnl.Location = new System.Drawing.Point(271, 129);
-			this.PosD7Pnl.Name = "PosD7Pnl";
-			this.PosD7Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosD7Pnl.TabIndex = 350;
-			// 
-			// PosD6Pnl
-			// 
-			this.PosD6Pnl.Location = new System.Drawing.Point(228, 129);
-			this.PosD6Pnl.Name = "PosD6Pnl";
-			this.PosD6Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosD6Pnl.TabIndex = 345;
-			// 
-			// PosD5Pnl
-			// 
-			this.PosD5Pnl.Location = new System.Drawing.Point(186, 129);
-			this.PosD5Pnl.Name = "PosD5Pnl";
-			this.PosD5Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosD5Pnl.TabIndex = 346;
-			// 
-			// PosD4Pnl
-			// 
-			this.PosD4Pnl.Location = new System.Drawing.Point(144, 129);
-			this.PosD4Pnl.Name = "PosD4Pnl";
-			this.PosD4Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosD4Pnl.TabIndex = 347;
-			// 
-			// PosI2Pnl
-			// 
-			this.PosI2Pnl.Location = new System.Drawing.Point(59, 324);
-			this.PosI2Pnl.Name = "PosI2Pnl";
-			this.PosI2Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosI2Pnl.TabIndex = 394;
-			// 
-			// PosI1Pnl
-			// 
-			this.PosI1Pnl.Location = new System.Drawing.Point(17, 324);
-			this.PosI1Pnl.Name = "PosI1Pnl";
-			this.PosI1Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosI1Pnl.TabIndex = 392;
-			// 
-			// PosI3Pnl
-			// 
-			this.PosI3Pnl.Location = new System.Drawing.Point(101, 324);
-			this.PosI3Pnl.Name = "PosI3Pnl";
-			this.PosI3Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosI3Pnl.TabIndex = 393;
-			// 
-			// PosI10Pnl
-			// 
-			this.PosI10Pnl.Location = new System.Drawing.Point(397, 324);
-			this.PosI10Pnl.Name = "PosI10Pnl";
-			this.PosI10Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosI10Pnl.TabIndex = 401;
-			// 
-			// PosI9Pnl
-			// 
-			this.PosI9Pnl.Location = new System.Drawing.Point(355, 324);
-			this.PosI9Pnl.Name = "PosI9Pnl";
-			this.PosI9Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosI9Pnl.TabIndex = 398;
-			// 
-			// PosI8Pnl
-			// 
-			this.PosI8Pnl.Location = new System.Drawing.Point(313, 324);
-			this.PosI8Pnl.Name = "PosI8Pnl";
-			this.PosI8Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosI8Pnl.TabIndex = 399;
-			// 
-			// PosI7Pnl
-			// 
-			this.PosI7Pnl.Location = new System.Drawing.Point(271, 324);
-			this.PosI7Pnl.Name = "PosI7Pnl";
-			this.PosI7Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosI7Pnl.TabIndex = 400;
-			// 
-			// PosI6Pnl
-			// 
-			this.PosI6Pnl.Location = new System.Drawing.Point(228, 324);
-			this.PosI6Pnl.Name = "PosI6Pnl";
-			this.PosI6Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosI6Pnl.TabIndex = 395;
-			// 
-			// PosI5Pnl
-			// 
-			this.PosI5Pnl.Location = new System.Drawing.Point(186, 324);
-			this.PosI5Pnl.Name = "PosI5Pnl";
-			this.PosI5Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosI5Pnl.TabIndex = 396;
-			// 
-			// PosI4Pnl
-			// 
-			this.PosI4Pnl.Location = new System.Drawing.Point(144, 324);
-			this.PosI4Pnl.Name = "PosI4Pnl";
-			this.PosI4Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosI4Pnl.TabIndex = 397;
-			// 
-			// PosH2Pnl
-			// 
-			this.PosH2Pnl.Location = new System.Drawing.Point(59, 285);
-			this.PosH2Pnl.Name = "PosH2Pnl";
-			this.PosH2Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosH2Pnl.TabIndex = 384;
-			// 
-			// PosH1Pnl
-			// 
-			this.PosH1Pnl.Location = new System.Drawing.Point(17, 285);
-			this.PosH1Pnl.Name = "PosH1Pnl";
-			this.PosH1Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosH1Pnl.TabIndex = 382;
-			// 
-			// PosH3Pnl
-			// 
-			this.PosH3Pnl.Location = new System.Drawing.Point(101, 285);
-			this.PosH3Pnl.Name = "PosH3Pnl";
-			this.PosH3Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosH3Pnl.TabIndex = 383;
-			// 
-			// PosH10Pnl
-			// 
-			this.PosH10Pnl.Location = new System.Drawing.Point(397, 285);
-			this.PosH10Pnl.Name = "PosH10Pnl";
-			this.PosH10Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosH10Pnl.TabIndex = 391;
-			// 
-			// PosH9Pnl
-			// 
-			this.PosH9Pnl.Location = new System.Drawing.Point(355, 285);
-			this.PosH9Pnl.Name = "PosH9Pnl";
-			this.PosH9Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosH9Pnl.TabIndex = 388;
-			// 
-			// PosH8Pnl
-			// 
-			this.PosH8Pnl.Location = new System.Drawing.Point(313, 285);
-			this.PosH8Pnl.Name = "PosH8Pnl";
-			this.PosH8Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosH8Pnl.TabIndex = 389;
-			// 
-			// PosH7Pnl
-			// 
-			this.PosH7Pnl.Location = new System.Drawing.Point(271, 285);
-			this.PosH7Pnl.Name = "PosH7Pnl";
-			this.PosH7Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosH7Pnl.TabIndex = 390;
-			// 
-			// PosH6Pnl
-			// 
-			this.PosH6Pnl.Location = new System.Drawing.Point(228, 285);
-			this.PosH6Pnl.Name = "PosH6Pnl";
-			this.PosH6Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosH6Pnl.TabIndex = 385;
-			// 
-			// PosH5Pnl
-			// 
-			this.PosH5Pnl.Location = new System.Drawing.Point(186, 285);
-			this.PosH5Pnl.Name = "PosH5Pnl";
-			this.PosH5Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosH5Pnl.TabIndex = 386;
-			// 
-			// PosH4Pnl
-			// 
-			this.PosH4Pnl.Location = new System.Drawing.Point(144, 285);
-			this.PosH4Pnl.Name = "PosH4Pnl";
-			this.PosH4Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosH4Pnl.TabIndex = 387;
-			// 
-			// PosG2Pnl
-			// 
-			this.PosG2Pnl.Location = new System.Drawing.Point(59, 246);
-			this.PosG2Pnl.Name = "PosG2Pnl";
-			this.PosG2Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosG2Pnl.TabIndex = 374;
-			// 
-			// PosG1Pnl
-			// 
-			this.PosG1Pnl.Location = new System.Drawing.Point(17, 246);
-			this.PosG1Pnl.Name = "PosG1Pnl";
-			this.PosG1Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosG1Pnl.TabIndex = 372;
-			// 
-			// PosG3Pnl
-			// 
-			this.PosG3Pnl.Location = new System.Drawing.Point(101, 246);
-			this.PosG3Pnl.Name = "PosG3Pnl";
-			this.PosG3Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosG3Pnl.TabIndex = 373;
-			// 
-			// PosG10Pnl
-			// 
-			this.PosG10Pnl.Location = new System.Drawing.Point(397, 246);
-			this.PosG10Pnl.Name = "PosG10Pnl";
-			this.PosG10Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosG10Pnl.TabIndex = 381;
-			// 
-			// PosG9Pnl
-			// 
-			this.PosG9Pnl.Location = new System.Drawing.Point(355, 246);
-			this.PosG9Pnl.Name = "PosG9Pnl";
-			this.PosG9Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosG9Pnl.TabIndex = 378;
-			// 
-			// PosG8Pnl
-			// 
-			this.PosG8Pnl.Location = new System.Drawing.Point(313, 246);
-			this.PosG8Pnl.Name = "PosG8Pnl";
-			this.PosG8Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosG8Pnl.TabIndex = 379;
-			// 
-			// PosG7Pnl
-			// 
-			this.PosG7Pnl.Location = new System.Drawing.Point(271, 246);
-			this.PosG7Pnl.Name = "PosG7Pnl";
-			this.PosG7Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosG7Pnl.TabIndex = 380;
-			// 
-			// PosG6Pnl
-			// 
-			this.PosG6Pnl.Location = new System.Drawing.Point(228, 246);
-			this.PosG6Pnl.Name = "PosG6Pnl";
-			this.PosG6Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosG6Pnl.TabIndex = 375;
-			// 
-			// PosG5Pnl
-			// 
-			this.PosG5Pnl.Location = new System.Drawing.Point(186, 246);
-			this.PosG5Pnl.Name = "PosG5Pnl";
-			this.PosG5Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosG5Pnl.TabIndex = 376;
-			// 
-			// PosG4Pnl
-			// 
-			this.PosG4Pnl.Location = new System.Drawing.Point(144, 246);
-			this.PosG4Pnl.Name = "PosG4Pnl";
-			this.PosG4Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosG4Pnl.TabIndex = 377;
-			// 
-			// PosJ2Pnl
-			// 
-			this.PosJ2Pnl.Location = new System.Drawing.Point(59, 363);
-			this.PosJ2Pnl.Name = "PosJ2Pnl";
-			this.PosJ2Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosJ2Pnl.TabIndex = 404;
-			// 
-			// PosJ1Pnl
-			// 
-			this.PosJ1Pnl.Location = new System.Drawing.Point(17, 363);
-			this.PosJ1Pnl.Name = "PosJ1Pnl";
-			this.PosJ1Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosJ1Pnl.TabIndex = 402;
-			// 
-			// PosJ3Pnl
-			// 
-			this.PosJ3Pnl.Location = new System.Drawing.Point(101, 363);
-			this.PosJ3Pnl.Name = "PosJ3Pnl";
-			this.PosJ3Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosJ3Pnl.TabIndex = 403;
-			// 
-			// PosJ10Pnl
-			// 
-			this.PosJ10Pnl.Location = new System.Drawing.Point(397, 363);
-			this.PosJ10Pnl.Name = "PosJ10Pnl";
-			this.PosJ10Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosJ10Pnl.TabIndex = 411;
-			// 
-			// PosJ9Pnl
-			// 
-			this.PosJ9Pnl.Location = new System.Drawing.Point(355, 363);
-			this.PosJ9Pnl.Name = "PosJ9Pnl";
-			this.PosJ9Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosJ9Pnl.TabIndex = 408;
-			// 
-			// PosJ8Pnl
-			// 
-			this.PosJ8Pnl.Location = new System.Drawing.Point(313, 363);
-			this.PosJ8Pnl.Name = "PosJ8Pnl";
-			this.PosJ8Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosJ8Pnl.TabIndex = 409;
-			// 
-			// PosJ7Pnl
-			// 
-			this.PosJ7Pnl.Location = new System.Drawing.Point(271, 363);
-			this.PosJ7Pnl.Name = "PosJ7Pnl";
-			this.PosJ7Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosJ7Pnl.TabIndex = 410;
-			// 
-			// PosJ6Pnl
-			// 
-			this.PosJ6Pnl.Location = new System.Drawing.Point(228, 363);
-			this.PosJ6Pnl.Name = "PosJ6Pnl";
-			this.PosJ6Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosJ6Pnl.TabIndex = 405;
-			// 
-			// PosJ5Pnl
-			// 
-			this.PosJ5Pnl.Location = new System.Drawing.Point(186, 363);
-			this.PosJ5Pnl.Name = "PosJ5Pnl";
-			this.PosJ5Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosJ5Pnl.TabIndex = 406;
-			// 
-			// PosJ4Pnl
-			// 
-			this.PosJ4Pnl.Location = new System.Drawing.Point(144, 363);
-			this.PosJ4Pnl.Name = "PosJ4Pnl";
-			this.PosJ4Pnl.Size = new System.Drawing.Size(36, 33);
-			this.PosJ4Pnl.TabIndex = 407;
 			// 
 			// BattleFieldForm
 			// 
