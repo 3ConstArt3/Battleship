@@ -633,6 +633,7 @@
 			this.panel101.Name = "panel101";
 			this.panel101.Size = new System.Drawing.Size(27, 27);
 			this.panel101.TabIndex = 511;
+			this.panel101.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel102
 			// 
@@ -641,6 +642,7 @@
 			this.panel102.Name = "panel102";
 			this.panel102.Size = new System.Drawing.Size(27, 27);
 			this.panel102.TabIndex = 508;
+			this.panel102.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel103
 			// 
@@ -649,6 +651,7 @@
 			this.panel103.Name = "panel103";
 			this.panel103.Size = new System.Drawing.Size(27, 27);
 			this.panel103.TabIndex = 509;
+			this.panel103.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel104
 			// 
@@ -657,6 +660,7 @@
 			this.panel104.Name = "panel104";
 			this.panel104.Size = new System.Drawing.Size(27, 27);
 			this.panel104.TabIndex = 510;
+			this.panel104.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel105
 			// 
@@ -665,6 +669,7 @@
 			this.panel105.Name = "panel105";
 			this.panel105.Size = new System.Drawing.Size(27, 27);
 			this.panel105.TabIndex = 505;
+			this.panel105.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel106
 			// 
@@ -673,6 +678,7 @@
 			this.panel106.Name = "panel106";
 			this.panel106.Size = new System.Drawing.Size(27, 27);
 			this.panel106.TabIndex = 506;
+			this.panel106.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel107
 			// 
@@ -681,6 +687,7 @@
 			this.panel107.Name = "panel107";
 			this.panel107.Size = new System.Drawing.Size(27, 27);
 			this.panel107.TabIndex = 507;
+			this.panel107.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel108
 			// 
@@ -689,6 +696,7 @@
 			this.panel108.Name = "panel108";
 			this.panel108.Size = new System.Drawing.Size(27, 27);
 			this.panel108.TabIndex = 502;
+			this.panel108.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel109
 			// 
@@ -697,6 +705,7 @@
 			this.panel109.Name = "panel109";
 			this.panel109.Size = new System.Drawing.Size(27, 27);
 			this.panel109.TabIndex = 503;
+			this.panel109.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel110
 			// 
@@ -705,6 +714,7 @@
 			this.panel110.Name = "panel110";
 			this.panel110.Size = new System.Drawing.Size(27, 27);
 			this.panel110.TabIndex = 504;
+			this.panel110.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel61
 			// 
@@ -713,6 +723,7 @@
 			this.panel61.Name = "panel61";
 			this.panel61.Size = new System.Drawing.Size(27, 27);
 			this.panel61.TabIndex = 501;
+			this.panel61.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel62
 			// 
@@ -721,6 +732,7 @@
 			this.panel62.Name = "panel62";
 			this.panel62.Size = new System.Drawing.Size(27, 27);
 			this.panel62.TabIndex = 498;
+			this.panel62.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel63
 			// 
@@ -729,6 +741,7 @@
 			this.panel63.Name = "panel63";
 			this.panel63.Size = new System.Drawing.Size(27, 27);
 			this.panel63.TabIndex = 499;
+			this.panel63.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel64
 			// 
@@ -737,6 +750,7 @@
 			this.panel64.Name = "panel64";
 			this.panel64.Size = new System.Drawing.Size(27, 27);
 			this.panel64.TabIndex = 500;
+			this.panel64.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel65
 			// 
@@ -745,6 +759,7 @@
 			this.panel65.Name = "panel65";
 			this.panel65.Size = new System.Drawing.Size(27, 27);
 			this.panel65.TabIndex = 495;
+			this.panel65.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel2
 			// 
@@ -753,6 +768,7 @@
 			this.panel2.Name = "panel2";
 			this.panel2.Size = new System.Drawing.Size(27, 27);
 			this.panel2.TabIndex = 414;
+			this.panel2.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel1
 			// 
@@ -761,7 +777,7 @@
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(27, 27);
 			this.panel1.TabIndex = 412;
-			this.panel1.Click += new System.EventHandler(this.panel1_Click);
+			this.panel1.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel66
 			// 
@@ -770,6 +786,7 @@
 			this.panel66.Name = "panel66";
 			this.panel66.Size = new System.Drawing.Size(27, 27);
 			this.panel66.TabIndex = 496;
+			this.panel66.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel3
 			// 
@@ -778,6 +795,7 @@
 			this.panel3.Name = "panel3";
 			this.panel3.Size = new System.Drawing.Size(27, 27);
 			this.panel3.TabIndex = 413;
+			this.panel3.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel67
 			// 
@@ -786,6 +804,7 @@
 			this.panel67.Name = "panel67";
 			this.panel67.Size = new System.Drawing.Size(27, 27);
 			this.panel67.TabIndex = 497;
+			this.panel67.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel68
 			// 
@@ -794,6 +813,7 @@
 			this.panel68.Name = "panel68";
 			this.panel68.Size = new System.Drawing.Size(27, 27);
 			this.panel68.TabIndex = 492;
+			this.panel68.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel69
 			// 
@@ -802,6 +822,7 @@
 			this.panel69.Name = "panel69";
 			this.panel69.Size = new System.Drawing.Size(27, 27);
 			this.panel69.TabIndex = 493;
+			this.panel69.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel70
 			// 
@@ -810,6 +831,7 @@
 			this.panel70.Name = "panel70";
 			this.panel70.Size = new System.Drawing.Size(27, 27);
 			this.panel70.TabIndex = 494;
+			this.panel70.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel71
 			// 
@@ -818,6 +840,7 @@
 			this.panel71.Name = "panel71";
 			this.panel71.Size = new System.Drawing.Size(27, 27);
 			this.panel71.TabIndex = 491;
+			this.panel71.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel72
 			// 
@@ -826,6 +849,7 @@
 			this.panel72.Name = "panel72";
 			this.panel72.Size = new System.Drawing.Size(27, 27);
 			this.panel72.TabIndex = 488;
+			this.panel72.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel73
 			// 
@@ -834,6 +858,7 @@
 			this.panel73.Name = "panel73";
 			this.panel73.Size = new System.Drawing.Size(27, 27);
 			this.panel73.TabIndex = 489;
+			this.panel73.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel74
 			// 
@@ -842,6 +867,7 @@
 			this.panel74.Name = "panel74";
 			this.panel74.Size = new System.Drawing.Size(27, 27);
 			this.panel74.TabIndex = 490;
+			this.panel74.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel75
 			// 
@@ -850,6 +876,7 @@
 			this.panel75.Name = "panel75";
 			this.panel75.Size = new System.Drawing.Size(27, 27);
 			this.panel75.TabIndex = 485;
+			this.panel75.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel76
 			// 
@@ -858,6 +885,7 @@
 			this.panel76.Name = "panel76";
 			this.panel76.Size = new System.Drawing.Size(27, 27);
 			this.panel76.TabIndex = 486;
+			this.panel76.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel77
 			// 
@@ -866,6 +894,7 @@
 			this.panel77.Name = "panel77";
 			this.panel77.Size = new System.Drawing.Size(27, 27);
 			this.panel77.TabIndex = 487;
+			this.panel77.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel78
 			// 
@@ -874,6 +903,7 @@
 			this.panel78.Name = "panel78";
 			this.panel78.Size = new System.Drawing.Size(27, 27);
 			this.panel78.TabIndex = 482;
+			this.panel78.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel79
 			// 
@@ -882,6 +912,7 @@
 			this.panel79.Name = "panel79";
 			this.panel79.Size = new System.Drawing.Size(27, 27);
 			this.panel79.TabIndex = 483;
+			this.panel79.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel80
 			// 
@@ -890,6 +921,7 @@
 			this.panel80.Name = "panel80";
 			this.panel80.Size = new System.Drawing.Size(27, 27);
 			this.panel80.TabIndex = 484;
+			this.panel80.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel81
 			// 
@@ -898,6 +930,7 @@
 			this.panel81.Name = "panel81";
 			this.panel81.Size = new System.Drawing.Size(27, 27);
 			this.panel81.TabIndex = 481;
+			this.panel81.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel82
 			// 
@@ -906,6 +939,7 @@
 			this.panel82.Name = "panel82";
 			this.panel82.Size = new System.Drawing.Size(27, 27);
 			this.panel82.TabIndex = 478;
+			this.panel82.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel83
 			// 
@@ -914,6 +948,7 @@
 			this.panel83.Name = "panel83";
 			this.panel83.Size = new System.Drawing.Size(27, 27);
 			this.panel83.TabIndex = 479;
+			this.panel83.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel84
 			// 
@@ -922,6 +957,7 @@
 			this.panel84.Name = "panel84";
 			this.panel84.Size = new System.Drawing.Size(27, 27);
 			this.panel84.TabIndex = 480;
+			this.panel84.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel85
 			// 
@@ -930,6 +966,7 @@
 			this.panel85.Name = "panel85";
 			this.panel85.Size = new System.Drawing.Size(27, 27);
 			this.panel85.TabIndex = 475;
+			this.panel85.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel86
 			// 
@@ -938,6 +975,7 @@
 			this.panel86.Name = "panel86";
 			this.panel86.Size = new System.Drawing.Size(27, 27);
 			this.panel86.TabIndex = 476;
+			this.panel86.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel87
 			// 
@@ -946,6 +984,7 @@
 			this.panel87.Name = "panel87";
 			this.panel87.Size = new System.Drawing.Size(27, 27);
 			this.panel87.TabIndex = 477;
+			this.panel87.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel88
 			// 
@@ -954,6 +993,7 @@
 			this.panel88.Name = "panel88";
 			this.panel88.Size = new System.Drawing.Size(27, 27);
 			this.panel88.TabIndex = 472;
+			this.panel88.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel89
 			// 
@@ -962,6 +1002,7 @@
 			this.panel89.Name = "panel89";
 			this.panel89.Size = new System.Drawing.Size(27, 27);
 			this.panel89.TabIndex = 473;
+			this.panel89.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel90
 			// 
@@ -970,6 +1011,7 @@
 			this.panel90.Name = "panel90";
 			this.panel90.Size = new System.Drawing.Size(27, 27);
 			this.panel90.TabIndex = 474;
+			this.panel90.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel51
 			// 
@@ -978,6 +1020,7 @@
 			this.panel51.Name = "panel51";
 			this.panel51.Size = new System.Drawing.Size(27, 27);
 			this.panel51.TabIndex = 471;
+			this.panel51.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel52
 			// 
@@ -986,6 +1029,7 @@
 			this.panel52.Name = "panel52";
 			this.panel52.Size = new System.Drawing.Size(27, 27);
 			this.panel52.TabIndex = 468;
+			this.panel52.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel53
 			// 
@@ -994,6 +1038,7 @@
 			this.panel53.Name = "panel53";
 			this.panel53.Size = new System.Drawing.Size(27, 27);
 			this.panel53.TabIndex = 469;
+			this.panel53.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel54
 			// 
@@ -1002,6 +1047,7 @@
 			this.panel54.Name = "panel54";
 			this.panel54.Size = new System.Drawing.Size(27, 27);
 			this.panel54.TabIndex = 470;
+			this.panel54.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel55
 			// 
@@ -1010,6 +1056,7 @@
 			this.panel55.Name = "panel55";
 			this.panel55.Size = new System.Drawing.Size(27, 27);
 			this.panel55.TabIndex = 465;
+			this.panel55.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel56
 			// 
@@ -1018,6 +1065,7 @@
 			this.panel56.Name = "panel56";
 			this.panel56.Size = new System.Drawing.Size(27, 27);
 			this.panel56.TabIndex = 466;
+			this.panel56.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel57
 			// 
@@ -1026,6 +1074,7 @@
 			this.panel57.Name = "panel57";
 			this.panel57.Size = new System.Drawing.Size(27, 27);
 			this.panel57.TabIndex = 467;
+			this.panel57.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel58
 			// 
@@ -1034,6 +1083,7 @@
 			this.panel58.Name = "panel58";
 			this.panel58.Size = new System.Drawing.Size(27, 27);
 			this.panel58.TabIndex = 462;
+			this.panel58.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel59
 			// 
@@ -1042,6 +1092,7 @@
 			this.panel59.Name = "panel59";
 			this.panel59.Size = new System.Drawing.Size(27, 27);
 			this.panel59.TabIndex = 463;
+			this.panel59.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel60
 			// 
@@ -1050,6 +1101,7 @@
 			this.panel60.Name = "panel60";
 			this.panel60.Size = new System.Drawing.Size(27, 27);
 			this.panel60.TabIndex = 464;
+			this.panel60.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel41
 			// 
@@ -1058,6 +1110,7 @@
 			this.panel41.Name = "panel41";
 			this.panel41.Size = new System.Drawing.Size(27, 27);
 			this.panel41.TabIndex = 461;
+			this.panel41.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel42
 			// 
@@ -1066,6 +1119,7 @@
 			this.panel42.Name = "panel42";
 			this.panel42.Size = new System.Drawing.Size(27, 27);
 			this.panel42.TabIndex = 458;
+			this.panel42.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel43
 			// 
@@ -1074,6 +1128,7 @@
 			this.panel43.Name = "panel43";
 			this.panel43.Size = new System.Drawing.Size(27, 27);
 			this.panel43.TabIndex = 459;
+			this.panel43.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel44
 			// 
@@ -1082,6 +1137,7 @@
 			this.panel44.Name = "panel44";
 			this.panel44.Size = new System.Drawing.Size(27, 27);
 			this.panel44.TabIndex = 460;
+			this.panel44.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel45
 			// 
@@ -1090,6 +1146,7 @@
 			this.panel45.Name = "panel45";
 			this.panel45.Size = new System.Drawing.Size(27, 27);
 			this.panel45.TabIndex = 455;
+			this.panel45.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel46
 			// 
@@ -1098,6 +1155,7 @@
 			this.panel46.Name = "panel46";
 			this.panel46.Size = new System.Drawing.Size(27, 27);
 			this.panel46.TabIndex = 456;
+			this.panel46.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel47
 			// 
@@ -1106,6 +1164,7 @@
 			this.panel47.Name = "panel47";
 			this.panel47.Size = new System.Drawing.Size(27, 27);
 			this.panel47.TabIndex = 457;
+			this.panel47.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel48
 			// 
@@ -1114,6 +1173,7 @@
 			this.panel48.Name = "panel48";
 			this.panel48.Size = new System.Drawing.Size(27, 27);
 			this.panel48.TabIndex = 452;
+			this.panel48.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel49
 			// 
@@ -1122,6 +1182,7 @@
 			this.panel49.Name = "panel49";
 			this.panel49.Size = new System.Drawing.Size(27, 27);
 			this.panel49.TabIndex = 453;
+			this.panel49.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel50
 			// 
@@ -1130,6 +1191,7 @@
 			this.panel50.Name = "panel50";
 			this.panel50.Size = new System.Drawing.Size(27, 27);
 			this.panel50.TabIndex = 454;
+			this.panel50.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel31
 			// 
@@ -1138,6 +1200,7 @@
 			this.panel31.Name = "panel31";
 			this.panel31.Size = new System.Drawing.Size(27, 27);
 			this.panel31.TabIndex = 451;
+			this.panel31.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel32
 			// 
@@ -1146,6 +1209,7 @@
 			this.panel32.Name = "panel32";
 			this.panel32.Size = new System.Drawing.Size(27, 27);
 			this.panel32.TabIndex = 448;
+			this.panel32.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel33
 			// 
@@ -1154,6 +1218,7 @@
 			this.panel33.Name = "panel33";
 			this.panel33.Size = new System.Drawing.Size(27, 27);
 			this.panel33.TabIndex = 449;
+			this.panel33.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel34
 			// 
@@ -1162,6 +1227,7 @@
 			this.panel34.Name = "panel34";
 			this.panel34.Size = new System.Drawing.Size(27, 27);
 			this.panel34.TabIndex = 450;
+			this.panel34.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel35
 			// 
@@ -1170,6 +1236,7 @@
 			this.panel35.Name = "panel35";
 			this.panel35.Size = new System.Drawing.Size(27, 27);
 			this.panel35.TabIndex = 445;
+			this.panel35.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel36
 			// 
@@ -1178,6 +1245,7 @@
 			this.panel36.Name = "panel36";
 			this.panel36.Size = new System.Drawing.Size(27, 27);
 			this.panel36.TabIndex = 446;
+			this.panel36.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel37
 			// 
@@ -1186,6 +1254,7 @@
 			this.panel37.Name = "panel37";
 			this.panel37.Size = new System.Drawing.Size(27, 27);
 			this.panel37.TabIndex = 447;
+			this.panel37.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel38
 			// 
@@ -1194,6 +1263,7 @@
 			this.panel38.Name = "panel38";
 			this.panel38.Size = new System.Drawing.Size(27, 27);
 			this.panel38.TabIndex = 442;
+			this.panel38.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel39
 			// 
@@ -1202,6 +1272,7 @@
 			this.panel39.Name = "panel39";
 			this.panel39.Size = new System.Drawing.Size(27, 27);
 			this.panel39.TabIndex = 443;
+			this.panel39.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel40
 			// 
@@ -1210,6 +1281,7 @@
 			this.panel40.Name = "panel40";
 			this.panel40.Size = new System.Drawing.Size(27, 27);
 			this.panel40.TabIndex = 444;
+			this.panel40.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel21
 			// 
@@ -1218,6 +1290,7 @@
 			this.panel21.Name = "panel21";
 			this.panel21.Size = new System.Drawing.Size(27, 27);
 			this.panel21.TabIndex = 441;
+			this.panel21.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel22
 			// 
@@ -1226,6 +1299,7 @@
 			this.panel22.Name = "panel22";
 			this.panel22.Size = new System.Drawing.Size(27, 27);
 			this.panel22.TabIndex = 438;
+			this.panel22.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel23
 			// 
@@ -1234,6 +1308,7 @@
 			this.panel23.Name = "panel23";
 			this.panel23.Size = new System.Drawing.Size(27, 27);
 			this.panel23.TabIndex = 439;
+			this.panel23.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel24
 			// 
@@ -1242,6 +1317,7 @@
 			this.panel24.Name = "panel24";
 			this.panel24.Size = new System.Drawing.Size(27, 27);
 			this.panel24.TabIndex = 440;
+			this.panel24.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel25
 			// 
@@ -1250,6 +1326,7 @@
 			this.panel25.Name = "panel25";
 			this.panel25.Size = new System.Drawing.Size(27, 27);
 			this.panel25.TabIndex = 435;
+			this.panel25.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel26
 			// 
@@ -1258,6 +1335,7 @@
 			this.panel26.Name = "panel26";
 			this.panel26.Size = new System.Drawing.Size(27, 27);
 			this.panel26.TabIndex = 436;
+			this.panel26.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel27
 			// 
@@ -1266,6 +1344,7 @@
 			this.panel27.Name = "panel27";
 			this.panel27.Size = new System.Drawing.Size(27, 27);
 			this.panel27.TabIndex = 437;
+			this.panel27.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel28
 			// 
@@ -1274,6 +1353,7 @@
 			this.panel28.Name = "panel28";
 			this.panel28.Size = new System.Drawing.Size(27, 27);
 			this.panel28.TabIndex = 432;
+			this.panel28.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel29
 			// 
@@ -1282,6 +1362,7 @@
 			this.panel29.Name = "panel29";
 			this.panel29.Size = new System.Drawing.Size(27, 27);
 			this.panel29.TabIndex = 433;
+			this.panel29.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel30
 			// 
@@ -1290,6 +1371,7 @@
 			this.panel30.Name = "panel30";
 			this.panel30.Size = new System.Drawing.Size(27, 27);
 			this.panel30.TabIndex = 434;
+			this.panel30.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel11
 			// 
@@ -1298,6 +1380,7 @@
 			this.panel11.Name = "panel11";
 			this.panel11.Size = new System.Drawing.Size(27, 27);
 			this.panel11.TabIndex = 431;
+			this.panel11.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel12
 			// 
@@ -1306,6 +1389,7 @@
 			this.panel12.Name = "panel12";
 			this.panel12.Size = new System.Drawing.Size(27, 27);
 			this.panel12.TabIndex = 428;
+			this.panel12.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel13
 			// 
@@ -1314,6 +1398,7 @@
 			this.panel13.Name = "panel13";
 			this.panel13.Size = new System.Drawing.Size(27, 27);
 			this.panel13.TabIndex = 429;
+			this.panel13.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel14
 			// 
@@ -1322,6 +1407,7 @@
 			this.panel14.Name = "panel14";
 			this.panel14.Size = new System.Drawing.Size(27, 27);
 			this.panel14.TabIndex = 430;
+			this.panel14.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel15
 			// 
@@ -1330,6 +1416,7 @@
 			this.panel15.Name = "panel15";
 			this.panel15.Size = new System.Drawing.Size(27, 27);
 			this.panel15.TabIndex = 425;
+			this.panel15.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel16
 			// 
@@ -1338,6 +1425,7 @@
 			this.panel16.Name = "panel16";
 			this.panel16.Size = new System.Drawing.Size(27, 27);
 			this.panel16.TabIndex = 426;
+			this.panel16.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel17
 			// 
@@ -1346,6 +1434,7 @@
 			this.panel17.Name = "panel17";
 			this.panel17.Size = new System.Drawing.Size(27, 27);
 			this.panel17.TabIndex = 427;
+			this.panel17.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel18
 			// 
@@ -1354,6 +1443,7 @@
 			this.panel18.Name = "panel18";
 			this.panel18.Size = new System.Drawing.Size(27, 27);
 			this.panel18.TabIndex = 422;
+			this.panel18.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel19
 			// 
@@ -1362,6 +1452,7 @@
 			this.panel19.Name = "panel19";
 			this.panel19.Size = new System.Drawing.Size(27, 27);
 			this.panel19.TabIndex = 423;
+			this.panel19.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel20
 			// 
@@ -1370,6 +1461,7 @@
 			this.panel20.Name = "panel20";
 			this.panel20.Size = new System.Drawing.Size(27, 27);
 			this.panel20.TabIndex = 424;
+			this.panel20.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel10
 			// 
@@ -1378,6 +1470,7 @@
 			this.panel10.Name = "panel10";
 			this.panel10.Size = new System.Drawing.Size(27, 27);
 			this.panel10.TabIndex = 421;
+			this.panel10.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel7
 			// 
@@ -1386,6 +1479,7 @@
 			this.panel7.Name = "panel7";
 			this.panel7.Size = new System.Drawing.Size(27, 27);
 			this.panel7.TabIndex = 418;
+			this.panel7.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel8
 			// 
@@ -1394,6 +1488,7 @@
 			this.panel8.Name = "panel8";
 			this.panel8.Size = new System.Drawing.Size(27, 27);
 			this.panel8.TabIndex = 419;
+			this.panel8.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel9
 			// 
@@ -1402,6 +1497,7 @@
 			this.panel9.Name = "panel9";
 			this.panel9.Size = new System.Drawing.Size(27, 27);
 			this.panel9.TabIndex = 420;
+			this.panel9.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel4
 			// 
@@ -1410,6 +1506,7 @@
 			this.panel4.Name = "panel4";
 			this.panel4.Size = new System.Drawing.Size(27, 27);
 			this.panel4.TabIndex = 415;
+			this.panel4.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel5
 			// 
@@ -1418,6 +1515,7 @@
 			this.panel5.Name = "panel5";
 			this.panel5.Size = new System.Drawing.Size(27, 27);
 			this.panel5.TabIndex = 416;
+			this.panel5.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// panel6
 			// 
@@ -1426,6 +1524,7 @@
 			this.panel6.Name = "panel6";
 			this.panel6.Size = new System.Drawing.Size(27, 27);
 			this.panel6.TabIndex = 417;
+			this.panel6.Click += new System.EventHandler(this.panel_Click);
 			// 
 			// FleetGrbx
 			// 

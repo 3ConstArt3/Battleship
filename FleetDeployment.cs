@@ -161,39 +161,43 @@ namespace Battleship
 			//int cellMargin = panel2.Left - panel1.Left - panel1.Width;
 			int cellDist = panel2.Left - panel1.Left;
 
-			int cellIndexX = (p.X - panel1.Location.X) / cellDist;
-			int cellIndexY = (p.Y - panel1.Location.Y) / cellDist;
+			int cellIndexColumn = (int)Math.Round((float)(p.X - panel1.Location.X) / cellDist);
+			int cellIndexRow = (int)Math.Round((float)(p.Y - panel1.Location.Y) / cellDist);
 
-			return new Location((uint)cellIndexX, (uint)cellIndexY);
+			return new Location((uint)cellIndexRow, (uint)cellIndexColumn);
 		}
 
-		private ShipType getTypeFromPBox(Image image)
+		private ShipType getTypeFromPBox(string tag)
 		{
-			if (image == Properties.Resources.CarrierBattleS)
-				return ShipType.Carrier;
-			else if (image == Properties.Resources.CruiserBattleS)
-				return ShipType.Cruiser;
-			else if (image == Properties.Resources.DestroyerBattleS)
-				return ShipType.Destroyer;
-			else if (image == Properties.Resources.SubmarineBattleS)
-				return ShipType.Submarine;
-			else if (image == Properties.Resources.BattleShipBattleS)
-				return ShipType.Battleship;
-			else
-				throw new ArgumentException();
+			switch (tag)
+			{
+				case "Carrier":
+					return ShipType.Carrier;
+				case "Battleship":
+					return ShipType.Battleship;
+				case "Cruiser":
+					return ShipType.Cruiser;
+				case "Submarine":
+					return ShipType.Submarine;
+				case "Destroyer":
+					return ShipType.Destroyer;
+				default:
+					throw new ArgumentException();
+			}
 		}
 
-		private void panel1_Click(object sender, System.EventArgs e)
+		private void panel_Click(object sender, EventArgs e)
 		{
 			Controls.Remove(selectedShipPBox);
 			PictureBox newShip = selectedShipPBox;
 			Controls.Add(newShip);
 			newShip.BringToFront();
-			newShip.Location = new Point(PreviewGrbx.Location.X + panel1.Location.X,
-				PreviewGrbx.Location.Y + panel1.Location.Y + panel1.Height);
+			Panel targetPanel = (Panel)sender;
+			newShip.Location = new Point(PreviewGrbx.Location.X + targetPanel.Location.X,
+				PreviewGrbx.Location.Y + targetPanel.Location.Y + targetPanel.Height);
 
 			Location placedLoc = getCellFromCoords(((Panel)sender).Location);
-			gameManager.GameState.PlayerPlaceShip(placedLoc, true, getTypeFromPBox(newShip.Image));
+			gameManager.GameState.PlayerPlaceShip(placedLoc, true, getTypeFromPBox((string)newShip.Tag));
 		}
 	}
 
