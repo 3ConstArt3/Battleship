@@ -12,7 +12,7 @@ namespace Battleship
 		private Player player1;
 		private Player player2;
 		public const int GridDimension = 9;
-		private bool isPlayer1Turn;
+		private bool isPlayer1Turn = true;
 		#endregion
 
 		/// <summary>
@@ -52,6 +52,24 @@ namespace Battleship
 		}
 
 		public List<Ship> GetPlayerFleet( bool isPlayer1 ) => getTargetPlayer( isPlayer1 ).Fleet;
+
+		public void ChangePlayerTurn()
+		{
+			isPlayer1Turn = !isPlayer1Turn;
+		}
+
+		public bool IsGameOver() => isPlayerFleetDestroyed(false) || isPlayerFleetDestroyed(true);
+
+		private bool isPlayerFleetDestroyed(bool isPlayer1)
+		{
+			Player player = getTargetPlayer(isPlayer1);
+			foreach (Ship ship in player.Fleet)
+			{
+				if (!ship.IsSunk())
+					return false;
+			}
+			return true;
+		}
 
 		private Player getTargetPlayer( bool isPlayer1Turn ) => (isPlayer1Turn ? player1 : player2);
 		#endregion
