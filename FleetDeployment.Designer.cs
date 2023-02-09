@@ -138,24 +138,24 @@
             this.panel95 = new System.Windows.Forms.Panel();
             this.RotateDestroyerBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.ResetDestroyerBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-            this.DestroyerPbx = new System.Windows.Forms.PictureBox();
             this.panel94 = new System.Windows.Forms.Panel();
             this.RotateSubmarineBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.ResetSubmarineBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-            this.SubmarinePbx = new System.Windows.Forms.PictureBox();
             this.panel93 = new System.Windows.Forms.Panel();
             this.ResetCruiserBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.RotateCruiserBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-            this.CruiserPbx = new System.Windows.Forms.PictureBox();
             this.panel92 = new System.Windows.Forms.Panel();
             this.ResetBattleShipBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.RotateBattleShipBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-            this.BattleShipPbx = new System.Windows.Forms.PictureBox();
             this.panel91 = new System.Windows.Forms.Panel();
-            this.CarrierPbx = new System.Windows.Forms.PictureBox();
             this.ResetCarrierBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.RotateCarrierBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.FleetDeploymentIntroLbl = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
+            this.DestroyerPbx = new System.Windows.Forms.PictureBox();
+            this.SubmarinePbx = new System.Windows.Forms.PictureBox();
+            this.CruiserPbx = new System.Windows.Forms.PictureBox();
+            this.BattleShipPbx = new System.Windows.Forms.PictureBox();
+            this.CarrierPbx = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.MainPnl)).BeginInit();
             this.MainPnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PreviewGrbx)).BeginInit();
@@ -169,14 +169,14 @@
             this.FleetGrbx.Panel.SuspendLayout();
             this.FleetGrbx.SuspendLayout();
             this.panel95.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DestroyerPbx)).BeginInit();
             this.panel94.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SubmarinePbx)).BeginInit();
             this.panel93.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.CruiserPbx)).BeginInit();
             this.panel92.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.BattleShipPbx)).BeginInit();
             this.panel91.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DestroyerPbx)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SubmarinePbx)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CruiserPbx)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BattleShipPbx)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CarrierPbx)).BeginInit();
             this.SuspendLayout();
             // 
@@ -1874,20 +1874,6 @@
             this.ResetDestroyerBtn.Values.Text = "";
             this.ResetDestroyerBtn.Click += new System.EventHandler(this.ResetDestroyerBtn_Click);
             // 
-            // DestroyerPbx
-            // 
-            this.DestroyerPbx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.DestroyerPbx.Image = global::Battleship.Properties.Resources.DestroyerBattleS;
-            this.DestroyerPbx.Location = new System.Drawing.Point(11, 13);
-            this.DestroyerPbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.DestroyerPbx.Name = "DestroyerPbx";
-            this.DestroyerPbx.Size = new System.Drawing.Size(77, 35);
-            this.DestroyerPbx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.DestroyerPbx.TabIndex = 39;
-            this.DestroyerPbx.TabStop = false;
-            this.DestroyerPbx.Tag = "Destroyer";
-            this.DestroyerPbx.Click += new System.EventHandler(this.ShipPBox_Click);
-            // 
             // panel94
             // 
             this.panel94.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(172)))), ((int)(((byte)(172)))));
@@ -2112,20 +2098,6 @@
             this.ResetSubmarineBtn.Tag = "Rotate";
             this.ResetSubmarineBtn.Values.Text = "";
             this.ResetSubmarineBtn.Click += new System.EventHandler(this.ResetSubmarineBtn_Click);
-            // 
-            // SubmarinePbx
-            // 
-            this.SubmarinePbx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.SubmarinePbx.Image = global::Battleship.Properties.Resources.SubmarineBattleS;
-            this.SubmarinePbx.Location = new System.Drawing.Point(10, 15);
-            this.SubmarinePbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.SubmarinePbx.Name = "SubmarinePbx";
-            this.SubmarinePbx.Size = new System.Drawing.Size(118, 35);
-            this.SubmarinePbx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.SubmarinePbx.TabIndex = 38;
-            this.SubmarinePbx.TabStop = false;
-            this.SubmarinePbx.Tag = "Submarine";
-            this.SubmarinePbx.Click += new System.EventHandler(this.ShipPBox_Click);
             // 
             // panel93
             // 
@@ -2352,20 +2324,6 @@
             this.RotateCruiserBtn.Values.Text = "";
             this.RotateCruiserBtn.Click += new System.EventHandler(this.RotateCruiserBtn_Click);
             // 
-            // CruiserPbx
-            // 
-            this.CruiserPbx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.CruiserPbx.Image = global::Battleship.Properties.Resources.CruiserBattleS;
-            this.CruiserPbx.Location = new System.Drawing.Point(11, 12);
-            this.CruiserPbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.CruiserPbx.Name = "CruiserPbx";
-            this.CruiserPbx.Size = new System.Drawing.Size(118, 35);
-            this.CruiserPbx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.CruiserPbx.TabIndex = 34;
-            this.CruiserPbx.TabStop = false;
-            this.CruiserPbx.Tag = "Cruiser";
-            this.CruiserPbx.Click += new System.EventHandler(this.ShipPBox_Click);
-            // 
             // panel92
             // 
             this.panel92.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(172)))), ((int)(((byte)(172)))));
@@ -2591,20 +2549,6 @@
             this.RotateBattleShipBtn.Values.Text = "";
             this.RotateBattleShipBtn.Click += new System.EventHandler(this.RotateBattleShipBtn_Click);
             // 
-            // BattleShipPbx
-            // 
-            this.BattleShipPbx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.BattleShipPbx.Image = global::Battleship.Properties.Resources.BattleShipBattleS;
-            this.BattleShipPbx.Location = new System.Drawing.Point(11, 12);
-            this.BattleShipPbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.BattleShipPbx.Name = "BattleShipPbx";
-            this.BattleShipPbx.Size = new System.Drawing.Size(159, 35);
-            this.BattleShipPbx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.BattleShipPbx.TabIndex = 32;
-            this.BattleShipPbx.TabStop = false;
-            this.BattleShipPbx.Tag = "Battleship";
-            this.BattleShipPbx.Click += new System.EventHandler(this.ShipPBox_Click);
-            // 
             // panel91
             // 
             this.panel91.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(172)))), ((int)(((byte)(172)))));
@@ -2616,20 +2560,6 @@
             this.panel91.Name = "panel91";
             this.panel91.Size = new System.Drawing.Size(340, 60);
             this.panel91.TabIndex = 38;
-            // 
-            // CarrierPbx
-            // 
-            this.CarrierPbx.BackColor = System.Drawing.Color.Transparent;
-            this.CarrierPbx.Image = global::Battleship.Properties.Resources.BattleShipBattleS;
-            this.CarrierPbx.Location = new System.Drawing.Point(11, 12);
-            this.CarrierPbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.CarrierPbx.Name = "CarrierPbx";
-            this.CarrierPbx.Size = new System.Drawing.Size(199, 35);
-            this.CarrierPbx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.CarrierPbx.TabIndex = 21;
-            this.CarrierPbx.TabStop = false;
-            this.CarrierPbx.Tag = "Carrier";
-            this.CarrierPbx.Click += new System.EventHandler(this.ShipPBox_Click);
             // 
             // ResetCarrierBtn
             // 
@@ -2883,6 +2813,76 @@
             this.FleetDeploymentIntroLbl.TabIndex = 31;
             this.FleetDeploymentIntroLbl.Values.Text = "Fleet Deployment";
             // 
+            // DestroyerPbx
+            // 
+            this.DestroyerPbx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.DestroyerPbx.Image = global::Battleship.Properties.Resources.Destroyer;
+            this.DestroyerPbx.Location = new System.Drawing.Point(11, 13);
+            this.DestroyerPbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.DestroyerPbx.Name = "DestroyerPbx";
+            this.DestroyerPbx.Size = new System.Drawing.Size(77, 35);
+            this.DestroyerPbx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.DestroyerPbx.TabIndex = 39;
+            this.DestroyerPbx.TabStop = false;
+            this.DestroyerPbx.Tag = "Destroyer";
+            this.DestroyerPbx.Click += new System.EventHandler(this.ShipPBox_Click);
+            // 
+            // SubmarinePbx
+            // 
+            this.SubmarinePbx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.SubmarinePbx.Image = global::Battleship.Properties.Resources.Submarine;
+            this.SubmarinePbx.Location = new System.Drawing.Point(10, 15);
+            this.SubmarinePbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.SubmarinePbx.Name = "SubmarinePbx";
+            this.SubmarinePbx.Size = new System.Drawing.Size(118, 35);
+            this.SubmarinePbx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.SubmarinePbx.TabIndex = 38;
+            this.SubmarinePbx.TabStop = false;
+            this.SubmarinePbx.Tag = "Submarine";
+            this.SubmarinePbx.Click += new System.EventHandler(this.ShipPBox_Click);
+            // 
+            // CruiserPbx
+            // 
+            this.CruiserPbx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.CruiserPbx.Image = global::Battleship.Properties.Resources.Cruiser;
+            this.CruiserPbx.Location = new System.Drawing.Point(11, 12);
+            this.CruiserPbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.CruiserPbx.Name = "CruiserPbx";
+            this.CruiserPbx.Size = new System.Drawing.Size(118, 35);
+            this.CruiserPbx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.CruiserPbx.TabIndex = 34;
+            this.CruiserPbx.TabStop = false;
+            this.CruiserPbx.Tag = "Cruiser";
+            this.CruiserPbx.Click += new System.EventHandler(this.ShipPBox_Click);
+            // 
+            // BattleShipPbx
+            // 
+            this.BattleShipPbx.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.BattleShipPbx.Image = global::Battleship.Properties.Resources.Battleship;
+            this.BattleShipPbx.Location = new System.Drawing.Point(11, 12);
+            this.BattleShipPbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BattleShipPbx.Name = "BattleShipPbx";
+            this.BattleShipPbx.Size = new System.Drawing.Size(159, 35);
+            this.BattleShipPbx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.BattleShipPbx.TabIndex = 32;
+            this.BattleShipPbx.TabStop = false;
+            this.BattleShipPbx.Tag = "Battleship";
+            this.BattleShipPbx.Click += new System.EventHandler(this.ShipPBox_Click);
+            // 
+            // CarrierPbx
+            // 
+            this.CarrierPbx.BackColor = System.Drawing.Color.Transparent;
+            this.CarrierPbx.Image = global::Battleship.Properties.Resources.Carrier;
+            this.CarrierPbx.Location = new System.Drawing.Point(11, 12);
+            this.CarrierPbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.CarrierPbx.Name = "CarrierPbx";
+            this.CarrierPbx.Size = new System.Drawing.Size(199, 35);
+            this.CarrierPbx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.CarrierPbx.TabIndex = 21;
+            this.CarrierPbx.TabStop = false;
+            this.CarrierPbx.Tag = "Carrier";
+            this.CarrierPbx.Click += new System.EventHandler(this.ShipPBox_Click);
+            // 
             // FleetDeploymentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2909,14 +2909,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.FleetGrbx)).EndInit();
             this.FleetGrbx.ResumeLayout(false);
             this.panel95.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.DestroyerPbx)).EndInit();
             this.panel94.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.SubmarinePbx)).EndInit();
             this.panel93.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.CruiserPbx)).EndInit();
             this.panel92.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.BattleShipPbx)).EndInit();
             this.panel91.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.DestroyerPbx)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SubmarinePbx)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CruiserPbx)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BattleShipPbx)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CarrierPbx)).EndInit();
             this.ResumeLayout(false);
 

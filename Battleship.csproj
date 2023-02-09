@@ -209,5 +209,20 @@
   <ItemGroup>
     <None Include="Resources\Sailorhat.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Battleship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carrier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cruiser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Destroyer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Submarine.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
