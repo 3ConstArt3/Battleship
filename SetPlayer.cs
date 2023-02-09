@@ -31,7 +31,7 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void DelpoyFleetBtn_Click( object sender, EventArgs e )
 		{
-			new FleetDeployment().Show();
+			new FleetDeploymentForm().Show();
 			this.Close();
 		}
 		#endregion

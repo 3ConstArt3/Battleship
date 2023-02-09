@@ -11,9 +11,9 @@ using ComponentFactory.Krypton.Toolkit;
 
 namespace Battleship
 {
-	public partial class Battlefield : KryptonForm
+	public partial class BattleFieldForm : KryptonForm
 	{
-		public Battlefield()
+		public BattleFieldForm()
 		{
 			InitializeComponent();
 		}

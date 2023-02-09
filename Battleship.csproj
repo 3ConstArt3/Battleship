@@ -82,11 +82,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Battlefield.cs">
+    <Compile Include="BattleField.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Battlefield.Designer.cs">
-      <DependentUpon>Battlefield.cs</DependentUpon>
+    <Compile Include="BattleField.Designer.cs">
+      <DependentUpon>BattleField.cs</DependentUpon>
     </Compile>
     <Compile Include="BattleShip.cs">
       <SubType>Form</SubType>
@@ -99,11 +99,11 @@
     <Compile Include="Player.cs" />
     <Compile Include="CustomExceptions.cs" />
     <Compile Include="Location.cs" />
-    <Compile Include="Fleet Deployment.cs">
+    <Compile Include="FleetDeployment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Fleet Deployment.Designer.cs">
-      <DependentUpon>Fleet Deployment.cs</DependentUpon>
+    <Compile Include="FleetDeployment.Designer.cs">
+      <DependentUpon>FleetDeployment.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -114,14 +114,14 @@
       <DependentUpon>SetPlayer.cs</DependentUpon>
     </Compile>
     <Compile Include="Ship.cs" />
-    <EmbeddedResource Include="Battlefield.resx">
-      <DependentUpon>Battlefield.cs</DependentUpon>
+    <EmbeddedResource Include="BattleField.resx">
+      <DependentUpon>BattleField.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BattleShip.resx">
       <DependentUpon>BattleShip.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Fleet Deployment.resx">
-      <DependentUpon>Fleet Deployment.cs</DependentUpon>
+    <EmbeddedResource Include="FleetDeployment.resx">
+      <DependentUpon>FleetDeployment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

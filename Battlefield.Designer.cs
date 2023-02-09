@@ -1,6 +1,6 @@
 ﻿namespace Battleship
 {
-	partial class Battlefield
+	partial class BattleFieldForm
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -28,7 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Battlefield));
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BattleFieldForm));
 			this.BattlefieldPnl = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
 			this.BattlefieldExitBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
 			this.YourFleetGbx = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
@@ -2224,7 +2224,7 @@
 			this.BorderPnl.TabIndex = 23;
 			this.BorderPnl.Tag = "Border";
 			// 
-			// Battlefield
+			// BattleFieldForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -2233,7 +2233,7 @@
 			this.ControlBox = false;
 			this.Controls.Add(this.BattlefieldPnl);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-			this.Name = "Battlefield";
+			this.Name = "BattleFieldForm";
 			this.Padding = new System.Windows.Forms.Padding(9);
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
