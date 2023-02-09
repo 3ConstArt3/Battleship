@@ -35,7 +35,7 @@ namespace Battleship
 		/// damages that ship.
 		/// </summary>
 		/// <param name="where"></param>
-		public void TakeHit( Location where )
+		private void takeHit( Location where )
 		{
 			Ship ship = getShipFromCell( where );
 			ship?.DamagePart( where );
@@ -55,7 +55,7 @@ namespace Battleship
 				
 			++Attempts;
 			HitBoxes.Add( where );
-			enemy.TakeHit( where );
+			enemy.takeHit( where );
 		}
 
 		/// <summary>
