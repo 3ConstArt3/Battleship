@@ -21,6 +21,7 @@ namespace Battleship
 		}
 
 		#region Function Definition
+
 		/// <summary>
 		/// Closes FleetDeploymentForm UI & invokes BattleFieldForm UI.
 		/// </summary>
