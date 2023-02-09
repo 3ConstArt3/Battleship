@@ -53,7 +53,16 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void RotateCarrierBtn_Click( object sender, System.EventArgs e )
 		{
+			try
+			{
+				gameManager.GameState.PlayerRotateShip(ShipType.Carrier, true);
+			}
+			catch (InvalidShipPlacementException) { return; }
 
+			Image img = CarrierPbx.Image;
+			CarrierPbx.Size = new Size(CarrierPbx.Size.Height, CarrierPbx.Size.Width);
+			img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+			CarrierPbx.Image = img;
 		}
 
 		/// <summary>
@@ -192,6 +201,7 @@ namespace Battleship
 			PictureBox newShip = selectedShipPBox;
 			Controls.Add(newShip);
 			newShip.BringToFront();
+			newShip.BackColor = Color.LimeGreen;
 			Panel targetPanel = (Panel)sender;
 
 			try
