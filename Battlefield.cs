@@ -9,10 +9,18 @@ namespace Battleship
 	public partial class BattleFieldForm : KryptonForm
 	{
 
+		#region Variable Declarations
+		private GameManager gameManager;
+		#endregion
+
 		/// <summary>
 		/// Constructor Definition.
 		/// </summary>
-		public BattleFieldForm() => InitializeComponent();
+		public BattleFieldForm(GameManager gameManager)
+		{
+			InitializeComponent();
+			this.gameManager = gameManager;
+		}
 
 		#region Method Definition
 

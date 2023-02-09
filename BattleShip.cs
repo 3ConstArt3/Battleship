@@ -8,11 +8,18 @@ namespace Battleship
 
 	public partial class MainForm : KryptonForm
 	{
+		#region Variable Declarations
+		private GameManager gameManager;
+		#endregion
 
 		/// <summary>
 		/// Constructor Definition.
 		/// </summary>
-		public MainForm() => InitializeComponent();
+		public MainForm()
+		{
+			InitializeComponent();
+			gameManager = new GameManager();
+		}
 
 		#region Method Definition
 		/// <summary>
@@ -23,7 +30,7 @@ namespace Battleship
 		private void PreparationBtn_Click( object sender, EventArgs e )
 		{
 			this.Hide();
-			new SetPlayerForm().Show();
+			new SetPlayerForm(gameManager).Show();
 		}
 		#endregion
 

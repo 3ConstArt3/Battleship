@@ -7,11 +7,18 @@ namespace Battleship
 
 	public partial class FleetDeploymentForm : KryptonForm
 	{
+		#region Variable Declarations
+		private GameManager gameManager;
+		#endregion
 
 		/// <summary>
 		/// Constructor Definition.
 		/// </summary>
-		public FleetDeploymentForm() => InitializeComponent();
+		public FleetDeploymentForm(GameManager gameManager)
+		{
+			InitializeComponent();
+			this.gameManager = gameManager;
+		}
 
 		#region Function Definition
 		/// <summary>

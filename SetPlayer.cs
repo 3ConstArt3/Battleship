@@ -9,10 +9,18 @@ namespace Battleship
 	public partial class SetPlayerForm : KryptonForm
 	{
 
+		#region Variable Declarations
+		private GameManager gameManager;
+		#endregion
+
 		/// <summary>
 		/// Constructor Definition.
 		/// </summary>
-		public SetPlayerForm() => InitializeComponent();
+		public SetPlayerForm(GameManager gameManager)
+		{
+			InitializeComponent();
+			this.gameManager = gameManager;
+		}
 
 		#region Function Definition
 		/// <summary>
@@ -32,7 +40,8 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void DelpoyFleetBtn_Click( object sender, EventArgs e )
 		{
-			new FleetDeploymentForm().Show();
+			gameManager.StartNewGame(NameTxtBx.Text);
+			new FleetDeploymentForm(gameManager).Show();
 			this.Close();
 		}
 		#endregion
