@@ -1,35 +1,37 @@
-﻿// Necessary imports
+﻿#region Imports
 using System;
 using ComponentFactory.Krypton.Toolkit;
+#endregion
 
 namespace Battleship
 {
 
-	public partial class SetPlayer : KryptonForm
+	public partial class SetPlayerForm : KryptonForm
 	{
 
-		#region Variable Declaration
-
-		#endregion
-
 		#region Constructor Definition
-		public SetPlayer() { InitializeComponent(); }
+		public SetPlayerForm() => InitializeComponent();
 		#endregion
 
 		#region Function Definition
-		private void FleetDeployBtn_Click( object sender, EventArgs e )
+		/// <summary>
+		/// Prompts registrations of user's name.
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void RegisterNameBtn_Click( object sender, EventArgs e )
 		{
-			this.Visible = false;
+
+		}
+
+		/// <summary>
+		/// Closes SetPlayerForm UI & invokes FleetDeploymentForm UI.
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void DelpoyFleetBtn_Click( object sender, EventArgs e )
+		{
 			new FleetDeployment().Show();
-		}
-
-		private void RegisterBtn_Click( object sender, EventArgs e )
-		{
-
-		}
-
-		private void SetCommanderExitBtn_Click( object sender, EventArgs e )
-		{
 			this.Close();
 		}
 		#endregion
