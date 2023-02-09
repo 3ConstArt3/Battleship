@@ -1,4 +1,6 @@
 ﻿#region Imports
+using System.Windows.Forms;
+using System.Drawing;
 using ComponentFactory.Krypton.Toolkit;
 #endregion
 
@@ -9,6 +11,7 @@ namespace Battleship
 	{
 		#region Variable Declarations
 		private GameManager gameManager;
+		private PictureBox selectedShipPBox;
 		#endregion
 
 		/// <summary>
@@ -21,6 +24,14 @@ namespace Battleship
 		}
 
 		#region Function Definition
+
+		private void ShipPBox_Click(object sender, System.EventArgs e)
+		{
+			if (selectedShipPBox != null)
+				selectedShipPBox.BackColor = Color.FromArgb(0, 0, 0, 0);
+			selectedShipPBox = (PictureBox)sender;
+			selectedShipPBox.BackColor = Color.FromArgb(255, 230, 230, 230);
+		}
 
 		/// <summary>
 		/// Closes FleetDeploymentForm UI & invokes BattleFieldForm UI.
@@ -144,6 +155,29 @@ namespace Battleship
 		}
 		#endregion
 
+		private Location getCellFromCoords(Point p)
+		{
+			//int cellMargin = panel2.Left - panel1.Left - panel1.Width;
+			int cellDist = panel2.Left - panel1.Left;
+
+			int cellIndexX = (p.X - panel1.Location.X) / cellDist;
+			int cellIndexY = (p.Y - panel1.Location.Y) / cellDist;
+
+			return new Location((uint)cellIndexX, (uint)cellIndexY);
+		}
+
+		private void panel1_Click(object sender, System.EventArgs e)
+		{
+			Controls.Remove(selectedShipPBox);
+			PictureBox newShip = selectedShipPBox;
+			Controls.Add(newShip);
+			newShip.BringToFront();
+			newShip.Location = new Point(PreviewGrbx.Location.X + panel1.Location.X,
+				PreviewGrbx.Location.Y + panel1.Location.Y + panel1.Height);
+
+			Location placedLoc = getCellFromCoords(((Panel)sender).Location);
+			gameManager.GameState.PlayerPlaceShip(placedLoc, true, ShipType.Carrier);
+		}
 	}
 
 }
