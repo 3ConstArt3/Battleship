@@ -1,4 +1,5 @@
 ﻿#region Imports
+using System;
 using System.Windows.Forms;
 using System.Drawing;
 using ComponentFactory.Krypton.Toolkit;
@@ -166,6 +167,22 @@ namespace Battleship
 			return new Location((uint)cellIndexX, (uint)cellIndexY);
 		}
 
+		private ShipType getTypeFromPBox(Image image)
+		{
+			if (image == Properties.Resources.CarrierBattleS)
+				return ShipType.Carrier;
+			else if (image == Properties.Resources.CruiserBattleS)
+				return ShipType.Cruiser;
+			else if (image == Properties.Resources.DestroyerBattleS)
+				return ShipType.Destroyer;
+			else if (image == Properties.Resources.SubmarineBattleS)
+				return ShipType.Submarine;
+			else if (image == Properties.Resources.BattleShipBattleS)
+				return ShipType.Battleship;
+			else
+				throw new ArgumentException();
+		}
+
 		private void panel1_Click(object sender, System.EventArgs e)
 		{
 			Controls.Remove(selectedShipPBox);
@@ -176,7 +193,7 @@ namespace Battleship
 				PreviewGrbx.Location.Y + panel1.Location.Y + panel1.Height);
 
 			Location placedLoc = getCellFromCoords(((Panel)sender).Location);
-			gameManager.GameState.PlayerPlaceShip(placedLoc, true, ShipType.Carrier);
+			gameManager.GameState.PlayerPlaceShip(placedLoc, true, getTypeFromPBox(newShip.Image));
 		}
 	}
 
