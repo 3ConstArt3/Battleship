@@ -190,10 +190,12 @@ namespace Battleship
 				{
 					if( selectedShipIsVertical )
 					{
-						checkOverlapDifferentOrientation( ship.Size, selectedShipSize, deltaRow, deltaColumn );
+						if ( selectedShipLocation.row < ship.InitCell.row )
+							checkOverlapDifferentOrientation( ship.Size, selectedShipSize, deltaRow, deltaColumn );
 						return;
 					}
-					checkOverlapDifferentOrientation( selectedShipSize, ship.Size, deltaRow, deltaColumn );
+					if (selectedShipLocation.column < ship.InitCell.column)
+						checkOverlapDifferentOrientation( selectedShipSize, ship.Size, deltaRow, deltaColumn );
 				}
 			}
 		}
@@ -222,7 +224,7 @@ namespace Battleship
 		/// <exception cref="InvalidShipPlacementException"></exception>
 		private void checkOverlapDifferentOrientation( uint horizontalShipSize, uint verticalShipSize, params uint[] deltaDimension )
 		{
-			if( deltaDimension[ 0 ] <= horizontalShipSize || deltaDimension[ 1 ] <= verticalShipSize )
+			if( deltaDimension[ 0 ] < horizontalShipSize || deltaDimension[ 1 ] < verticalShipSize )
 			{
 				throw new InvalidShipPlacementException();
 			}
