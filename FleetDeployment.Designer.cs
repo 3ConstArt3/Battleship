@@ -2716,7 +2716,6 @@
             this.ResetCarrierBtn.TabIndex = 22;
             this.ResetCarrierBtn.Tag = "Rotate";
             this.ResetCarrierBtn.Values.Text = "";
-            this.ResetCarrierBtn.Click += new System.EventHandler(this.ResetCarrierBtn_Click);
             // 
             // RotateCarrierBtn
             // 

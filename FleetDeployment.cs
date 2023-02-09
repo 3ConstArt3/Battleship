@@ -88,8 +88,17 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void RotateBattleShipBtn_Click( object sender, System.EventArgs e )
 		{
+            try
+            {
+                gameManager.GameState.PlayerRotateShip(ShipType.Battleship, true);
+            }
+            catch (InvalidShipPlacementException) { return; }
 
-		}
+            Image img = BattleShipPbx.Image;
+            BattleShipPbx.Size = new Size(BattleShipPbx.Size.Height, BattleShipPbx.Size.Width);
+            img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+            BattleShipPbx.Image = img;
+        }
 
 		/// <summary>
 		/// Prompts BattleShip's PictureBox angle reset
@@ -110,8 +119,17 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void RotateCruiserBtn_Click( object sender, System.EventArgs e )
 		{
+            try
+            {
+                gameManager.GameState.PlayerRotateShip(ShipType.Cruiser, true);
+            }
+            catch (InvalidShipPlacementException) { return; }
 
-		}
+            Image img = CruiserPbx.Image;
+            CruiserPbx.Size = new Size(CruiserPbx.Size.Height, CruiserPbx.Size.Width);
+            img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+            CruiserPbx.Image = img;
+        }
 
 		/// <summary>
 		/// Prompts Cruiser's PictureBox angle reset
@@ -132,8 +150,17 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void RotateSubmarineBtn_Click( object sender, System.EventArgs e )
 		{
+            try
+            {
+                gameManager.GameState.PlayerRotateShip(ShipType.Submarine, true);
+            }
+            catch (InvalidShipPlacementException) { return; }
 
-		}
+            Image img = SubmarinePbx.Image;
+            SubmarinePbx.Size = new Size(SubmarinePbx.Size.Height, SubmarinePbx.Size.Width);
+            img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+            SubmarinePbx.Image = img;
+        }
 
 		/// <summary>
 		/// Prompts Submarine's PictureBox angle reset
@@ -154,8 +181,17 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void RotateDestroyerBtn_Click( object sender, System.EventArgs e )
 		{
+            try
+            {
+                gameManager.GameState.PlayerRotateShip(ShipType.Destroyer, true);
+            }
+            catch (InvalidShipPlacementException) { return; }
 
-		}
+            Image img = DestroyerPbx.Image;
+            DestroyerPbx.Size = new Size(DestroyerPbx.Size.Height, DestroyerPbx.Size.Width);
+            img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+            DestroyerPbx.Image = img;
+        }
 
 		/// <summary>
 		/// Prompts Destroyer's PictureBox angle reset
