@@ -33,6 +33,29 @@
 			this.MainPnl = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
 			this.AttackBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
 			this.PreviewGrbx = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
+			this.FleetGrbx = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
+			this.panel95 = new System.Windows.Forms.Panel();
+			this.RotateDestroyerBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+			this.ResetDestroyerBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+			this.DestroyerPbx = new System.Windows.Forms.PictureBox();
+			this.panel94 = new System.Windows.Forms.Panel();
+			this.RotateSubmarineBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+			this.ResetSubmarineBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+			this.SubmarinePbx = new System.Windows.Forms.PictureBox();
+			this.panel93 = new System.Windows.Forms.Panel();
+			this.ResetCruiserBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+			this.RotateCruiserBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+			this.CruiserPbx = new System.Windows.Forms.PictureBox();
+			this.panel92 = new System.Windows.Forms.Panel();
+			this.ResetBattleShipBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+			this.RotateBattleShipBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+			this.BattleShipPbx = new System.Windows.Forms.PictureBox();
+			this.panel91 = new System.Windows.Forms.Panel();
+			this.CarrierPbx = new System.Windows.Forms.PictureBox();
+			this.ResetCarrierBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+			this.RotateCarrierBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+			this.FleetDeploymentIntroLbl = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
+			this.PreviewPnl = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
 			this.panel101 = new System.Windows.Forms.Panel();
 			this.panel102 = new System.Windows.Forms.Panel();
 			this.panel103 = new System.Windows.Forms.Panel();
@@ -133,28 +156,6 @@
 			this.panel4 = new System.Windows.Forms.Panel();
 			this.panel5 = new System.Windows.Forms.Panel();
 			this.panel6 = new System.Windows.Forms.Panel();
-			this.FleetGrbx = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
-			this.panel95 = new System.Windows.Forms.Panel();
-			this.RotateDestroyerBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.ResetDestroyerBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.DestroyerPbx = new System.Windows.Forms.PictureBox();
-			this.panel94 = new System.Windows.Forms.Panel();
-			this.RotateSubmarineBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.ResetSubmarineBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.SubmarinePbx = new System.Windows.Forms.PictureBox();
-			this.panel93 = new System.Windows.Forms.Panel();
-			this.ResetCruiserBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.RotateCruiserBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.CruiserPbx = new System.Windows.Forms.PictureBox();
-			this.panel92 = new System.Windows.Forms.Panel();
-			this.ResetBattleShipBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.RotateBattleShipBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.BattleShipPbx = new System.Windows.Forms.PictureBox();
-			this.panel91 = new System.Windows.Forms.Panel();
-			this.CarrierPbx = new System.Windows.Forms.PictureBox();
-			this.ResetCarrierBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.RotateCarrierBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.FleetDeploymentIntroLbl = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
 			((System.ComponentModel.ISupportInitialize)(this.MainPnl)).BeginInit();
 			this.MainPnl.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.PreviewGrbx)).BeginInit();
@@ -175,6 +176,8 @@
 			((System.ComponentModel.ISupportInitialize)(this.BattleShipPbx)).BeginInit();
 			this.panel91.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.CarrierPbx)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.PreviewPnl)).BeginInit();
+			this.PreviewPnl.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// FleetDeploymentKrptPlt
@@ -420,112 +423,13 @@
 			// PreviewGrbx
 			// 
 			this.PreviewGrbx.CaptionOverlap = 0.7D;
-			this.PreviewGrbx.Location = new System.Drawing.Point(504, 103);
+			this.PreviewGrbx.Location = new System.Drawing.Point(523, 103);
 			this.PreviewGrbx.Name = "PreviewGrbx";
 			// 
 			// PreviewGrbx.Panel
 			// 
-			this.PreviewGrbx.Panel.Controls.Add(this.panel101);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel102);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel103);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel104);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel105);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel106);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel107);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel108);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel109);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel110);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel61);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel62);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel63);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel64);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel65);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel2);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel1);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel66);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel3);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel67);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel68);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel69);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel70);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel71);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel72);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel73);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel74);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel75);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel76);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel77);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel78);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel79);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel80);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel81);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel82);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel83);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel84);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel85);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel86);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel87);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel88);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel89);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel90);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel51);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel52);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel53);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel54);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel55);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel56);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel57);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel58);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel59);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel60);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel41);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel42);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel43);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel44);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel45);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel46);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel47);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel48);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel49);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel50);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel31);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel32);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel33);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel34);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel35);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel36);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel37);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel38);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel39);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel40);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel21);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel22);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel23);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel24);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel25);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel26);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel27);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel28);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel29);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel30);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel11);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel12);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel13);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel14);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel15);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel16);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel17);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel18);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel19);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel20);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel10);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel7);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel8);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel9);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel4);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel5);
-			this.PreviewGrbx.Panel.Controls.Add(this.panel6);
-			this.PreviewGrbx.Size = new System.Drawing.Size(458, 456);
+			this.PreviewGrbx.Panel.Controls.Add(this.PreviewPnl);
+			this.PreviewGrbx.Size = new System.Drawing.Size(439, 438);
 			this.PreviewGrbx.StateCommon.Back.Color1 = System.Drawing.Color.White;
 			this.PreviewGrbx.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
 			this.PreviewGrbx.StateCommon.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
@@ -609,706 +513,6 @@
 			this.PreviewGrbx.StateNormal.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
 			this.PreviewGrbx.TabIndex = 29;
 			this.PreviewGrbx.Values.Heading = "Battlefield    Preview";
-			// 
-			// panel101
-			// 
-			this.panel101.Location = new System.Drawing.Point(397, 364);
-			this.panel101.Name = "panel101";
-			this.panel101.Size = new System.Drawing.Size(36, 33);
-			this.panel101.TabIndex = 411;
-			// 
-			// panel102
-			// 
-			this.panel102.Location = new System.Drawing.Point(355, 364);
-			this.panel102.Name = "panel102";
-			this.panel102.Size = new System.Drawing.Size(36, 33);
-			this.panel102.TabIndex = 408;
-			// 
-			// panel103
-			// 
-			this.panel103.Location = new System.Drawing.Point(313, 364);
-			this.panel103.Name = "panel103";
-			this.panel103.Size = new System.Drawing.Size(36, 33);
-			this.panel103.TabIndex = 409;
-			// 
-			// panel104
-			// 
-			this.panel104.Location = new System.Drawing.Point(271, 364);
-			this.panel104.Name = "panel104";
-			this.panel104.Size = new System.Drawing.Size(36, 33);
-			this.panel104.TabIndex = 410;
-			// 
-			// panel105
-			// 
-			this.panel105.Location = new System.Drawing.Point(228, 364);
-			this.panel105.Name = "panel105";
-			this.panel105.Size = new System.Drawing.Size(36, 33);
-			this.panel105.TabIndex = 405;
-			// 
-			// panel106
-			// 
-			this.panel106.Location = new System.Drawing.Point(186, 364);
-			this.panel106.Name = "panel106";
-			this.panel106.Size = new System.Drawing.Size(36, 33);
-			this.panel106.TabIndex = 406;
-			// 
-			// panel107
-			// 
-			this.panel107.Location = new System.Drawing.Point(144, 364);
-			this.panel107.Name = "panel107";
-			this.panel107.Size = new System.Drawing.Size(36, 33);
-			this.panel107.TabIndex = 407;
-			// 
-			// panel108
-			// 
-			this.panel108.Location = new System.Drawing.Point(101, 364);
-			this.panel108.Name = "panel108";
-			this.panel108.Size = new System.Drawing.Size(36, 33);
-			this.panel108.TabIndex = 402;
-			// 
-			// panel109
-			// 
-			this.panel109.Location = new System.Drawing.Point(59, 364);
-			this.panel109.Name = "panel109";
-			this.panel109.Size = new System.Drawing.Size(36, 33);
-			this.panel109.TabIndex = 403;
-			// 
-			// panel110
-			// 
-			this.panel110.Location = new System.Drawing.Point(17, 364);
-			this.panel110.Name = "panel110";
-			this.panel110.Size = new System.Drawing.Size(36, 33);
-			this.panel110.TabIndex = 404;
-			// 
-			// panel61
-			// 
-			this.panel61.Location = new System.Drawing.Point(397, 325);
-			this.panel61.Name = "panel61";
-			this.panel61.Size = new System.Drawing.Size(36, 33);
-			this.panel61.TabIndex = 401;
-			// 
-			// panel62
-			// 
-			this.panel62.Location = new System.Drawing.Point(355, 325);
-			this.panel62.Name = "panel62";
-			this.panel62.Size = new System.Drawing.Size(36, 33);
-			this.panel62.TabIndex = 398;
-			// 
-			// panel63
-			// 
-			this.panel63.Location = new System.Drawing.Point(313, 325);
-			this.panel63.Name = "panel63";
-			this.panel63.Size = new System.Drawing.Size(36, 33);
-			this.panel63.TabIndex = 399;
-			// 
-			// panel64
-			// 
-			this.panel64.Location = new System.Drawing.Point(271, 325);
-			this.panel64.Name = "panel64";
-			this.panel64.Size = new System.Drawing.Size(36, 33);
-			this.panel64.TabIndex = 400;
-			// 
-			// panel65
-			// 
-			this.panel65.Location = new System.Drawing.Point(228, 325);
-			this.panel65.Name = "panel65";
-			this.panel65.Size = new System.Drawing.Size(36, 33);
-			this.panel65.TabIndex = 395;
-			// 
-			// panel2
-			// 
-			this.panel2.Location = new System.Drawing.Point(59, 13);
-			this.panel2.Name = "panel2";
-			this.panel2.Size = new System.Drawing.Size(36, 33);
-			this.panel2.TabIndex = 314;
-			// 
-			// panel1
-			// 
-			this.panel1.Location = new System.Drawing.Point(17, 13);
-			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(36, 33);
-			this.panel1.TabIndex = 312;
-			// 
-			// panel66
-			// 
-			this.panel66.Location = new System.Drawing.Point(186, 325);
-			this.panel66.Name = "panel66";
-			this.panel66.Size = new System.Drawing.Size(36, 33);
-			this.panel66.TabIndex = 396;
-			// 
-			// panel3
-			// 
-			this.panel3.Location = new System.Drawing.Point(101, 13);
-			this.panel3.Name = "panel3";
-			this.panel3.Size = new System.Drawing.Size(36, 33);
-			this.panel3.TabIndex = 313;
-			// 
-			// panel67
-			// 
-			this.panel67.Location = new System.Drawing.Point(144, 325);
-			this.panel67.Name = "panel67";
-			this.panel67.Size = new System.Drawing.Size(36, 33);
-			this.panel67.TabIndex = 397;
-			// 
-			// panel68
-			// 
-			this.panel68.Location = new System.Drawing.Point(101, 325);
-			this.panel68.Name = "panel68";
-			this.panel68.Size = new System.Drawing.Size(36, 33);
-			this.panel68.TabIndex = 392;
-			// 
-			// panel69
-			// 
-			this.panel69.Location = new System.Drawing.Point(59, 325);
-			this.panel69.Name = "panel69";
-			this.panel69.Size = new System.Drawing.Size(36, 33);
-			this.panel69.TabIndex = 393;
-			// 
-			// panel70
-			// 
-			this.panel70.Location = new System.Drawing.Point(17, 325);
-			this.panel70.Name = "panel70";
-			this.panel70.Size = new System.Drawing.Size(36, 33);
-			this.panel70.TabIndex = 394;
-			// 
-			// panel71
-			// 
-			this.panel71.Location = new System.Drawing.Point(397, 286);
-			this.panel71.Name = "panel71";
-			this.panel71.Size = new System.Drawing.Size(36, 33);
-			this.panel71.TabIndex = 391;
-			// 
-			// panel72
-			// 
-			this.panel72.Location = new System.Drawing.Point(355, 286);
-			this.panel72.Name = "panel72";
-			this.panel72.Size = new System.Drawing.Size(36, 33);
-			this.panel72.TabIndex = 388;
-			// 
-			// panel73
-			// 
-			this.panel73.Location = new System.Drawing.Point(313, 286);
-			this.panel73.Name = "panel73";
-			this.panel73.Size = new System.Drawing.Size(36, 33);
-			this.panel73.TabIndex = 389;
-			// 
-			// panel74
-			// 
-			this.panel74.Location = new System.Drawing.Point(271, 286);
-			this.panel74.Name = "panel74";
-			this.panel74.Size = new System.Drawing.Size(36, 33);
-			this.panel74.TabIndex = 390;
-			// 
-			// panel75
-			// 
-			this.panel75.Location = new System.Drawing.Point(228, 286);
-			this.panel75.Name = "panel75";
-			this.panel75.Size = new System.Drawing.Size(36, 33);
-			this.panel75.TabIndex = 385;
-			// 
-			// panel76
-			// 
-			this.panel76.Location = new System.Drawing.Point(186, 286);
-			this.panel76.Name = "panel76";
-			this.panel76.Size = new System.Drawing.Size(36, 33);
-			this.panel76.TabIndex = 386;
-			// 
-			// panel77
-			// 
-			this.panel77.Location = new System.Drawing.Point(144, 286);
-			this.panel77.Name = "panel77";
-			this.panel77.Size = new System.Drawing.Size(36, 33);
-			this.panel77.TabIndex = 387;
-			// 
-			// panel78
-			// 
-			this.panel78.Location = new System.Drawing.Point(101, 286);
-			this.panel78.Name = "panel78";
-			this.panel78.Size = new System.Drawing.Size(36, 33);
-			this.panel78.TabIndex = 382;
-			// 
-			// panel79
-			// 
-			this.panel79.Location = new System.Drawing.Point(59, 286);
-			this.panel79.Name = "panel79";
-			this.panel79.Size = new System.Drawing.Size(36, 33);
-			this.panel79.TabIndex = 383;
-			// 
-			// panel80
-			// 
-			this.panel80.Location = new System.Drawing.Point(17, 286);
-			this.panel80.Name = "panel80";
-			this.panel80.Size = new System.Drawing.Size(36, 33);
-			this.panel80.TabIndex = 384;
-			// 
-			// panel81
-			// 
-			this.panel81.Location = new System.Drawing.Point(397, 247);
-			this.panel81.Name = "panel81";
-			this.panel81.Size = new System.Drawing.Size(36, 33);
-			this.panel81.TabIndex = 381;
-			// 
-			// panel82
-			// 
-			this.panel82.Location = new System.Drawing.Point(355, 247);
-			this.panel82.Name = "panel82";
-			this.panel82.Size = new System.Drawing.Size(36, 33);
-			this.panel82.TabIndex = 378;
-			// 
-			// panel83
-			// 
-			this.panel83.Location = new System.Drawing.Point(313, 247);
-			this.panel83.Name = "panel83";
-			this.panel83.Size = new System.Drawing.Size(36, 33);
-			this.panel83.TabIndex = 379;
-			// 
-			// panel84
-			// 
-			this.panel84.Location = new System.Drawing.Point(271, 247);
-			this.panel84.Name = "panel84";
-			this.panel84.Size = new System.Drawing.Size(36, 33);
-			this.panel84.TabIndex = 380;
-			// 
-			// panel85
-			// 
-			this.panel85.Location = new System.Drawing.Point(228, 247);
-			this.panel85.Name = "panel85";
-			this.panel85.Size = new System.Drawing.Size(36, 33);
-			this.panel85.TabIndex = 375;
-			// 
-			// panel86
-			// 
-			this.panel86.Location = new System.Drawing.Point(186, 247);
-			this.panel86.Name = "panel86";
-			this.panel86.Size = new System.Drawing.Size(36, 33);
-			this.panel86.TabIndex = 376;
-			// 
-			// panel87
-			// 
-			this.panel87.Location = new System.Drawing.Point(144, 247);
-			this.panel87.Name = "panel87";
-			this.panel87.Size = new System.Drawing.Size(36, 33);
-			this.panel87.TabIndex = 377;
-			// 
-			// panel88
-			// 
-			this.panel88.Location = new System.Drawing.Point(101, 247);
-			this.panel88.Name = "panel88";
-			this.panel88.Size = new System.Drawing.Size(36, 33);
-			this.panel88.TabIndex = 372;
-			// 
-			// panel89
-			// 
-			this.panel89.Location = new System.Drawing.Point(59, 247);
-			this.panel89.Name = "panel89";
-			this.panel89.Size = new System.Drawing.Size(36, 33);
-			this.panel89.TabIndex = 373;
-			// 
-			// panel90
-			// 
-			this.panel90.Location = new System.Drawing.Point(17, 247);
-			this.panel90.Name = "panel90";
-			this.panel90.Size = new System.Drawing.Size(36, 33);
-			this.panel90.TabIndex = 374;
-			// 
-			// panel51
-			// 
-			this.panel51.Location = new System.Drawing.Point(397, 208);
-			this.panel51.Name = "panel51";
-			this.panel51.Size = new System.Drawing.Size(36, 33);
-			this.panel51.TabIndex = 371;
-			// 
-			// panel52
-			// 
-			this.panel52.Location = new System.Drawing.Point(355, 208);
-			this.panel52.Name = "panel52";
-			this.panel52.Size = new System.Drawing.Size(36, 33);
-			this.panel52.TabIndex = 368;
-			// 
-			// panel53
-			// 
-			this.panel53.Location = new System.Drawing.Point(313, 208);
-			this.panel53.Name = "panel53";
-			this.panel53.Size = new System.Drawing.Size(36, 33);
-			this.panel53.TabIndex = 369;
-			// 
-			// panel54
-			// 
-			this.panel54.Location = new System.Drawing.Point(271, 208);
-			this.panel54.Name = "panel54";
-			this.panel54.Size = new System.Drawing.Size(36, 33);
-			this.panel54.TabIndex = 370;
-			// 
-			// panel55
-			// 
-			this.panel55.Location = new System.Drawing.Point(228, 208);
-			this.panel55.Name = "panel55";
-			this.panel55.Size = new System.Drawing.Size(36, 33);
-			this.panel55.TabIndex = 365;
-			// 
-			// panel56
-			// 
-			this.panel56.Location = new System.Drawing.Point(186, 208);
-			this.panel56.Name = "panel56";
-			this.panel56.Size = new System.Drawing.Size(36, 33);
-			this.panel56.TabIndex = 366;
-			// 
-			// panel57
-			// 
-			this.panel57.Location = new System.Drawing.Point(144, 208);
-			this.panel57.Name = "panel57";
-			this.panel57.Size = new System.Drawing.Size(36, 33);
-			this.panel57.TabIndex = 367;
-			// 
-			// panel58
-			// 
-			this.panel58.Location = new System.Drawing.Point(101, 208);
-			this.panel58.Name = "panel58";
-			this.panel58.Size = new System.Drawing.Size(36, 33);
-			this.panel58.TabIndex = 362;
-			// 
-			// panel59
-			// 
-			this.panel59.Location = new System.Drawing.Point(59, 208);
-			this.panel59.Name = "panel59";
-			this.panel59.Size = new System.Drawing.Size(36, 33);
-			this.panel59.TabIndex = 363;
-			// 
-			// panel60
-			// 
-			this.panel60.Location = new System.Drawing.Point(17, 208);
-			this.panel60.Name = "panel60";
-			this.panel60.Size = new System.Drawing.Size(36, 33);
-			this.panel60.TabIndex = 364;
-			// 
-			// panel41
-			// 
-			this.panel41.Location = new System.Drawing.Point(397, 169);
-			this.panel41.Name = "panel41";
-			this.panel41.Size = new System.Drawing.Size(36, 33);
-			this.panel41.TabIndex = 361;
-			// 
-			// panel42
-			// 
-			this.panel42.Location = new System.Drawing.Point(355, 169);
-			this.panel42.Name = "panel42";
-			this.panel42.Size = new System.Drawing.Size(36, 33);
-			this.panel42.TabIndex = 358;
-			// 
-			// panel43
-			// 
-			this.panel43.Location = new System.Drawing.Point(313, 169);
-			this.panel43.Name = "panel43";
-			this.panel43.Size = new System.Drawing.Size(36, 33);
-			this.panel43.TabIndex = 359;
-			// 
-			// panel44
-			// 
-			this.panel44.Location = new System.Drawing.Point(271, 169);
-			this.panel44.Name = "panel44";
-			this.panel44.Size = new System.Drawing.Size(36, 33);
-			this.panel44.TabIndex = 360;
-			// 
-			// panel45
-			// 
-			this.panel45.Location = new System.Drawing.Point(228, 169);
-			this.panel45.Name = "panel45";
-			this.panel45.Size = new System.Drawing.Size(36, 33);
-			this.panel45.TabIndex = 355;
-			// 
-			// panel46
-			// 
-			this.panel46.Location = new System.Drawing.Point(186, 169);
-			this.panel46.Name = "panel46";
-			this.panel46.Size = new System.Drawing.Size(36, 33);
-			this.panel46.TabIndex = 356;
-			// 
-			// panel47
-			// 
-			this.panel47.Location = new System.Drawing.Point(144, 169);
-			this.panel47.Name = "panel47";
-			this.panel47.Size = new System.Drawing.Size(36, 33);
-			this.panel47.TabIndex = 357;
-			// 
-			// panel48
-			// 
-			this.panel48.Location = new System.Drawing.Point(101, 169);
-			this.panel48.Name = "panel48";
-			this.panel48.Size = new System.Drawing.Size(36, 33);
-			this.panel48.TabIndex = 352;
-			// 
-			// panel49
-			// 
-			this.panel49.Location = new System.Drawing.Point(59, 169);
-			this.panel49.Name = "panel49";
-			this.panel49.Size = new System.Drawing.Size(36, 33);
-			this.panel49.TabIndex = 353;
-			// 
-			// panel50
-			// 
-			this.panel50.Location = new System.Drawing.Point(17, 169);
-			this.panel50.Name = "panel50";
-			this.panel50.Size = new System.Drawing.Size(36, 33);
-			this.panel50.TabIndex = 354;
-			// 
-			// panel31
-			// 
-			this.panel31.Location = new System.Drawing.Point(397, 130);
-			this.panel31.Name = "panel31";
-			this.panel31.Size = new System.Drawing.Size(36, 33);
-			this.panel31.TabIndex = 351;
-			// 
-			// panel32
-			// 
-			this.panel32.Location = new System.Drawing.Point(355, 130);
-			this.panel32.Name = "panel32";
-			this.panel32.Size = new System.Drawing.Size(36, 33);
-			this.panel32.TabIndex = 348;
-			// 
-			// panel33
-			// 
-			this.panel33.Location = new System.Drawing.Point(313, 130);
-			this.panel33.Name = "panel33";
-			this.panel33.Size = new System.Drawing.Size(36, 33);
-			this.panel33.TabIndex = 349;
-			// 
-			// panel34
-			// 
-			this.panel34.Location = new System.Drawing.Point(271, 130);
-			this.panel34.Name = "panel34";
-			this.panel34.Size = new System.Drawing.Size(36, 33);
-			this.panel34.TabIndex = 350;
-			// 
-			// panel35
-			// 
-			this.panel35.Location = new System.Drawing.Point(228, 130);
-			this.panel35.Name = "panel35";
-			this.panel35.Size = new System.Drawing.Size(36, 33);
-			this.panel35.TabIndex = 345;
-			// 
-			// panel36
-			// 
-			this.panel36.Location = new System.Drawing.Point(186, 130);
-			this.panel36.Name = "panel36";
-			this.panel36.Size = new System.Drawing.Size(36, 33);
-			this.panel36.TabIndex = 346;
-			// 
-			// panel37
-			// 
-			this.panel37.Location = new System.Drawing.Point(144, 130);
-			this.panel37.Name = "panel37";
-			this.panel37.Size = new System.Drawing.Size(36, 33);
-			this.panel37.TabIndex = 347;
-			// 
-			// panel38
-			// 
-			this.panel38.Location = new System.Drawing.Point(101, 130);
-			this.panel38.Name = "panel38";
-			this.panel38.Size = new System.Drawing.Size(36, 33);
-			this.panel38.TabIndex = 342;
-			// 
-			// panel39
-			// 
-			this.panel39.Location = new System.Drawing.Point(59, 130);
-			this.panel39.Name = "panel39";
-			this.panel39.Size = new System.Drawing.Size(36, 33);
-			this.panel39.TabIndex = 343;
-			// 
-			// panel40
-			// 
-			this.panel40.Location = new System.Drawing.Point(17, 130);
-			this.panel40.Name = "panel40";
-			this.panel40.Size = new System.Drawing.Size(36, 33);
-			this.panel40.TabIndex = 344;
-			// 
-			// panel21
-			// 
-			this.panel21.Location = new System.Drawing.Point(397, 91);
-			this.panel21.Name = "panel21";
-			this.panel21.Size = new System.Drawing.Size(36, 33);
-			this.panel21.TabIndex = 341;
-			// 
-			// panel22
-			// 
-			this.panel22.Location = new System.Drawing.Point(355, 91);
-			this.panel22.Name = "panel22";
-			this.panel22.Size = new System.Drawing.Size(36, 33);
-			this.panel22.TabIndex = 338;
-			// 
-			// panel23
-			// 
-			this.panel23.Location = new System.Drawing.Point(313, 91);
-			this.panel23.Name = "panel23";
-			this.panel23.Size = new System.Drawing.Size(36, 33);
-			this.panel23.TabIndex = 339;
-			// 
-			// panel24
-			// 
-			this.panel24.Location = new System.Drawing.Point(271, 91);
-			this.panel24.Name = "panel24";
-			this.panel24.Size = new System.Drawing.Size(36, 33);
-			this.panel24.TabIndex = 340;
-			// 
-			// panel25
-			// 
-			this.panel25.Location = new System.Drawing.Point(228, 91);
-			this.panel25.Name = "panel25";
-			this.panel25.Size = new System.Drawing.Size(36, 33);
-			this.panel25.TabIndex = 335;
-			// 
-			// panel26
-			// 
-			this.panel26.Location = new System.Drawing.Point(186, 91);
-			this.panel26.Name = "panel26";
-			this.panel26.Size = new System.Drawing.Size(36, 33);
-			this.panel26.TabIndex = 336;
-			// 
-			// panel27
-			// 
-			this.panel27.Location = new System.Drawing.Point(144, 91);
-			this.panel27.Name = "panel27";
-			this.panel27.Size = new System.Drawing.Size(36, 33);
-			this.panel27.TabIndex = 337;
-			// 
-			// panel28
-			// 
-			this.panel28.Location = new System.Drawing.Point(101, 91);
-			this.panel28.Name = "panel28";
-			this.panel28.Size = new System.Drawing.Size(36, 33);
-			this.panel28.TabIndex = 332;
-			// 
-			// panel29
-			// 
-			this.panel29.Location = new System.Drawing.Point(59, 91);
-			this.panel29.Name = "panel29";
-			this.panel29.Size = new System.Drawing.Size(36, 33);
-			this.panel29.TabIndex = 333;
-			// 
-			// panel30
-			// 
-			this.panel30.Location = new System.Drawing.Point(17, 91);
-			this.panel30.Name = "panel30";
-			this.panel30.Size = new System.Drawing.Size(36, 33);
-			this.panel30.TabIndex = 334;
-			// 
-			// panel11
-			// 
-			this.panel11.Location = new System.Drawing.Point(397, 52);
-			this.panel11.Name = "panel11";
-			this.panel11.Size = new System.Drawing.Size(36, 33);
-			this.panel11.TabIndex = 331;
-			// 
-			// panel12
-			// 
-			this.panel12.Location = new System.Drawing.Point(355, 52);
-			this.panel12.Name = "panel12";
-			this.panel12.Size = new System.Drawing.Size(36, 33);
-			this.panel12.TabIndex = 328;
-			// 
-			// panel13
-			// 
-			this.panel13.Location = new System.Drawing.Point(313, 52);
-			this.panel13.Name = "panel13";
-			this.panel13.Size = new System.Drawing.Size(36, 33);
-			this.panel13.TabIndex = 329;
-			// 
-			// panel14
-			// 
-			this.panel14.Location = new System.Drawing.Point(271, 52);
-			this.panel14.Name = "panel14";
-			this.panel14.Size = new System.Drawing.Size(36, 33);
-			this.panel14.TabIndex = 330;
-			// 
-			// panel15
-			// 
-			this.panel15.Location = new System.Drawing.Point(228, 52);
-			this.panel15.Name = "panel15";
-			this.panel15.Size = new System.Drawing.Size(36, 33);
-			this.panel15.TabIndex = 325;
-			// 
-			// panel16
-			// 
-			this.panel16.Location = new System.Drawing.Point(186, 52);
-			this.panel16.Name = "panel16";
-			this.panel16.Size = new System.Drawing.Size(36, 33);
-			this.panel16.TabIndex = 326;
-			// 
-			// panel17
-			// 
-			this.panel17.Location = new System.Drawing.Point(144, 52);
-			this.panel17.Name = "panel17";
-			this.panel17.Size = new System.Drawing.Size(36, 33);
-			this.panel17.TabIndex = 327;
-			// 
-			// panel18
-			// 
-			this.panel18.Location = new System.Drawing.Point(101, 52);
-			this.panel18.Name = "panel18";
-			this.panel18.Size = new System.Drawing.Size(36, 33);
-			this.panel18.TabIndex = 322;
-			// 
-			// panel19
-			// 
-			this.panel19.Location = new System.Drawing.Point(59, 52);
-			this.panel19.Name = "panel19";
-			this.panel19.Size = new System.Drawing.Size(36, 33);
-			this.panel19.TabIndex = 323;
-			// 
-			// panel20
-			// 
-			this.panel20.Location = new System.Drawing.Point(17, 52);
-			this.panel20.Name = "panel20";
-			this.panel20.Size = new System.Drawing.Size(36, 33);
-			this.panel20.TabIndex = 324;
-			// 
-			// panel10
-			// 
-			this.panel10.Location = new System.Drawing.Point(397, 13);
-			this.panel10.Name = "panel10";
-			this.panel10.Size = new System.Drawing.Size(36, 33);
-			this.panel10.TabIndex = 321;
-			// 
-			// panel7
-			// 
-			this.panel7.Location = new System.Drawing.Point(355, 13);
-			this.panel7.Name = "panel7";
-			this.panel7.Size = new System.Drawing.Size(36, 33);
-			this.panel7.TabIndex = 318;
-			// 
-			// panel8
-			// 
-			this.panel8.Location = new System.Drawing.Point(313, 13);
-			this.panel8.Name = "panel8";
-			this.panel8.Size = new System.Drawing.Size(36, 33);
-			this.panel8.TabIndex = 319;
-			// 
-			// panel9
-			// 
-			this.panel9.Location = new System.Drawing.Point(271, 13);
-			this.panel9.Name = "panel9";
-			this.panel9.Size = new System.Drawing.Size(36, 33);
-			this.panel9.TabIndex = 320;
-			// 
-			// panel4
-			// 
-			this.panel4.Location = new System.Drawing.Point(228, 13);
-			this.panel4.Name = "panel4";
-			this.panel4.Size = new System.Drawing.Size(36, 33);
-			this.panel4.TabIndex = 315;
-			// 
-			// panel5
-			// 
-			this.panel5.Location = new System.Drawing.Point(186, 13);
-			this.panel5.Name = "panel5";
-			this.panel5.Size = new System.Drawing.Size(36, 33);
-			this.panel5.TabIndex = 316;
-			// 
-			// panel6
-			// 
-			this.panel6.Location = new System.Drawing.Point(144, 13);
-			this.panel6.Name = "panel6";
-			this.panel6.Size = new System.Drawing.Size(36, 33);
-			this.panel6.TabIndex = 317;
 			// 
 			// FleetGrbx
 			// 
@@ -2616,6 +1820,814 @@
 			this.FleetDeploymentIntroLbl.TabIndex = 31;
 			this.FleetDeploymentIntroLbl.Values.Text = "Fleet Deployment";
 			// 
+			// PreviewPnl
+			// 
+			this.PreviewPnl.Controls.Add(this.panel101);
+			this.PreviewPnl.Controls.Add(this.panel102);
+			this.PreviewPnl.Controls.Add(this.panel103);
+			this.PreviewPnl.Controls.Add(this.panel104);
+			this.PreviewPnl.Controls.Add(this.panel105);
+			this.PreviewPnl.Controls.Add(this.panel106);
+			this.PreviewPnl.Controls.Add(this.panel107);
+			this.PreviewPnl.Controls.Add(this.panel108);
+			this.PreviewPnl.Controls.Add(this.panel109);
+			this.PreviewPnl.Controls.Add(this.panel110);
+			this.PreviewPnl.Controls.Add(this.panel61);
+			this.PreviewPnl.Controls.Add(this.panel62);
+			this.PreviewPnl.Controls.Add(this.panel63);
+			this.PreviewPnl.Controls.Add(this.panel64);
+			this.PreviewPnl.Controls.Add(this.panel65);
+			this.PreviewPnl.Controls.Add(this.panel2);
+			this.PreviewPnl.Controls.Add(this.panel1);
+			this.PreviewPnl.Controls.Add(this.panel66);
+			this.PreviewPnl.Controls.Add(this.panel3);
+			this.PreviewPnl.Controls.Add(this.panel67);
+			this.PreviewPnl.Controls.Add(this.panel68);
+			this.PreviewPnl.Controls.Add(this.panel69);
+			this.PreviewPnl.Controls.Add(this.panel70);
+			this.PreviewPnl.Controls.Add(this.panel71);
+			this.PreviewPnl.Controls.Add(this.panel72);
+			this.PreviewPnl.Controls.Add(this.panel73);
+			this.PreviewPnl.Controls.Add(this.panel74);
+			this.PreviewPnl.Controls.Add(this.panel75);
+			this.PreviewPnl.Controls.Add(this.panel76);
+			this.PreviewPnl.Controls.Add(this.panel77);
+			this.PreviewPnl.Controls.Add(this.panel78);
+			this.PreviewPnl.Controls.Add(this.panel79);
+			this.PreviewPnl.Controls.Add(this.panel80);
+			this.PreviewPnl.Controls.Add(this.panel81);
+			this.PreviewPnl.Controls.Add(this.panel82);
+			this.PreviewPnl.Controls.Add(this.panel83);
+			this.PreviewPnl.Controls.Add(this.panel84);
+			this.PreviewPnl.Controls.Add(this.panel85);
+			this.PreviewPnl.Controls.Add(this.panel86);
+			this.PreviewPnl.Controls.Add(this.panel87);
+			this.PreviewPnl.Controls.Add(this.panel88);
+			this.PreviewPnl.Controls.Add(this.panel89);
+			this.PreviewPnl.Controls.Add(this.panel90);
+			this.PreviewPnl.Controls.Add(this.panel51);
+			this.PreviewPnl.Controls.Add(this.panel52);
+			this.PreviewPnl.Controls.Add(this.panel53);
+			this.PreviewPnl.Controls.Add(this.panel54);
+			this.PreviewPnl.Controls.Add(this.panel55);
+			this.PreviewPnl.Controls.Add(this.panel56);
+			this.PreviewPnl.Controls.Add(this.panel57);
+			this.PreviewPnl.Controls.Add(this.panel58);
+			this.PreviewPnl.Controls.Add(this.panel59);
+			this.PreviewPnl.Controls.Add(this.panel60);
+			this.PreviewPnl.Controls.Add(this.panel41);
+			this.PreviewPnl.Controls.Add(this.panel42);
+			this.PreviewPnl.Controls.Add(this.panel43);
+			this.PreviewPnl.Controls.Add(this.panel44);
+			this.PreviewPnl.Controls.Add(this.panel45);
+			this.PreviewPnl.Controls.Add(this.panel46);
+			this.PreviewPnl.Controls.Add(this.panel47);
+			this.PreviewPnl.Controls.Add(this.panel48);
+			this.PreviewPnl.Controls.Add(this.panel49);
+			this.PreviewPnl.Controls.Add(this.panel50);
+			this.PreviewPnl.Controls.Add(this.panel31);
+			this.PreviewPnl.Controls.Add(this.panel32);
+			this.PreviewPnl.Controls.Add(this.panel33);
+			this.PreviewPnl.Controls.Add(this.panel34);
+			this.PreviewPnl.Controls.Add(this.panel35);
+			this.PreviewPnl.Controls.Add(this.panel36);
+			this.PreviewPnl.Controls.Add(this.panel37);
+			this.PreviewPnl.Controls.Add(this.panel38);
+			this.PreviewPnl.Controls.Add(this.panel39);
+			this.PreviewPnl.Controls.Add(this.panel40);
+			this.PreviewPnl.Controls.Add(this.panel21);
+			this.PreviewPnl.Controls.Add(this.panel22);
+			this.PreviewPnl.Controls.Add(this.panel23);
+			this.PreviewPnl.Controls.Add(this.panel24);
+			this.PreviewPnl.Controls.Add(this.panel25);
+			this.PreviewPnl.Controls.Add(this.panel26);
+			this.PreviewPnl.Controls.Add(this.panel27);
+			this.PreviewPnl.Controls.Add(this.panel28);
+			this.PreviewPnl.Controls.Add(this.panel29);
+			this.PreviewPnl.Controls.Add(this.panel30);
+			this.PreviewPnl.Controls.Add(this.panel11);
+			this.PreviewPnl.Controls.Add(this.panel12);
+			this.PreviewPnl.Controls.Add(this.panel13);
+			this.PreviewPnl.Controls.Add(this.panel14);
+			this.PreviewPnl.Controls.Add(this.panel15);
+			this.PreviewPnl.Controls.Add(this.panel16);
+			this.PreviewPnl.Controls.Add(this.panel17);
+			this.PreviewPnl.Controls.Add(this.panel18);
+			this.PreviewPnl.Controls.Add(this.panel19);
+			this.PreviewPnl.Controls.Add(this.panel20);
+			this.PreviewPnl.Controls.Add(this.panel10);
+			this.PreviewPnl.Controls.Add(this.panel7);
+			this.PreviewPnl.Controls.Add(this.panel8);
+			this.PreviewPnl.Controls.Add(this.panel9);
+			this.PreviewPnl.Controls.Add(this.panel4);
+			this.PreviewPnl.Controls.Add(this.panel5);
+			this.PreviewPnl.Controls.Add(this.panel6);
+			this.PreviewPnl.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.PreviewPnl.Location = new System.Drawing.Point(0, 0);
+			this.PreviewPnl.Name = "PreviewPnl";
+			this.PreviewPnl.Size = new System.Drawing.Size(431, 399);
+			this.PreviewPnl.TabIndex = 0;
+			// 
+			// panel101
+			// 
+			this.panel101.Location = new System.Drawing.Point(388, 359);
+			this.panel101.Name = "panel101";
+			this.panel101.Size = new System.Drawing.Size(36, 33);
+			this.panel101.TabIndex = 511;
+			// 
+			// panel102
+			// 
+			this.panel102.Location = new System.Drawing.Point(346, 359);
+			this.panel102.Name = "panel102";
+			this.panel102.Size = new System.Drawing.Size(36, 33);
+			this.panel102.TabIndex = 508;
+			// 
+			// panel103
+			// 
+			this.panel103.Location = new System.Drawing.Point(304, 359);
+			this.panel103.Name = "panel103";
+			this.panel103.Size = new System.Drawing.Size(36, 33);
+			this.panel103.TabIndex = 509;
+			// 
+			// panel104
+			// 
+			this.panel104.Location = new System.Drawing.Point(262, 359);
+			this.panel104.Name = "panel104";
+			this.panel104.Size = new System.Drawing.Size(36, 33);
+			this.panel104.TabIndex = 510;
+			// 
+			// panel105
+			// 
+			this.panel105.Location = new System.Drawing.Point(219, 359);
+			this.panel105.Name = "panel105";
+			this.panel105.Size = new System.Drawing.Size(36, 33);
+			this.panel105.TabIndex = 505;
+			// 
+			// panel106
+			// 
+			this.panel106.Location = new System.Drawing.Point(177, 359);
+			this.panel106.Name = "panel106";
+			this.panel106.Size = new System.Drawing.Size(36, 33);
+			this.panel106.TabIndex = 506;
+			// 
+			// panel107
+			// 
+			this.panel107.Location = new System.Drawing.Point(135, 359);
+			this.panel107.Name = "panel107";
+			this.panel107.Size = new System.Drawing.Size(36, 33);
+			this.panel107.TabIndex = 507;
+			// 
+			// panel108
+			// 
+			this.panel108.Location = new System.Drawing.Point(92, 359);
+			this.panel108.Name = "panel108";
+			this.panel108.Size = new System.Drawing.Size(36, 33);
+			this.panel108.TabIndex = 502;
+			// 
+			// panel109
+			// 
+			this.panel109.Location = new System.Drawing.Point(50, 359);
+			this.panel109.Name = "panel109";
+			this.panel109.Size = new System.Drawing.Size(36, 33);
+			this.panel109.TabIndex = 503;
+			// 
+			// panel110
+			// 
+			this.panel110.Location = new System.Drawing.Point(8, 359);
+			this.panel110.Name = "panel110";
+			this.panel110.Size = new System.Drawing.Size(36, 33);
+			this.panel110.TabIndex = 504;
+			// 
+			// panel61
+			// 
+			this.panel61.Location = new System.Drawing.Point(388, 320);
+			this.panel61.Name = "panel61";
+			this.panel61.Size = new System.Drawing.Size(36, 33);
+			this.panel61.TabIndex = 501;
+			// 
+			// panel62
+			// 
+			this.panel62.Location = new System.Drawing.Point(346, 320);
+			this.panel62.Name = "panel62";
+			this.panel62.Size = new System.Drawing.Size(36, 33);
+			this.panel62.TabIndex = 498;
+			// 
+			// panel63
+			// 
+			this.panel63.Location = new System.Drawing.Point(304, 320);
+			this.panel63.Name = "panel63";
+			this.panel63.Size = new System.Drawing.Size(36, 33);
+			this.panel63.TabIndex = 499;
+			// 
+			// panel64
+			// 
+			this.panel64.Location = new System.Drawing.Point(262, 320);
+			this.panel64.Name = "panel64";
+			this.panel64.Size = new System.Drawing.Size(36, 33);
+			this.panel64.TabIndex = 500;
+			// 
+			// panel65
+			// 
+			this.panel65.Location = new System.Drawing.Point(219, 320);
+			this.panel65.Name = "panel65";
+			this.panel65.Size = new System.Drawing.Size(36, 33);
+			this.panel65.TabIndex = 495;
+			// 
+			// panel2
+			// 
+			this.panel2.Location = new System.Drawing.Point(50, 8);
+			this.panel2.Name = "panel2";
+			this.panel2.Size = new System.Drawing.Size(36, 33);
+			this.panel2.TabIndex = 414;
+			// 
+			// panel1
+			// 
+			this.panel1.Location = new System.Drawing.Point(8, 8);
+			this.panel1.Name = "panel1";
+			this.panel1.Size = new System.Drawing.Size(36, 33);
+			this.panel1.TabIndex = 412;
+			// 
+			// panel66
+			// 
+			this.panel66.Location = new System.Drawing.Point(177, 320);
+			this.panel66.Name = "panel66";
+			this.panel66.Size = new System.Drawing.Size(36, 33);
+			this.panel66.TabIndex = 496;
+			// 
+			// panel3
+			// 
+			this.panel3.Location = new System.Drawing.Point(92, 8);
+			this.panel3.Name = "panel3";
+			this.panel3.Size = new System.Drawing.Size(36, 33);
+			this.panel3.TabIndex = 413;
+			// 
+			// panel67
+			// 
+			this.panel67.Location = new System.Drawing.Point(135, 320);
+			this.panel67.Name = "panel67";
+			this.panel67.Size = new System.Drawing.Size(36, 33);
+			this.panel67.TabIndex = 497;
+			// 
+			// panel68
+			// 
+			this.panel68.Location = new System.Drawing.Point(92, 320);
+			this.panel68.Name = "panel68";
+			this.panel68.Size = new System.Drawing.Size(36, 33);
+			this.panel68.TabIndex = 492;
+			// 
+			// panel69
+			// 
+			this.panel69.Location = new System.Drawing.Point(50, 320);
+			this.panel69.Name = "panel69";
+			this.panel69.Size = new System.Drawing.Size(36, 33);
+			this.panel69.TabIndex = 493;
+			// 
+			// panel70
+			// 
+			this.panel70.Location = new System.Drawing.Point(8, 320);
+			this.panel70.Name = "panel70";
+			this.panel70.Size = new System.Drawing.Size(36, 33);
+			this.panel70.TabIndex = 494;
+			// 
+			// panel71
+			// 
+			this.panel71.Location = new System.Drawing.Point(388, 281);
+			this.panel71.Name = "panel71";
+			this.panel71.Size = new System.Drawing.Size(36, 33);
+			this.panel71.TabIndex = 491;
+			// 
+			// panel72
+			// 
+			this.panel72.Location = new System.Drawing.Point(346, 281);
+			this.panel72.Name = "panel72";
+			this.panel72.Size = new System.Drawing.Size(36, 33);
+			this.panel72.TabIndex = 488;
+			// 
+			// panel73
+			// 
+			this.panel73.Location = new System.Drawing.Point(304, 281);
+			this.panel73.Name = "panel73";
+			this.panel73.Size = new System.Drawing.Size(36, 33);
+			this.panel73.TabIndex = 489;
+			// 
+			// panel74
+			// 
+			this.panel74.Location = new System.Drawing.Point(262, 281);
+			this.panel74.Name = "panel74";
+			this.panel74.Size = new System.Drawing.Size(36, 33);
+			this.panel74.TabIndex = 490;
+			// 
+			// panel75
+			// 
+			this.panel75.Location = new System.Drawing.Point(219, 281);
+			this.panel75.Name = "panel75";
+			this.panel75.Size = new System.Drawing.Size(36, 33);
+			this.panel75.TabIndex = 485;
+			// 
+			// panel76
+			// 
+			this.panel76.Location = new System.Drawing.Point(177, 281);
+			this.panel76.Name = "panel76";
+			this.panel76.Size = new System.Drawing.Size(36, 33);
+			this.panel76.TabIndex = 486;
+			// 
+			// panel77
+			// 
+			this.panel77.Location = new System.Drawing.Point(135, 281);
+			this.panel77.Name = "panel77";
+			this.panel77.Size = new System.Drawing.Size(36, 33);
+			this.panel77.TabIndex = 487;
+			// 
+			// panel78
+			// 
+			this.panel78.Location = new System.Drawing.Point(92, 281);
+			this.panel78.Name = "panel78";
+			this.panel78.Size = new System.Drawing.Size(36, 33);
+			this.panel78.TabIndex = 482;
+			// 
+			// panel79
+			// 
+			this.panel79.Location = new System.Drawing.Point(50, 281);
+			this.panel79.Name = "panel79";
+			this.panel79.Size = new System.Drawing.Size(36, 33);
+			this.panel79.TabIndex = 483;
+			// 
+			// panel80
+			// 
+			this.panel80.Location = new System.Drawing.Point(8, 281);
+			this.panel80.Name = "panel80";
+			this.panel80.Size = new System.Drawing.Size(36, 33);
+			this.panel80.TabIndex = 484;
+			// 
+			// panel81
+			// 
+			this.panel81.Location = new System.Drawing.Point(388, 242);
+			this.panel81.Name = "panel81";
+			this.panel81.Size = new System.Drawing.Size(36, 33);
+			this.panel81.TabIndex = 481;
+			// 
+			// panel82
+			// 
+			this.panel82.Location = new System.Drawing.Point(346, 242);
+			this.panel82.Name = "panel82";
+			this.panel82.Size = new System.Drawing.Size(36, 33);
+			this.panel82.TabIndex = 478;
+			// 
+			// panel83
+			// 
+			this.panel83.Location = new System.Drawing.Point(304, 242);
+			this.panel83.Name = "panel83";
+			this.panel83.Size = new System.Drawing.Size(36, 33);
+			this.panel83.TabIndex = 479;
+			// 
+			// panel84
+			// 
+			this.panel84.Location = new System.Drawing.Point(262, 242);
+			this.panel84.Name = "panel84";
+			this.panel84.Size = new System.Drawing.Size(36, 33);
+			this.panel84.TabIndex = 480;
+			// 
+			// panel85
+			// 
+			this.panel85.Location = new System.Drawing.Point(219, 242);
+			this.panel85.Name = "panel85";
+			this.panel85.Size = new System.Drawing.Size(36, 33);
+			this.panel85.TabIndex = 475;
+			// 
+			// panel86
+			// 
+			this.panel86.Location = new System.Drawing.Point(177, 242);
+			this.panel86.Name = "panel86";
+			this.panel86.Size = new System.Drawing.Size(36, 33);
+			this.panel86.TabIndex = 476;
+			// 
+			// panel87
+			// 
+			this.panel87.Location = new System.Drawing.Point(135, 242);
+			this.panel87.Name = "panel87";
+			this.panel87.Size = new System.Drawing.Size(36, 33);
+			this.panel87.TabIndex = 477;
+			// 
+			// panel88
+			// 
+			this.panel88.Location = new System.Drawing.Point(92, 242);
+			this.panel88.Name = "panel88";
+			this.panel88.Size = new System.Drawing.Size(36, 33);
+			this.panel88.TabIndex = 472;
+			// 
+			// panel89
+			// 
+			this.panel89.Location = new System.Drawing.Point(50, 242);
+			this.panel89.Name = "panel89";
+			this.panel89.Size = new System.Drawing.Size(36, 33);
+			this.panel89.TabIndex = 473;
+			// 
+			// panel90
+			// 
+			this.panel90.Location = new System.Drawing.Point(8, 242);
+			this.panel90.Name = "panel90";
+			this.panel90.Size = new System.Drawing.Size(36, 33);
+			this.panel90.TabIndex = 474;
+			// 
+			// panel51
+			// 
+			this.panel51.Location = new System.Drawing.Point(388, 203);
+			this.panel51.Name = "panel51";
+			this.panel51.Size = new System.Drawing.Size(36, 33);
+			this.panel51.TabIndex = 471;
+			// 
+			// panel52
+			// 
+			this.panel52.Location = new System.Drawing.Point(346, 203);
+			this.panel52.Name = "panel52";
+			this.panel52.Size = new System.Drawing.Size(36, 33);
+			this.panel52.TabIndex = 468;
+			// 
+			// panel53
+			// 
+			this.panel53.Location = new System.Drawing.Point(304, 203);
+			this.panel53.Name = "panel53";
+			this.panel53.Size = new System.Drawing.Size(36, 33);
+			this.panel53.TabIndex = 469;
+			// 
+			// panel54
+			// 
+			this.panel54.Location = new System.Drawing.Point(262, 203);
+			this.panel54.Name = "panel54";
+			this.panel54.Size = new System.Drawing.Size(36, 33);
+			this.panel54.TabIndex = 470;
+			// 
+			// panel55
+			// 
+			this.panel55.Location = new System.Drawing.Point(219, 203);
+			this.panel55.Name = "panel55";
+			this.panel55.Size = new System.Drawing.Size(36, 33);
+			this.panel55.TabIndex = 465;
+			// 
+			// panel56
+			// 
+			this.panel56.Location = new System.Drawing.Point(177, 203);
+			this.panel56.Name = "panel56";
+			this.panel56.Size = new System.Drawing.Size(36, 33);
+			this.panel56.TabIndex = 466;
+			// 
+			// panel57
+			// 
+			this.panel57.Location = new System.Drawing.Point(135, 203);
+			this.panel57.Name = "panel57";
+			this.panel57.Size = new System.Drawing.Size(36, 33);
+			this.panel57.TabIndex = 467;
+			// 
+			// panel58
+			// 
+			this.panel58.Location = new System.Drawing.Point(92, 203);
+			this.panel58.Name = "panel58";
+			this.panel58.Size = new System.Drawing.Size(36, 33);
+			this.panel58.TabIndex = 462;
+			// 
+			// panel59
+			// 
+			this.panel59.Location = new System.Drawing.Point(50, 203);
+			this.panel59.Name = "panel59";
+			this.panel59.Size = new System.Drawing.Size(36, 33);
+			this.panel59.TabIndex = 463;
+			// 
+			// panel60
+			// 
+			this.panel60.Location = new System.Drawing.Point(8, 203);
+			this.panel60.Name = "panel60";
+			this.panel60.Size = new System.Drawing.Size(36, 33);
+			this.panel60.TabIndex = 464;
+			// 
+			// panel41
+			// 
+			this.panel41.Location = new System.Drawing.Point(388, 164);
+			this.panel41.Name = "panel41";
+			this.panel41.Size = new System.Drawing.Size(36, 33);
+			this.panel41.TabIndex = 461;
+			// 
+			// panel42
+			// 
+			this.panel42.Location = new System.Drawing.Point(346, 164);
+			this.panel42.Name = "panel42";
+			this.panel42.Size = new System.Drawing.Size(36, 33);
+			this.panel42.TabIndex = 458;
+			// 
+			// panel43
+			// 
+			this.panel43.Location = new System.Drawing.Point(304, 164);
+			this.panel43.Name = "panel43";
+			this.panel43.Size = new System.Drawing.Size(36, 33);
+			this.panel43.TabIndex = 459;
+			// 
+			// panel44
+			// 
+			this.panel44.Location = new System.Drawing.Point(262, 164);
+			this.panel44.Name = "panel44";
+			this.panel44.Size = new System.Drawing.Size(36, 33);
+			this.panel44.TabIndex = 460;
+			// 
+			// panel45
+			// 
+			this.panel45.Location = new System.Drawing.Point(219, 164);
+			this.panel45.Name = "panel45";
+			this.panel45.Size = new System.Drawing.Size(36, 33);
+			this.panel45.TabIndex = 455;
+			// 
+			// panel46
+			// 
+			this.panel46.Location = new System.Drawing.Point(177, 164);
+			this.panel46.Name = "panel46";
+			this.panel46.Size = new System.Drawing.Size(36, 33);
+			this.panel46.TabIndex = 456;
+			// 
+			// panel47
+			// 
+			this.panel47.Location = new System.Drawing.Point(135, 164);
+			this.panel47.Name = "panel47";
+			this.panel47.Size = new System.Drawing.Size(36, 33);
+			this.panel47.TabIndex = 457;
+			// 
+			// panel48
+			// 
+			this.panel48.Location = new System.Drawing.Point(92, 164);
+			this.panel48.Name = "panel48";
+			this.panel48.Size = new System.Drawing.Size(36, 33);
+			this.panel48.TabIndex = 452;
+			// 
+			// panel49
+			// 
+			this.panel49.Location = new System.Drawing.Point(50, 164);
+			this.panel49.Name = "panel49";
+			this.panel49.Size = new System.Drawing.Size(36, 33);
+			this.panel49.TabIndex = 453;
+			// 
+			// panel50
+			// 
+			this.panel50.Location = new System.Drawing.Point(8, 164);
+			this.panel50.Name = "panel50";
+			this.panel50.Size = new System.Drawing.Size(36, 33);
+			this.panel50.TabIndex = 454;
+			// 
+			// panel31
+			// 
+			this.panel31.Location = new System.Drawing.Point(388, 125);
+			this.panel31.Name = "panel31";
+			this.panel31.Size = new System.Drawing.Size(36, 33);
+			this.panel31.TabIndex = 451;
+			// 
+			// panel32
+			// 
+			this.panel32.Location = new System.Drawing.Point(346, 125);
+			this.panel32.Name = "panel32";
+			this.panel32.Size = new System.Drawing.Size(36, 33);
+			this.panel32.TabIndex = 448;
+			// 
+			// panel33
+			// 
+			this.panel33.Location = new System.Drawing.Point(304, 125);
+			this.panel33.Name = "panel33";
+			this.panel33.Size = new System.Drawing.Size(36, 33);
+			this.panel33.TabIndex = 449;
+			// 
+			// panel34
+			// 
+			this.panel34.Location = new System.Drawing.Point(262, 125);
+			this.panel34.Name = "panel34";
+			this.panel34.Size = new System.Drawing.Size(36, 33);
+			this.panel34.TabIndex = 450;
+			// 
+			// panel35
+			// 
+			this.panel35.Location = new System.Drawing.Point(219, 125);
+			this.panel35.Name = "panel35";
+			this.panel35.Size = new System.Drawing.Size(36, 33);
+			this.panel35.TabIndex = 445;
+			// 
+			// panel36
+			// 
+			this.panel36.Location = new System.Drawing.Point(177, 125);
+			this.panel36.Name = "panel36";
+			this.panel36.Size = new System.Drawing.Size(36, 33);
+			this.panel36.TabIndex = 446;
+			// 
+			// panel37
+			// 
+			this.panel37.Location = new System.Drawing.Point(135, 125);
+			this.panel37.Name = "panel37";
+			this.panel37.Size = new System.Drawing.Size(36, 33);
+			this.panel37.TabIndex = 447;
+			// 
+			// panel38
+			// 
+			this.panel38.Location = new System.Drawing.Point(92, 125);
+			this.panel38.Name = "panel38";
+			this.panel38.Size = new System.Drawing.Size(36, 33);
+			this.panel38.TabIndex = 442;
+			// 
+			// panel39
+			// 
+			this.panel39.Location = new System.Drawing.Point(50, 125);
+			this.panel39.Name = "panel39";
+			this.panel39.Size = new System.Drawing.Size(36, 33);
+			this.panel39.TabIndex = 443;
+			// 
+			// panel40
+			// 
+			this.panel40.Location = new System.Drawing.Point(8, 125);
+			this.panel40.Name = "panel40";
+			this.panel40.Size = new System.Drawing.Size(36, 33);
+			this.panel40.TabIndex = 444;
+			// 
+			// panel21
+			// 
+			this.panel21.Location = new System.Drawing.Point(388, 86);
+			this.panel21.Name = "panel21";
+			this.panel21.Size = new System.Drawing.Size(36, 33);
+			this.panel21.TabIndex = 441;
+			// 
+			// panel22
+			// 
+			this.panel22.Location = new System.Drawing.Point(346, 86);
+			this.panel22.Name = "panel22";
+			this.panel22.Size = new System.Drawing.Size(36, 33);
+			this.panel22.TabIndex = 438;
+			// 
+			// panel23
+			// 
+			this.panel23.Location = new System.Drawing.Point(304, 86);
+			this.panel23.Name = "panel23";
+			this.panel23.Size = new System.Drawing.Size(36, 33);
+			this.panel23.TabIndex = 439;
+			// 
+			// panel24
+			// 
+			this.panel24.Location = new System.Drawing.Point(262, 86);
+			this.panel24.Name = "panel24";
+			this.panel24.Size = new System.Drawing.Size(36, 33);
+			this.panel24.TabIndex = 440;
+			// 
+			// panel25
+			// 
+			this.panel25.Location = new System.Drawing.Point(219, 86);
+			this.panel25.Name = "panel25";
+			this.panel25.Size = new System.Drawing.Size(36, 33);
+			this.panel25.TabIndex = 435;
+			// 
+			// panel26
+			// 
+			this.panel26.Location = new System.Drawing.Point(177, 86);
+			this.panel26.Name = "panel26";
+			this.panel26.Size = new System.Drawing.Size(36, 33);
+			this.panel26.TabIndex = 436;
+			// 
+			// panel27
+			// 
+			this.panel27.Location = new System.Drawing.Point(135, 86);
+			this.panel27.Name = "panel27";
+			this.panel27.Size = new System.Drawing.Size(36, 33);
+			this.panel27.TabIndex = 437;
+			// 
+			// panel28
+			// 
+			this.panel28.Location = new System.Drawing.Point(92, 86);
+			this.panel28.Name = "panel28";
+			this.panel28.Size = new System.Drawing.Size(36, 33);
+			this.panel28.TabIndex = 432;
+			// 
+			// panel29
+			// 
+			this.panel29.Location = new System.Drawing.Point(50, 86);
+			this.panel29.Name = "panel29";
+			this.panel29.Size = new System.Drawing.Size(36, 33);
+			this.panel29.TabIndex = 433;
+			// 
+			// panel30
+			// 
+			this.panel30.Location = new System.Drawing.Point(8, 86);
+			this.panel30.Name = "panel30";
+			this.panel30.Size = new System.Drawing.Size(36, 33);
+			this.panel30.TabIndex = 434;
+			// 
+			// panel11
+			// 
+			this.panel11.Location = new System.Drawing.Point(388, 47);
+			this.panel11.Name = "panel11";
+			this.panel11.Size = new System.Drawing.Size(36, 33);
+			this.panel11.TabIndex = 431;
+			// 
+			// panel12
+			// 
+			this.panel12.Location = new System.Drawing.Point(346, 47);
+			this.panel12.Name = "panel12";
+			this.panel12.Size = new System.Drawing.Size(36, 33);
+			this.panel12.TabIndex = 428;
+			// 
+			// panel13
+			// 
+			this.panel13.Location = new System.Drawing.Point(304, 47);
+			this.panel13.Name = "panel13";
+			this.panel13.Size = new System.Drawing.Size(36, 33);
+			this.panel13.TabIndex = 429;
+			// 
+			// panel14
+			// 
+			this.panel14.Location = new System.Drawing.Point(262, 47);
+			this.panel14.Name = "panel14";
+			this.panel14.Size = new System.Drawing.Size(36, 33);
+			this.panel14.TabIndex = 430;
+			// 
+			// panel15
+			// 
+			this.panel15.Location = new System.Drawing.Point(219, 47);
+			this.panel15.Name = "panel15";
+			this.panel15.Size = new System.Drawing.Size(36, 33);
+			this.panel15.TabIndex = 425;
+			// 
+			// panel16
+			// 
+			this.panel16.Location = new System.Drawing.Point(177, 47);
+			this.panel16.Name = "panel16";
+			this.panel16.Size = new System.Drawing.Size(36, 33);
+			this.panel16.TabIndex = 426;
+			// 
+			// panel17
+			// 
+			this.panel17.Location = new System.Drawing.Point(135, 47);
+			this.panel17.Name = "panel17";
+			this.panel17.Size = new System.Drawing.Size(36, 33);
+			this.panel17.TabIndex = 427;
+			// 
+			// panel18
+			// 
+			this.panel18.Location = new System.Drawing.Point(92, 47);
+			this.panel18.Name = "panel18";
+			this.panel18.Size = new System.Drawing.Size(36, 33);
+			this.panel18.TabIndex = 422;
+			// 
+			// panel19
+			// 
+			this.panel19.Location = new System.Drawing.Point(50, 47);
+			this.panel19.Name = "panel19";
+			this.panel19.Size = new System.Drawing.Size(36, 33);
+			this.panel19.TabIndex = 423;
+			// 
+			// panel20
+			// 
+			this.panel20.Location = new System.Drawing.Point(8, 47);
+			this.panel20.Name = "panel20";
+			this.panel20.Size = new System.Drawing.Size(36, 33);
+			this.panel20.TabIndex = 424;
+			// 
+			// panel10
+			// 
+			this.panel10.Location = new System.Drawing.Point(388, 8);
+			this.panel10.Name = "panel10";
+			this.panel10.Size = new System.Drawing.Size(36, 33);
+			this.panel10.TabIndex = 421;
+			// 
+			// panel7
+			// 
+			this.panel7.Location = new System.Drawing.Point(346, 8);
+			this.panel7.Name = "panel7";
+			this.panel7.Size = new System.Drawing.Size(36, 33);
+			this.panel7.TabIndex = 418;
+			// 
+			// panel8
+			// 
+			this.panel8.Location = new System.Drawing.Point(304, 8);
+			this.panel8.Name = "panel8";
+			this.panel8.Size = new System.Drawing.Size(36, 33);
+			this.panel8.TabIndex = 419;
+			// 
+			// panel9
+			// 
+			this.panel9.Location = new System.Drawing.Point(262, 8);
+			this.panel9.Name = "panel9";
+			this.panel9.Size = new System.Drawing.Size(36, 33);
+			this.panel9.TabIndex = 420;
+			// 
+			// panel4
+			// 
+			this.panel4.Location = new System.Drawing.Point(219, 8);
+			this.panel4.Name = "panel4";
+			this.panel4.Size = new System.Drawing.Size(36, 33);
+			this.panel4.TabIndex = 415;
+			// 
+			// panel5
+			// 
+			this.panel5.Location = new System.Drawing.Point(177, 8);
+			this.panel5.Name = "panel5";
+			this.panel5.Size = new System.Drawing.Size(36, 33);
+			this.panel5.TabIndex = 416;
+			// 
+			// panel6
+			// 
+			this.panel6.Location = new System.Drawing.Point(135, 8);
+			this.panel6.Name = "panel6";
+			this.panel6.Size = new System.Drawing.Size(36, 33);
+			this.panel6.TabIndex = 417;
+			// 
 			// FleetDeploymentForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2648,6 +2660,8 @@
 			((System.ComponentModel.ISupportInitialize)(this.BattleShipPbx)).EndInit();
 			this.panel91.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.CarrierPbx)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.PreviewPnl)).EndInit();
+			this.PreviewPnl.ResumeLayout(false);
 			this.ResumeLayout(false);
 
 		}
@@ -2657,6 +2671,29 @@
 		private ComponentFactory.Krypton.Toolkit.KryptonPanel MainPnl;
 		private ComponentFactory.Krypton.Toolkit.KryptonButton AttackBtn;
 		private ComponentFactory.Krypton.Toolkit.KryptonGroupBox PreviewGrbx;
+		private ComponentFactory.Krypton.Toolkit.KryptonGroupBox FleetGrbx;
+		private System.Windows.Forms.Panel panel95;
+		private ComponentFactory.Krypton.Toolkit.KryptonButton RotateDestroyerBtn;
+		private ComponentFactory.Krypton.Toolkit.KryptonButton ResetDestroyerBtn;
+		private System.Windows.Forms.PictureBox DestroyerPbx;
+		private System.Windows.Forms.Panel panel94;
+		private ComponentFactory.Krypton.Toolkit.KryptonButton RotateSubmarineBtn;
+		private ComponentFactory.Krypton.Toolkit.KryptonButton ResetSubmarineBtn;
+		private System.Windows.Forms.PictureBox SubmarinePbx;
+		private System.Windows.Forms.Panel panel93;
+		private ComponentFactory.Krypton.Toolkit.KryptonButton ResetCruiserBtn;
+		private ComponentFactory.Krypton.Toolkit.KryptonButton RotateCruiserBtn;
+		private System.Windows.Forms.PictureBox CruiserPbx;
+		private System.Windows.Forms.Panel panel92;
+		private ComponentFactory.Krypton.Toolkit.KryptonButton ResetBattleShipBtn;
+		private ComponentFactory.Krypton.Toolkit.KryptonButton RotateBattleShipBtn;
+		private System.Windows.Forms.PictureBox BattleShipPbx;
+		private System.Windows.Forms.Panel panel91;
+		private System.Windows.Forms.PictureBox CarrierPbx;
+		private ComponentFactory.Krypton.Toolkit.KryptonButton ResetCarrierBtn;
+		private ComponentFactory.Krypton.Toolkit.KryptonButton RotateCarrierBtn;
+		private ComponentFactory.Krypton.Toolkit.KryptonLabel FleetDeploymentIntroLbl;
+		private ComponentFactory.Krypton.Toolkit.KryptonPanel PreviewPnl;
 		private System.Windows.Forms.Panel panel101;
 		private System.Windows.Forms.Panel panel102;
 		private System.Windows.Forms.Panel panel103;
@@ -2757,27 +2794,5 @@
 		private System.Windows.Forms.Panel panel4;
 		private System.Windows.Forms.Panel panel5;
 		private System.Windows.Forms.Panel panel6;
-		private ComponentFactory.Krypton.Toolkit.KryptonGroupBox FleetGrbx;
-		private System.Windows.Forms.Panel panel95;
-		private ComponentFactory.Krypton.Toolkit.KryptonButton RotateDestroyerBtn;
-		private ComponentFactory.Krypton.Toolkit.KryptonButton ResetDestroyerBtn;
-		private System.Windows.Forms.PictureBox DestroyerPbx;
-		private System.Windows.Forms.Panel panel94;
-		private ComponentFactory.Krypton.Toolkit.KryptonButton RotateSubmarineBtn;
-		private ComponentFactory.Krypton.Toolkit.KryptonButton ResetSubmarineBtn;
-		private System.Windows.Forms.PictureBox SubmarinePbx;
-		private System.Windows.Forms.Panel panel93;
-		private ComponentFactory.Krypton.Toolkit.KryptonButton ResetCruiserBtn;
-		private ComponentFactory.Krypton.Toolkit.KryptonButton RotateCruiserBtn;
-		private System.Windows.Forms.PictureBox CruiserPbx;
-		private System.Windows.Forms.Panel panel92;
-		private ComponentFactory.Krypton.Toolkit.KryptonButton ResetBattleShipBtn;
-		private ComponentFactory.Krypton.Toolkit.KryptonButton RotateBattleShipBtn;
-		private System.Windows.Forms.PictureBox BattleShipPbx;
-		private System.Windows.Forms.Panel panel91;
-		private System.Windows.Forms.PictureBox CarrierPbx;
-		private ComponentFactory.Krypton.Toolkit.KryptonButton ResetCarrierBtn;
-		private ComponentFactory.Krypton.Toolkit.KryptonButton RotateCarrierBtn;
-		private ComponentFactory.Krypton.Toolkit.KryptonLabel FleetDeploymentIntroLbl;
 	}
 }
