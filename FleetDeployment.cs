@@ -28,7 +28,7 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void AttackBtn_Click( object sender, System.EventArgs e )
 		{
-			new BattleFieldForm().Show();
+			new BattleFieldForm(gameManager).Show();
 			this.Close();
 		}
 
