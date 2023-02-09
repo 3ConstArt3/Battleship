@@ -24,7 +24,7 @@ namespace Battleship
 		private void BattleFieldForm_FormClosed( object sender, FormClosedEventArgs e )
 		{
 			// new HighScoresForm().Show();
-			this.Close();
+			// this.Close();
 		}
 
 		private void PosA1Pnl_MouseClick( object sender, MouseEventArgs e )
