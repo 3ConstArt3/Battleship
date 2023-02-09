@@ -205,7 +205,7 @@ namespace Battleship
 			PictureBox newShip = selectedShipPBox;
 			Controls.Add(newShip);
 			newShip.BringToFront();
-			newShip.BackColor = Color.LimeGreen;
+			newShip.BackColor = Color.Transparent;
 			Panel targetPanel = (Panel)sender;
 
 			try
@@ -218,106 +218,6 @@ namespace Battleship
 			newShip.Location = new Point(PreviewGrbx.Location.X + targetPanel.Location.X + 6,
 			PreviewGrbx.Location.Y + targetPanel.Location.Y + targetPanel.Height + 2);
 		}
-
-        private void panel48_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel49_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel60_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel41_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel42_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel43_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel44_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel45_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel46_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel47_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel59_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel50_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel51_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel52_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel53_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel54_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel55_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel56_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel57_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel58_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 
 }

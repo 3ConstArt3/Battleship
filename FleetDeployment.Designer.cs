@@ -1040,7 +1040,6 @@
             this.panel41.Name = "panel41";
             this.panel41.Size = new System.Drawing.Size(40, 40);
             this.panel41.TabIndex = 480;
-            this.panel41.Paint += new System.Windows.Forms.PaintEventHandler(this.panel41_Paint);
             this.panel41.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel42
@@ -1050,7 +1049,6 @@
             this.panel42.Name = "panel42";
             this.panel42.Size = new System.Drawing.Size(40, 40);
             this.panel42.TabIndex = 478;
-            this.panel42.Paint += new System.Windows.Forms.PaintEventHandler(this.panel42_Paint);
             this.panel42.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel43
@@ -1060,7 +1058,6 @@
             this.panel43.Name = "panel43";
             this.panel43.Size = new System.Drawing.Size(40, 40);
             this.panel43.TabIndex = 477;
-            this.panel43.Paint += new System.Windows.Forms.PaintEventHandler(this.panel43_Paint);
             this.panel43.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel44
@@ -1070,7 +1067,6 @@
             this.panel44.Name = "panel44";
             this.panel44.Size = new System.Drawing.Size(40, 40);
             this.panel44.TabIndex = 479;
-            this.panel44.Paint += new System.Windows.Forms.PaintEventHandler(this.panel44_Paint);
             this.panel44.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel45
@@ -1080,7 +1076,6 @@
             this.panel45.Name = "panel45";
             this.panel45.Size = new System.Drawing.Size(40, 40);
             this.panel45.TabIndex = 476;
-            this.panel45.Paint += new System.Windows.Forms.PaintEventHandler(this.panel45_Paint);
             this.panel45.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel46
@@ -1090,7 +1085,6 @@
             this.panel46.Name = "panel46";
             this.panel46.Size = new System.Drawing.Size(40, 40);
             this.panel46.TabIndex = 474;
-            this.panel46.Paint += new System.Windows.Forms.PaintEventHandler(this.panel46_Paint);
             this.panel46.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel47
@@ -1100,7 +1094,6 @@
             this.panel47.Name = "panel47";
             this.panel47.Size = new System.Drawing.Size(40, 40);
             this.panel47.TabIndex = 473;
-            this.panel47.Paint += new System.Windows.Forms.PaintEventHandler(this.panel47_Paint);
             this.panel47.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel48
@@ -1110,7 +1103,6 @@
             this.panel48.Name = "panel48";
             this.panel48.Size = new System.Drawing.Size(40, 40);
             this.panel48.TabIndex = 475;
-            this.panel48.Paint += new System.Windows.Forms.PaintEventHandler(this.panel48_Paint);
             this.panel48.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel49
@@ -1120,7 +1112,6 @@
             this.panel49.Name = "panel49";
             this.panel49.Size = new System.Drawing.Size(40, 40);
             this.panel49.TabIndex = 472;
-            this.panel49.Paint += new System.Windows.Forms.PaintEventHandler(this.panel49_Paint);
             this.panel49.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel50
@@ -1130,7 +1121,6 @@
             this.panel50.Name = "panel50";
             this.panel50.Size = new System.Drawing.Size(40, 40);
             this.panel50.TabIndex = 470;
-            this.panel50.Paint += new System.Windows.Forms.PaintEventHandler(this.panel50_Paint);
             this.panel50.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel51
@@ -1140,7 +1130,6 @@
             this.panel51.Name = "panel51";
             this.panel51.Size = new System.Drawing.Size(40, 40);
             this.panel51.TabIndex = 469;
-            this.panel51.Paint += new System.Windows.Forms.PaintEventHandler(this.panel51_Paint);
             this.panel51.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel52
@@ -1150,7 +1139,6 @@
             this.panel52.Name = "panel52";
             this.panel52.Size = new System.Drawing.Size(40, 40);
             this.panel52.TabIndex = 471;
-            this.panel52.Paint += new System.Windows.Forms.PaintEventHandler(this.panel52_Paint);
             this.panel52.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel53
@@ -1160,7 +1148,6 @@
             this.panel53.Name = "panel53";
             this.panel53.Size = new System.Drawing.Size(40, 40);
             this.panel53.TabIndex = 468;
-            this.panel53.Paint += new System.Windows.Forms.PaintEventHandler(this.panel53_Paint);
             this.panel53.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel54
@@ -1170,7 +1157,6 @@
             this.panel54.Name = "panel54";
             this.panel54.Size = new System.Drawing.Size(40, 40);
             this.panel54.TabIndex = 464;
-            this.panel54.Paint += new System.Windows.Forms.PaintEventHandler(this.panel54_Paint);
             this.panel54.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel55
@@ -1180,7 +1166,6 @@
             this.panel55.Name = "panel55";
             this.panel55.Size = new System.Drawing.Size(40, 40);
             this.panel55.TabIndex = 466;
-            this.panel55.Paint += new System.Windows.Forms.PaintEventHandler(this.panel55_Paint);
             this.panel55.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel56
@@ -1190,7 +1175,6 @@
             this.panel56.Name = "panel56";
             this.panel56.Size = new System.Drawing.Size(40, 40);
             this.panel56.TabIndex = 462;
-            this.panel56.Paint += new System.Windows.Forms.PaintEventHandler(this.panel56_Paint);
             this.panel56.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel57
@@ -1200,7 +1184,6 @@
             this.panel57.Name = "panel57";
             this.panel57.Size = new System.Drawing.Size(40, 40);
             this.panel57.TabIndex = 465;
-            this.panel57.Paint += new System.Windows.Forms.PaintEventHandler(this.panel57_Paint);
             this.panel57.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel58
@@ -1210,7 +1193,6 @@
             this.panel58.Name = "panel58";
             this.panel58.Size = new System.Drawing.Size(40, 40);
             this.panel58.TabIndex = 467;
-            this.panel58.Paint += new System.Windows.Forms.PaintEventHandler(this.panel58_Paint);
             this.panel58.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel59
@@ -1220,7 +1202,6 @@
             this.panel59.Name = "panel59";
             this.panel59.Size = new System.Drawing.Size(40, 40);
             this.panel59.TabIndex = 461;
-            this.panel59.Paint += new System.Windows.Forms.PaintEventHandler(this.panel59_Paint);
             this.panel59.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel60
@@ -1230,7 +1211,6 @@
             this.panel60.Name = "panel60";
             this.panel60.Size = new System.Drawing.Size(40, 40);
             this.panel60.TabIndex = 463;
-            this.panel60.Paint += new System.Windows.Forms.PaintEventHandler(this.panel60_Paint);
             this.panel60.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel21
