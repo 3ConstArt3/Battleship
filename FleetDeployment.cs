@@ -8,9 +8,10 @@ namespace Battleship
 	public partial class FleetDeploymentForm : KryptonForm
 	{
 
-		#region Constructor Definition
+		/// <summary>
+		/// Constructor Definition.
+		/// </summary>
 		public FleetDeploymentForm() => InitializeComponent();
-		#endregion
 
 		#region Function Definition
 		/// <summary>

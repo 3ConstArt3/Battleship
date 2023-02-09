@@ -28,10 +28,10 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BattleFieldForm));
-			this.BattlefieldPnl = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
-			this.BattlefieldExitBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-			this.YourFleetGbx = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
+			this.components = new System.ComponentModel.Container();
+			this.BattleFieldKrptPlt = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
+			this.MainPnl = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
+			this.CommanderFieldGbx = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
 			this.panel101 = new System.Windows.Forms.Panel();
 			this.panel102 = new System.Windows.Forms.Panel();
 			this.panel103 = new System.Windows.Forms.Panel();
@@ -132,459 +132,438 @@
 			this.panel4 = new System.Windows.Forms.Panel();
 			this.panel5 = new System.Windows.Forms.Panel();
 			this.panel6 = new System.Windows.Forms.Panel();
-			this.EnemyFleetGbx = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
-			this.panel91 = new System.Windows.Forms.Panel();
-			this.panel92 = new System.Windows.Forms.Panel();
-			this.panel93 = new System.Windows.Forms.Panel();
-			this.panel94 = new System.Windows.Forms.Panel();
-			this.panel95 = new System.Windows.Forms.Panel();
-			this.panel96 = new System.Windows.Forms.Panel();
-			this.panel97 = new System.Windows.Forms.Panel();
-			this.panel98 = new System.Windows.Forms.Panel();
-			this.panel99 = new System.Windows.Forms.Panel();
-			this.panel100 = new System.Windows.Forms.Panel();
-			this.panel111 = new System.Windows.Forms.Panel();
-			this.panel112 = new System.Windows.Forms.Panel();
-			this.panel113 = new System.Windows.Forms.Panel();
-			this.panel114 = new System.Windows.Forms.Panel();
-			this.panel115 = new System.Windows.Forms.Panel();
-			this.panel116 = new System.Windows.Forms.Panel();
-			this.panel117 = new System.Windows.Forms.Panel();
-			this.panel118 = new System.Windows.Forms.Panel();
-			this.panel119 = new System.Windows.Forms.Panel();
-			this.panel120 = new System.Windows.Forms.Panel();
-			this.panel121 = new System.Windows.Forms.Panel();
-			this.panel122 = new System.Windows.Forms.Panel();
-			this.panel123 = new System.Windows.Forms.Panel();
-			this.panel124 = new System.Windows.Forms.Panel();
-			this.panel125 = new System.Windows.Forms.Panel();
-			this.panel126 = new System.Windows.Forms.Panel();
-			this.panel127 = new System.Windows.Forms.Panel();
-			this.panel128 = new System.Windows.Forms.Panel();
-			this.panel129 = new System.Windows.Forms.Panel();
-			this.panel130 = new System.Windows.Forms.Panel();
-			this.panel131 = new System.Windows.Forms.Panel();
-			this.panel132 = new System.Windows.Forms.Panel();
-			this.panel133 = new System.Windows.Forms.Panel();
-			this.panel134 = new System.Windows.Forms.Panel();
-			this.panel135 = new System.Windows.Forms.Panel();
-			this.panel136 = new System.Windows.Forms.Panel();
-			this.panel137 = new System.Windows.Forms.Panel();
-			this.panel138 = new System.Windows.Forms.Panel();
-			this.panel139 = new System.Windows.Forms.Panel();
-			this.panel140 = new System.Windows.Forms.Panel();
-			this.panel141 = new System.Windows.Forms.Panel();
-			this.panel142 = new System.Windows.Forms.Panel();
-			this.panel143 = new System.Windows.Forms.Panel();
-			this.panel144 = new System.Windows.Forms.Panel();
-			this.panel145 = new System.Windows.Forms.Panel();
-			this.panel146 = new System.Windows.Forms.Panel();
-			this.panel147 = new System.Windows.Forms.Panel();
-			this.panel148 = new System.Windows.Forms.Panel();
-			this.panel149 = new System.Windows.Forms.Panel();
-			this.panel150 = new System.Windows.Forms.Panel();
-			this.panel151 = new System.Windows.Forms.Panel();
-			this.panel152 = new System.Windows.Forms.Panel();
-			this.panel153 = new System.Windows.Forms.Panel();
-			this.panel154 = new System.Windows.Forms.Panel();
-			this.panel155 = new System.Windows.Forms.Panel();
-			this.panel156 = new System.Windows.Forms.Panel();
-			this.panel157 = new System.Windows.Forms.Panel();
-			this.panel158 = new System.Windows.Forms.Panel();
-			this.panel159 = new System.Windows.Forms.Panel();
-			this.panel160 = new System.Windows.Forms.Panel();
-			this.panel161 = new System.Windows.Forms.Panel();
-			this.panel162 = new System.Windows.Forms.Panel();
-			this.panel163 = new System.Windows.Forms.Panel();
-			this.panel164 = new System.Windows.Forms.Panel();
-			this.panel165 = new System.Windows.Forms.Panel();
-			this.panel166 = new System.Windows.Forms.Panel();
-			this.panel167 = new System.Windows.Forms.Panel();
-			this.panel168 = new System.Windows.Forms.Panel();
-			this.panel169 = new System.Windows.Forms.Panel();
-			this.panel170 = new System.Windows.Forms.Panel();
-			this.panel171 = new System.Windows.Forms.Panel();
-			this.panel172 = new System.Windows.Forms.Panel();
-			this.panel173 = new System.Windows.Forms.Panel();
-			this.panel174 = new System.Windows.Forms.Panel();
-			this.panel175 = new System.Windows.Forms.Panel();
-			this.panel176 = new System.Windows.Forms.Panel();
-			this.panel177 = new System.Windows.Forms.Panel();
-			this.panel178 = new System.Windows.Forms.Panel();
-			this.panel179 = new System.Windows.Forms.Panel();
-			this.panel180 = new System.Windows.Forms.Panel();
-			this.panel181 = new System.Windows.Forms.Panel();
-			this.panel182 = new System.Windows.Forms.Panel();
-			this.panel183 = new System.Windows.Forms.Panel();
-			this.panel184 = new System.Windows.Forms.Panel();
-			this.panel185 = new System.Windows.Forms.Panel();
-			this.panel186 = new System.Windows.Forms.Panel();
-			this.panel187 = new System.Windows.Forms.Panel();
-			this.panel188 = new System.Windows.Forms.Panel();
-			this.panel189 = new System.Windows.Forms.Panel();
-			this.panel190 = new System.Windows.Forms.Panel();
-			this.panel191 = new System.Windows.Forms.Panel();
-			this.panel192 = new System.Windows.Forms.Panel();
-			this.panel193 = new System.Windows.Forms.Panel();
-			this.panel194 = new System.Windows.Forms.Panel();
-			this.panel195 = new System.Windows.Forms.Panel();
-			this.panel196 = new System.Windows.Forms.Panel();
-			this.panel197 = new System.Windows.Forms.Panel();
-			this.panel198 = new System.Windows.Forms.Panel();
-			this.panel199 = new System.Windows.Forms.Panel();
-			this.panel200 = new System.Windows.Forms.Panel();
+			this.EnemyFieldGbx = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
+			this.PosA2Pnl = new System.Windows.Forms.Panel();
+			this.PosA1Pnl = new System.Windows.Forms.Panel();
+			this.PosA3Pnl = new System.Windows.Forms.Panel();
+			this.PosA10Pnl = new System.Windows.Forms.Panel();
+			this.PosA9Pnl = new System.Windows.Forms.Panel();
+			this.PosA8Pnl = new System.Windows.Forms.Panel();
+			this.PosA7Pnl = new System.Windows.Forms.Panel();
+			this.PosA6Pnl = new System.Windows.Forms.Panel();
+			this.PosA5Pnl = new System.Windows.Forms.Panel();
+			this.PosA4Pnl = new System.Windows.Forms.Panel();
 			this.BattlefieldLbl = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
 			this.BorderPnl = new System.Windows.Forms.Panel();
-			((System.ComponentModel.ISupportInitialize)(this.BattlefieldPnl)).BeginInit();
-			this.BattlefieldPnl.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.YourFleetGbx)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.YourFleetGbx.Panel)).BeginInit();
-			this.YourFleetGbx.Panel.SuspendLayout();
-			this.YourFleetGbx.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyFleetGbx)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.EnemyFleetGbx.Panel)).BeginInit();
-			this.EnemyFleetGbx.Panel.SuspendLayout();
-			this.EnemyFleetGbx.SuspendLayout();
+			this.PosB2Pnl = new System.Windows.Forms.Panel();
+			this.PosB1Pnl = new System.Windows.Forms.Panel();
+			this.PosB3Pnl = new System.Windows.Forms.Panel();
+			this.PosB10Pnl = new System.Windows.Forms.Panel();
+			this.PosB9Pnl = new System.Windows.Forms.Panel();
+			this.PosB8Pnl = new System.Windows.Forms.Panel();
+			this.PosB7Pnl = new System.Windows.Forms.Panel();
+			this.PosB6Pnl = new System.Windows.Forms.Panel();
+			this.PosB5Pnl = new System.Windows.Forms.Panel();
+			this.PosB4Pnl = new System.Windows.Forms.Panel();
+			this.PosC2Pnl = new System.Windows.Forms.Panel();
+			this.PosC1Pnl = new System.Windows.Forms.Panel();
+			this.PosC3Pnl = new System.Windows.Forms.Panel();
+			this.PosC10Pnl = new System.Windows.Forms.Panel();
+			this.PosC9Pnl = new System.Windows.Forms.Panel();
+			this.PosC8Pnl = new System.Windows.Forms.Panel();
+			this.PosC7Pnl = new System.Windows.Forms.Panel();
+			this.PosC6Pnl = new System.Windows.Forms.Panel();
+			this.PosC5Pnl = new System.Windows.Forms.Panel();
+			this.PosC4Pnl = new System.Windows.Forms.Panel();
+			this.PosF2Pnl = new System.Windows.Forms.Panel();
+			this.PosF1Pnl = new System.Windows.Forms.Panel();
+			this.PosF3Pnl = new System.Windows.Forms.Panel();
+			this.PosF10Pnl = new System.Windows.Forms.Panel();
+			this.PosF9Pnl = new System.Windows.Forms.Panel();
+			this.PosF8Pnl = new System.Windows.Forms.Panel();
+			this.PosF7Pnl = new System.Windows.Forms.Panel();
+			this.PosF6Pnl = new System.Windows.Forms.Panel();
+			this.PosF5Pnl = new System.Windows.Forms.Panel();
+			this.PosF4Pnl = new System.Windows.Forms.Panel();
+			this.PosE2Pnl = new System.Windows.Forms.Panel();
+			this.PosE1Pnl = new System.Windows.Forms.Panel();
+			this.PosE3Pnl = new System.Windows.Forms.Panel();
+			this.PosE10Pnl = new System.Windows.Forms.Panel();
+			this.PosE9Pnl = new System.Windows.Forms.Panel();
+			this.PosE8Pnl = new System.Windows.Forms.Panel();
+			this.PosE7Pnl = new System.Windows.Forms.Panel();
+			this.PosE6Pnl = new System.Windows.Forms.Panel();
+			this.PosE5Pnl = new System.Windows.Forms.Panel();
+			this.PosE4Pnl = new System.Windows.Forms.Panel();
+			this.PosD2Pnl = new System.Windows.Forms.Panel();
+			this.PosD1Pnl = new System.Windows.Forms.Panel();
+			this.PosD3Pnl = new System.Windows.Forms.Panel();
+			this.PosD10Pnl = new System.Windows.Forms.Panel();
+			this.PosD9Pnl = new System.Windows.Forms.Panel();
+			this.PosD8Pnl = new System.Windows.Forms.Panel();
+			this.PosD7Pnl = new System.Windows.Forms.Panel();
+			this.PosD6Pnl = new System.Windows.Forms.Panel();
+			this.PosD5Pnl = new System.Windows.Forms.Panel();
+			this.PosD4Pnl = new System.Windows.Forms.Panel();
+			this.PosI2Pnl = new System.Windows.Forms.Panel();
+			this.PosI1Pnl = new System.Windows.Forms.Panel();
+			this.PosI3Pnl = new System.Windows.Forms.Panel();
+			this.PosI10Pnl = new System.Windows.Forms.Panel();
+			this.PosI9Pnl = new System.Windows.Forms.Panel();
+			this.PosI8Pnl = new System.Windows.Forms.Panel();
+			this.PosI7Pnl = new System.Windows.Forms.Panel();
+			this.PosI6Pnl = new System.Windows.Forms.Panel();
+			this.PosI5Pnl = new System.Windows.Forms.Panel();
+			this.PosI4Pnl = new System.Windows.Forms.Panel();
+			this.PosH2Pnl = new System.Windows.Forms.Panel();
+			this.PosH1Pnl = new System.Windows.Forms.Panel();
+			this.PosH3Pnl = new System.Windows.Forms.Panel();
+			this.PosH10Pnl = new System.Windows.Forms.Panel();
+			this.PosH9Pnl = new System.Windows.Forms.Panel();
+			this.PosH8Pnl = new System.Windows.Forms.Panel();
+			this.PosH7Pnl = new System.Windows.Forms.Panel();
+			this.PosH6Pnl = new System.Windows.Forms.Panel();
+			this.PosH5Pnl = new System.Windows.Forms.Panel();
+			this.PosH4Pnl = new System.Windows.Forms.Panel();
+			this.PosG2Pnl = new System.Windows.Forms.Panel();
+			this.PosG1Pnl = new System.Windows.Forms.Panel();
+			this.PosG3Pnl = new System.Windows.Forms.Panel();
+			this.PosG10Pnl = new System.Windows.Forms.Panel();
+			this.PosG9Pnl = new System.Windows.Forms.Panel();
+			this.PosG8Pnl = new System.Windows.Forms.Panel();
+			this.PosG7Pnl = new System.Windows.Forms.Panel();
+			this.PosG6Pnl = new System.Windows.Forms.Panel();
+			this.PosG5Pnl = new System.Windows.Forms.Panel();
+			this.PosG4Pnl = new System.Windows.Forms.Panel();
+			this.PosJ2Pnl = new System.Windows.Forms.Panel();
+			this.PosJ1Pnl = new System.Windows.Forms.Panel();
+			this.PosJ3Pnl = new System.Windows.Forms.Panel();
+			this.PosJ10Pnl = new System.Windows.Forms.Panel();
+			this.PosJ9Pnl = new System.Windows.Forms.Panel();
+			this.PosJ8Pnl = new System.Windows.Forms.Panel();
+			this.PosJ7Pnl = new System.Windows.Forms.Panel();
+			this.PosJ6Pnl = new System.Windows.Forms.Panel();
+			this.PosJ5Pnl = new System.Windows.Forms.Panel();
+			this.PosJ4Pnl = new System.Windows.Forms.Panel();
+			((System.ComponentModel.ISupportInitialize)(this.MainPnl)).BeginInit();
+			this.MainPnl.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.CommanderFieldGbx)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.CommanderFieldGbx.Panel)).BeginInit();
+			this.CommanderFieldGbx.Panel.SuspendLayout();
+			this.CommanderFieldGbx.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyFieldGbx)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.EnemyFieldGbx.Panel)).BeginInit();
+			this.EnemyFieldGbx.Panel.SuspendLayout();
+			this.EnemyFieldGbx.SuspendLayout();
 			this.SuspendLayout();
 			// 
-			// BattlefieldPnl
+			// BattleFieldKrptPlt
 			// 
-			this.BattlefieldPnl.Controls.Add(this.BattlefieldExitBtn);
-			this.BattlefieldPnl.Controls.Add(this.YourFleetGbx);
-			this.BattlefieldPnl.Controls.Add(this.EnemyFleetGbx);
-			this.BattlefieldPnl.Controls.Add(this.BattlefieldLbl);
-			this.BattlefieldPnl.Controls.Add(this.BorderPnl);
-			this.BattlefieldPnl.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.BattlefieldPnl.Location = new System.Drawing.Point(9, 9);
-			this.BattlefieldPnl.Name = "BattlefieldPnl";
-			this.BattlefieldPnl.Size = new System.Drawing.Size(1143, 600);
-			this.BattlefieldPnl.StateNormal.Image = ((System.Drawing.Image)(resources.GetObject("BattlefieldPnl.StateNormal.Image")));
-			this.BattlefieldPnl.StateNormal.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
-			this.BattlefieldPnl.TabIndex = 0;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(196)))), ((int)(((byte)(185)))));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Back.ColorAngle = 24F;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear33;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Back.Image = global::Battleship.Properties.Resources.Sailorhat;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Border.ColorAngle = 24F;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Border.Rounding = 27;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Border.Width = 1;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Content.Padding = new System.Windows.Forms.Padding(0, 0, 18, 0);
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Content.ShortText.ColorAngle = 33F;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Snap ITC", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateCommon.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateDisabled.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(196)))), ((int)(((byte)(185)))));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateDisabled.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(196)))), ((int)(((byte)(185)))));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Back.ColorAngle = 24F;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear33;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Back.Image = global::Battleship.Properties.Resources.Sailorhat;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Border.ColorAngle = 24F;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Border.Rounding = 27;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Border.Width = 1;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Content.Padding = new System.Windows.Forms.Padding(0, 0, 18, 0);
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Content.ShortText.ColorAngle = 33F;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Content.ShortText.Font = new System.Drawing.Font("Snap ITC", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateNormal.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StatePressed.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(196)))), ((int)(((byte)(185)))));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StatePressed.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StatePressed.Back.Image = global::Battleship.Properties.Resources.Sailorhat;
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateTracking.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(196)))), ((int)(((byte)(185)))));
+			this.BattleFieldKrptPlt.ButtonStyles.ButtonForm.StateTracking.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleFieldKrptPlt.FormStyles.FormCommon.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleFieldKrptPlt.FormStyles.FormCommon.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(196)))), ((int)(((byte)(185)))));
+			this.BattleFieldKrptPlt.FormStyles.FormCommon.StateCommon.Back.ColorAngle = 24F;
+			this.BattleFieldKrptPlt.FormStyles.FormCommon.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattleFieldKrptPlt.FormStyles.FormCommon.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleFieldKrptPlt.FormStyles.FormCommon.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleFieldKrptPlt.FormStyles.FormCommon.StateCommon.Border.ColorAngle = 24F;
+			this.BattleFieldKrptPlt.FormStyles.FormCommon.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.BattleFieldKrptPlt.FormStyles.FormCommon.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.BattleFieldKrptPlt.FormStyles.FormCommon.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattleFieldKrptPlt.FormStyles.FormCommon.StateCommon.Border.Rounding = 18;
+			this.BattleFieldKrptPlt.FormStyles.FormCommon.StateCommon.Border.Width = 1;
+			this.BattleFieldKrptPlt.FormStyles.FormMain.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleFieldKrptPlt.FormStyles.FormMain.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(196)))), ((int)(((byte)(185)))));
+			this.BattleFieldKrptPlt.FormStyles.FormMain.StateCommon.Back.ColorAngle = 66F;
+			this.BattleFieldKrptPlt.FormStyles.FormMain.StateCommon.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.ExpertSquareHighlight;
+			this.BattleFieldKrptPlt.FormStyles.FormMain.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattleFieldKrptPlt.FormStyles.FormMain.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleFieldKrptPlt.FormStyles.FormMain.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleFieldKrptPlt.FormStyles.FormMain.StateCommon.Border.ColorAngle = 24F;
+			this.BattleFieldKrptPlt.FormStyles.FormMain.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.BattleFieldKrptPlt.FormStyles.FormMain.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.BattleFieldKrptPlt.FormStyles.FormMain.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattleFieldKrptPlt.FormStyles.FormMain.StateCommon.Border.Rounding = 18;
+			this.BattleFieldKrptPlt.FormStyles.FormMain.StateCommon.Border.Width = 1;
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(196)))), ((int)(((byte)(185)))));
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Back.ColorAngle = 24F;
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Sigma;
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Border.ColorAngle = 33F;
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Sigma;
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Border.Rounding = 3;
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Border.Width = 1;
+			this.BattleFieldKrptPlt.LabelStyles.LabelCommon.StateNormal.Padding = new System.Windows.Forms.Padding(24, 36, -1, -1);
+			this.BattleFieldKrptPlt.LabelStyles.LabelCommon.StateNormal.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.BattleFieldKrptPlt.LabelStyles.LabelCommon.StateNormal.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.BattleFieldKrptPlt.LabelStyles.LabelCommon.StateNormal.ShortText.ColorAngle = 24F;
+			this.BattleFieldKrptPlt.LabelStyles.LabelCommon.StateNormal.ShortText.Font = new System.Drawing.Font("Sitka Banner", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+			this.BattleFieldKrptPlt.LabelStyles.LabelCommon.StateNormal.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+			this.BattleFieldKrptPlt.LabelStyles.LabelCommon.StateNormal.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.BattleFieldKrptPlt.LabelStyles.LabelCommon.StateNormal.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Near;
+			this.BattleFieldKrptPlt.PanelStyles.PanelCommon.StateCommon.Image = global::Battleship.Properties.Resources.BattlefieldBgnd;
+			this.BattleFieldKrptPlt.PanelStyles.PanelCommon.StateCommon.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
 			// 
-			// BattlefieldExitBtn
+			// MainPnl
 			// 
-			this.BattlefieldExitBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.BattlefieldExitBtn.Location = new System.Drawing.Point(1099, 3);
-			this.BattlefieldExitBtn.MaximumSize = new System.Drawing.Size(41, 45);
-			this.BattlefieldExitBtn.MinimumSize = new System.Drawing.Size(41, 45);
-			this.BattlefieldExitBtn.Name = "BattlefieldExitBtn";
-			this.BattlefieldExitBtn.Size = new System.Drawing.Size(41, 45);
-			this.BattlefieldExitBtn.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.BattlefieldExitBtn.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.BattlefieldExitBtn.StateCommon.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattlefieldExitBtn.StateCommon.Back.ColorAngle = 24F;
-			this.BattlefieldExitBtn.StateCommon.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.RoundedTopLight;
-			this.BattlefieldExitBtn.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattlefieldExitBtn.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.BattlefieldExitBtn.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.BattlefieldExitBtn.StateCommon.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattlefieldExitBtn.StateCommon.Border.ColorAngle = 45F;
-			this.BattlefieldExitBtn.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.BattlefieldExitBtn.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.BattlefieldExitBtn.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattlefieldExitBtn.StateCommon.Border.Rounding = 3;
-			this.BattlefieldExitBtn.StateCommon.Border.Width = 3;
-			this.BattlefieldExitBtn.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattlefieldExitBtn.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattlefieldExitBtn.StateCommon.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattlefieldExitBtn.StateCommon.Content.ShortText.ColorAngle = 45F;
-			this.BattlefieldExitBtn.StateCommon.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.BattlefieldExitBtn.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.BattlefieldExitBtn.StateCommon.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-			this.BattlefieldExitBtn.StateDisabled.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(159)))), ((int)(((byte)(106)))));
-			this.BattlefieldExitBtn.StateDisabled.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(189)))), ((int)(((byte)(142)))));
-			this.BattlefieldExitBtn.StateDisabled.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattlefieldExitBtn.StateDisabled.Back.ColorAngle = 30F;
-			this.BattlefieldExitBtn.StateDisabled.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear25;
-			this.BattlefieldExitBtn.StateDisabled.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattlefieldExitBtn.StateDisabled.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.BattlefieldExitBtn.StateDisabled.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.BattlefieldExitBtn.StateDisabled.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattlefieldExitBtn.StateDisabled.Border.ColorAngle = 24F;
-			this.BattlefieldExitBtn.StateDisabled.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.BattlefieldExitBtn.StateDisabled.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.BattlefieldExitBtn.StateDisabled.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattlefieldExitBtn.StateDisabled.Border.Rounding = 3;
-			this.BattlefieldExitBtn.StateDisabled.Border.Width = 3;
-			this.BattlefieldExitBtn.StateDisabled.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattlefieldExitBtn.StateDisabled.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattlefieldExitBtn.StateDisabled.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattlefieldExitBtn.StateDisabled.Content.ShortText.ColorAngle = 45F;
-			this.BattlefieldExitBtn.StateDisabled.Content.ShortText.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.BattlefieldExitBtn.StateDisabled.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-			this.BattlefieldExitBtn.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.BattlefieldExitBtn.StateNormal.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.BattlefieldExitBtn.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattlefieldExitBtn.StateNormal.Back.ColorAngle = 24F;
-			this.BattlefieldExitBtn.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.RoundedTopLight;
-			this.BattlefieldExitBtn.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattlefieldExitBtn.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.BattlefieldExitBtn.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.BattlefieldExitBtn.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattlefieldExitBtn.StateNormal.Border.ColorAngle = 45F;
-			this.BattlefieldExitBtn.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.BattlefieldExitBtn.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.BattlefieldExitBtn.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattlefieldExitBtn.StateNormal.Border.Rounding = 3;
-			this.BattlefieldExitBtn.StateNormal.Border.Width = 3;
-			this.BattlefieldExitBtn.StateNormal.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattlefieldExitBtn.StateNormal.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattlefieldExitBtn.StateNormal.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattlefieldExitBtn.StateNormal.Content.ShortText.ColorAngle = 45F;
-			this.BattlefieldExitBtn.StateNormal.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.BattlefieldExitBtn.StateNormal.Content.ShortText.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.BattlefieldExitBtn.StateNormal.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-			this.BattlefieldExitBtn.StatePressed.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.BattlefieldExitBtn.StatePressed.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.BattlefieldExitBtn.StatePressed.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattlefieldExitBtn.StatePressed.Back.ColorAngle = 24F;
-			this.BattlefieldExitBtn.StatePressed.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.RoundedTopLight;
-			this.BattlefieldExitBtn.StatePressed.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattlefieldExitBtn.StatePressed.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.BattlefieldExitBtn.StatePressed.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.BattlefieldExitBtn.StatePressed.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattlefieldExitBtn.StatePressed.Border.ColorAngle = 45F;
-			this.BattlefieldExitBtn.StatePressed.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.BattlefieldExitBtn.StatePressed.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.BattlefieldExitBtn.StatePressed.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattlefieldExitBtn.StatePressed.Border.Rounding = 3;
-			this.BattlefieldExitBtn.StatePressed.Border.Width = 3;
-			this.BattlefieldExitBtn.StatePressed.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattlefieldExitBtn.StatePressed.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattlefieldExitBtn.StatePressed.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattlefieldExitBtn.StatePressed.Content.ShortText.ColorAngle = 45F;
-			this.BattlefieldExitBtn.StatePressed.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.BattlefieldExitBtn.StatePressed.Content.ShortText.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.BattlefieldExitBtn.StatePressed.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-			this.BattlefieldExitBtn.StateTracking.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.BattlefieldExitBtn.StateTracking.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.BattlefieldExitBtn.StateTracking.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Control;
-			this.BattlefieldExitBtn.StateTracking.Back.ColorAngle = 24F;
-			this.BattlefieldExitBtn.StateTracking.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.RoundedTopLight;
-			this.BattlefieldExitBtn.StateTracking.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattlefieldExitBtn.StateTracking.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.BattlefieldExitBtn.StateTracking.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.BattlefieldExitBtn.StateTracking.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattlefieldExitBtn.StateTracking.Border.ColorAngle = 45F;
-			this.BattlefieldExitBtn.StateTracking.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.BattlefieldExitBtn.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.BattlefieldExitBtn.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.BattlefieldExitBtn.StateTracking.Border.Rounding = 3;
-			this.BattlefieldExitBtn.StateTracking.Border.Width = 3;
-			this.BattlefieldExitBtn.StateTracking.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattlefieldExitBtn.StateTracking.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-			this.BattlefieldExitBtn.StateTracking.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.BattlefieldExitBtn.StateTracking.Content.ShortText.ColorAngle = 45F;
-			this.BattlefieldExitBtn.StateTracking.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.BattlefieldExitBtn.StateTracking.Content.ShortText.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.BattlefieldExitBtn.StateTracking.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-			this.BattlefieldExitBtn.TabIndex = 33;
-			this.BattlefieldExitBtn.Values.Text = "X";
-			this.BattlefieldExitBtn.Click += new System.EventHandler(this.BattlefieldExitBtn_Click);
+			this.MainPnl.Controls.Add(this.CommanderFieldGbx);
+			this.MainPnl.Controls.Add(this.EnemyFieldGbx);
+			this.MainPnl.Controls.Add(this.BattlefieldLbl);
+			this.MainPnl.Controls.Add(this.BorderPnl);
+			this.MainPnl.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.MainPnl.Location = new System.Drawing.Point(0, 0);
+			this.MainPnl.Name = "MainPnl";
+			this.MainPnl.Palette = this.BattleFieldKrptPlt;
+			this.MainPnl.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
+			this.MainPnl.Size = new System.Drawing.Size(1161, 618);
+			this.MainPnl.TabIndex = 0;
 			// 
-			// YourFleetGbx
+			// CommanderFieldGbx
 			// 
-			this.YourFleetGbx.CaptionOverlap = 0.7D;
-			this.YourFleetGbx.Location = new System.Drawing.Point(30, 91);
-			this.YourFleetGbx.Name = "YourFleetGbx";
+			this.CommanderFieldGbx.CaptionOverlap = 0.7D;
+			this.CommanderFieldGbx.Location = new System.Drawing.Point(40, 114);
+			this.CommanderFieldGbx.Name = "CommanderFieldGbx";
 			// 
-			// YourFleetGbx.Panel
+			// CommanderFieldGbx.Panel
 			// 
-			this.YourFleetGbx.Panel.Controls.Add(this.panel101);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel102);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel103);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel104);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel105);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel106);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel107);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel108);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel109);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel110);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel61);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel62);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel63);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel64);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel65);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel2);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel1);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel66);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel3);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel67);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel68);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel69);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel70);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel71);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel72);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel73);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel74);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel75);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel76);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel77);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel78);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel79);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel80);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel81);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel82);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel83);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel84);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel85);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel86);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel87);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel88);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel89);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel90);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel51);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel52);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel53);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel54);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel55);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel56);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel57);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel58);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel59);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel60);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel41);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel42);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel43);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel44);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel45);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel46);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel47);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel48);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel49);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel50);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel31);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel32);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel33);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel34);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel35);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel36);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel37);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel38);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel39);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel40);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel21);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel22);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel23);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel24);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel25);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel26);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel27);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel28);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel29);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel30);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel11);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel12);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel13);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel14);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel15);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel16);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel17);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel18);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel19);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel20);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel10);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel7);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel8);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel9);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel4);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel5);
-			this.YourFleetGbx.Panel.Controls.Add(this.panel6);
-			this.YourFleetGbx.Size = new System.Drawing.Size(454, 453);
-			this.YourFleetGbx.StateCommon.Back.Color1 = System.Drawing.Color.White;
-			this.YourFleetGbx.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.YourFleetGbx.StateCommon.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.YourFleetGbx.StateCommon.Back.ColorAngle = 36F;
-			this.YourFleetGbx.StateCommon.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
-			this.YourFleetGbx.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.YourFleetGbx.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.YourFleetGbx.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.YourFleetGbx.StateCommon.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.YourFleetGbx.StateCommon.Border.ColorAngle = 33F;
-			this.YourFleetGbx.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.YourFleetGbx.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel101);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel102);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel103);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel104);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel105);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel106);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel107);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel108);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel109);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel110);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel61);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel62);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel63);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel64);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel65);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel2);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel1);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel66);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel3);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel67);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel68);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel69);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel70);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel71);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel72);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel73);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel74);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel75);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel76);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel77);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel78);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel79);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel80);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel81);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel82);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel83);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel84);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel85);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel86);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel87);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel88);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel89);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel90);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel51);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel52);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel53);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel54);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel55);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel56);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel57);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel58);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel59);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel60);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel41);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel42);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel43);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel44);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel45);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel46);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel47);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel48);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel49);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel50);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel31);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel32);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel33);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel34);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel35);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel36);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel37);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel38);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel39);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel40);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel21);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel22);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel23);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel24);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel25);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel26);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel27);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel28);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel29);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel30);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel11);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel12);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel13);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel14);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel15);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel16);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel17);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel18);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel19);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel20);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel10);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel7);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel8);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel9);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel4);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel5);
+			this.CommanderFieldGbx.Panel.Controls.Add(this.panel6);
+			this.CommanderFieldGbx.Size = new System.Drawing.Size(454, 453);
+			this.CommanderFieldGbx.StateCommon.Back.Color1 = System.Drawing.Color.White;
+			this.CommanderFieldGbx.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.CommanderFieldGbx.StateCommon.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.CommanderFieldGbx.StateCommon.Back.ColorAngle = 36F;
+			this.CommanderFieldGbx.StateCommon.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
+			this.CommanderFieldGbx.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.CommanderFieldGbx.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.CommanderFieldGbx.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.CommanderFieldGbx.StateCommon.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.CommanderFieldGbx.StateCommon.Border.ColorAngle = 33F;
+			this.CommanderFieldGbx.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.CommanderFieldGbx.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.YourFleetGbx.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.YourFleetGbx.StateCommon.Border.Rounding = 9;
-			this.YourFleetGbx.StateCommon.Border.Width = 1;
-			this.YourFleetGbx.StateCommon.Content.Padding = new System.Windows.Forms.Padding(3);
-			this.YourFleetGbx.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.YourFleetGbx.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
-			this.YourFleetGbx.StateCommon.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.YourFleetGbx.StateCommon.Content.ShortText.ColorAngle = 24F;
-			this.YourFleetGbx.StateCommon.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-			this.YourFleetGbx.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.YourFleetGbx.StateCommon.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-			this.YourFleetGbx.StateCommon.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.YourFleetGbx.StateCommon.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.YourFleetGbx.StateDisabled.Back.Color1 = System.Drawing.Color.White;
-			this.YourFleetGbx.StateDisabled.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.YourFleetGbx.StateDisabled.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.YourFleetGbx.StateDisabled.Back.ColorAngle = 36F;
-			this.YourFleetGbx.StateDisabled.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
-			this.YourFleetGbx.StateDisabled.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.YourFleetGbx.StateDisabled.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.YourFleetGbx.StateDisabled.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.YourFleetGbx.StateDisabled.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.YourFleetGbx.StateDisabled.Border.ColorAngle = 33F;
-			this.YourFleetGbx.StateDisabled.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.YourFleetGbx.StateDisabled.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+			this.CommanderFieldGbx.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.CommanderFieldGbx.StateCommon.Border.Rounding = 9;
+			this.CommanderFieldGbx.StateCommon.Border.Width = 1;
+			this.CommanderFieldGbx.StateCommon.Content.Padding = new System.Windows.Forms.Padding(3);
+			this.CommanderFieldGbx.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.CommanderFieldGbx.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
+			this.CommanderFieldGbx.StateCommon.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.CommanderFieldGbx.StateCommon.Content.ShortText.ColorAngle = 24F;
+			this.CommanderFieldGbx.StateCommon.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+			this.CommanderFieldGbx.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.CommanderFieldGbx.StateCommon.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+			this.CommanderFieldGbx.StateCommon.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.CommanderFieldGbx.StateCommon.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.CommanderFieldGbx.StateDisabled.Back.Color1 = System.Drawing.Color.White;
+			this.CommanderFieldGbx.StateDisabled.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.CommanderFieldGbx.StateDisabled.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.CommanderFieldGbx.StateDisabled.Back.ColorAngle = 36F;
+			this.CommanderFieldGbx.StateDisabled.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
+			this.CommanderFieldGbx.StateDisabled.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.CommanderFieldGbx.StateDisabled.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.CommanderFieldGbx.StateDisabled.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.CommanderFieldGbx.StateDisabled.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.CommanderFieldGbx.StateDisabled.Border.ColorAngle = 33F;
+			this.CommanderFieldGbx.StateDisabled.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.CommanderFieldGbx.StateDisabled.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.YourFleetGbx.StateDisabled.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.YourFleetGbx.StateDisabled.Border.Rounding = 9;
-			this.YourFleetGbx.StateDisabled.Border.Width = 1;
-			this.YourFleetGbx.StateDisabled.Content.Padding = new System.Windows.Forms.Padding(3);
-			this.YourFleetGbx.StateDisabled.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.YourFleetGbx.StateDisabled.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
-			this.YourFleetGbx.StateDisabled.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.YourFleetGbx.StateDisabled.Content.ShortText.ColorAngle = 24F;
-			this.YourFleetGbx.StateDisabled.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-			this.YourFleetGbx.StateDisabled.Content.ShortText.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.YourFleetGbx.StateDisabled.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-			this.YourFleetGbx.StateDisabled.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.YourFleetGbx.StateDisabled.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.YourFleetGbx.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.YourFleetGbx.StateNormal.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.YourFleetGbx.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.YourFleetGbx.StateNormal.Back.ColorAngle = 45F;
-			this.YourFleetGbx.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear33;
-			this.YourFleetGbx.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.YourFleetGbx.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.YourFleetGbx.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.YourFleetGbx.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.YourFleetGbx.StateNormal.Border.ColorAngle = 33F;
-			this.YourFleetGbx.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.YourFleetGbx.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+			this.CommanderFieldGbx.StateDisabled.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.CommanderFieldGbx.StateDisabled.Border.Rounding = 9;
+			this.CommanderFieldGbx.StateDisabled.Border.Width = 1;
+			this.CommanderFieldGbx.StateDisabled.Content.Padding = new System.Windows.Forms.Padding(3);
+			this.CommanderFieldGbx.StateDisabled.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.CommanderFieldGbx.StateDisabled.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
+			this.CommanderFieldGbx.StateDisabled.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.CommanderFieldGbx.StateDisabled.Content.ShortText.ColorAngle = 24F;
+			this.CommanderFieldGbx.StateDisabled.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+			this.CommanderFieldGbx.StateDisabled.Content.ShortText.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.CommanderFieldGbx.StateDisabled.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+			this.CommanderFieldGbx.StateDisabled.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.CommanderFieldGbx.StateDisabled.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.CommanderFieldGbx.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.CommanderFieldGbx.StateNormal.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.CommanderFieldGbx.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.CommanderFieldGbx.StateNormal.Back.ColorAngle = 45F;
+			this.CommanderFieldGbx.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear33;
+			this.CommanderFieldGbx.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.CommanderFieldGbx.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.CommanderFieldGbx.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.CommanderFieldGbx.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.CommanderFieldGbx.StateNormal.Border.ColorAngle = 33F;
+			this.CommanderFieldGbx.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.CommanderFieldGbx.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.YourFleetGbx.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.YourFleetGbx.StateNormal.Border.Rounding = 9;
-			this.YourFleetGbx.StateNormal.Border.Width = 1;
-			this.YourFleetGbx.StateNormal.Content.Padding = new System.Windows.Forms.Padding(3);
-			this.YourFleetGbx.StateNormal.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.YourFleetGbx.StateNormal.Content.ShortText.Color2 = System.Drawing.Color.White;
-			this.YourFleetGbx.StateNormal.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.YourFleetGbx.StateNormal.Content.ShortText.ColorAngle = 36F;
-			this.YourFleetGbx.StateNormal.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
-			this.YourFleetGbx.StateNormal.Content.ShortText.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.YourFleetGbx.StateNormal.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-			this.YourFleetGbx.StateNormal.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.YourFleetGbx.StateNormal.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.YourFleetGbx.TabIndex = 31;
-			this.YourFleetGbx.Values.Heading = "Your   Fleet";
+			this.CommanderFieldGbx.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.CommanderFieldGbx.StateNormal.Border.Rounding = 9;
+			this.CommanderFieldGbx.StateNormal.Border.Width = 1;
+			this.CommanderFieldGbx.StateNormal.Content.Padding = new System.Windows.Forms.Padding(3);
+			this.CommanderFieldGbx.StateNormal.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.CommanderFieldGbx.StateNormal.Content.ShortText.Color2 = System.Drawing.Color.White;
+			this.CommanderFieldGbx.StateNormal.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.CommanderFieldGbx.StateNormal.Content.ShortText.ColorAngle = 36F;
+			this.CommanderFieldGbx.StateNormal.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
+			this.CommanderFieldGbx.StateNormal.Content.ShortText.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.CommanderFieldGbx.StateNormal.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+			this.CommanderFieldGbx.StateNormal.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.CommanderFieldGbx.StateNormal.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.CommanderFieldGbx.TabIndex = 39;
+			this.CommanderFieldGbx.Values.Heading = "Your   Fleet";
 			// 
 			// panel101
 			// 
@@ -1286,898 +1265,268 @@
 			this.panel6.Size = new System.Drawing.Size(36, 33);
 			this.panel6.TabIndex = 317;
 			// 
-			// EnemyFleetGbx
+			// EnemyFieldGbx
 			// 
-			this.EnemyFleetGbx.CaptionOverlap = 0.7D;
-			this.EnemyFleetGbx.Location = new System.Drawing.Point(653, 91);
-			this.EnemyFleetGbx.Name = "EnemyFleetGbx";
+			this.EnemyFieldGbx.CaptionOverlap = 0.7D;
+			this.EnemyFieldGbx.Location = new System.Drawing.Point(663, 114);
+			this.EnemyFieldGbx.Name = "EnemyFieldGbx";
 			// 
-			// EnemyFleetGbx.Panel
+			// EnemyFieldGbx.Panel
 			// 
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel91);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel92);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel93);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel94);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel95);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel96);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel97);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel98);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel99);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel100);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel111);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel112);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel113);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel114);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel115);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel116);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel117);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel118);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel119);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel120);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel121);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel122);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel123);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel124);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel125);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel126);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel127);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel128);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel129);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel130);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel131);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel132);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel133);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel134);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel135);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel136);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel137);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel138);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel139);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel140);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel141);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel142);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel143);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel144);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel145);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel146);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel147);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel148);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel149);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel150);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel151);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel152);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel153);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel154);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel155);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel156);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel157);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel158);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel159);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel160);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel161);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel162);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel163);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel164);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel165);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel166);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel167);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel168);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel169);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel170);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel171);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel172);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel173);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel174);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel175);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel176);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel177);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel178);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel179);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel180);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel181);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel182);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel183);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel184);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel185);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel186);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel187);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel188);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel189);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel190);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel191);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel192);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel193);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel194);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel195);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel196);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel197);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel198);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel199);
-			this.EnemyFleetGbx.Panel.Controls.Add(this.panel200);
-			this.EnemyFleetGbx.Size = new System.Drawing.Size(459, 453);
-			this.EnemyFleetGbx.StateCommon.Back.Color1 = System.Drawing.Color.White;
-			this.EnemyFleetGbx.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.EnemyFleetGbx.StateCommon.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.EnemyFleetGbx.StateCommon.Back.ColorAngle = 36F;
-			this.EnemyFleetGbx.StateCommon.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
-			this.EnemyFleetGbx.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.EnemyFleetGbx.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.EnemyFleetGbx.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.EnemyFleetGbx.StateCommon.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.EnemyFleetGbx.StateCommon.Border.ColorAngle = 33F;
-			this.EnemyFleetGbx.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.EnemyFleetGbx.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosJ2Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosJ1Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosJ3Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosJ10Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosJ9Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosJ8Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosJ7Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosJ6Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosJ5Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosJ4Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosI2Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosI1Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosI3Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosI10Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosI9Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosI8Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosI7Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosI6Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosI5Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosI4Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosH2Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosH1Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosH3Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosH10Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosH9Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosH8Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosH7Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosH6Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosH5Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosH4Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosG2Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosG1Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosG3Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosG10Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosG9Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosG8Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosG7Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosG6Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosG5Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosG4Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosF2Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosF1Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosF3Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosF10Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosF9Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosF8Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosF7Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosF6Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosF5Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosF4Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosE2Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosE1Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosE3Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosE10Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosE9Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosE8Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosE7Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosE6Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosE5Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosE4Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosD2Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosD1Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosD3Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosD10Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosD9Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosD8Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosD7Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosD6Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosD5Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosD4Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosC2Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosC1Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosC3Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosC10Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosC9Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosC8Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosC7Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosC6Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosC5Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosC4Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosB2Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosB1Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosB3Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosB10Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosB9Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosB8Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosB7Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosB6Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosB5Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosB4Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosA2Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosA1Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosA3Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosA10Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosA9Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosA8Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosA7Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosA6Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosA5Pnl);
+			this.EnemyFieldGbx.Panel.Controls.Add(this.PosA4Pnl);
+			this.EnemyFieldGbx.Size = new System.Drawing.Size(459, 453);
+			this.EnemyFieldGbx.StateCommon.Back.Color1 = System.Drawing.Color.White;
+			this.EnemyFieldGbx.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.EnemyFieldGbx.StateCommon.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.EnemyFieldGbx.StateCommon.Back.ColorAngle = 36F;
+			this.EnemyFieldGbx.StateCommon.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
+			this.EnemyFieldGbx.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.EnemyFieldGbx.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.EnemyFieldGbx.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.EnemyFieldGbx.StateCommon.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.EnemyFieldGbx.StateCommon.Border.ColorAngle = 33F;
+			this.EnemyFieldGbx.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.EnemyFieldGbx.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.EnemyFleetGbx.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.EnemyFleetGbx.StateCommon.Border.Rounding = 9;
-			this.EnemyFleetGbx.StateCommon.Border.Width = 1;
-			this.EnemyFleetGbx.StateCommon.Content.Padding = new System.Windows.Forms.Padding(3);
-			this.EnemyFleetGbx.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.EnemyFleetGbx.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
-			this.EnemyFleetGbx.StateCommon.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.EnemyFleetGbx.StateCommon.Content.ShortText.ColorAngle = 24F;
-			this.EnemyFleetGbx.StateCommon.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-			this.EnemyFleetGbx.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyFleetGbx.StateCommon.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-			this.EnemyFleetGbx.StateCommon.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.EnemyFleetGbx.StateCommon.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.EnemyFleetGbx.StateDisabled.Back.Color1 = System.Drawing.Color.White;
-			this.EnemyFleetGbx.StateDisabled.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.EnemyFleetGbx.StateDisabled.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.EnemyFleetGbx.StateDisabled.Back.ColorAngle = 36F;
-			this.EnemyFleetGbx.StateDisabled.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
-			this.EnemyFleetGbx.StateDisabled.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.EnemyFleetGbx.StateDisabled.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.EnemyFleetGbx.StateDisabled.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.EnemyFleetGbx.StateDisabled.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.EnemyFleetGbx.StateDisabled.Border.ColorAngle = 33F;
-			this.EnemyFleetGbx.StateDisabled.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.EnemyFleetGbx.StateDisabled.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+			this.EnemyFieldGbx.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.EnemyFieldGbx.StateCommon.Border.Rounding = 9;
+			this.EnemyFieldGbx.StateCommon.Border.Width = 1;
+			this.EnemyFieldGbx.StateCommon.Content.Padding = new System.Windows.Forms.Padding(3);
+			this.EnemyFieldGbx.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.EnemyFieldGbx.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
+			this.EnemyFieldGbx.StateCommon.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.EnemyFieldGbx.StateCommon.Content.ShortText.ColorAngle = 24F;
+			this.EnemyFieldGbx.StateCommon.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+			this.EnemyFieldGbx.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.EnemyFieldGbx.StateCommon.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+			this.EnemyFieldGbx.StateCommon.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.EnemyFieldGbx.StateCommon.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.EnemyFieldGbx.StateDisabled.Back.Color1 = System.Drawing.Color.White;
+			this.EnemyFieldGbx.StateDisabled.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.EnemyFieldGbx.StateDisabled.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.EnemyFieldGbx.StateDisabled.Back.ColorAngle = 36F;
+			this.EnemyFieldGbx.StateDisabled.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
+			this.EnemyFieldGbx.StateDisabled.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.EnemyFieldGbx.StateDisabled.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.EnemyFieldGbx.StateDisabled.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.EnemyFieldGbx.StateDisabled.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.EnemyFieldGbx.StateDisabled.Border.ColorAngle = 33F;
+			this.EnemyFieldGbx.StateDisabled.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.EnemyFieldGbx.StateDisabled.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.EnemyFleetGbx.StateDisabled.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.EnemyFleetGbx.StateDisabled.Border.Rounding = 9;
-			this.EnemyFleetGbx.StateDisabled.Border.Width = 1;
-			this.EnemyFleetGbx.StateDisabled.Content.Padding = new System.Windows.Forms.Padding(3);
-			this.EnemyFleetGbx.StateDisabled.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.EnemyFleetGbx.StateDisabled.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
-			this.EnemyFleetGbx.StateDisabled.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.EnemyFleetGbx.StateDisabled.Content.ShortText.ColorAngle = 24F;
-			this.EnemyFleetGbx.StateDisabled.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-			this.EnemyFleetGbx.StateDisabled.Content.ShortText.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyFleetGbx.StateDisabled.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-			this.EnemyFleetGbx.StateDisabled.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.EnemyFleetGbx.StateDisabled.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.EnemyFleetGbx.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.EnemyFleetGbx.StateNormal.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.EnemyFleetGbx.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.EnemyFleetGbx.StateNormal.Back.ColorAngle = 45F;
-			this.EnemyFleetGbx.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear33;
-			this.EnemyFleetGbx.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.EnemyFleetGbx.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.EnemyFleetGbx.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-			this.EnemyFleetGbx.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.EnemyFleetGbx.StateNormal.Border.ColorAngle = 33F;
-			this.EnemyFleetGbx.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-			this.EnemyFleetGbx.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+			this.EnemyFieldGbx.StateDisabled.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.EnemyFieldGbx.StateDisabled.Border.Rounding = 9;
+			this.EnemyFieldGbx.StateDisabled.Border.Width = 1;
+			this.EnemyFieldGbx.StateDisabled.Content.Padding = new System.Windows.Forms.Padding(3);
+			this.EnemyFieldGbx.StateDisabled.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.EnemyFieldGbx.StateDisabled.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
+			this.EnemyFieldGbx.StateDisabled.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.EnemyFieldGbx.StateDisabled.Content.ShortText.ColorAngle = 24F;
+			this.EnemyFieldGbx.StateDisabled.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+			this.EnemyFieldGbx.StateDisabled.Content.ShortText.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.EnemyFieldGbx.StateDisabled.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+			this.EnemyFieldGbx.StateDisabled.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.EnemyFieldGbx.StateDisabled.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.EnemyFieldGbx.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.EnemyFieldGbx.StateNormal.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.EnemyFieldGbx.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.EnemyFieldGbx.StateNormal.Back.ColorAngle = 45F;
+			this.EnemyFieldGbx.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear33;
+			this.EnemyFieldGbx.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.EnemyFieldGbx.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.EnemyFieldGbx.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+			this.EnemyFieldGbx.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.EnemyFieldGbx.StateNormal.Border.ColorAngle = 33F;
+			this.EnemyFieldGbx.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.EnemyFieldGbx.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-			this.EnemyFleetGbx.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			this.EnemyFleetGbx.StateNormal.Border.Rounding = 9;
-			this.EnemyFleetGbx.StateNormal.Border.Width = 1;
-			this.EnemyFleetGbx.StateNormal.Content.Padding = new System.Windows.Forms.Padding(3);
-			this.EnemyFleetGbx.StateNormal.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-			this.EnemyFleetGbx.StateNormal.Content.ShortText.Color2 = System.Drawing.Color.White;
-			this.EnemyFleetGbx.StateNormal.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-			this.EnemyFleetGbx.StateNormal.Content.ShortText.ColorAngle = 36F;
-			this.EnemyFleetGbx.StateNormal.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
-			this.EnemyFleetGbx.StateNormal.Content.ShortText.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.EnemyFleetGbx.StateNormal.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-			this.EnemyFleetGbx.StateNormal.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.EnemyFleetGbx.StateNormal.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.EnemyFleetGbx.TabIndex = 30;
-			this.EnemyFleetGbx.Values.Heading = "Enemy    Fleet";
-			// 
-			// panel91
-			// 
-			this.panel91.Location = new System.Drawing.Point(397, 363);
-			this.panel91.Name = "panel91";
-			this.panel91.Size = new System.Drawing.Size(36, 33);
-			this.panel91.TabIndex = 411;
-			// 
-			// panel92
-			// 
-			this.panel92.Location = new System.Drawing.Point(355, 363);
-			this.panel92.Name = "panel92";
-			this.panel92.Size = new System.Drawing.Size(36, 33);
-			this.panel92.TabIndex = 408;
-			// 
-			// panel93
-			// 
-			this.panel93.Location = new System.Drawing.Point(313, 363);
-			this.panel93.Name = "panel93";
-			this.panel93.Size = new System.Drawing.Size(36, 33);
-			this.panel93.TabIndex = 409;
-			// 
-			// panel94
-			// 
-			this.panel94.Location = new System.Drawing.Point(271, 363);
-			this.panel94.Name = "panel94";
-			this.panel94.Size = new System.Drawing.Size(36, 33);
-			this.panel94.TabIndex = 410;
-			// 
-			// panel95
-			// 
-			this.panel95.Location = new System.Drawing.Point(228, 363);
-			this.panel95.Name = "panel95";
-			this.panel95.Size = new System.Drawing.Size(36, 33);
-			this.panel95.TabIndex = 405;
-			// 
-			// panel96
-			// 
-			this.panel96.Location = new System.Drawing.Point(186, 363);
-			this.panel96.Name = "panel96";
-			this.panel96.Size = new System.Drawing.Size(36, 33);
-			this.panel96.TabIndex = 406;
-			// 
-			// panel97
-			// 
-			this.panel97.Location = new System.Drawing.Point(144, 363);
-			this.panel97.Name = "panel97";
-			this.panel97.Size = new System.Drawing.Size(36, 33);
-			this.panel97.TabIndex = 407;
-			// 
-			// panel98
-			// 
-			this.panel98.Location = new System.Drawing.Point(101, 363);
-			this.panel98.Name = "panel98";
-			this.panel98.Size = new System.Drawing.Size(36, 33);
-			this.panel98.TabIndex = 402;
-			// 
-			// panel99
-			// 
-			this.panel99.Location = new System.Drawing.Point(59, 363);
-			this.panel99.Name = "panel99";
-			this.panel99.Size = new System.Drawing.Size(36, 33);
-			this.panel99.TabIndex = 403;
-			// 
-			// panel100
-			// 
-			this.panel100.Location = new System.Drawing.Point(17, 363);
-			this.panel100.Name = "panel100";
-			this.panel100.Size = new System.Drawing.Size(36, 33);
-			this.panel100.TabIndex = 404;
-			// 
-			// panel111
-			// 
-			this.panel111.Location = new System.Drawing.Point(397, 324);
-			this.panel111.Name = "panel111";
-			this.panel111.Size = new System.Drawing.Size(36, 33);
-			this.panel111.TabIndex = 401;
-			// 
-			// panel112
-			// 
-			this.panel112.Location = new System.Drawing.Point(355, 324);
-			this.panel112.Name = "panel112";
-			this.panel112.Size = new System.Drawing.Size(36, 33);
-			this.panel112.TabIndex = 398;
-			// 
-			// panel113
-			// 
-			this.panel113.Location = new System.Drawing.Point(313, 324);
-			this.panel113.Name = "panel113";
-			this.panel113.Size = new System.Drawing.Size(36, 33);
-			this.panel113.TabIndex = 399;
-			// 
-			// panel114
-			// 
-			this.panel114.Location = new System.Drawing.Point(271, 324);
-			this.panel114.Name = "panel114";
-			this.panel114.Size = new System.Drawing.Size(36, 33);
-			this.panel114.TabIndex = 400;
-			// 
-			// panel115
-			// 
-			this.panel115.Location = new System.Drawing.Point(228, 324);
-			this.panel115.Name = "panel115";
-			this.panel115.Size = new System.Drawing.Size(36, 33);
-			this.panel115.TabIndex = 395;
-			// 
-			// panel116
-			// 
-			this.panel116.Location = new System.Drawing.Point(59, 12);
-			this.panel116.Name = "panel116";
-			this.panel116.Size = new System.Drawing.Size(36, 33);
-			this.panel116.TabIndex = 314;
-			// 
-			// panel117
-			// 
-			this.panel117.Location = new System.Drawing.Point(17, 12);
-			this.panel117.Name = "panel117";
-			this.panel117.Size = new System.Drawing.Size(36, 33);
-			this.panel117.TabIndex = 312;
-			// 
-			// panel118
-			// 
-			this.panel118.Location = new System.Drawing.Point(186, 324);
-			this.panel118.Name = "panel118";
-			this.panel118.Size = new System.Drawing.Size(36, 33);
-			this.panel118.TabIndex = 396;
-			// 
-			// panel119
-			// 
-			this.panel119.Location = new System.Drawing.Point(101, 12);
-			this.panel119.Name = "panel119";
-			this.panel119.Size = new System.Drawing.Size(36, 33);
-			this.panel119.TabIndex = 313;
-			// 
-			// panel120
-			// 
-			this.panel120.Location = new System.Drawing.Point(144, 324);
-			this.panel120.Name = "panel120";
-			this.panel120.Size = new System.Drawing.Size(36, 33);
-			this.panel120.TabIndex = 397;
-			// 
-			// panel121
-			// 
-			this.panel121.Location = new System.Drawing.Point(101, 324);
-			this.panel121.Name = "panel121";
-			this.panel121.Size = new System.Drawing.Size(36, 33);
-			this.panel121.TabIndex = 392;
-			// 
-			// panel122
-			// 
-			this.panel122.Location = new System.Drawing.Point(59, 324);
-			this.panel122.Name = "panel122";
-			this.panel122.Size = new System.Drawing.Size(36, 33);
-			this.panel122.TabIndex = 393;
-			// 
-			// panel123
-			// 
-			this.panel123.Location = new System.Drawing.Point(17, 324);
-			this.panel123.Name = "panel123";
-			this.panel123.Size = new System.Drawing.Size(36, 33);
-			this.panel123.TabIndex = 394;
-			// 
-			// panel124
-			// 
-			this.panel124.Location = new System.Drawing.Point(397, 285);
-			this.panel124.Name = "panel124";
-			this.panel124.Size = new System.Drawing.Size(36, 33);
-			this.panel124.TabIndex = 391;
-			// 
-			// panel125
-			// 
-			this.panel125.Location = new System.Drawing.Point(355, 285);
-			this.panel125.Name = "panel125";
-			this.panel125.Size = new System.Drawing.Size(36, 33);
-			this.panel125.TabIndex = 388;
-			// 
-			// panel126
-			// 
-			this.panel126.Location = new System.Drawing.Point(313, 285);
-			this.panel126.Name = "panel126";
-			this.panel126.Size = new System.Drawing.Size(36, 33);
-			this.panel126.TabIndex = 389;
-			// 
-			// panel127
-			// 
-			this.panel127.Location = new System.Drawing.Point(271, 285);
-			this.panel127.Name = "panel127";
-			this.panel127.Size = new System.Drawing.Size(36, 33);
-			this.panel127.TabIndex = 390;
-			// 
-			// panel128
-			// 
-			this.panel128.Location = new System.Drawing.Point(228, 285);
-			this.panel128.Name = "panel128";
-			this.panel128.Size = new System.Drawing.Size(36, 33);
-			this.panel128.TabIndex = 385;
-			// 
-			// panel129
-			// 
-			this.panel129.Location = new System.Drawing.Point(186, 285);
-			this.panel129.Name = "panel129";
-			this.panel129.Size = new System.Drawing.Size(36, 33);
-			this.panel129.TabIndex = 386;
-			// 
-			// panel130
-			// 
-			this.panel130.Location = new System.Drawing.Point(144, 285);
-			this.panel130.Name = "panel130";
-			this.panel130.Size = new System.Drawing.Size(36, 33);
-			this.panel130.TabIndex = 387;
-			// 
-			// panel131
-			// 
-			this.panel131.Location = new System.Drawing.Point(101, 285);
-			this.panel131.Name = "panel131";
-			this.panel131.Size = new System.Drawing.Size(36, 33);
-			this.panel131.TabIndex = 382;
-			// 
-			// panel132
-			// 
-			this.panel132.Location = new System.Drawing.Point(59, 285);
-			this.panel132.Name = "panel132";
-			this.panel132.Size = new System.Drawing.Size(36, 33);
-			this.panel132.TabIndex = 383;
-			// 
-			// panel133
-			// 
-			this.panel133.Location = new System.Drawing.Point(17, 285);
-			this.panel133.Name = "panel133";
-			this.panel133.Size = new System.Drawing.Size(36, 33);
-			this.panel133.TabIndex = 384;
-			// 
-			// panel134
-			// 
-			this.panel134.Location = new System.Drawing.Point(397, 246);
-			this.panel134.Name = "panel134";
-			this.panel134.Size = new System.Drawing.Size(36, 33);
-			this.panel134.TabIndex = 381;
-			// 
-			// panel135
-			// 
-			this.panel135.Location = new System.Drawing.Point(355, 246);
-			this.panel135.Name = "panel135";
-			this.panel135.Size = new System.Drawing.Size(36, 33);
-			this.panel135.TabIndex = 378;
-			// 
-			// panel136
-			// 
-			this.panel136.Location = new System.Drawing.Point(313, 246);
-			this.panel136.Name = "panel136";
-			this.panel136.Size = new System.Drawing.Size(36, 33);
-			this.panel136.TabIndex = 379;
-			// 
-			// panel137
-			// 
-			this.panel137.Location = new System.Drawing.Point(271, 246);
-			this.panel137.Name = "panel137";
-			this.panel137.Size = new System.Drawing.Size(36, 33);
-			this.panel137.TabIndex = 380;
-			// 
-			// panel138
-			// 
-			this.panel138.Location = new System.Drawing.Point(228, 246);
-			this.panel138.Name = "panel138";
-			this.panel138.Size = new System.Drawing.Size(36, 33);
-			this.panel138.TabIndex = 375;
-			// 
-			// panel139
-			// 
-			this.panel139.Location = new System.Drawing.Point(186, 246);
-			this.panel139.Name = "panel139";
-			this.panel139.Size = new System.Drawing.Size(36, 33);
-			this.panel139.TabIndex = 376;
-			// 
-			// panel140
-			// 
-			this.panel140.Location = new System.Drawing.Point(144, 246);
-			this.panel140.Name = "panel140";
-			this.panel140.Size = new System.Drawing.Size(36, 33);
-			this.panel140.TabIndex = 377;
-			// 
-			// panel141
-			// 
-			this.panel141.Location = new System.Drawing.Point(101, 246);
-			this.panel141.Name = "panel141";
-			this.panel141.Size = new System.Drawing.Size(36, 33);
-			this.panel141.TabIndex = 372;
-			// 
-			// panel142
-			// 
-			this.panel142.Location = new System.Drawing.Point(59, 246);
-			this.panel142.Name = "panel142";
-			this.panel142.Size = new System.Drawing.Size(36, 33);
-			this.panel142.TabIndex = 373;
-			// 
-			// panel143
-			// 
-			this.panel143.Location = new System.Drawing.Point(17, 246);
-			this.panel143.Name = "panel143";
-			this.panel143.Size = new System.Drawing.Size(36, 33);
-			this.panel143.TabIndex = 374;
-			// 
-			// panel144
-			// 
-			this.panel144.Location = new System.Drawing.Point(397, 207);
-			this.panel144.Name = "panel144";
-			this.panel144.Size = new System.Drawing.Size(36, 33);
-			this.panel144.TabIndex = 371;
-			// 
-			// panel145
-			// 
-			this.panel145.Location = new System.Drawing.Point(355, 207);
-			this.panel145.Name = "panel145";
-			this.panel145.Size = new System.Drawing.Size(36, 33);
-			this.panel145.TabIndex = 368;
-			// 
-			// panel146
-			// 
-			this.panel146.Location = new System.Drawing.Point(313, 207);
-			this.panel146.Name = "panel146";
-			this.panel146.Size = new System.Drawing.Size(36, 33);
-			this.panel146.TabIndex = 369;
-			// 
-			// panel147
-			// 
-			this.panel147.Location = new System.Drawing.Point(271, 207);
-			this.panel147.Name = "panel147";
-			this.panel147.Size = new System.Drawing.Size(36, 33);
-			this.panel147.TabIndex = 370;
-			// 
-			// panel148
-			// 
-			this.panel148.Location = new System.Drawing.Point(228, 207);
-			this.panel148.Name = "panel148";
-			this.panel148.Size = new System.Drawing.Size(36, 33);
-			this.panel148.TabIndex = 365;
-			// 
-			// panel149
-			// 
-			this.panel149.Location = new System.Drawing.Point(186, 207);
-			this.panel149.Name = "panel149";
-			this.panel149.Size = new System.Drawing.Size(36, 33);
-			this.panel149.TabIndex = 366;
-			// 
-			// panel150
-			// 
-			this.panel150.Location = new System.Drawing.Point(144, 207);
-			this.panel150.Name = "panel150";
-			this.panel150.Size = new System.Drawing.Size(36, 33);
-			this.panel150.TabIndex = 367;
-			// 
-			// panel151
-			// 
-			this.panel151.Location = new System.Drawing.Point(101, 207);
-			this.panel151.Name = "panel151";
-			this.panel151.Size = new System.Drawing.Size(36, 33);
-			this.panel151.TabIndex = 362;
-			// 
-			// panel152
-			// 
-			this.panel152.Location = new System.Drawing.Point(59, 207);
-			this.panel152.Name = "panel152";
-			this.panel152.Size = new System.Drawing.Size(36, 33);
-			this.panel152.TabIndex = 363;
-			// 
-			// panel153
-			// 
-			this.panel153.Location = new System.Drawing.Point(17, 207);
-			this.panel153.Name = "panel153";
-			this.panel153.Size = new System.Drawing.Size(36, 33);
-			this.panel153.TabIndex = 364;
-			// 
-			// panel154
-			// 
-			this.panel154.Location = new System.Drawing.Point(397, 168);
-			this.panel154.Name = "panel154";
-			this.panel154.Size = new System.Drawing.Size(36, 33);
-			this.panel154.TabIndex = 361;
-			// 
-			// panel155
-			// 
-			this.panel155.Location = new System.Drawing.Point(355, 168);
-			this.panel155.Name = "panel155";
-			this.panel155.Size = new System.Drawing.Size(36, 33);
-			this.panel155.TabIndex = 358;
-			// 
-			// panel156
-			// 
-			this.panel156.Location = new System.Drawing.Point(313, 168);
-			this.panel156.Name = "panel156";
-			this.panel156.Size = new System.Drawing.Size(36, 33);
-			this.panel156.TabIndex = 359;
-			// 
-			// panel157
-			// 
-			this.panel157.Location = new System.Drawing.Point(271, 168);
-			this.panel157.Name = "panel157";
-			this.panel157.Size = new System.Drawing.Size(36, 33);
-			this.panel157.TabIndex = 360;
-			// 
-			// panel158
-			// 
-			this.panel158.Location = new System.Drawing.Point(228, 168);
-			this.panel158.Name = "panel158";
-			this.panel158.Size = new System.Drawing.Size(36, 33);
-			this.panel158.TabIndex = 355;
-			// 
-			// panel159
-			// 
-			this.panel159.Location = new System.Drawing.Point(186, 168);
-			this.panel159.Name = "panel159";
-			this.panel159.Size = new System.Drawing.Size(36, 33);
-			this.panel159.TabIndex = 356;
-			// 
-			// panel160
-			// 
-			this.panel160.Location = new System.Drawing.Point(144, 168);
-			this.panel160.Name = "panel160";
-			this.panel160.Size = new System.Drawing.Size(36, 33);
-			this.panel160.TabIndex = 357;
-			// 
-			// panel161
-			// 
-			this.panel161.Location = new System.Drawing.Point(101, 168);
-			this.panel161.Name = "panel161";
-			this.panel161.Size = new System.Drawing.Size(36, 33);
-			this.panel161.TabIndex = 352;
-			// 
-			// panel162
-			// 
-			this.panel162.Location = new System.Drawing.Point(59, 168);
-			this.panel162.Name = "panel162";
-			this.panel162.Size = new System.Drawing.Size(36, 33);
-			this.panel162.TabIndex = 353;
-			// 
-			// panel163
-			// 
-			this.panel163.Location = new System.Drawing.Point(17, 168);
-			this.panel163.Name = "panel163";
-			this.panel163.Size = new System.Drawing.Size(36, 33);
-			this.panel163.TabIndex = 354;
-			// 
-			// panel164
-			// 
-			this.panel164.Location = new System.Drawing.Point(397, 129);
-			this.panel164.Name = "panel164";
-			this.panel164.Size = new System.Drawing.Size(36, 33);
-			this.panel164.TabIndex = 351;
-			// 
-			// panel165
-			// 
-			this.panel165.Location = new System.Drawing.Point(355, 129);
-			this.panel165.Name = "panel165";
-			this.panel165.Size = new System.Drawing.Size(36, 33);
-			this.panel165.TabIndex = 348;
-			// 
-			// panel166
-			// 
-			this.panel166.Location = new System.Drawing.Point(313, 129);
-			this.panel166.Name = "panel166";
-			this.panel166.Size = new System.Drawing.Size(36, 33);
-			this.panel166.TabIndex = 349;
-			// 
-			// panel167
-			// 
-			this.panel167.Location = new System.Drawing.Point(271, 129);
-			this.panel167.Name = "panel167";
-			this.panel167.Size = new System.Drawing.Size(36, 33);
-			this.panel167.TabIndex = 350;
-			// 
-			// panel168
-			// 
-			this.panel168.Location = new System.Drawing.Point(228, 129);
-			this.panel168.Name = "panel168";
-			this.panel168.Size = new System.Drawing.Size(36, 33);
-			this.panel168.TabIndex = 345;
-			// 
-			// panel169
-			// 
-			this.panel169.Location = new System.Drawing.Point(186, 129);
-			this.panel169.Name = "panel169";
-			this.panel169.Size = new System.Drawing.Size(36, 33);
-			this.panel169.TabIndex = 346;
-			// 
-			// panel170
-			// 
-			this.panel170.Location = new System.Drawing.Point(144, 129);
-			this.panel170.Name = "panel170";
-			this.panel170.Size = new System.Drawing.Size(36, 33);
-			this.panel170.TabIndex = 347;
-			// 
-			// panel171
-			// 
-			this.panel171.Location = new System.Drawing.Point(101, 129);
-			this.panel171.Name = "panel171";
-			this.panel171.Size = new System.Drawing.Size(36, 33);
-			this.panel171.TabIndex = 342;
-			// 
-			// panel172
-			// 
-			this.panel172.Location = new System.Drawing.Point(59, 129);
-			this.panel172.Name = "panel172";
-			this.panel172.Size = new System.Drawing.Size(36, 33);
-			this.panel172.TabIndex = 343;
-			// 
-			// panel173
-			// 
-			this.panel173.Location = new System.Drawing.Point(17, 129);
-			this.panel173.Name = "panel173";
-			this.panel173.Size = new System.Drawing.Size(36, 33);
-			this.panel173.TabIndex = 344;
-			// 
-			// panel174
-			// 
-			this.panel174.Location = new System.Drawing.Point(397, 90);
-			this.panel174.Name = "panel174";
-			this.panel174.Size = new System.Drawing.Size(36, 33);
-			this.panel174.TabIndex = 341;
-			// 
-			// panel175
-			// 
-			this.panel175.Location = new System.Drawing.Point(355, 90);
-			this.panel175.Name = "panel175";
-			this.panel175.Size = new System.Drawing.Size(36, 33);
-			this.panel175.TabIndex = 338;
-			// 
-			// panel176
-			// 
-			this.panel176.Location = new System.Drawing.Point(313, 90);
-			this.panel176.Name = "panel176";
-			this.panel176.Size = new System.Drawing.Size(36, 33);
-			this.panel176.TabIndex = 339;
-			// 
-			// panel177
-			// 
-			this.panel177.Location = new System.Drawing.Point(271, 90);
-			this.panel177.Name = "panel177";
-			this.panel177.Size = new System.Drawing.Size(36, 33);
-			this.panel177.TabIndex = 340;
-			// 
-			// panel178
-			// 
-			this.panel178.Location = new System.Drawing.Point(228, 90);
-			this.panel178.Name = "panel178";
-			this.panel178.Size = new System.Drawing.Size(36, 33);
-			this.panel178.TabIndex = 335;
-			// 
-			// panel179
-			// 
-			this.panel179.Location = new System.Drawing.Point(186, 90);
-			this.panel179.Name = "panel179";
-			this.panel179.Size = new System.Drawing.Size(36, 33);
-			this.panel179.TabIndex = 336;
-			// 
-			// panel180
-			// 
-			this.panel180.Location = new System.Drawing.Point(144, 90);
-			this.panel180.Name = "panel180";
-			this.panel180.Size = new System.Drawing.Size(36, 33);
-			this.panel180.TabIndex = 337;
-			// 
-			// panel181
-			// 
-			this.panel181.Location = new System.Drawing.Point(101, 90);
-			this.panel181.Name = "panel181";
-			this.panel181.Size = new System.Drawing.Size(36, 33);
-			this.panel181.TabIndex = 332;
-			// 
-			// panel182
-			// 
-			this.panel182.Location = new System.Drawing.Point(59, 90);
-			this.panel182.Name = "panel182";
-			this.panel182.Size = new System.Drawing.Size(36, 33);
-			this.panel182.TabIndex = 333;
-			// 
-			// panel183
-			// 
-			this.panel183.Location = new System.Drawing.Point(17, 90);
-			this.panel183.Name = "panel183";
-			this.panel183.Size = new System.Drawing.Size(36, 33);
-			this.panel183.TabIndex = 334;
-			// 
-			// panel184
-			// 
-			this.panel184.Location = new System.Drawing.Point(397, 51);
-			this.panel184.Name = "panel184";
-			this.panel184.Size = new System.Drawing.Size(36, 33);
-			this.panel184.TabIndex = 331;
-			// 
-			// panel185
-			// 
-			this.panel185.Location = new System.Drawing.Point(355, 51);
-			this.panel185.Name = "panel185";
-			this.panel185.Size = new System.Drawing.Size(36, 33);
-			this.panel185.TabIndex = 328;
-			// 
-			// panel186
-			// 
-			this.panel186.Location = new System.Drawing.Point(313, 51);
-			this.panel186.Name = "panel186";
-			this.panel186.Size = new System.Drawing.Size(36, 33);
-			this.panel186.TabIndex = 329;
-			// 
-			// panel187
-			// 
-			this.panel187.Location = new System.Drawing.Point(271, 51);
-			this.panel187.Name = "panel187";
-			this.panel187.Size = new System.Drawing.Size(36, 33);
-			this.panel187.TabIndex = 330;
-			// 
-			// panel188
-			// 
-			this.panel188.Location = new System.Drawing.Point(228, 51);
-			this.panel188.Name = "panel188";
-			this.panel188.Size = new System.Drawing.Size(36, 33);
-			this.panel188.TabIndex = 325;
-			// 
-			// panel189
-			// 
-			this.panel189.Location = new System.Drawing.Point(186, 51);
-			this.panel189.Name = "panel189";
-			this.panel189.Size = new System.Drawing.Size(36, 33);
-			this.panel189.TabIndex = 326;
-			// 
-			// panel190
-			// 
-			this.panel190.Location = new System.Drawing.Point(144, 51);
-			this.panel190.Name = "panel190";
-			this.panel190.Size = new System.Drawing.Size(36, 33);
-			this.panel190.TabIndex = 327;
-			// 
-			// panel191
-			// 
-			this.panel191.Location = new System.Drawing.Point(101, 51);
-			this.panel191.Name = "panel191";
-			this.panel191.Size = new System.Drawing.Size(36, 33);
-			this.panel191.TabIndex = 322;
-			// 
-			// panel192
-			// 
-			this.panel192.Location = new System.Drawing.Point(59, 51);
-			this.panel192.Name = "panel192";
-			this.panel192.Size = new System.Drawing.Size(36, 33);
-			this.panel192.TabIndex = 323;
-			// 
-			// panel193
-			// 
-			this.panel193.Location = new System.Drawing.Point(17, 51);
-			this.panel193.Name = "panel193";
-			this.panel193.Size = new System.Drawing.Size(36, 33);
-			this.panel193.TabIndex = 324;
-			// 
-			// panel194
-			// 
-			this.panel194.Location = new System.Drawing.Point(397, 12);
-			this.panel194.Name = "panel194";
-			this.panel194.Size = new System.Drawing.Size(36, 33);
-			this.panel194.TabIndex = 321;
-			// 
-			// panel195
-			// 
-			this.panel195.Location = new System.Drawing.Point(355, 12);
-			this.panel195.Name = "panel195";
-			this.panel195.Size = new System.Drawing.Size(36, 33);
-			this.panel195.TabIndex = 318;
-			// 
-			// panel196
-			// 
-			this.panel196.Location = new System.Drawing.Point(313, 12);
-			this.panel196.Name = "panel196";
-			this.panel196.Size = new System.Drawing.Size(36, 33);
-			this.panel196.TabIndex = 319;
-			// 
-			// panel197
-			// 
-			this.panel197.Location = new System.Drawing.Point(271, 12);
-			this.panel197.Name = "panel197";
-			this.panel197.Size = new System.Drawing.Size(36, 33);
-			this.panel197.TabIndex = 320;
-			// 
-			// panel198
-			// 
-			this.panel198.Location = new System.Drawing.Point(228, 12);
-			this.panel198.Name = "panel198";
-			this.panel198.Size = new System.Drawing.Size(36, 33);
-			this.panel198.TabIndex = 315;
-			// 
-			// panel199
-			// 
-			this.panel199.Location = new System.Drawing.Point(186, 12);
-			this.panel199.Name = "panel199";
-			this.panel199.Size = new System.Drawing.Size(36, 33);
-			this.panel199.TabIndex = 316;
-			// 
-			// panel200
-			// 
-			this.panel200.Location = new System.Drawing.Point(144, 12);
-			this.panel200.Name = "panel200";
-			this.panel200.Size = new System.Drawing.Size(36, 33);
-			this.panel200.TabIndex = 317;
+			this.EnemyFieldGbx.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.EnemyFieldGbx.StateNormal.Border.Rounding = 9;
+			this.EnemyFieldGbx.StateNormal.Border.Width = 1;
+			this.EnemyFieldGbx.StateNormal.Content.Padding = new System.Windows.Forms.Padding(3);
+			this.EnemyFieldGbx.StateNormal.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.EnemyFieldGbx.StateNormal.Content.ShortText.Color2 = System.Drawing.Color.White;
+			this.EnemyFieldGbx.StateNormal.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+			this.EnemyFieldGbx.StateNormal.Content.ShortText.ColorAngle = 36F;
+			this.EnemyFieldGbx.StateNormal.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
+			this.EnemyFieldGbx.StateNormal.Content.ShortText.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.EnemyFieldGbx.StateNormal.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+			this.EnemyFieldGbx.StateNormal.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.EnemyFieldGbx.StateNormal.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.EnemyFieldGbx.TabIndex = 38;
+			this.EnemyFieldGbx.Values.Heading = "Enemy    Fleet";
+			// 
+			// PosA2Pnl
+			// 
+			this.PosA2Pnl.Location = new System.Drawing.Point(59, 12);
+			this.PosA2Pnl.Name = "PosA2Pnl";
+			this.PosA2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosA2Pnl.TabIndex = 314;
+			// 
+			// PosA1Pnl
+			// 
+			this.PosA1Pnl.Location = new System.Drawing.Point(17, 12);
+			this.PosA1Pnl.Name = "PosA1Pnl";
+			this.PosA1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosA1Pnl.TabIndex = 312;
+			// 
+			// PosA3Pnl
+			// 
+			this.PosA3Pnl.Location = new System.Drawing.Point(101, 12);
+			this.PosA3Pnl.Name = "PosA3Pnl";
+			this.PosA3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosA3Pnl.TabIndex = 313;
+			// 
+			// PosA10Pnl
+			// 
+			this.PosA10Pnl.Location = new System.Drawing.Point(397, 12);
+			this.PosA10Pnl.Name = "PosA10Pnl";
+			this.PosA10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosA10Pnl.TabIndex = 321;
+			// 
+			// PosA9Pnl
+			// 
+			this.PosA9Pnl.Location = new System.Drawing.Point(355, 12);
+			this.PosA9Pnl.Name = "PosA9Pnl";
+			this.PosA9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosA9Pnl.TabIndex = 318;
+			// 
+			// PosA8Pnl
+			// 
+			this.PosA8Pnl.Location = new System.Drawing.Point(313, 12);
+			this.PosA8Pnl.Name = "PosA8Pnl";
+			this.PosA8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosA8Pnl.TabIndex = 319;
+			// 
+			// PosA7Pnl
+			// 
+			this.PosA7Pnl.Location = new System.Drawing.Point(271, 12);
+			this.PosA7Pnl.Name = "PosA7Pnl";
+			this.PosA7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosA7Pnl.TabIndex = 320;
+			// 
+			// PosA6Pnl
+			// 
+			this.PosA6Pnl.Location = new System.Drawing.Point(228, 12);
+			this.PosA6Pnl.Name = "PosA6Pnl";
+			this.PosA6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosA6Pnl.TabIndex = 315;
+			// 
+			// PosA5Pnl
+			// 
+			this.PosA5Pnl.Location = new System.Drawing.Point(186, 12);
+			this.PosA5Pnl.Name = "PosA5Pnl";
+			this.PosA5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosA5Pnl.TabIndex = 316;
+			// 
+			// PosA4Pnl
+			// 
+			this.PosA4Pnl.Location = new System.Drawing.Point(144, 12);
+			this.PosA4Pnl.Name = "PosA4Pnl";
+			this.PosA4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosA4Pnl.TabIndex = 317;
 			// 
 			// BattlefieldLbl
 			// 
@@ -2186,7 +1535,7 @@
 			this.BattlefieldLbl.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldPanel;
 			this.BattlefieldLbl.Location = new System.Drawing.Point(0, 0);
 			this.BattlefieldLbl.Name = "BattlefieldLbl";
-			this.BattlefieldLbl.Size = new System.Drawing.Size(1143, 85);
+			this.BattlefieldLbl.Size = new System.Drawing.Size(1161, 85);
 			this.BattlefieldLbl.StateCommon.LongText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
 			this.BattlefieldLbl.StateCommon.LongText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
 			this.BattlefieldLbl.StateCommon.LongText.ColorAngle = 66F;
@@ -2212,17 +1561,646 @@
 			this.BattlefieldLbl.StateNormal.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
 			this.BattlefieldLbl.StateNormal.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
 			this.BattlefieldLbl.StateNormal.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-			this.BattlefieldLbl.TabIndex = 32;
+			this.BattlefieldLbl.TabIndex = 40;
 			this.BattlefieldLbl.Values.Text = "Battlefield";
 			// 
 			// BorderPnl
 			// 
 			this.BorderPnl.BackColor = System.Drawing.Color.DarkGray;
-			this.BorderPnl.Location = new System.Drawing.Point(552, 70);
+			this.BorderPnl.Location = new System.Drawing.Point(568, 98);
 			this.BorderPnl.Name = "BorderPnl";
-			this.BorderPnl.Size = new System.Drawing.Size(35, 504);
-			this.BorderPnl.TabIndex = 23;
-			this.BorderPnl.Tag = "Border";
+			this.BorderPnl.Size = new System.Drawing.Size(23, 504);
+			this.BorderPnl.TabIndex = 37;
+			// 
+			// PosB2Pnl
+			// 
+			this.PosB2Pnl.Location = new System.Drawing.Point(59, 51);
+			this.PosB2Pnl.Name = "PosB2Pnl";
+			this.PosB2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB2Pnl.TabIndex = 324;
+			// 
+			// PosB1Pnl
+			// 
+			this.PosB1Pnl.Location = new System.Drawing.Point(17, 51);
+			this.PosB1Pnl.Name = "PosB1Pnl";
+			this.PosB1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB1Pnl.TabIndex = 322;
+			// 
+			// PosB3Pnl
+			// 
+			this.PosB3Pnl.Location = new System.Drawing.Point(101, 51);
+			this.PosB3Pnl.Name = "PosB3Pnl";
+			this.PosB3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB3Pnl.TabIndex = 323;
+			// 
+			// PosB10Pnl
+			// 
+			this.PosB10Pnl.Location = new System.Drawing.Point(397, 51);
+			this.PosB10Pnl.Name = "PosB10Pnl";
+			this.PosB10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB10Pnl.TabIndex = 331;
+			// 
+			// PosB9Pnl
+			// 
+			this.PosB9Pnl.Location = new System.Drawing.Point(355, 51);
+			this.PosB9Pnl.Name = "PosB9Pnl";
+			this.PosB9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB9Pnl.TabIndex = 328;
+			// 
+			// PosB8Pnl
+			// 
+			this.PosB8Pnl.Location = new System.Drawing.Point(313, 51);
+			this.PosB8Pnl.Name = "PosB8Pnl";
+			this.PosB8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB8Pnl.TabIndex = 329;
+			// 
+			// PosB7Pnl
+			// 
+			this.PosB7Pnl.Location = new System.Drawing.Point(271, 51);
+			this.PosB7Pnl.Name = "PosB7Pnl";
+			this.PosB7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB7Pnl.TabIndex = 330;
+			// 
+			// PosB6Pnl
+			// 
+			this.PosB6Pnl.Location = new System.Drawing.Point(228, 51);
+			this.PosB6Pnl.Name = "PosB6Pnl";
+			this.PosB6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB6Pnl.TabIndex = 325;
+			// 
+			// PosB5Pnl
+			// 
+			this.PosB5Pnl.Location = new System.Drawing.Point(186, 51);
+			this.PosB5Pnl.Name = "PosB5Pnl";
+			this.PosB5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB5Pnl.TabIndex = 326;
+			// 
+			// PosB4Pnl
+			// 
+			this.PosB4Pnl.Location = new System.Drawing.Point(144, 51);
+			this.PosB4Pnl.Name = "PosB4Pnl";
+			this.PosB4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosB4Pnl.TabIndex = 327;
+			// 
+			// PosC2Pnl
+			// 
+			this.PosC2Pnl.Location = new System.Drawing.Point(59, 90);
+			this.PosC2Pnl.Name = "PosC2Pnl";
+			this.PosC2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC2Pnl.TabIndex = 334;
+			// 
+			// PosC1Pnl
+			// 
+			this.PosC1Pnl.Location = new System.Drawing.Point(17, 90);
+			this.PosC1Pnl.Name = "PosC1Pnl";
+			this.PosC1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC1Pnl.TabIndex = 332;
+			// 
+			// PosC3Pnl
+			// 
+			this.PosC3Pnl.Location = new System.Drawing.Point(101, 90);
+			this.PosC3Pnl.Name = "PosC3Pnl";
+			this.PosC3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC3Pnl.TabIndex = 333;
+			// 
+			// PosC10Pnl
+			// 
+			this.PosC10Pnl.Location = new System.Drawing.Point(397, 90);
+			this.PosC10Pnl.Name = "PosC10Pnl";
+			this.PosC10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC10Pnl.TabIndex = 341;
+			// 
+			// PosC9Pnl
+			// 
+			this.PosC9Pnl.Location = new System.Drawing.Point(355, 90);
+			this.PosC9Pnl.Name = "PosC9Pnl";
+			this.PosC9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC9Pnl.TabIndex = 338;
+			// 
+			// PosC8Pnl
+			// 
+			this.PosC8Pnl.Location = new System.Drawing.Point(313, 90);
+			this.PosC8Pnl.Name = "PosC8Pnl";
+			this.PosC8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC8Pnl.TabIndex = 339;
+			// 
+			// PosC7Pnl
+			// 
+			this.PosC7Pnl.Location = new System.Drawing.Point(271, 90);
+			this.PosC7Pnl.Name = "PosC7Pnl";
+			this.PosC7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC7Pnl.TabIndex = 340;
+			// 
+			// PosC6Pnl
+			// 
+			this.PosC6Pnl.Location = new System.Drawing.Point(228, 90);
+			this.PosC6Pnl.Name = "PosC6Pnl";
+			this.PosC6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC6Pnl.TabIndex = 335;
+			// 
+			// PosC5Pnl
+			// 
+			this.PosC5Pnl.Location = new System.Drawing.Point(186, 90);
+			this.PosC5Pnl.Name = "PosC5Pnl";
+			this.PosC5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC5Pnl.TabIndex = 336;
+			// 
+			// PosC4Pnl
+			// 
+			this.PosC4Pnl.Location = new System.Drawing.Point(144, 90);
+			this.PosC4Pnl.Name = "PosC4Pnl";
+			this.PosC4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosC4Pnl.TabIndex = 337;
+			// 
+			// PosF2Pnl
+			// 
+			this.PosF2Pnl.Location = new System.Drawing.Point(59, 207);
+			this.PosF2Pnl.Name = "PosF2Pnl";
+			this.PosF2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF2Pnl.TabIndex = 364;
+			// 
+			// PosF1Pnl
+			// 
+			this.PosF1Pnl.Location = new System.Drawing.Point(17, 207);
+			this.PosF1Pnl.Name = "PosF1Pnl";
+			this.PosF1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF1Pnl.TabIndex = 362;
+			// 
+			// PosF3Pnl
+			// 
+			this.PosF3Pnl.Location = new System.Drawing.Point(101, 207);
+			this.PosF3Pnl.Name = "PosF3Pnl";
+			this.PosF3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF3Pnl.TabIndex = 363;
+			// 
+			// PosF10Pnl
+			// 
+			this.PosF10Pnl.Location = new System.Drawing.Point(397, 207);
+			this.PosF10Pnl.Name = "PosF10Pnl";
+			this.PosF10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF10Pnl.TabIndex = 371;
+			// 
+			// PosF9Pnl
+			// 
+			this.PosF9Pnl.Location = new System.Drawing.Point(355, 207);
+			this.PosF9Pnl.Name = "PosF9Pnl";
+			this.PosF9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF9Pnl.TabIndex = 368;
+			// 
+			// PosF8Pnl
+			// 
+			this.PosF8Pnl.Location = new System.Drawing.Point(313, 207);
+			this.PosF8Pnl.Name = "PosF8Pnl";
+			this.PosF8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF8Pnl.TabIndex = 369;
+			// 
+			// PosF7Pnl
+			// 
+			this.PosF7Pnl.Location = new System.Drawing.Point(271, 207);
+			this.PosF7Pnl.Name = "PosF7Pnl";
+			this.PosF7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF7Pnl.TabIndex = 370;
+			// 
+			// PosF6Pnl
+			// 
+			this.PosF6Pnl.Location = new System.Drawing.Point(228, 207);
+			this.PosF6Pnl.Name = "PosF6Pnl";
+			this.PosF6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF6Pnl.TabIndex = 365;
+			// 
+			// PosF5Pnl
+			// 
+			this.PosF5Pnl.Location = new System.Drawing.Point(186, 207);
+			this.PosF5Pnl.Name = "PosF5Pnl";
+			this.PosF5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF5Pnl.TabIndex = 366;
+			// 
+			// PosF4Pnl
+			// 
+			this.PosF4Pnl.Location = new System.Drawing.Point(144, 207);
+			this.PosF4Pnl.Name = "PosF4Pnl";
+			this.PosF4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosF4Pnl.TabIndex = 367;
+			// 
+			// PosE2Pnl
+			// 
+			this.PosE2Pnl.Location = new System.Drawing.Point(59, 168);
+			this.PosE2Pnl.Name = "PosE2Pnl";
+			this.PosE2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE2Pnl.TabIndex = 354;
+			// 
+			// PosE1Pnl
+			// 
+			this.PosE1Pnl.Location = new System.Drawing.Point(17, 168);
+			this.PosE1Pnl.Name = "PosE1Pnl";
+			this.PosE1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE1Pnl.TabIndex = 352;
+			// 
+			// PosE3Pnl
+			// 
+			this.PosE3Pnl.Location = new System.Drawing.Point(101, 168);
+			this.PosE3Pnl.Name = "PosE3Pnl";
+			this.PosE3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE3Pnl.TabIndex = 353;
+			// 
+			// PosE10Pnl
+			// 
+			this.PosE10Pnl.Location = new System.Drawing.Point(397, 168);
+			this.PosE10Pnl.Name = "PosE10Pnl";
+			this.PosE10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE10Pnl.TabIndex = 361;
+			// 
+			// PosE9Pnl
+			// 
+			this.PosE9Pnl.Location = new System.Drawing.Point(355, 168);
+			this.PosE9Pnl.Name = "PosE9Pnl";
+			this.PosE9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE9Pnl.TabIndex = 358;
+			// 
+			// PosE8Pnl
+			// 
+			this.PosE8Pnl.Location = new System.Drawing.Point(313, 168);
+			this.PosE8Pnl.Name = "PosE8Pnl";
+			this.PosE8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE8Pnl.TabIndex = 359;
+			// 
+			// PosE7Pnl
+			// 
+			this.PosE7Pnl.Location = new System.Drawing.Point(271, 168);
+			this.PosE7Pnl.Name = "PosE7Pnl";
+			this.PosE7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE7Pnl.TabIndex = 360;
+			// 
+			// PosE6Pnl
+			// 
+			this.PosE6Pnl.Location = new System.Drawing.Point(228, 168);
+			this.PosE6Pnl.Name = "PosE6Pnl";
+			this.PosE6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE6Pnl.TabIndex = 355;
+			// 
+			// PosE5Pnl
+			// 
+			this.PosE5Pnl.Location = new System.Drawing.Point(186, 168);
+			this.PosE5Pnl.Name = "PosE5Pnl";
+			this.PosE5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE5Pnl.TabIndex = 356;
+			// 
+			// PosE4Pnl
+			// 
+			this.PosE4Pnl.Location = new System.Drawing.Point(144, 168);
+			this.PosE4Pnl.Name = "PosE4Pnl";
+			this.PosE4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosE4Pnl.TabIndex = 357;
+			// 
+			// PosD2Pnl
+			// 
+			this.PosD2Pnl.Location = new System.Drawing.Point(59, 129);
+			this.PosD2Pnl.Name = "PosD2Pnl";
+			this.PosD2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD2Pnl.TabIndex = 344;
+			// 
+			// PosD1Pnl
+			// 
+			this.PosD1Pnl.Location = new System.Drawing.Point(17, 129);
+			this.PosD1Pnl.Name = "PosD1Pnl";
+			this.PosD1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD1Pnl.TabIndex = 342;
+			// 
+			// PosD3Pnl
+			// 
+			this.PosD3Pnl.Location = new System.Drawing.Point(101, 129);
+			this.PosD3Pnl.Name = "PosD3Pnl";
+			this.PosD3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD3Pnl.TabIndex = 343;
+			// 
+			// PosD10Pnl
+			// 
+			this.PosD10Pnl.Location = new System.Drawing.Point(397, 129);
+			this.PosD10Pnl.Name = "PosD10Pnl";
+			this.PosD10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD10Pnl.TabIndex = 351;
+			// 
+			// PosD9Pnl
+			// 
+			this.PosD9Pnl.Location = new System.Drawing.Point(355, 129);
+			this.PosD9Pnl.Name = "PosD9Pnl";
+			this.PosD9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD9Pnl.TabIndex = 348;
+			// 
+			// PosD8Pnl
+			// 
+			this.PosD8Pnl.Location = new System.Drawing.Point(313, 129);
+			this.PosD8Pnl.Name = "PosD8Pnl";
+			this.PosD8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD8Pnl.TabIndex = 349;
+			// 
+			// PosD7Pnl
+			// 
+			this.PosD7Pnl.Location = new System.Drawing.Point(271, 129);
+			this.PosD7Pnl.Name = "PosD7Pnl";
+			this.PosD7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD7Pnl.TabIndex = 350;
+			// 
+			// PosD6Pnl
+			// 
+			this.PosD6Pnl.Location = new System.Drawing.Point(228, 129);
+			this.PosD6Pnl.Name = "PosD6Pnl";
+			this.PosD6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD6Pnl.TabIndex = 345;
+			// 
+			// PosD5Pnl
+			// 
+			this.PosD5Pnl.Location = new System.Drawing.Point(186, 129);
+			this.PosD5Pnl.Name = "PosD5Pnl";
+			this.PosD5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD5Pnl.TabIndex = 346;
+			// 
+			// PosD4Pnl
+			// 
+			this.PosD4Pnl.Location = new System.Drawing.Point(144, 129);
+			this.PosD4Pnl.Name = "PosD4Pnl";
+			this.PosD4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosD4Pnl.TabIndex = 347;
+			// 
+			// PosI2Pnl
+			// 
+			this.PosI2Pnl.Location = new System.Drawing.Point(59, 324);
+			this.PosI2Pnl.Name = "PosI2Pnl";
+			this.PosI2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI2Pnl.TabIndex = 394;
+			// 
+			// PosI1Pnl
+			// 
+			this.PosI1Pnl.Location = new System.Drawing.Point(17, 324);
+			this.PosI1Pnl.Name = "PosI1Pnl";
+			this.PosI1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI1Pnl.TabIndex = 392;
+			// 
+			// PosI3Pnl
+			// 
+			this.PosI3Pnl.Location = new System.Drawing.Point(101, 324);
+			this.PosI3Pnl.Name = "PosI3Pnl";
+			this.PosI3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI3Pnl.TabIndex = 393;
+			// 
+			// PosI10Pnl
+			// 
+			this.PosI10Pnl.Location = new System.Drawing.Point(397, 324);
+			this.PosI10Pnl.Name = "PosI10Pnl";
+			this.PosI10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI10Pnl.TabIndex = 401;
+			// 
+			// PosI9Pnl
+			// 
+			this.PosI9Pnl.Location = new System.Drawing.Point(355, 324);
+			this.PosI9Pnl.Name = "PosI9Pnl";
+			this.PosI9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI9Pnl.TabIndex = 398;
+			// 
+			// PosI8Pnl
+			// 
+			this.PosI8Pnl.Location = new System.Drawing.Point(313, 324);
+			this.PosI8Pnl.Name = "PosI8Pnl";
+			this.PosI8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI8Pnl.TabIndex = 399;
+			// 
+			// PosI7Pnl
+			// 
+			this.PosI7Pnl.Location = new System.Drawing.Point(271, 324);
+			this.PosI7Pnl.Name = "PosI7Pnl";
+			this.PosI7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI7Pnl.TabIndex = 400;
+			// 
+			// PosI6Pnl
+			// 
+			this.PosI6Pnl.Location = new System.Drawing.Point(228, 324);
+			this.PosI6Pnl.Name = "PosI6Pnl";
+			this.PosI6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI6Pnl.TabIndex = 395;
+			// 
+			// PosI5Pnl
+			// 
+			this.PosI5Pnl.Location = new System.Drawing.Point(186, 324);
+			this.PosI5Pnl.Name = "PosI5Pnl";
+			this.PosI5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI5Pnl.TabIndex = 396;
+			// 
+			// PosI4Pnl
+			// 
+			this.PosI4Pnl.Location = new System.Drawing.Point(144, 324);
+			this.PosI4Pnl.Name = "PosI4Pnl";
+			this.PosI4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosI4Pnl.TabIndex = 397;
+			// 
+			// PosH2Pnl
+			// 
+			this.PosH2Pnl.Location = new System.Drawing.Point(59, 285);
+			this.PosH2Pnl.Name = "PosH2Pnl";
+			this.PosH2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH2Pnl.TabIndex = 384;
+			// 
+			// PosH1Pnl
+			// 
+			this.PosH1Pnl.Location = new System.Drawing.Point(17, 285);
+			this.PosH1Pnl.Name = "PosH1Pnl";
+			this.PosH1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH1Pnl.TabIndex = 382;
+			// 
+			// PosH3Pnl
+			// 
+			this.PosH3Pnl.Location = new System.Drawing.Point(101, 285);
+			this.PosH3Pnl.Name = "PosH3Pnl";
+			this.PosH3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH3Pnl.TabIndex = 383;
+			// 
+			// PosH10Pnl
+			// 
+			this.PosH10Pnl.Location = new System.Drawing.Point(397, 285);
+			this.PosH10Pnl.Name = "PosH10Pnl";
+			this.PosH10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH10Pnl.TabIndex = 391;
+			// 
+			// PosH9Pnl
+			// 
+			this.PosH9Pnl.Location = new System.Drawing.Point(355, 285);
+			this.PosH9Pnl.Name = "PosH9Pnl";
+			this.PosH9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH9Pnl.TabIndex = 388;
+			// 
+			// PosH8Pnl
+			// 
+			this.PosH8Pnl.Location = new System.Drawing.Point(313, 285);
+			this.PosH8Pnl.Name = "PosH8Pnl";
+			this.PosH8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH8Pnl.TabIndex = 389;
+			// 
+			// PosH7Pnl
+			// 
+			this.PosH7Pnl.Location = new System.Drawing.Point(271, 285);
+			this.PosH7Pnl.Name = "PosH7Pnl";
+			this.PosH7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH7Pnl.TabIndex = 390;
+			// 
+			// PosH6Pnl
+			// 
+			this.PosH6Pnl.Location = new System.Drawing.Point(228, 285);
+			this.PosH6Pnl.Name = "PosH6Pnl";
+			this.PosH6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH6Pnl.TabIndex = 385;
+			// 
+			// PosH5Pnl
+			// 
+			this.PosH5Pnl.Location = new System.Drawing.Point(186, 285);
+			this.PosH5Pnl.Name = "PosH5Pnl";
+			this.PosH5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH5Pnl.TabIndex = 386;
+			// 
+			// PosH4Pnl
+			// 
+			this.PosH4Pnl.Location = new System.Drawing.Point(144, 285);
+			this.PosH4Pnl.Name = "PosH4Pnl";
+			this.PosH4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosH4Pnl.TabIndex = 387;
+			// 
+			// PosG2Pnl
+			// 
+			this.PosG2Pnl.Location = new System.Drawing.Point(59, 246);
+			this.PosG2Pnl.Name = "PosG2Pnl";
+			this.PosG2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG2Pnl.TabIndex = 374;
+			// 
+			// PosG1Pnl
+			// 
+			this.PosG1Pnl.Location = new System.Drawing.Point(17, 246);
+			this.PosG1Pnl.Name = "PosG1Pnl";
+			this.PosG1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG1Pnl.TabIndex = 372;
+			// 
+			// PosG3Pnl
+			// 
+			this.PosG3Pnl.Location = new System.Drawing.Point(101, 246);
+			this.PosG3Pnl.Name = "PosG3Pnl";
+			this.PosG3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG3Pnl.TabIndex = 373;
+			// 
+			// PosG10Pnl
+			// 
+			this.PosG10Pnl.Location = new System.Drawing.Point(397, 246);
+			this.PosG10Pnl.Name = "PosG10Pnl";
+			this.PosG10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG10Pnl.TabIndex = 381;
+			// 
+			// PosG9Pnl
+			// 
+			this.PosG9Pnl.Location = new System.Drawing.Point(355, 246);
+			this.PosG9Pnl.Name = "PosG9Pnl";
+			this.PosG9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG9Pnl.TabIndex = 378;
+			// 
+			// PosG8Pnl
+			// 
+			this.PosG8Pnl.Location = new System.Drawing.Point(313, 246);
+			this.PosG8Pnl.Name = "PosG8Pnl";
+			this.PosG8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG8Pnl.TabIndex = 379;
+			// 
+			// PosG7Pnl
+			// 
+			this.PosG7Pnl.Location = new System.Drawing.Point(271, 246);
+			this.PosG7Pnl.Name = "PosG7Pnl";
+			this.PosG7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG7Pnl.TabIndex = 380;
+			// 
+			// PosG6Pnl
+			// 
+			this.PosG6Pnl.Location = new System.Drawing.Point(228, 246);
+			this.PosG6Pnl.Name = "PosG6Pnl";
+			this.PosG6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG6Pnl.TabIndex = 375;
+			// 
+			// PosG5Pnl
+			// 
+			this.PosG5Pnl.Location = new System.Drawing.Point(186, 246);
+			this.PosG5Pnl.Name = "PosG5Pnl";
+			this.PosG5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG5Pnl.TabIndex = 376;
+			// 
+			// PosG4Pnl
+			// 
+			this.PosG4Pnl.Location = new System.Drawing.Point(144, 246);
+			this.PosG4Pnl.Name = "PosG4Pnl";
+			this.PosG4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosG4Pnl.TabIndex = 377;
+			// 
+			// PosJ2Pnl
+			// 
+			this.PosJ2Pnl.Location = new System.Drawing.Point(59, 363);
+			this.PosJ2Pnl.Name = "PosJ2Pnl";
+			this.PosJ2Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ2Pnl.TabIndex = 404;
+			// 
+			// PosJ1Pnl
+			// 
+			this.PosJ1Pnl.Location = new System.Drawing.Point(17, 363);
+			this.PosJ1Pnl.Name = "PosJ1Pnl";
+			this.PosJ1Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ1Pnl.TabIndex = 402;
+			// 
+			// PosJ3Pnl
+			// 
+			this.PosJ3Pnl.Location = new System.Drawing.Point(101, 363);
+			this.PosJ3Pnl.Name = "PosJ3Pnl";
+			this.PosJ3Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ3Pnl.TabIndex = 403;
+			// 
+			// PosJ10Pnl
+			// 
+			this.PosJ10Pnl.Location = new System.Drawing.Point(397, 363);
+			this.PosJ10Pnl.Name = "PosJ10Pnl";
+			this.PosJ10Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ10Pnl.TabIndex = 411;
+			// 
+			// PosJ9Pnl
+			// 
+			this.PosJ9Pnl.Location = new System.Drawing.Point(355, 363);
+			this.PosJ9Pnl.Name = "PosJ9Pnl";
+			this.PosJ9Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ9Pnl.TabIndex = 408;
+			// 
+			// PosJ8Pnl
+			// 
+			this.PosJ8Pnl.Location = new System.Drawing.Point(313, 363);
+			this.PosJ8Pnl.Name = "PosJ8Pnl";
+			this.PosJ8Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ8Pnl.TabIndex = 409;
+			// 
+			// PosJ7Pnl
+			// 
+			this.PosJ7Pnl.Location = new System.Drawing.Point(271, 363);
+			this.PosJ7Pnl.Name = "PosJ7Pnl";
+			this.PosJ7Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ7Pnl.TabIndex = 410;
+			// 
+			// PosJ6Pnl
+			// 
+			this.PosJ6Pnl.Location = new System.Drawing.Point(228, 363);
+			this.PosJ6Pnl.Name = "PosJ6Pnl";
+			this.PosJ6Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ6Pnl.TabIndex = 405;
+			// 
+			// PosJ5Pnl
+			// 
+			this.PosJ5Pnl.Location = new System.Drawing.Point(186, 363);
+			this.PosJ5Pnl.Name = "PosJ5Pnl";
+			this.PosJ5Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ5Pnl.TabIndex = 406;
+			// 
+			// PosJ4Pnl
+			// 
+			this.PosJ4Pnl.Location = new System.Drawing.Point(144, 363);
+			this.PosJ4Pnl.Name = "PosJ4Pnl";
+			this.PosJ4Pnl.Size = new System.Drawing.Size(36, 33);
+			this.PosJ4Pnl.TabIndex = 407;
 			// 
 			// BattleFieldForm
 			// 
@@ -2230,34 +2208,31 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
 			this.ClientSize = new System.Drawing.Size(1161, 618);
-			this.ControlBox = false;
-			this.Controls.Add(this.BattlefieldPnl);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+			this.Controls.Add(this.MainPnl);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.Name = "BattleFieldForm";
-			this.Padding = new System.Windows.Forms.Padding(9);
+			this.Palette = this.BattleFieldKrptPlt;
+			this.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
-			this.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
-			this.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-			((System.ComponentModel.ISupportInitialize)(this.BattlefieldPnl)).EndInit();
-			this.BattlefieldPnl.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.YourFleetGbx.Panel)).EndInit();
-			this.YourFleetGbx.Panel.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.YourFleetGbx)).EndInit();
-			this.YourFleetGbx.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.EnemyFleetGbx.Panel)).EndInit();
-			this.EnemyFleetGbx.Panel.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.EnemyFleetGbx)).EndInit();
-			this.EnemyFleetGbx.ResumeLayout(false);
+			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.BattleFieldForm_FormClosed);
+			((System.ComponentModel.ISupportInitialize)(this.MainPnl)).EndInit();
+			this.MainPnl.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.CommanderFieldGbx.Panel)).EndInit();
+			this.CommanderFieldGbx.Panel.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.CommanderFieldGbx)).EndInit();
+			this.CommanderFieldGbx.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.EnemyFieldGbx.Panel)).EndInit();
+			this.EnemyFieldGbx.Panel.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.EnemyFieldGbx)).EndInit();
+			this.EnemyFieldGbx.ResumeLayout(false);
 			this.ResumeLayout(false);
 
 		}
 
 		#endregion
-
-		private ComponentFactory.Krypton.Toolkit.KryptonPanel BattlefieldPnl;
-		private System.Windows.Forms.Panel BorderPnl;
-		private ComponentFactory.Krypton.Toolkit.KryptonGroupBox YourFleetGbx;
+		private ComponentFactory.Krypton.Toolkit.KryptonPalette BattleFieldKrptPlt;
+		private ComponentFactory.Krypton.Toolkit.KryptonPanel MainPnl;
+		private ComponentFactory.Krypton.Toolkit.KryptonGroupBox CommanderFieldGbx;
 		private System.Windows.Forms.Panel panel101;
 		private System.Windows.Forms.Panel panel102;
 		private System.Windows.Forms.Panel panel103;
@@ -2358,108 +2333,108 @@
 		private System.Windows.Forms.Panel panel4;
 		private System.Windows.Forms.Panel panel5;
 		private System.Windows.Forms.Panel panel6;
-		private ComponentFactory.Krypton.Toolkit.KryptonGroupBox EnemyFleetGbx;
-		private System.Windows.Forms.Panel panel91;
-		private System.Windows.Forms.Panel panel92;
-		private System.Windows.Forms.Panel panel93;
-		private System.Windows.Forms.Panel panel94;
-		private System.Windows.Forms.Panel panel95;
-		private System.Windows.Forms.Panel panel96;
-		private System.Windows.Forms.Panel panel97;
-		private System.Windows.Forms.Panel panel98;
-		private System.Windows.Forms.Panel panel99;
-		private System.Windows.Forms.Panel panel100;
-		private System.Windows.Forms.Panel panel111;
-		private System.Windows.Forms.Panel panel112;
-		private System.Windows.Forms.Panel panel113;
-		private System.Windows.Forms.Panel panel114;
-		private System.Windows.Forms.Panel panel115;
-		private System.Windows.Forms.Panel panel116;
-		private System.Windows.Forms.Panel panel117;
-		private System.Windows.Forms.Panel panel118;
-		private System.Windows.Forms.Panel panel119;
-		private System.Windows.Forms.Panel panel120;
-		private System.Windows.Forms.Panel panel121;
-		private System.Windows.Forms.Panel panel122;
-		private System.Windows.Forms.Panel panel123;
-		private System.Windows.Forms.Panel panel124;
-		private System.Windows.Forms.Panel panel125;
-		private System.Windows.Forms.Panel panel126;
-		private System.Windows.Forms.Panel panel127;
-		private System.Windows.Forms.Panel panel128;
-		private System.Windows.Forms.Panel panel129;
-		private System.Windows.Forms.Panel panel130;
-		private System.Windows.Forms.Panel panel131;
-		private System.Windows.Forms.Panel panel132;
-		private System.Windows.Forms.Panel panel133;
-		private System.Windows.Forms.Panel panel134;
-		private System.Windows.Forms.Panel panel135;
-		private System.Windows.Forms.Panel panel136;
-		private System.Windows.Forms.Panel panel137;
-		private System.Windows.Forms.Panel panel138;
-		private System.Windows.Forms.Panel panel139;
-		private System.Windows.Forms.Panel panel140;
-		private System.Windows.Forms.Panel panel141;
-		private System.Windows.Forms.Panel panel142;
-		private System.Windows.Forms.Panel panel143;
-		private System.Windows.Forms.Panel panel144;
-		private System.Windows.Forms.Panel panel145;
-		private System.Windows.Forms.Panel panel146;
-		private System.Windows.Forms.Panel panel147;
-		private System.Windows.Forms.Panel panel148;
-		private System.Windows.Forms.Panel panel149;
-		private System.Windows.Forms.Panel panel150;
-		private System.Windows.Forms.Panel panel151;
-		private System.Windows.Forms.Panel panel152;
-		private System.Windows.Forms.Panel panel153;
-		private System.Windows.Forms.Panel panel154;
-		private System.Windows.Forms.Panel panel155;
-		private System.Windows.Forms.Panel panel156;
-		private System.Windows.Forms.Panel panel157;
-		private System.Windows.Forms.Panel panel158;
-		private System.Windows.Forms.Panel panel159;
-		private System.Windows.Forms.Panel panel160;
-		private System.Windows.Forms.Panel panel161;
-		private System.Windows.Forms.Panel panel162;
-		private System.Windows.Forms.Panel panel163;
-		private System.Windows.Forms.Panel panel164;
-		private System.Windows.Forms.Panel panel165;
-		private System.Windows.Forms.Panel panel166;
-		private System.Windows.Forms.Panel panel167;
-		private System.Windows.Forms.Panel panel168;
-		private System.Windows.Forms.Panel panel169;
-		private System.Windows.Forms.Panel panel170;
-		private System.Windows.Forms.Panel panel171;
-		private System.Windows.Forms.Panel panel172;
-		private System.Windows.Forms.Panel panel173;
-		private System.Windows.Forms.Panel panel174;
-		private System.Windows.Forms.Panel panel175;
-		private System.Windows.Forms.Panel panel176;
-		private System.Windows.Forms.Panel panel177;
-		private System.Windows.Forms.Panel panel178;
-		private System.Windows.Forms.Panel panel179;
-		private System.Windows.Forms.Panel panel180;
-		private System.Windows.Forms.Panel panel181;
-		private System.Windows.Forms.Panel panel182;
-		private System.Windows.Forms.Panel panel183;
-		private System.Windows.Forms.Panel panel184;
-		private System.Windows.Forms.Panel panel185;
-		private System.Windows.Forms.Panel panel186;
-		private System.Windows.Forms.Panel panel187;
-		private System.Windows.Forms.Panel panel188;
-		private System.Windows.Forms.Panel panel189;
-		private System.Windows.Forms.Panel panel190;
-		private System.Windows.Forms.Panel panel191;
-		private System.Windows.Forms.Panel panel192;
-		private System.Windows.Forms.Panel panel193;
-		private System.Windows.Forms.Panel panel194;
-		private System.Windows.Forms.Panel panel195;
-		private System.Windows.Forms.Panel panel196;
-		private System.Windows.Forms.Panel panel197;
-		private System.Windows.Forms.Panel panel198;
-		private System.Windows.Forms.Panel panel199;
-		private System.Windows.Forms.Panel panel200;
+		private ComponentFactory.Krypton.Toolkit.KryptonGroupBox EnemyFieldGbx;
+		private System.Windows.Forms.Panel PosA2Pnl;
+		private System.Windows.Forms.Panel PosA1Pnl;
+		private System.Windows.Forms.Panel PosA3Pnl;
+		private System.Windows.Forms.Panel PosA10Pnl;
+		private System.Windows.Forms.Panel PosA9Pnl;
+		private System.Windows.Forms.Panel PosA8Pnl;
+		private System.Windows.Forms.Panel PosA7Pnl;
+		private System.Windows.Forms.Panel PosA6Pnl;
+		private System.Windows.Forms.Panel PosA5Pnl;
+		private System.Windows.Forms.Panel PosA4Pnl;
 		private ComponentFactory.Krypton.Toolkit.KryptonLabel BattlefieldLbl;
-		private ComponentFactory.Krypton.Toolkit.KryptonButton BattlefieldExitBtn;
+		private System.Windows.Forms.Panel BorderPnl;
+		private System.Windows.Forms.Panel PosC2Pnl;
+		private System.Windows.Forms.Panel PosC1Pnl;
+		private System.Windows.Forms.Panel PosC3Pnl;
+		private System.Windows.Forms.Panel PosC10Pnl;
+		private System.Windows.Forms.Panel PosC9Pnl;
+		private System.Windows.Forms.Panel PosC8Pnl;
+		private System.Windows.Forms.Panel PosC7Pnl;
+		private System.Windows.Forms.Panel PosC6Pnl;
+		private System.Windows.Forms.Panel PosC5Pnl;
+		private System.Windows.Forms.Panel PosC4Pnl;
+		private System.Windows.Forms.Panel PosB2Pnl;
+		private System.Windows.Forms.Panel PosB1Pnl;
+		private System.Windows.Forms.Panel PosB3Pnl;
+		private System.Windows.Forms.Panel PosB10Pnl;
+		private System.Windows.Forms.Panel PosB9Pnl;
+		private System.Windows.Forms.Panel PosB8Pnl;
+		private System.Windows.Forms.Panel PosB7Pnl;
+		private System.Windows.Forms.Panel PosB6Pnl;
+		private System.Windows.Forms.Panel PosB5Pnl;
+		private System.Windows.Forms.Panel PosB4Pnl;
+		private System.Windows.Forms.Panel PosJ2Pnl;
+		private System.Windows.Forms.Panel PosJ1Pnl;
+		private System.Windows.Forms.Panel PosJ3Pnl;
+		private System.Windows.Forms.Panel PosJ10Pnl;
+		private System.Windows.Forms.Panel PosJ9Pnl;
+		private System.Windows.Forms.Panel PosJ8Pnl;
+		private System.Windows.Forms.Panel PosJ7Pnl;
+		private System.Windows.Forms.Panel PosJ6Pnl;
+		private System.Windows.Forms.Panel PosJ5Pnl;
+		private System.Windows.Forms.Panel PosJ4Pnl;
+		private System.Windows.Forms.Panel PosI2Pnl;
+		private System.Windows.Forms.Panel PosI1Pnl;
+		private System.Windows.Forms.Panel PosI3Pnl;
+		private System.Windows.Forms.Panel PosI10Pnl;
+		private System.Windows.Forms.Panel PosI9Pnl;
+		private System.Windows.Forms.Panel PosI8Pnl;
+		private System.Windows.Forms.Panel PosI7Pnl;
+		private System.Windows.Forms.Panel PosI6Pnl;
+		private System.Windows.Forms.Panel PosI5Pnl;
+		private System.Windows.Forms.Panel PosI4Pnl;
+		private System.Windows.Forms.Panel PosH2Pnl;
+		private System.Windows.Forms.Panel PosH1Pnl;
+		private System.Windows.Forms.Panel PosH3Pnl;
+		private System.Windows.Forms.Panel PosH10Pnl;
+		private System.Windows.Forms.Panel PosH9Pnl;
+		private System.Windows.Forms.Panel PosH8Pnl;
+		private System.Windows.Forms.Panel PosH7Pnl;
+		private System.Windows.Forms.Panel PosH6Pnl;
+		private System.Windows.Forms.Panel PosH5Pnl;
+		private System.Windows.Forms.Panel PosH4Pnl;
+		private System.Windows.Forms.Panel PosG2Pnl;
+		private System.Windows.Forms.Panel PosG1Pnl;
+		private System.Windows.Forms.Panel PosG3Pnl;
+		private System.Windows.Forms.Panel PosG10Pnl;
+		private System.Windows.Forms.Panel PosG9Pnl;
+		private System.Windows.Forms.Panel PosG8Pnl;
+		private System.Windows.Forms.Panel PosG7Pnl;
+		private System.Windows.Forms.Panel PosG6Pnl;
+		private System.Windows.Forms.Panel PosG5Pnl;
+		private System.Windows.Forms.Panel PosG4Pnl;
+		private System.Windows.Forms.Panel PosF2Pnl;
+		private System.Windows.Forms.Panel PosF1Pnl;
+		private System.Windows.Forms.Panel PosF3Pnl;
+		private System.Windows.Forms.Panel PosF10Pnl;
+		private System.Windows.Forms.Panel PosF9Pnl;
+		private System.Windows.Forms.Panel PosF8Pnl;
+		private System.Windows.Forms.Panel PosF7Pnl;
+		private System.Windows.Forms.Panel PosF6Pnl;
+		private System.Windows.Forms.Panel PosF5Pnl;
+		private System.Windows.Forms.Panel PosF4Pnl;
+		private System.Windows.Forms.Panel PosE2Pnl;
+		private System.Windows.Forms.Panel PosE1Pnl;
+		private System.Windows.Forms.Panel PosE3Pnl;
+		private System.Windows.Forms.Panel PosE10Pnl;
+		private System.Windows.Forms.Panel PosE9Pnl;
+		private System.Windows.Forms.Panel PosE8Pnl;
+		private System.Windows.Forms.Panel PosE7Pnl;
+		private System.Windows.Forms.Panel PosE6Pnl;
+		private System.Windows.Forms.Panel PosE5Pnl;
+		private System.Windows.Forms.Panel PosE4Pnl;
+		private System.Windows.Forms.Panel PosD2Pnl;
+		private System.Windows.Forms.Panel PosD1Pnl;
+		private System.Windows.Forms.Panel PosD3Pnl;
+		private System.Windows.Forms.Panel PosD10Pnl;
+		private System.Windows.Forms.Panel PosD9Pnl;
+		private System.Windows.Forms.Panel PosD8Pnl;
+		private System.Windows.Forms.Panel PosD7Pnl;
+		private System.Windows.Forms.Panel PosD6Pnl;
+		private System.Windows.Forms.Panel PosD5Pnl;
+		private System.Windows.Forms.Panel PosD4Pnl;
 	}
 }

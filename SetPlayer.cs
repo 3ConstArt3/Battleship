@@ -9,9 +9,10 @@ namespace Battleship
 	public partial class SetPlayerForm : KryptonForm
 	{
 
-		#region Constructor Definition
+		/// <summary>
+		/// Constructor Definition.
+		/// </summary>
 		public SetPlayerForm() => InitializeComponent();
-		#endregion
 
 		#region Function Definition
 		/// <summary>

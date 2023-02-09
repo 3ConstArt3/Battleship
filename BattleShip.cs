@@ -9,9 +9,10 @@ namespace Battleship
 	public partial class MainForm : KryptonForm
 	{
 
-		#region Constructor Definition
+		/// <summary>
+		/// Constructor Definition.
+		/// </summary>
 		public MainForm() => InitializeComponent();
-		#endregion
 
 		#region Method Definition
 		/// <summary>
@@ -25,6 +26,7 @@ namespace Battleship
 			new SetPlayerForm().Show();
 		}
 		#endregion
+
 	}
 
 }
