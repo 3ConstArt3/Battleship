@@ -193,11 +193,16 @@ namespace Battleship
 			Controls.Add(newShip);
 			newShip.BringToFront();
 			Panel targetPanel = (Panel)sender;
-			newShip.Location = new Point(PreviewGrbx.Location.X + targetPanel.Location.X,
-				PreviewGrbx.Location.Y + targetPanel.Location.Y + targetPanel.Height);
 
-			Location placedLoc = getCellFromCoords(((Panel)sender).Location);
-			gameManager.GameState.PlayerPlaceShip(placedLoc, true, getTypeFromPBox((string)newShip.Tag));
+			try
+			{
+				Location placedLoc = getCellFromCoords(targetPanel.Location);
+				gameManager.GameState.PlayerPlaceShip(placedLoc, true, getTypeFromPBox((string)newShip.Tag));
+			}
+			catch (InvalidShipPlacementException) { return; }
+
+			newShip.Location = new Point(PreviewGrbx.Location.X + targetPanel.Location.X,
+			PreviewGrbx.Location.Y + targetPanel.Location.Y + targetPanel.Height);
 		}
 	}
 
