@@ -58,7 +58,7 @@ namespace Battleship
             occupiedCells = new HashSet<Location>();
             damagedParts = new HashSet<Location>();
 
-            IsVertical = true;
+            IsVertical = false;
         }
 
 		#region Method Definitions
@@ -166,7 +166,7 @@ namespace Battleship
         /// <returns>True if ship is validly placed on the battlefield</returns>
         private bool isValidPlacement( Location initCell, bool isVertical )
         {
-            return (isVertical && initCell.row + Size <= GameState.GridDimension) &&
+            return (isVertical && initCell.row + Size <= GameState.GridDimension) ||
                    (!isVertical && initCell.column + Size <= GameState.GridDimension);
         }
         #endregion

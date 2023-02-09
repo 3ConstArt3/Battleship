@@ -174,8 +174,9 @@ namespace Battleship
 			foreach( var ship in Fleet )
 			{
 				if( selectedShip.Equals( ship ) ) { continue; }
+                if (selectedShip.InitCell == null) { continue; }
 
-				uint deltaColumn = ( uint )Math.Abs( selectedShip.InitCell.column - ship.InitCell.column );
+                uint deltaColumn = ( uint )Math.Abs( selectedShip.InitCell.column - ship.InitCell.column );
 				uint deltaRow = ( uint )Math.Abs( selectedShip.InitCell.row - ship.InitCell.row );
 
 				if( selectedShip.HasEqualOrientation( ship ) )
