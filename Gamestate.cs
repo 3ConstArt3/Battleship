@@ -1,4 +1,5 @@
 ﻿#region Imports
+using System;
 using System.Collections.Generic;
 #endregion
 
@@ -13,6 +14,7 @@ namespace Battleship
 		private Player player2;
 		public const int GridDimension = 9;
 		private bool isPlayer1Turn = true;
+		private DateTime gameStartTimePoint;
 		#endregion
 
 		/// <summary>
@@ -22,6 +24,7 @@ namespace Battleship
 		{
 			player1 = new Player( player1Name );
 			player2 = new Player( player2Name );
+			gameStartTimePoint = DateTime.Now;
 		}
 
 		#region Method Definition
@@ -59,6 +62,15 @@ namespace Battleship
 		}
 
 		public bool IsGameOver() => isPlayerFleetDestroyed(false) || isPlayerFleetDestroyed(true);
+
+		public bool IsPlayer1Winner()
+		{
+			if (!IsGameOver())
+				throw new GameNotOverException();
+			return isPlayerFleetDestroyed(false);
+		}
+
+		public TimeSpan GetGameDuration() => DateTime.Now - gameStartTimePoint;
 
 		private bool isPlayerFleetDestroyed(bool isPlayer1)
 		{
