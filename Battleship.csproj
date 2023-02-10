@@ -96,6 +96,7 @@
     </Compile>
     <Compile Include="GameManager.cs" />
     <Compile Include="GameState.cs" />
+    <Compile Include="IDrawShip.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="CustomExceptions.cs" />
     <Compile Include="Location.cs" />

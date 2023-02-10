@@ -1,6 +1,8 @@
 ﻿#region Imports
 using System;
 using System.Collections.Generic;
+using System.Linq;
+
 #endregion
 
 namespace Battleship
@@ -64,7 +66,7 @@ namespace Battleship
 			getTargetPlayer( isPlayer1 ).RandomFleetPlacement();
 		}
 
-		public List<Ship> GetPlayerFleet( bool isPlayer1 ) => getTargetPlayer( isPlayer1 ).Fleet;
+		public List<IDrawShip> GetPlayerFleet( bool isPlayer1 ) => getTargetPlayer( isPlayer1 ).Fleet.Cast<IDrawShip>().ToList();
 
 		public void ChangePlayerTurn()
 		{

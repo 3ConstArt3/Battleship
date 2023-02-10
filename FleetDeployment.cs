@@ -5,6 +5,7 @@ using System.Drawing;
 using ComponentFactory.Krypton.Toolkit;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 using System.Collections.Generic;
+using System.Linq;
 
 #endregion
 
@@ -336,8 +337,11 @@ namespace Battleship
 			}
 			catch (InvalidShipPlacementException) 
 			{
+				List<IDrawShip> fleet = gameManager.GameState.GetPlayerFleet(true);
+				IDrawShip selectedShip = fleet.Single(sampleShip => sampleShip.Type == pBoxShipType);
 
-				newShip.Parent = getGBoxFromShipType(pBoxShipType);
+                if (selectedShip.InitCell == null)
+					newShip.Parent = getGBoxFromShipType(pBoxShipType);
 				return; 
 			}
 
