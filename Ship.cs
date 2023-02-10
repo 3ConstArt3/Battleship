@@ -121,6 +121,16 @@ namespace Battleship
         }
 
         /// <summary>
+		/// Removes placed ship from grid and sets its orientation back to horizontal
+		/// </summary>
+		public void Reset()
+        {
+            InitCell = null;
+            IsVertical = false;
+            occupiedCells.Clear();
+        }
+
+        /// <summary>
         /// Determine ship's position on the battlefield.
         /// </summary>
         private void setOccupiedCells()

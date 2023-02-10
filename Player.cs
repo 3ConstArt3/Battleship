@@ -107,10 +107,20 @@ namespace Battleship
 		}
 
 		/// <summary>
-		/// Places each ship of the Fleet, at a
-		/// random Location inside the grid.
+		/// Resets ship's placement based on provided ship type
 		/// </summary>
-		public void RandomFleetPlacement()
+		/// <param name="shipType">Provided ship type</param>
+		public void ResetShip(ShipType shipType)
+		{
+            if ( isPositionLocked ) { return; }
+            getShipFromType(shipType).Reset();
+		}
+
+        /// <summary>
+        /// Places each ship of the Fleet, at a
+        /// random Location inside the grid.
+        /// </summary>
+        public void RandomFleetPlacement()
 		{
 			foreach( var ship in Fleet )
 			{
