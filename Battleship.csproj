@@ -175,9 +175,6 @@
     <None Include="Resources\minimize.Btn.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ReadyForBattleBtn.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\SetPlayerBg.png" />
   </ItemGroup>
   <ItemGroup>
@@ -208,9 +205,6 @@
     <None Include="Resources\MilitaryHelmet.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Sailorhat.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Battleship.png" />
   </ItemGroup>
   <ItemGroup>
@@ -227,6 +221,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\10808479.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sailorhat_min.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sailorhat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReadyForBattleBtn.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
