@@ -298,22 +298,48 @@ namespace Battleship
 			}
 		}
 
-		private void panel_Click(object sender, EventArgs e)
+        private Panel getGBoxFromShipType(ShipType shipType)
+        {
+            switch (shipType)
+            {
+                case ShipType.Carrier:
+                    return CarrierGBox;
+                case ShipType.Battleship:
+                    return BattleshipGBox;
+                case ShipType.Cruiser:
+                    return CruiserGBox;
+                case ShipType.Submarine:
+                    return SubmarineGBox;
+                case ShipType.Destroyer:
+                    return DestroyerGBox;
+                default:
+                    throw new ArgumentException();
+            }
+        }
+
+        private void panel_Click(object sender, EventArgs e)
 		{
-			PictureBox newShip = selectedShipPBox;
+            PictureBox newShip = selectedShipPBox;
 			Controls.Add(newShip);
 			newShip.BringToFront();
 			newShip.BackColor = Color.Transparent;
 			
 			Panel targetPanel = (Panel)sender;
             Location placedLoc = getCellFromCoords(targetPanel.Location);
+
+			ShipType pBoxShipType = getTypeFromPBox((string)newShip.Tag);
             //MessageBox.Show($"row:{placedLoc.row}, column:{placedLoc.column}");
 
             try
 			{  
-                gameManager.GameState.PlayerPlaceShip(placedLoc, true, getTypeFromPBox((string)newShip.Tag));
+                gameManager.GameState.PlayerPlaceShip(placedLoc, true, pBoxShipType);
 			}
-			catch (InvalidShipPlacementException) { return; }
+			catch (InvalidShipPlacementException) 
+			{
+
+				newShip.Parent = getGBoxFromShipType(pBoxShipType);
+				return; 
+			}
 
             newShip.Location = new Point(PreviewGrbx.Location.X + targetPanel.Location.X + 6,
 			PreviewGrbx.Location.Y + targetPanel.Location.Y + targetPanel.Height + 2);
