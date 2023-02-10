@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using System.Drawing;
 using ComponentFactory.Krypton.Toolkit;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
+using System.Collections.Generic;
 
 #endregion
 
@@ -15,6 +16,7 @@ namespace Battleship
 		#region Variable Declarations
 		private GameManager gameManager;
 		private PictureBox selectedShipPBox;
+		private readonly Dictionary<ShipType, Point> initShipPBoxLocations;
 		#endregion
 
 		/// <summary>
@@ -24,6 +26,14 @@ namespace Battleship
 		{
 			InitializeComponent();
             this.gameManager = gameManager;
+			initShipPBoxLocations = new Dictionary<ShipType, Point>()
+			{
+				{ ShipType.Carrier, CarrierPbx.Location },
+				{ ShipType.Battleship, BattleShipPbx.Location },
+				{ ShipType.Cruiser, CruiserPbx.Location },
+				{ ShipType.Submarine, SubmarinePbx.Location },
+				{ ShipType.Destroyer, DestroyerPbx.Location }
+            };
 		}
 
 		#region Function Definition
@@ -82,7 +92,9 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void ResetCarrierBtn_Click( object sender, System.EventArgs e )
 		{
-
+			gameManager.GameState.PlayerResetShip(ShipType.Carrier, true);
+            CarrierPbx.Parent = CarrierGBox;
+            CarrierPbx.Location = initShipPBoxLocations[ ShipType.Carrier ];
 		}
 
 		/// <summary>
@@ -113,8 +125,10 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void ResetBattleShipBtn_Click( object sender, System.EventArgs e )
 		{
-
-		}
+            gameManager.GameState.PlayerResetShip(ShipType.Battleship, true);
+            BattleShipPbx.Parent = BattleshipGBox;
+            BattleShipPbx.Location = initShipPBoxLocations[ ShipType.Battleship ];
+        }
 
 		/// <summary>
 		/// Prompts Cruiser's PictureBox rotation
@@ -144,8 +158,10 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void ResetCruiserBtn_Click( object sender, System.EventArgs e )
 		{
-
-		}
+			gameManager.GameState.PlayerResetShip(ShipType.Cruiser, true);
+            CruiserPbx.Parent = CruiserGBox;
+            CruiserPbx.Location = initShipPBoxLocations[ShipType.Cruiser];
+        }
 
 		/// <summary>
 		/// Prompts Submarine's PictureBox rotation
@@ -174,9 +190,11 @@ namespace Battleship
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		private void ResetSubmarineBtn_Click( object sender, System.EventArgs e )
-		{
-
-		}
+		{	
+			gameManager.GameState.PlayerResetShip(ShipType.Submarine, true);
+            SubmarinePbx.Parent = SubmarineGBox;
+            SubmarinePbx.Location = initShipPBoxLocations[ShipType.Submarine];
+        }
 
 		/// <summary>
 		/// Prompts Destroyer's PictureBox rotation
@@ -205,9 +223,11 @@ namespace Battleship
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		private void ResetDestroyerBtn_Click( object sender, System.EventArgs e )
-		{
-
-		}
+		{	
+			gameManager.GameState.PlayerResetShip(ShipType.Destroyer, true);
+            DestroyerPbx.Parent = DestroyerGBox;
+            DestroyerPbx.Location = initShipPBoxLocations[ShipType.Destroyer];
+        }
 		#endregion
 
 		private Location getCellFromCoords(Point p)
@@ -250,7 +270,7 @@ namespace Battleship
 			
 			Panel targetPanel = (Panel)sender;
             Location placedLoc = getCellFromCoords(targetPanel.Location);
-            MessageBox.Show($"row:{placedLoc.row}, column:{placedLoc.column}");
+            //MessageBox.Show($"row:{placedLoc.row}, column:{placedLoc.column}");
 
             try
 			{  

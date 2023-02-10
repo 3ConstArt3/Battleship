@@ -135,23 +135,23 @@
             this.panel40 = new System.Windows.Forms.Panel();
             this.panel19 = new System.Windows.Forms.Panel();
             this.FleetGrbx = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
-            this.panel95 = new System.Windows.Forms.Panel();
+            this.DestroyerGBox = new System.Windows.Forms.Panel();
             this.RotateDestroyerBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.ResetDestroyerBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.DestroyerPbx = new System.Windows.Forms.PictureBox();
-            this.panel94 = new System.Windows.Forms.Panel();
+            this.SubmarineGBox = new System.Windows.Forms.Panel();
             this.RotateSubmarineBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.ResetSubmarineBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.SubmarinePbx = new System.Windows.Forms.PictureBox();
-            this.panel93 = new System.Windows.Forms.Panel();
+            this.CruiserGBox = new System.Windows.Forms.Panel();
             this.ResetCruiserBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.RotateCruiserBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.CruiserPbx = new System.Windows.Forms.PictureBox();
-            this.panel92 = new System.Windows.Forms.Panel();
+            this.BattleshipGBox = new System.Windows.Forms.Panel();
             this.ResetBattleShipBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.RotateBattleShipBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.BattleShipPbx = new System.Windows.Forms.PictureBox();
-            this.panel91 = new System.Windows.Forms.Panel();
+            this.CarrierGBox = new System.Windows.Forms.Panel();
             this.CarrierPbx = new System.Windows.Forms.PictureBox();
             this.ResetCarrierBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.RotateCarrierBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
@@ -168,15 +168,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.FleetGrbx.Panel)).BeginInit();
             this.FleetGrbx.Panel.SuspendLayout();
             this.FleetGrbx.SuspendLayout();
-            this.panel95.SuspendLayout();
+            this.DestroyerGBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DestroyerPbx)).BeginInit();
-            this.panel94.SuspendLayout();
+            this.SubmarineGBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SubmarinePbx)).BeginInit();
-            this.panel93.SuspendLayout();
+            this.CruiserGBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CruiserPbx)).BeginInit();
-            this.panel92.SuspendLayout();
+            this.BattleshipGBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BattleShipPbx)).BeginInit();
-            this.panel91.SuspendLayout();
+            this.CarrierGBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CarrierPbx)).BeginInit();
             this.SuspendLayout();
             // 
@@ -1539,11 +1539,11 @@
             // 
             // FleetGrbx.Panel
             // 
-            this.FleetGrbx.Panel.Controls.Add(this.panel95);
-            this.FleetGrbx.Panel.Controls.Add(this.panel94);
-            this.FleetGrbx.Panel.Controls.Add(this.panel93);
-            this.FleetGrbx.Panel.Controls.Add(this.panel92);
-            this.FleetGrbx.Panel.Controls.Add(this.panel91);
+            this.FleetGrbx.Panel.Controls.Add(this.DestroyerGBox);
+            this.FleetGrbx.Panel.Controls.Add(this.SubmarineGBox);
+            this.FleetGrbx.Panel.Controls.Add(this.CruiserGBox);
+            this.FleetGrbx.Panel.Controls.Add(this.BattleshipGBox);
+            this.FleetGrbx.Panel.Controls.Add(this.CarrierGBox);
             this.FleetGrbx.Size = new System.Drawing.Size(381, 378);
             this.FleetGrbx.StateCommon.Back.Color1 = System.Drawing.Color.White;
             this.FleetGrbx.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -1629,17 +1629,17 @@
             this.FleetGrbx.TabIndex = 30;
             this.FleetGrbx.Values.Heading = "Fleet";
             // 
-            // panel95
+            // DestroyerGBox
             // 
-            this.panel95.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(172)))), ((int)(((byte)(172)))));
-            this.panel95.Controls.Add(this.RotateDestroyerBtn);
-            this.panel95.Controls.Add(this.ResetDestroyerBtn);
-            this.panel95.Controls.Add(this.DestroyerPbx);
-            this.panel95.Location = new System.Drawing.Point(19, 273);
-            this.panel95.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel95.Name = "panel95";
-            this.panel95.Size = new System.Drawing.Size(340, 60);
-            this.panel95.TabIndex = 42;
+            this.DestroyerGBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(172)))), ((int)(((byte)(172)))));
+            this.DestroyerGBox.Controls.Add(this.RotateDestroyerBtn);
+            this.DestroyerGBox.Controls.Add(this.ResetDestroyerBtn);
+            this.DestroyerGBox.Controls.Add(this.DestroyerPbx);
+            this.DestroyerGBox.Location = new System.Drawing.Point(19, 273);
+            this.DestroyerGBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.DestroyerGBox.Name = "DestroyerGBox";
+            this.DestroyerGBox.Size = new System.Drawing.Size(340, 60);
+            this.DestroyerGBox.TabIndex = 42;
             // 
             // RotateDestroyerBtn
             // 
@@ -1868,17 +1868,17 @@
             this.DestroyerPbx.Tag = "Destroyer";
             this.DestroyerPbx.Click += new System.EventHandler(this.ShipPBox_Click);
             // 
-            // panel94
+            // SubmarineGBox
             // 
-            this.panel94.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(172)))), ((int)(((byte)(172)))));
-            this.panel94.Controls.Add(this.RotateSubmarineBtn);
-            this.panel94.Controls.Add(this.ResetSubmarineBtn);
-            this.panel94.Controls.Add(this.SubmarinePbx);
-            this.panel94.Location = new System.Drawing.Point(19, 206);
-            this.panel94.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel94.Name = "panel94";
-            this.panel94.Size = new System.Drawing.Size(340, 60);
-            this.panel94.TabIndex = 38;
+            this.SubmarineGBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(172)))), ((int)(((byte)(172)))));
+            this.SubmarineGBox.Controls.Add(this.RotateSubmarineBtn);
+            this.SubmarineGBox.Controls.Add(this.ResetSubmarineBtn);
+            this.SubmarineGBox.Controls.Add(this.SubmarinePbx);
+            this.SubmarineGBox.Location = new System.Drawing.Point(19, 206);
+            this.SubmarineGBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.SubmarineGBox.Name = "SubmarineGBox";
+            this.SubmarineGBox.Size = new System.Drawing.Size(340, 60);
+            this.SubmarineGBox.TabIndex = 38;
             // 
             // RotateSubmarineBtn
             // 
@@ -2107,17 +2107,17 @@
             this.SubmarinePbx.Tag = "Submarine";
             this.SubmarinePbx.Click += new System.EventHandler(this.ShipPBox_Click);
             // 
-            // panel93
+            // CruiserGBox
             // 
-            this.panel93.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(172)))), ((int)(((byte)(172)))));
-            this.panel93.Controls.Add(this.ResetCruiserBtn);
-            this.panel93.Controls.Add(this.RotateCruiserBtn);
-            this.panel93.Controls.Add(this.CruiserPbx);
-            this.panel93.Location = new System.Drawing.Point(19, 138);
-            this.panel93.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel93.Name = "panel93";
-            this.panel93.Size = new System.Drawing.Size(340, 60);
-            this.panel93.TabIndex = 38;
+            this.CruiserGBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(172)))), ((int)(((byte)(172)))));
+            this.CruiserGBox.Controls.Add(this.ResetCruiserBtn);
+            this.CruiserGBox.Controls.Add(this.RotateCruiserBtn);
+            this.CruiserGBox.Controls.Add(this.CruiserPbx);
+            this.CruiserGBox.Location = new System.Drawing.Point(19, 138);
+            this.CruiserGBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.CruiserGBox.Name = "CruiserGBox";
+            this.CruiserGBox.Size = new System.Drawing.Size(340, 60);
+            this.CruiserGBox.TabIndex = 38;
             // 
             // ResetCruiserBtn
             // 
@@ -2346,17 +2346,17 @@
             this.CruiserPbx.Tag = "Cruiser";
             this.CruiserPbx.Click += new System.EventHandler(this.ShipPBox_Click);
             // 
-            // panel92
+            // BattleshipGBox
             // 
-            this.panel92.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(172)))), ((int)(((byte)(172)))));
-            this.panel92.Controls.Add(this.ResetBattleShipBtn);
-            this.panel92.Controls.Add(this.RotateBattleShipBtn);
-            this.panel92.Controls.Add(this.BattleShipPbx);
-            this.panel92.Location = new System.Drawing.Point(19, 71);
-            this.panel92.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel92.Name = "panel92";
-            this.panel92.Size = new System.Drawing.Size(340, 60);
-            this.panel92.TabIndex = 38;
+            this.BattleshipGBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(172)))), ((int)(((byte)(172)))));
+            this.BattleshipGBox.Controls.Add(this.ResetBattleShipBtn);
+            this.BattleshipGBox.Controls.Add(this.RotateBattleShipBtn);
+            this.BattleshipGBox.Controls.Add(this.BattleShipPbx);
+            this.BattleshipGBox.Location = new System.Drawing.Point(19, 71);
+            this.BattleshipGBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BattleshipGBox.Name = "BattleshipGBox";
+            this.BattleshipGBox.Size = new System.Drawing.Size(340, 60);
+            this.BattleshipGBox.TabIndex = 38;
             // 
             // ResetBattleShipBtn
             // 
@@ -2585,17 +2585,17 @@
             this.BattleShipPbx.Tag = "Battleship";
             this.BattleShipPbx.Click += new System.EventHandler(this.ShipPBox_Click);
             // 
-            // panel91
+            // CarrierGBox
             // 
-            this.panel91.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(172)))), ((int)(((byte)(172)))));
-            this.panel91.Controls.Add(this.CarrierPbx);
-            this.panel91.Controls.Add(this.ResetCarrierBtn);
-            this.panel91.Controls.Add(this.RotateCarrierBtn);
-            this.panel91.Location = new System.Drawing.Point(19, 6);
-            this.panel91.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel91.Name = "panel91";
-            this.panel91.Size = new System.Drawing.Size(340, 60);
-            this.panel91.TabIndex = 38;
+            this.CarrierGBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(172)))), ((int)(((byte)(172)))));
+            this.CarrierGBox.Controls.Add(this.CarrierPbx);
+            this.CarrierGBox.Controls.Add(this.ResetCarrierBtn);
+            this.CarrierGBox.Controls.Add(this.RotateCarrierBtn);
+            this.CarrierGBox.Location = new System.Drawing.Point(19, 6);
+            this.CarrierGBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.CarrierGBox.Name = "CarrierGBox";
+            this.CarrierGBox.Size = new System.Drawing.Size(340, 60);
+            this.CarrierGBox.TabIndex = 38;
             // 
             // CarrierPbx
             // 
@@ -2716,6 +2716,7 @@
             this.ResetCarrierBtn.TabIndex = 22;
             this.ResetCarrierBtn.Tag = "Rotate";
             this.ResetCarrierBtn.Values.Text = "";
+            this.ResetCarrierBtn.Click += new System.EventHandler(this.ResetCarrierBtn_Click);
             // 
             // RotateCarrierBtn
             // 
@@ -2887,15 +2888,15 @@
             this.FleetGrbx.Panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.FleetGrbx)).EndInit();
             this.FleetGrbx.ResumeLayout(false);
-            this.panel95.ResumeLayout(false);
+            this.DestroyerGBox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DestroyerPbx)).EndInit();
-            this.panel94.ResumeLayout(false);
+            this.SubmarineGBox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SubmarinePbx)).EndInit();
-            this.panel93.ResumeLayout(false);
+            this.CruiserGBox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.CruiserPbx)).EndInit();
-            this.panel92.ResumeLayout(false);
+            this.BattleshipGBox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.BattleShipPbx)).EndInit();
-            this.panel91.ResumeLayout(false);
+            this.CarrierGBox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.CarrierPbx)).EndInit();
             this.ResumeLayout(false);
 
@@ -2907,23 +2908,23 @@
 		private ComponentFactory.Krypton.Toolkit.KryptonButton AttackBtn;
 		private ComponentFactory.Krypton.Toolkit.KryptonGroupBox PreviewGrbx;
 		private ComponentFactory.Krypton.Toolkit.KryptonGroupBox FleetGrbx;
-		private System.Windows.Forms.Panel panel95;
+		private System.Windows.Forms.Panel DestroyerGBox;
 		private ComponentFactory.Krypton.Toolkit.KryptonButton RotateDestroyerBtn;
 		private ComponentFactory.Krypton.Toolkit.KryptonButton ResetDestroyerBtn;
 		private System.Windows.Forms.PictureBox DestroyerPbx;
-		private System.Windows.Forms.Panel panel94;
+		private System.Windows.Forms.Panel SubmarineGBox;
 		private ComponentFactory.Krypton.Toolkit.KryptonButton RotateSubmarineBtn;
 		private ComponentFactory.Krypton.Toolkit.KryptonButton ResetSubmarineBtn;
 		private System.Windows.Forms.PictureBox SubmarinePbx;
-		private System.Windows.Forms.Panel panel93;
+		private System.Windows.Forms.Panel CruiserGBox;
 		private ComponentFactory.Krypton.Toolkit.KryptonButton ResetCruiserBtn;
 		private ComponentFactory.Krypton.Toolkit.KryptonButton RotateCruiserBtn;
 		private System.Windows.Forms.PictureBox CruiserPbx;
-		private System.Windows.Forms.Panel panel92;
+		private System.Windows.Forms.Panel BattleshipGBox;
 		private ComponentFactory.Krypton.Toolkit.KryptonButton ResetBattleShipBtn;
 		private ComponentFactory.Krypton.Toolkit.KryptonButton RotateBattleShipBtn;
 		private System.Windows.Forms.PictureBox BattleShipPbx;
-		private System.Windows.Forms.Panel panel91;
+		private System.Windows.Forms.Panel CarrierGBox;
 		private System.Windows.Forms.PictureBox CarrierPbx;
 		private ComponentFactory.Krypton.Toolkit.KryptonButton ResetCarrierBtn;
 		private ComponentFactory.Krypton.Toolkit.KryptonButton RotateCarrierBtn;
