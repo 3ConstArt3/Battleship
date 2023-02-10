@@ -1,7 +1,10 @@
 ﻿#region Imports
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Windows.Forms;
+
 #endregion
 
 namespace Battleship
@@ -192,29 +195,25 @@ namespace Battleship
 		{
 			foreach( var ship in Fleet )
 			{
-				if( shipType == ship.Type ) { continue; }
-                if ( ship.InitCell == null ) { continue; }
+				if( shipType == ship.Type || ship.InitCell == null ) { continue; }
 
-                uint deltaColumn = ( uint )Math.Abs( selectedShipLocation.column - ship.InitCell.column );
-				uint deltaRow = ( uint )Math.Abs( selectedShipLocation.row - ship.InitCell.row );
+                //MessageBox.Show($"scolumn:{selectedShipLocation.column}, col:{ship.InitCell.column}");
+                int deltaColumn = (int)selectedShipLocation.column - (int)ship.InitCell.column;
+				int deltaRow = (int)selectedShipLocation.row - (int)ship.InitCell.row;
 
 				if( selectedShipIsVertical == ship.IsVertical )
 				{
-					uint maxSize = Math.Max( selectedShipSize, ship.Size );
-
-					(deltaColumn, deltaRow) = selectedShipIsVertical ? (deltaColumn, deltaRow) : (deltaRow, deltaColumn);
-					checkOverlapSameOrientation( maxSize, deltaColumn, deltaRow );
+					(int delta1, int delta2) = selectedShipIsVertical ? (deltaColumn, deltaRow) : (deltaRow, deltaColumn);
+					checkOverlapSameOrientation(selectedShipSize, ship.Size, delta1, delta2);
 				}
 				else
 				{
 					if( selectedShipIsVertical )
-					{
 						if ( selectedShipLocation.row < ship.InitCell.row )
 							checkOverlapDifferentOrientation( ship.Size, selectedShipSize, deltaRow, deltaColumn );
-						return;
-					}
-					if (selectedShipLocation.column < ship.InitCell.column)
-						checkOverlapDifferentOrientation( selectedShipSize, ship.Size, deltaRow, deltaColumn );
+					else
+						if (selectedShipLocation.column < ship.InitCell.column)
+							checkOverlapDifferentOrientation( selectedShipSize, ship.Size, deltaRow, deltaColumn );
 				}
 			}
 		}
@@ -223,15 +222,19 @@ namespace Battleship
 		/// Validates if 2 ships with same orientations
 		/// collide with each other.
 		/// </summary>
-		/// <param name="maxSize"></param>
+		/// <param name="minSize"></param>
 		/// <param name="deltaDimension"></param>
 		/// <exception cref="InvalidShipPlacementException"></exception>
-		private void checkOverlapSameOrientation( uint maxSize, params uint[] deltaDimension )
+		private void checkOverlapSameOrientation(uint selectedShipSize, uint shipSize, params int[] deltaDimension )
 		{
-			if( deltaDimension[ 0 ] == 0 )
-				if (deltaDimension[ 1 ] < maxSize)
+			if (deltaDimension[0] == 0)
+			{
+                uint firstShipSize = (deltaDimension[1] < 0) ? selectedShipSize : shipSize;
+                if (Math.Abs(deltaDimension[1]) < firstShipSize)
 					throw new InvalidShipPlacementException();
-		}
+            }
+				
+        }
 
 		/// <summary>
 		/// Validates if 2 ships with different orientations
@@ -241,12 +244,10 @@ namespace Battleship
 		/// <param name="verticalShipSize"></param>
 		/// <param name="deltaDimension"></param>
 		/// <exception cref="InvalidShipPlacementException"></exception>
-		private void checkOverlapDifferentOrientation( uint horizontalShipSize, uint verticalShipSize, params uint[] deltaDimension )
+		private void checkOverlapDifferentOrientation( uint horizontalShipSize, uint verticalShipSize, params int[] deltaDimension )
 		{
 			if( deltaDimension[ 0 ] < horizontalShipSize || deltaDimension[ 1 ] < verticalShipSize )
-			{
 				throw new InvalidShipPlacementException();
-			}
 		}
 
 		/// <summary>
