@@ -60,6 +60,7 @@ namespace Battleship
 
 			gameManager.GameState.PlayerLockSetup(true);
 			gameManager.GameState.PlayerRandomFleetPlacement(false);
+			gameManager.GameState.PlayerLockSetup(false);
 
 			new BattleFieldForm(gameManager).Show();
 			Close();
@@ -329,7 +330,6 @@ namespace Battleship
             Location placedLoc = getCellFromCoords(targetPanel.Location);
 
 			ShipType pBoxShipType = getTypeFromPBox((string)newShip.Tag);
-            //MessageBox.Show($"row:{placedLoc.row}, column:{placedLoc.column}");
 
             try
 			{  
