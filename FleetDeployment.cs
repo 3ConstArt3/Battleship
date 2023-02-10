@@ -40,6 +40,8 @@ namespace Battleship
 
 		private void ShipPBox_Click(object sender, System.EventArgs e)
 		{
+			if (selectedShipPBox != null)
+				selectedShipPBox.BackColor = Color.Transparent;
 			selectedShipPBox = (PictureBox)sender;
 			selectedShipPBox.BackColor = Color.FromArgb(255, 230, 230, 230);
 		}
@@ -93,7 +95,15 @@ namespace Battleship
 			gameManager.GameState.PlayerResetShip(ShipType.Carrier, true);
             CarrierPbx.Parent = CarrierGBox;
             CarrierPbx.Location = initShipPBoxLocations[ ShipType.Carrier ];
-		}
+			if(CarrierPbx.Width < CarrierPbx.Height)
+			{
+                Image img = CarrierPbx.Image;
+                CarrierPbx.Size = new Size(CarrierPbx.Size.Height, CarrierPbx.Size.Width);
+                img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                CarrierPbx.Image = img;
+            }
+			CarrierPbx.BackColor = Color.Transparent;
+        }
 
 		/// <summary>
 		/// Prompts BattleShip's PictureBox rotation
@@ -126,6 +136,14 @@ namespace Battleship
             gameManager.GameState.PlayerResetShip(ShipType.Battleship, true);
             BattleShipPbx.Parent = BattleshipGBox;
             BattleShipPbx.Location = initShipPBoxLocations[ ShipType.Battleship ];
+            if (BattleShipPbx.Width < BattleShipPbx.Height)
+            {
+                Image img = BattleShipPbx.Image;
+                BattleShipPbx.Size = new Size(BattleShipPbx.Size.Height, BattleShipPbx.Size.Width);
+                img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                BattleShipPbx.Image = img;
+            }
+            BattleShipPbx.BackColor = Color.Transparent;
         }
 
 		/// <summary>
@@ -159,6 +177,14 @@ namespace Battleship
 			gameManager.GameState.PlayerResetShip(ShipType.Cruiser, true);
             CruiserPbx.Parent = CruiserGBox;
             CruiserPbx.Location = initShipPBoxLocations[ShipType.Cruiser];
+            if (CruiserPbx.Width < CruiserPbx.Height)
+            {
+                Image img = CruiserPbx.Image;
+                CruiserPbx.Size = new Size(CruiserPbx.Size.Height, CruiserPbx.Size.Width);
+                img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                CruiserPbx.Image = img;
+            }
+            CruiserPbx.BackColor = Color.Transparent;
         }
 
 		/// <summary>
@@ -192,6 +218,14 @@ namespace Battleship
 			gameManager.GameState.PlayerResetShip(ShipType.Submarine, true);
             SubmarinePbx.Parent = SubmarineGBox;
             SubmarinePbx.Location = initShipPBoxLocations[ShipType.Submarine];
+            if (SubmarinePbx.Width < SubmarinePbx.Height)
+            {
+                Image img = SubmarinePbx.Image;
+                SubmarinePbx.Size = new Size(SubmarinePbx.Size.Height, SubmarinePbx.Size.Width);
+                img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                SubmarinePbx.Image = img;
+            }
+            SubmarinePbx.BackColor = Color.Transparent;
         }
 
 		/// <summary>
@@ -225,8 +259,15 @@ namespace Battleship
 			gameManager.GameState.PlayerResetShip(ShipType.Destroyer, true);
             DestroyerPbx.Parent = DestroyerGBox;
             DestroyerPbx.Location = initShipPBoxLocations[ShipType.Destroyer];
+            if (DestroyerPbx.Width < DestroyerPbx.Height)
+            {
+                Image img = DestroyerPbx.Image;
+                DestroyerPbx.Size = new Size(DestroyerPbx.Size.Height, DestroyerPbx.Size.Width);
+                img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                DestroyerPbx.Image = img;
+            }
+            DestroyerPbx.BackColor = Color.Transparent;
         }
-		#endregion
 
 		private Location getCellFromCoords(Point p)
 		{
@@ -277,6 +318,8 @@ namespace Battleship
             newShip.Location = new Point(PreviewGrbx.Location.X + targetPanel.Location.X + 6,
 			PreviewGrbx.Location.Y + targetPanel.Location.Y + targetPanel.Height + 2);
 		}
+
+        #endregion
     }
 
 }
