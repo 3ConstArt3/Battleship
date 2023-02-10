@@ -29,6 +29,7 @@
 		private void InitializeComponent()
 		{
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.MainKrptPlt = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
             this.MainPnl = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.PreparationBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
@@ -315,6 +316,7 @@
             this.ClientSize = new System.Drawing.Size(823, 523);
             this.Controls.Add(this.MainPnl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.Palette = this.MainKrptPlt;
             this.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;

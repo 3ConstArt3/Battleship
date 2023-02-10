@@ -29,6 +29,7 @@
 		private void InitializeComponent()
 		{
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FleetDeploymentForm));
             this.FleetDeploymentKrptPlt = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
             this.MainPnl = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.AttackBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
@@ -2867,6 +2868,7 @@
             this.ClientSize = new System.Drawing.Size(1019, 614);
             this.Controls.Add(this.MainPnl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FleetDeploymentForm";
             this.Palette = this.FleetDeploymentKrptPlt;
