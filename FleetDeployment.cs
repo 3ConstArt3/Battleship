@@ -3,6 +3,8 @@ using System;
 using System.Windows.Forms;
 using System.Drawing;
 using ComponentFactory.Krypton.Toolkit;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
+
 #endregion
 
 namespace Battleship
@@ -210,8 +212,8 @@ namespace Battleship
 			//int cellMargin = panel2.Left - panel1.Left - panel1.Width;
 			int cellDist = panel2.Left - panel1.Left;
 
-			int cellIndexColumn = (int)Math.Round((float)(p.X - panel1.Location.X) / (float)cellDist);
-			int cellIndexRow = (int)Math.Round((float)(p.Y - panel1.Location.Y) / (float)cellDist);
+			int cellIndexColumn = (int)Math.Round((float)((p.X - panel1.Location.X) / cellDist));
+			int cellIndexRow = (int)Math.Round((float)((p.Y - panel1.Location.Y) / cellDist));
 
 			return new Location((uint)cellIndexRow, (uint)cellIndexColumn);
 		}
@@ -247,11 +249,11 @@ namespace Battleship
 			try
 			{
 				Location placedLoc = getCellFromCoords(targetPanel.Location);
-				gameManager.GameState.PlayerPlaceShip(placedLoc, true, getTypeFromPBox((string)newShip.Tag));
+                MessageBox.Show($"row:{placedLoc.row}, column:{placedLoc.column}");
+                gameManager.GameState.PlayerPlaceShip(placedLoc, true, getTypeFromPBox((string)newShip.Tag));
 			}
 			catch (InvalidShipPlacementException) { return; }
-
-			newShip.Location = new Point(PreviewGrbx.Location.X + targetPanel.Location.X + 6,
+            newShip.Location = new Point(PreviewGrbx.Location.X + targetPanel.Location.X + 6,
 			PreviewGrbx.Location.Y + targetPanel.Location.Y + targetPanel.Height + 2);
 		}
     }
