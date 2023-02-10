@@ -201,16 +201,12 @@ namespace Battleship
                 int deltaColumn = (int)selectedShipLocation.column - (int)ship.InitCell.column;
 				int deltaRow = (int)selectedShipLocation.row - (int)ship.InitCell.row;
 
+                (int, int) deltaDimension = selectedShipIsVertical ? (deltaColumn, deltaRow) : (deltaRow, deltaColumn);
+
                 if (selectedShipIsVertical == ship.IsVertical)
-				{
-                    (int, int) deltaDimension = selectedShipIsVertical ? (deltaColumn, deltaRow) : (deltaRow, deltaColumn);
                     checkOverlapSameOrientation(selectedShipSize, ship.Size, deltaDimension);
-                }
 				else
-				{
-                    (uint, uint) shipSizes = selectedShipIsVertical ? (selectedShipSize, ship.Size) : (ship.Size, selectedShipSize);
-					checkOverlapDifferentOrientation(shipSizes, deltaRow, deltaColumn, selectedShipIsVertical);	
-				}
+					checkOverlapDifferentOrientation(selectedShipSize, ship.Size, deltaDimension);	
 			}
 		}
 
@@ -240,11 +236,10 @@ namespace Battleship
 		/// <param name="verticalShipSize"></param>
 		/// <param name="deltaDimension"></param>
 		/// <exception cref="InvalidShipPlacementException"></exception>
-		private void checkOverlapDifferentOrientation((uint, uint) shipSizes, int deltaRow, int deltaColumn, bool selectedShipIsVertical)
+		private void checkOverlapDifferentOrientation(uint selectedShipSize, uint shipSize, (int, int) deltaDimension)
 		{
-			(int, int) deltaDimension = selectedShipIsVertical ? (deltaRow, deltaColumn) : (deltaColumn, deltaRow);
-			if (deltaDimension.Item1 <= 0 && deltaDimension.Item2 >= 0)
-				if (Math.Abs(deltaRow) < shipSizes.Item1 && Math.Abs(deltaColumn) < shipSizes.Item2)
+			if (deltaDimension.Item2 <= 0 && deltaDimension.Item1 >= 0)
+				if (Math.Abs(deltaDimension.Item2) < selectedShipSize && Math.Abs(deltaDimension.Item1) < shipSize)
 					throw new InvalidShipPlacementException();
 		}
 
