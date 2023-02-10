@@ -16,6 +16,7 @@ namespace Battleship
 		public string Name { get; } = "";
 		public uint Attempts { get; private set; } = 0;
 
+        private bool isPositionLocked = false;
 		private static readonly Random random = new Random();
 		#endregion
 
@@ -72,15 +73,21 @@ namespace Battleship
 			return false;
 		}
 
-		/// <summary>
-		/// Places ship at given position, if it doesn't
-		/// collide with another ship.
-		/// </summary>
-		/// <param name="pos"></param>
-		/// <param name="shipType"></param>
-		public void PlaceShip( Location pos, ShipType shipType )
+        /// <summary>
+        /// Location ship's position after exiting setup mode.
+        /// </summary>
+        public void LocationkPosition() { isPositionLocked = true; }
+
+        /// <summary>
+        /// Places ship at given position, if it doesn't
+        /// collide with another ship.
+        /// </summary>
+        /// <param name="pos"></param>
+        /// <param name="shipType"></param>
+        public void PlaceShip( Location pos, ShipType shipType )
 		{
-			Ship selectedShip = getShipFromType( shipType );
+            if ( isPositionLocked ) { return; }
+            Ship selectedShip = getShipFromType( shipType );
 			checkOverlap( selectedShip.Size, pos, selectedShip.IsVertical, selectedShip.Type );
 			selectedShip.RenewPosition( pos );
 		}
@@ -92,8 +99,10 @@ namespace Battleship
 		/// <param name="shipType"></param>
 		public void RotateShip( ShipType shipType )
 		{
-			Ship selectedShip = getShipFromType( shipType );
-			checkOverlap( selectedShip.Size, selectedShip.InitCell, !selectedShip.IsVertical, selectedShip.Type );
+            if ( isPositionLocked ) { return; }
+            Ship selectedShip = getShipFromType( shipType );
+            if ( selectedShip.InitCell == null ) { throw new InvalidShipPlacementException(); }
+            checkOverlap( selectedShip.Size, selectedShip.InitCell, !selectedShip.IsVertical, selectedShip.Type );
 			selectedShip.SwitchOrientation();
 		}
 
