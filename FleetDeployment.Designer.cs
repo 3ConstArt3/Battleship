@@ -660,7 +660,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(40, 40);
             this.panel2.TabIndex = 414;
-            this.panel2.Click += new System.EventHandler(this.panel_Click);
             this.panel2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel1
@@ -670,7 +669,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(40, 40);
             this.panel1.TabIndex = 412;
-            this.panel1.Click += new System.EventHandler(this.panel_Click);
             this.panel1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel81
@@ -1454,7 +1452,6 @@
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(40, 40);
             this.panel20.TabIndex = 424;
-            this.panel20.Click += new System.EventHandler(this.panel_Click);
             this.panel20.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // panel35
@@ -1527,7 +1524,6 @@
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(40, 40);
             this.panel19.TabIndex = 423;
-            this.panel19.Click += new System.EventHandler(this.panel_Click);
             this.panel19.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_Click);
             // 
             // FleetGrbx

@@ -40,8 +40,6 @@ namespace Battleship
 
 		private void ShipPBox_Click(object sender, System.EventArgs e)
 		{
-			if (selectedShipPBox != null)
-				selectedShipPBox.BackColor = Color.FromArgb(0, 0, 0, 0);
 			selectedShipPBox = (PictureBox)sender;
 			selectedShipPBox.BackColor = Color.FromArgb(255, 230, 230, 230);
 		}
@@ -232,7 +230,6 @@ namespace Battleship
 
 		private Location getCellFromCoords(Point p)
 		{
-			//int cellMargin = panel2.Left - panel1.Left - panel1.Width;
 			int cellDist = panel2.Left - panel1.Left;
 
 			int cellIndexColumn = (int)Math.Round((float)((p.X - panel1.Location.X) / cellDist));
@@ -262,7 +259,6 @@ namespace Battleship
 
 		private void panel_Click(object sender, EventArgs e)
 		{
-			Controls.Remove(selectedShipPBox);
 			PictureBox newShip = selectedShipPBox;
 			Controls.Add(newShip);
 			newShip.BringToFront();
