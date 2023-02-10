@@ -244,15 +244,17 @@ namespace Battleship
 			Controls.Add(newShip);
 			newShip.BringToFront();
 			newShip.BackColor = Color.Transparent;
+			
 			Panel targetPanel = (Panel)sender;
+            Location placedLoc = getCellFromCoords(targetPanel.Location);
+            MessageBox.Show($"row:{placedLoc.row}, column:{placedLoc.column}");
 
-			try
-			{
-				Location placedLoc = getCellFromCoords(targetPanel.Location);
-                MessageBox.Show($"row:{placedLoc.row}, column:{placedLoc.column}");
+            try
+			{  
                 gameManager.GameState.PlayerPlaceShip(placedLoc, true, getTypeFromPBox((string)newShip.Tag));
 			}
 			catch (InvalidShipPlacementException) { return; }
+
             newShip.Location = new Point(PreviewGrbx.Location.X + targetPanel.Location.X + 6,
 			PreviewGrbx.Location.Y + targetPanel.Location.Y + targetPanel.Height + 2);
 		}
