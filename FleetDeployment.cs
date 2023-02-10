@@ -48,6 +48,7 @@ namespace Battleship
 					return;
 
 			gameManager.GameState.PlayerLockSetup(true);
+			gameManager.GameState.PlayerRandomFleetPlacement(false);
 
 			new BattleFieldForm(gameManager).Show();
 			Close();
