@@ -47,6 +47,8 @@ namespace Battleship
 				if (ship.InitCell == null)
 					return;
 
+			gameManager.GameState.PlayerLockSetup(true);
+
 			new BattleFieldForm(gameManager).Show();
 			Close();
 		}

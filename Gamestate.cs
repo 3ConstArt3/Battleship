@@ -49,7 +49,17 @@ namespace Battleship
 			getTargetPlayer( isPlayer1 ).RotateShip( shipType );
 		}
 
-		public void PlayerRandomFleetPlacement( bool isPlayer1 )
+        public void PlayerResetShip(ShipType shipType, bool isPlayer1)
+        {
+            getTargetPlayer( isPlayer1 ).ResetShip( shipType );
+        }
+
+        public void PlayerLockSetup(bool isPlayer1)
+        {
+			getTargetPlayer(isPlayer1).LockSetup();
+        }
+
+        public void PlayerRandomFleetPlacement( bool isPlayer1 )
 		{
 			getTargetPlayer( isPlayer1 ).RandomFleetPlacement();
 		}
