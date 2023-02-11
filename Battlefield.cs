@@ -147,7 +147,7 @@ namespace Battleship
             if (gameManager.GameState.PlayerCellContainsShip(firedAt))
 				targetCell.BackColor = Color.Red;
             else
-                targetCell.BackColor = Color.White;
+                targetCell.BackColor = Color.CornflowerBlue;
 
             if (gameManager.GameState.IsGameOver())
             {
@@ -187,7 +187,7 @@ namespace Battleship
 			if (gameManager.GameState.PlayerCellContainsShip(firedAt))
 				targetCell.BackColor = Color.Red;
 			else
-				targetCell.BackColor = Color.White;
+				targetCell.BackColor = Color.CornflowerBlue;
 
 			gameManager.GameState.ChangePlayerTurn();
 			
