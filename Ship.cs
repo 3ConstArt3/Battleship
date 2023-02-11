@@ -76,7 +76,14 @@ namespace Battleship
         /// </summary>
         /// <param name="cell">Battlefield cell</param>
         /// <returns>True if battlefield cell is occupied by the ship</returns>
-        public bool IsOccupiedCell( Location cell ) => (occupiedCells.Contains( cell ));
+        public bool IsOccupiedCell( Location cell)
+        {
+            foreach (var currentCell in occupiedCells)
+                if (currentCell.row == cell.row && 
+                    currentCell.column == cell.column)
+                    return true;
+            return false;
+        }
 
 		/// <summary>
 		/// Determines whether provided ship part cell is damaged.
