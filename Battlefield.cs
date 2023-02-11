@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 using ComponentFactory.Krypton.Toolkit;
 using ComponentFactory.Krypton.Workspace;
@@ -17,17 +18,34 @@ namespace Battleship
 
 		#region Variable Declarations
 		private GameManager gameManager;
-		private List<PictureBox> player1FleetPboxes;
+        private Panel[,] player1Grid;
+        private List<PictureBox> player1FleetPboxes;
 		private List<PictureBox> player2FleetPboxes;
+		private static Random random = new Random();
+		private bool mutexPlayerCanFire;
+		private const int computerShotDelay = 10;
 		#endregion
 
-		/// <summary>
-		/// Constructor Definition.
-		/// </summary>
-		public BattleFieldForm(GameManager gameManager, List<PictureBox> fleetPboxes)
+        /// <summary>
+        /// Constructor Definition.
+        /// </summary>
+        public BattleFieldForm(GameManager gameManager, List<PictureBox> fleetPboxes)
 		{
 			InitializeComponent();
 			this.gameManager = gameManager;
+
+			player1Grid = new Panel[10, 10] {
+				{ p00, p01, p02, p03, p04, p05, p06, p07, p08, p09 }, 
+				{ p10, p11, p12, p13, p14, p15, p16, p17, p18, p19 },
+				{ p20, p21, p22, p23, p24, p25, p26, p27, p28, p29 },
+				{ p30, p31, p32, p33, p34, p35, p36, p37, p38, p39 },
+				{ p40, p41, p42, p43, p44, p45, p46, p47, p48, p49 },
+				{ p50, p51, p52, p53, p54, p55, p56, p57, p58, p59 },
+				{ p60, p61, p62, p63, p64, p65, p66, p67, p68, p69 },
+				{ p70, p71, p72, p73, p74, p75, p76, p77, p78, p79 },
+				{ p80, p81, p82, p83, p84, p85, p86, p87, p88, p89 },
+				{ p90, p91, p92, p93, p94, p95, p96, p97, p98, p99 }
+			}; 
 
             player1FleetPboxes = fleetPboxes.ToList();
             player2FleetPboxes = fleetPboxes.ConvertAll(
@@ -42,529 +60,26 @@ namespace Battleship
 
             placePlayerFleet(true);
             placePlayerFleet(false);
+
+			mutexPlayerCanFire = false;
         }
 
-		#region Method Definition
-
-		/// <summary>
-		///  Closes BattleFieldForm UI & invokes HighScoreForm UI.
-		/// </summary>
-		/// <param name="sender"></param>
-		/// <param name="e"></param>
-		private void BattleFieldForm_FormClosed( object sender, FormClosedEventArgs e )
-		{
-			// new HighScoresForm().Show();
-			// this.Close();
-		}
-
-		private void PosA1Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosA2Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosA3Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosA4Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosA5Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosA6Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosA7Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosA8Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosA9Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosA10Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosB10Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosB9Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosB8Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosB7Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosB6Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosB5Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosB4Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosB3Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosB2Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosB1Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosC1Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosC2Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosC3Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosC4Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosC5Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosC6Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosC7Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosC8Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosC9Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosC10Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosD10Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosD9Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosD8Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosD7Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosD6Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosD5Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosD4Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosD3Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosD2Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosD1Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosE1Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosE2Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosE3Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosE4Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosE5Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosE6Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosE7Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosE8Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosE9Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosE10Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosF10Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosF9Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosF8Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosF7Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosF6Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosF5Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosF4Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosF3Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosF2Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosF1Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosG1Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosG2Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosG3Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosG4Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosG5Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosG6Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosG7Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosG8Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosG9Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosG10Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosH10Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosH9Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosH8Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosH7Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosH6Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosH5Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosH4Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosH3Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosH2Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosH1Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosI1Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosI2Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosI3Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosI4Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosI5Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosI6Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosI7Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosI8Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosI9Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosI10Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosJ10Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosJ9Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosJ8Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosJ7Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosJ6Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosJ5Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosJ4Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosJ3Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosJ2Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-		private void PosJ1Pnl_MouseClick( object sender, MouseEventArgs e )
-		{
-
-		}
-
-        #endregion
+        /// <summary>
+        ///  Closes BattleFieldForm UI & invokes HighScoreForm UI.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void BattleFieldForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            // new HighScoresForm().Show();
+        }
 
         private Point getCoordsFromCell(Location cell)
         {
-            int cellDist = panel2.Left - panel1.Left;
+            int cellDist = p01.Left - p00.Left;
 
-			int cellX = (int)(cell.column * cellDist + panel1.Location.X);
-			int cellY = (int)((cell.row * cellDist + panel1.Location.Y) + (float)(cell.row * cellDist / 13.75));
+			int cellX = (int)(cell.column * cellDist + p00.Location.X);
+			int cellY = (int)((cell.row * cellDist + p00.Location.Y) + (float)(cell.row * cellDist / 13.75));
 
             return new Point(cellX, cellY);
         }
@@ -580,7 +95,7 @@ namespace Battleship
 				Point coords = getCoordsFromCell(ship.InitCell);
 				PictureBox shipPbox = fleetPboxes.Single(pbox => (string)pbox.Tag == ship.Name);
                 shipPbox.Location = new Point(selectedGbox.Location.X + coords.X + 6,
-                                              selectedGbox.Location.Y + coords.Y + panel1.Height + 2);
+                                              selectedGbox.Location.Y + coords.Y + p00.Height + 2);
 				Controls.Add(shipPbox);
 				shipPbox.BringToFront();
 
@@ -598,9 +113,91 @@ namespace Battleship
             }
 		}
 
-        private void enemyGridClick(object sender, System.EventArgs e)
+        private Location getCellFromCoords(Point p)
         {
+            int cellDist = p01.Left - p00.Left;
 
+            int cellIndexColumn = (int)Math.Round((float)((p.X - p00.Location.X) / cellDist));
+            int cellIndexRow = (int)Math.Round((float)((p.Y - p00.Location.Y) / cellDist));
+
+            return new Location((uint)cellIndexRow, (uint)cellIndexColumn);
+        }
+
+		private async void computerFire()
+		{
+            mutexPlayerCanFire = true;
+			await Task.Delay(computerShotDelay);
+			Location firedAt;
+
+            while (true)
+			{
+                int randRow = random.Next(0, player1Grid.GetLength(0));
+                int randColumn = random.Next(0, player1Grid.GetLength(1));
+				firedAt = new Location((uint)randRow, (uint)randColumn);
+
+                try
+				{
+                    gameManager.GameState.PlayerFires(firedAt);
+					break;
+                }
+				catch (InvalidShotException) { }
+            }
+
+			Panel targetCell = player1Grid[firedAt.row, firedAt.column];
+            if (gameManager.GameState.PlayerCellContainsShip(firedAt))
+				targetCell.BackColor = Color.Red;
+            else
+                targetCell.BackColor = Color.White;
+
+            if (gameManager.GameState.IsGameOver())
+            {
+                showGameOverMessage();
+                return;
+            }
+
+            gameManager.GameState.ChangePlayerTurn();
+            mutexPlayerCanFire = false;
+        }
+
+		private void showGameOverMessage()
+		{
+			bool player1Won = gameManager.GameState.IsPlayer1Winner();
+			// TODO: add player name 
+			string name = player1Won ? "Player" : "Computer";
+			MessageBox.Show($"{name} is the winner!", "GameOver");
+			Close();
+		}
+
+		private void enemyGridClick(object sender, System.EventArgs e)
+		{
+			if (mutexPlayerCanFire) return;
+
+			if (gameManager.GameState.IsGameOver())
+				return;
+
+			Panel targetCell = (Panel)sender;
+			Location firedAt = getCellFromCoords(targetCell.Location);
+
+			try
+			{
+                gameManager.GameState.PlayerFires(firedAt);
+            }
+			catch (InvalidShotException) { return; }
+
+			if (gameManager.GameState.PlayerCellContainsShip(firedAt))
+				targetCell.BackColor = Color.Red;
+			else
+				targetCell.BackColor = Color.White;
+
+			gameManager.GameState.ChangePlayerTurn();
+			
+			if (gameManager.GameState.IsGameOver())
+			{
+                showGameOverMessage();
+                return;
+            }
+				
+            computerFire();
         }
     }
 
