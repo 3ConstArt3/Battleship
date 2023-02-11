@@ -1,8 +1,12 @@
 ﻿#region Imports
+using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Windows.Forms;
 using ComponentFactory.Krypton.Toolkit;
+using ComponentFactory.Krypton.Workspace;
 #endregion
 
 namespace Battleship
@@ -24,8 +28,20 @@ namespace Battleship
 		{
 			InitializeComponent();
 			this.gameManager = gameManager;
-			player1FleetPboxes = fleetPboxes.ToList();
-            player2FleetPboxes = fleetPboxes.ToList();
+
+            player1FleetPboxes = fleetPboxes.ToList();
+            player2FleetPboxes = fleetPboxes.ConvertAll(
+                pBox => new PictureBox()
+                {
+					Height = pBox.Height,
+					Width = pBox.Width,
+					Image = (Image)pBox.Image.Clone(),
+					Tag = pBox.Tag,
+					SizeMode = pBox.SizeMode,
+                });
+
+            placePlayerFleet(true);
+            placePlayerFleet(false);
         }
 
 		#region Method Definition
@@ -543,7 +559,46 @@ namespace Battleship
 
         #endregion
 
-        private void panel_Click(object sender, MouseEventArgs e)
+        private Point getCoordsFromCell(Location cell)
+        {
+            int cellDist = panel2.Left - panel1.Left;
+
+			int cellX = (int)(cell.column * cellDist + panel1.Location.X);
+			int cellY = (int)(cell.row * cellDist + panel1.Location.Y);
+
+            return new Point(cellX, cellY);
+        }
+
+		private void placePlayerFleet(bool isPlayer1)
+		{
+			List<IDrawShip> fleet = gameManager.GameState.GetPlayerFleet( isPlayer1 );
+			List<PictureBox> fleetPboxes = isPlayer1 ? player1FleetPboxes : player2FleetPboxes;
+			KryptonGroupBox selectedGbox = isPlayer1 ? Player1GridGbox : Player2GridGbox;
+
+			foreach ( var ship in fleet ) 
+			{
+				Point coords = getCoordsFromCell(ship.InitCell);
+				PictureBox shipPbox = fleetPboxes.Single(pbox => (string)pbox.Tag == ship.Name);
+                shipPbox.Location = new Point(selectedGbox.Location.X + coords.X + 6,
+                                              selectedGbox.Location.Y + coords.Y + panel1.Height + 2);
+				Controls.Add(shipPbox);
+				shipPbox.BringToFront();
+
+				if (!isPlayer1)
+				{
+					bool shipPboxIsVertical = shipPbox.Width < shipPbox.Height;
+					if (shipPboxIsVertical != ship.IsVertical) 
+					{
+                        Image img = shipPbox.Image;
+                        shipPbox.Size = new Size(shipPbox.Size.Height, shipPbox.Size.Width);
+                        img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                        shipPbox.Image = img;
+                    }
+				}
+            }
+		}
+
+        private void enemyGridClick(object sender, System.EventArgs e)
         {
 
         }

@@ -34,7 +34,7 @@
             this.MainPnl = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.BattlefieldLbl = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
             this.BorderPnl = new System.Windows.Forms.Panel();
-            this.PreviewGrbx = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
+            this.Player1GridGbox = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
             this.PreviewPnl = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -136,7 +136,7 @@
             this.panel39 = new System.Windows.Forms.Panel();
             this.panel40 = new System.Windows.Forms.Panel();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.kryptonGroupBox1 = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
+            this.Player2GridGbox = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
             this.kryptonPanel1 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.panel91 = new System.Windows.Forms.Panel();
             this.panel92 = new System.Windows.Forms.Panel();
@@ -240,16 +240,16 @@
             this.panel200 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.MainPnl)).BeginInit();
             this.MainPnl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PreviewGrbx)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PreviewGrbx.Panel)).BeginInit();
-            this.PreviewGrbx.Panel.SuspendLayout();
-            this.PreviewGrbx.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Player1GridGbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Player1GridGbox.Panel)).BeginInit();
+            this.Player1GridGbox.Panel.SuspendLayout();
+            this.Player1GridGbox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PreviewPnl)).BeginInit();
             this.PreviewPnl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox1.Panel)).BeginInit();
-            this.kryptonGroupBox1.Panel.SuspendLayout();
-            this.kryptonGroupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Player2GridGbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Player2GridGbox.Panel)).BeginInit();
+            this.Player2GridGbox.Panel.SuspendLayout();
+            this.Player2GridGbox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).BeginInit();
             this.kryptonPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -367,8 +367,8 @@
             // 
             // MainPnl
             // 
-            this.MainPnl.Controls.Add(this.kryptonGroupBox1);
-            this.MainPnl.Controls.Add(this.PreviewGrbx);
+            this.MainPnl.Controls.Add(this.Player2GridGbox);
+            this.MainPnl.Controls.Add(this.Player1GridGbox);
             this.MainPnl.Controls.Add(this.BattlefieldLbl);
             this.MainPnl.Controls.Add(this.BorderPnl);
             this.MainPnl.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -423,100 +423,100 @@
             this.BorderPnl.Size = new System.Drawing.Size(23, 504);
             this.BorderPnl.TabIndex = 37;
             // 
-            // PreviewGrbx
+            // Player1GridGbox
             // 
-            this.PreviewGrbx.CaptionOverlap = 0.7D;
-            this.PreviewGrbx.Location = new System.Drawing.Point(66, 98);
-            this.PreviewGrbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.PreviewGrbx.Name = "PreviewGrbx";
+            this.Player1GridGbox.CaptionOverlap = 0.7D;
+            this.Player1GridGbox.Location = new System.Drawing.Point(66, 98);
+            this.Player1GridGbox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Player1GridGbox.Name = "Player1GridGbox";
             // 
-            // PreviewGrbx.Panel
+            // Player1GridGbox.Panel
             // 
-            this.PreviewGrbx.Panel.Controls.Add(this.PreviewPnl);
-            this.PreviewGrbx.Size = new System.Drawing.Size(435, 459);
-            this.PreviewGrbx.StateCommon.Back.Color1 = System.Drawing.Color.White;
-            this.PreviewGrbx.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.PreviewGrbx.StateCommon.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.PreviewGrbx.StateCommon.Back.ColorAngle = 36F;
-            this.PreviewGrbx.StateCommon.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
-            this.PreviewGrbx.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.PreviewGrbx.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.PreviewGrbx.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.PreviewGrbx.StateCommon.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.PreviewGrbx.StateCommon.Border.ColorAngle = 33F;
-            this.PreviewGrbx.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-            this.PreviewGrbx.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            this.Player1GridGbox.Panel.Controls.Add(this.PreviewPnl);
+            this.Player1GridGbox.Size = new System.Drawing.Size(435, 459);
+            this.Player1GridGbox.StateCommon.Back.Color1 = System.Drawing.Color.White;
+            this.Player1GridGbox.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Player1GridGbox.StateCommon.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player1GridGbox.StateCommon.Back.ColorAngle = 36F;
+            this.Player1GridGbox.StateCommon.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
+            this.Player1GridGbox.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Player1GridGbox.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player1GridGbox.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player1GridGbox.StateCommon.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player1GridGbox.StateCommon.Border.ColorAngle = 33F;
+            this.Player1GridGbox.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+            this.Player1GridGbox.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.PreviewGrbx.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.PreviewGrbx.StateCommon.Border.Rounding = 9;
-            this.PreviewGrbx.StateCommon.Border.Width = 1;
-            this.PreviewGrbx.StateCommon.Content.Padding = new System.Windows.Forms.Padding(3);
-            this.PreviewGrbx.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.PreviewGrbx.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
-            this.PreviewGrbx.StateCommon.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.PreviewGrbx.StateCommon.Content.ShortText.ColorAngle = 24F;
-            this.PreviewGrbx.StateCommon.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-            this.PreviewGrbx.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PreviewGrbx.StateCommon.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-            this.PreviewGrbx.StateCommon.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.PreviewGrbx.StateCommon.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.PreviewGrbx.StateDisabled.Back.Color1 = System.Drawing.Color.White;
-            this.PreviewGrbx.StateDisabled.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.PreviewGrbx.StateDisabled.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.PreviewGrbx.StateDisabled.Back.ColorAngle = 36F;
-            this.PreviewGrbx.StateDisabled.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
-            this.PreviewGrbx.StateDisabled.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.PreviewGrbx.StateDisabled.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.PreviewGrbx.StateDisabled.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.PreviewGrbx.StateDisabled.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.PreviewGrbx.StateDisabled.Border.ColorAngle = 33F;
-            this.PreviewGrbx.StateDisabled.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-            this.PreviewGrbx.StateDisabled.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            this.Player1GridGbox.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Player1GridGbox.StateCommon.Border.Rounding = 9;
+            this.Player1GridGbox.StateCommon.Border.Width = 1;
+            this.Player1GridGbox.StateCommon.Content.Padding = new System.Windows.Forms.Padding(3);
+            this.Player1GridGbox.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Player1GridGbox.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
+            this.Player1GridGbox.StateCommon.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player1GridGbox.StateCommon.Content.ShortText.ColorAngle = 24F;
+            this.Player1GridGbox.StateCommon.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+            this.Player1GridGbox.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player1GridGbox.StateCommon.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+            this.Player1GridGbox.StateCommon.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.Player1GridGbox.StateCommon.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.Player1GridGbox.StateDisabled.Back.Color1 = System.Drawing.Color.White;
+            this.Player1GridGbox.StateDisabled.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Player1GridGbox.StateDisabled.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player1GridGbox.StateDisabled.Back.ColorAngle = 36F;
+            this.Player1GridGbox.StateDisabled.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
+            this.Player1GridGbox.StateDisabled.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Player1GridGbox.StateDisabled.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player1GridGbox.StateDisabled.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player1GridGbox.StateDisabled.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player1GridGbox.StateDisabled.Border.ColorAngle = 33F;
+            this.Player1GridGbox.StateDisabled.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+            this.Player1GridGbox.StateDisabled.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.PreviewGrbx.StateDisabled.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.PreviewGrbx.StateDisabled.Border.Rounding = 9;
-            this.PreviewGrbx.StateDisabled.Border.Width = 1;
-            this.PreviewGrbx.StateDisabled.Content.Padding = new System.Windows.Forms.Padding(3);
-            this.PreviewGrbx.StateDisabled.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.PreviewGrbx.StateDisabled.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
-            this.PreviewGrbx.StateDisabled.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.PreviewGrbx.StateDisabled.Content.ShortText.ColorAngle = 24F;
-            this.PreviewGrbx.StateDisabled.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-            this.PreviewGrbx.StateDisabled.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PreviewGrbx.StateDisabled.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-            this.PreviewGrbx.StateDisabled.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.PreviewGrbx.StateDisabled.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.PreviewGrbx.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.PreviewGrbx.StateNormal.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.PreviewGrbx.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.PreviewGrbx.StateNormal.Back.ColorAngle = 45F;
-            this.PreviewGrbx.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear33;
-            this.PreviewGrbx.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.PreviewGrbx.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.PreviewGrbx.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.PreviewGrbx.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.PreviewGrbx.StateNormal.Border.ColorAngle = 33F;
-            this.PreviewGrbx.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-            this.PreviewGrbx.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            this.Player1GridGbox.StateDisabled.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Player1GridGbox.StateDisabled.Border.Rounding = 9;
+            this.Player1GridGbox.StateDisabled.Border.Width = 1;
+            this.Player1GridGbox.StateDisabled.Content.Padding = new System.Windows.Forms.Padding(3);
+            this.Player1GridGbox.StateDisabled.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Player1GridGbox.StateDisabled.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
+            this.Player1GridGbox.StateDisabled.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player1GridGbox.StateDisabled.Content.ShortText.ColorAngle = 24F;
+            this.Player1GridGbox.StateDisabled.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+            this.Player1GridGbox.StateDisabled.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player1GridGbox.StateDisabled.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+            this.Player1GridGbox.StateDisabled.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.Player1GridGbox.StateDisabled.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.Player1GridGbox.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player1GridGbox.StateNormal.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player1GridGbox.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player1GridGbox.StateNormal.Back.ColorAngle = 45F;
+            this.Player1GridGbox.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear33;
+            this.Player1GridGbox.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Player1GridGbox.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player1GridGbox.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player1GridGbox.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player1GridGbox.StateNormal.Border.ColorAngle = 33F;
+            this.Player1GridGbox.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+            this.Player1GridGbox.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.PreviewGrbx.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.PreviewGrbx.StateNormal.Border.Rounding = 9;
-            this.PreviewGrbx.StateNormal.Border.Width = 1;
-            this.PreviewGrbx.StateNormal.Content.Padding = new System.Windows.Forms.Padding(3);
-            this.PreviewGrbx.StateNormal.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.PreviewGrbx.StateNormal.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.PreviewGrbx.StateNormal.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.PreviewGrbx.StateNormal.Content.ShortText.ColorAngle = 36F;
-            this.PreviewGrbx.StateNormal.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
-            this.PreviewGrbx.StateNormal.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PreviewGrbx.StateNormal.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-            this.PreviewGrbx.StateNormal.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.PreviewGrbx.StateNormal.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.PreviewGrbx.TabIndex = 41;
-            this.PreviewGrbx.Values.Heading = "Battlefield    Preview";
+            this.Player1GridGbox.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Player1GridGbox.StateNormal.Border.Rounding = 9;
+            this.Player1GridGbox.StateNormal.Border.Width = 1;
+            this.Player1GridGbox.StateNormal.Content.Padding = new System.Windows.Forms.Padding(3);
+            this.Player1GridGbox.StateNormal.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Player1GridGbox.StateNormal.Content.ShortText.Color2 = System.Drawing.Color.White;
+            this.Player1GridGbox.StateNormal.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player1GridGbox.StateNormal.Content.ShortText.ColorAngle = 36F;
+            this.Player1GridGbox.StateNormal.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
+            this.Player1GridGbox.StateNormal.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player1GridGbox.StateNormal.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+            this.Player1GridGbox.StateNormal.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.Player1GridGbox.StateNormal.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.Player1GridGbox.TabIndex = 41;
+            this.Player1GridGbox.Values.Heading = "Your Fleet";
             // 
             // PreviewPnl
             // 
@@ -1427,100 +1427,100 @@
             this.panel19.Size = new System.Drawing.Size(40, 40);
             this.panel19.TabIndex = 423;
             // 
-            // kryptonGroupBox1
+            // Player2GridGbox
             // 
-            this.kryptonGroupBox1.CaptionOverlap = 0.7D;
-            this.kryptonGroupBox1.Location = new System.Drawing.Point(666, 98);
-            this.kryptonGroupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.kryptonGroupBox1.Name = "kryptonGroupBox1";
+            this.Player2GridGbox.CaptionOverlap = 0.7D;
+            this.Player2GridGbox.Location = new System.Drawing.Point(666, 98);
+            this.Player2GridGbox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Player2GridGbox.Name = "Player2GridGbox";
             // 
-            // kryptonGroupBox1.Panel
+            // Player2GridGbox.Panel
             // 
-            this.kryptonGroupBox1.Panel.Controls.Add(this.kryptonPanel1);
-            this.kryptonGroupBox1.Size = new System.Drawing.Size(435, 459);
-            this.kryptonGroupBox1.StateCommon.Back.Color1 = System.Drawing.Color.White;
-            this.kryptonGroupBox1.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.kryptonGroupBox1.StateCommon.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.kryptonGroupBox1.StateCommon.Back.ColorAngle = 36F;
-            this.kryptonGroupBox1.StateCommon.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
-            this.kryptonGroupBox1.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.kryptonGroupBox1.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.kryptonGroupBox1.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.kryptonGroupBox1.StateCommon.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.kryptonGroupBox1.StateCommon.Border.ColorAngle = 33F;
-            this.kryptonGroupBox1.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-            this.kryptonGroupBox1.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            this.Player2GridGbox.Panel.Controls.Add(this.kryptonPanel1);
+            this.Player2GridGbox.Size = new System.Drawing.Size(435, 459);
+            this.Player2GridGbox.StateCommon.Back.Color1 = System.Drawing.Color.White;
+            this.Player2GridGbox.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Player2GridGbox.StateCommon.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player2GridGbox.StateCommon.Back.ColorAngle = 36F;
+            this.Player2GridGbox.StateCommon.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
+            this.Player2GridGbox.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Player2GridGbox.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player2GridGbox.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player2GridGbox.StateCommon.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player2GridGbox.StateCommon.Border.ColorAngle = 33F;
+            this.Player2GridGbox.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+            this.Player2GridGbox.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonGroupBox1.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.kryptonGroupBox1.StateCommon.Border.Rounding = 9;
-            this.kryptonGroupBox1.StateCommon.Border.Width = 1;
-            this.kryptonGroupBox1.StateCommon.Content.Padding = new System.Windows.Forms.Padding(3);
-            this.kryptonGroupBox1.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.kryptonGroupBox1.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
-            this.kryptonGroupBox1.StateCommon.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.kryptonGroupBox1.StateCommon.Content.ShortText.ColorAngle = 24F;
-            this.kryptonGroupBox1.StateCommon.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-            this.kryptonGroupBox1.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kryptonGroupBox1.StateCommon.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-            this.kryptonGroupBox1.StateCommon.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonGroupBox1.StateCommon.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonGroupBox1.StateDisabled.Back.Color1 = System.Drawing.Color.White;
-            this.kryptonGroupBox1.StateDisabled.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.kryptonGroupBox1.StateDisabled.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.kryptonGroupBox1.StateDisabled.Back.ColorAngle = 36F;
-            this.kryptonGroupBox1.StateDisabled.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
-            this.kryptonGroupBox1.StateDisabled.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.kryptonGroupBox1.StateDisabled.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.kryptonGroupBox1.StateDisabled.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.kryptonGroupBox1.StateDisabled.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.kryptonGroupBox1.StateDisabled.Border.ColorAngle = 33F;
-            this.kryptonGroupBox1.StateDisabled.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-            this.kryptonGroupBox1.StateDisabled.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            this.Player2GridGbox.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Player2GridGbox.StateCommon.Border.Rounding = 9;
+            this.Player2GridGbox.StateCommon.Border.Width = 1;
+            this.Player2GridGbox.StateCommon.Content.Padding = new System.Windows.Forms.Padding(3);
+            this.Player2GridGbox.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Player2GridGbox.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
+            this.Player2GridGbox.StateCommon.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player2GridGbox.StateCommon.Content.ShortText.ColorAngle = 24F;
+            this.Player2GridGbox.StateCommon.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+            this.Player2GridGbox.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player2GridGbox.StateCommon.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+            this.Player2GridGbox.StateCommon.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.Player2GridGbox.StateCommon.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.Player2GridGbox.StateDisabled.Back.Color1 = System.Drawing.Color.White;
+            this.Player2GridGbox.StateDisabled.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Player2GridGbox.StateDisabled.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player2GridGbox.StateDisabled.Back.ColorAngle = 36F;
+            this.Player2GridGbox.StateDisabled.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
+            this.Player2GridGbox.StateDisabled.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Player2GridGbox.StateDisabled.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player2GridGbox.StateDisabled.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player2GridGbox.StateDisabled.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player2GridGbox.StateDisabled.Border.ColorAngle = 33F;
+            this.Player2GridGbox.StateDisabled.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+            this.Player2GridGbox.StateDisabled.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonGroupBox1.StateDisabled.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.kryptonGroupBox1.StateDisabled.Border.Rounding = 9;
-            this.kryptonGroupBox1.StateDisabled.Border.Width = 1;
-            this.kryptonGroupBox1.StateDisabled.Content.Padding = new System.Windows.Forms.Padding(3);
-            this.kryptonGroupBox1.StateDisabled.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.kryptonGroupBox1.StateDisabled.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
-            this.kryptonGroupBox1.StateDisabled.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.kryptonGroupBox1.StateDisabled.Content.ShortText.ColorAngle = 24F;
-            this.kryptonGroupBox1.StateDisabled.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-            this.kryptonGroupBox1.StateDisabled.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kryptonGroupBox1.StateDisabled.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-            this.kryptonGroupBox1.StateDisabled.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonGroupBox1.StateDisabled.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonGroupBox1.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.kryptonGroupBox1.StateNormal.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.kryptonGroupBox1.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.kryptonGroupBox1.StateNormal.Back.ColorAngle = 45F;
-            this.kryptonGroupBox1.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear33;
-            this.kryptonGroupBox1.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.kryptonGroupBox1.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.kryptonGroupBox1.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.kryptonGroupBox1.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.kryptonGroupBox1.StateNormal.Border.ColorAngle = 33F;
-            this.kryptonGroupBox1.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-            this.kryptonGroupBox1.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            this.Player2GridGbox.StateDisabled.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Player2GridGbox.StateDisabled.Border.Rounding = 9;
+            this.Player2GridGbox.StateDisabled.Border.Width = 1;
+            this.Player2GridGbox.StateDisabled.Content.Padding = new System.Windows.Forms.Padding(3);
+            this.Player2GridGbox.StateDisabled.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Player2GridGbox.StateDisabled.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
+            this.Player2GridGbox.StateDisabled.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player2GridGbox.StateDisabled.Content.ShortText.ColorAngle = 24F;
+            this.Player2GridGbox.StateDisabled.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+            this.Player2GridGbox.StateDisabled.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player2GridGbox.StateDisabled.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+            this.Player2GridGbox.StateDisabled.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.Player2GridGbox.StateDisabled.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.Player2GridGbox.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player2GridGbox.StateNormal.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player2GridGbox.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player2GridGbox.StateNormal.Back.ColorAngle = 45F;
+            this.Player2GridGbox.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear33;
+            this.Player2GridGbox.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Player2GridGbox.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player2GridGbox.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player2GridGbox.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player2GridGbox.StateNormal.Border.ColorAngle = 33F;
+            this.Player2GridGbox.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+            this.Player2GridGbox.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonGroupBox1.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.kryptonGroupBox1.StateNormal.Border.Rounding = 9;
-            this.kryptonGroupBox1.StateNormal.Border.Width = 1;
-            this.kryptonGroupBox1.StateNormal.Content.Padding = new System.Windows.Forms.Padding(3);
-            this.kryptonGroupBox1.StateNormal.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.kryptonGroupBox1.StateNormal.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.kryptonGroupBox1.StateNormal.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.kryptonGroupBox1.StateNormal.Content.ShortText.ColorAngle = 36F;
-            this.kryptonGroupBox1.StateNormal.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
-            this.kryptonGroupBox1.StateNormal.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kryptonGroupBox1.StateNormal.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-            this.kryptonGroupBox1.StateNormal.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonGroupBox1.StateNormal.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonGroupBox1.TabIndex = 42;
-            this.kryptonGroupBox1.Values.Heading = "Battlefield    Preview";
+            this.Player2GridGbox.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Player2GridGbox.StateNormal.Border.Rounding = 9;
+            this.Player2GridGbox.StateNormal.Border.Width = 1;
+            this.Player2GridGbox.StateNormal.Content.Padding = new System.Windows.Forms.Padding(3);
+            this.Player2GridGbox.StateNormal.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Player2GridGbox.StateNormal.Content.ShortText.Color2 = System.Drawing.Color.White;
+            this.Player2GridGbox.StateNormal.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player2GridGbox.StateNormal.Content.ShortText.ColorAngle = 36F;
+            this.Player2GridGbox.StateNormal.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
+            this.Player2GridGbox.StateNormal.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player2GridGbox.StateNormal.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+            this.Player2GridGbox.StateNormal.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.Player2GridGbox.StateNormal.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.Player2GridGbox.TabIndex = 42;
+            this.Player2GridGbox.Values.Heading = "Enemy Fleet";
             // 
             // kryptonPanel1
             // 
@@ -1638,6 +1638,7 @@
             this.panel91.Name = "panel91";
             this.panel91.Size = new System.Drawing.Size(40, 40);
             this.panel91.TabIndex = 429;
+            this.panel91.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel92
             // 
@@ -1646,6 +1647,7 @@
             this.panel92.Name = "panel92";
             this.panel92.Size = new System.Drawing.Size(40, 40);
             this.panel92.TabIndex = 426;
+            this.panel92.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel93
             // 
@@ -1654,6 +1656,7 @@
             this.panel93.Name = "panel93";
             this.panel93.Size = new System.Drawing.Size(40, 40);
             this.panel93.TabIndex = 425;
+            this.panel93.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel94
             // 
@@ -1662,6 +1665,7 @@
             this.panel94.Name = "panel94";
             this.panel94.Size = new System.Drawing.Size(40, 40);
             this.panel94.TabIndex = 414;
+            this.panel94.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel95
             // 
@@ -1670,6 +1674,7 @@
             this.panel95.Name = "panel95";
             this.panel95.Size = new System.Drawing.Size(40, 40);
             this.panel95.TabIndex = 412;
+            this.panel95.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel106
             // 
@@ -1678,6 +1683,7 @@
             this.panel106.Name = "panel106";
             this.panel106.Size = new System.Drawing.Size(40, 40);
             this.panel106.TabIndex = 520;
+            this.panel106.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel107
             // 
@@ -1686,6 +1692,7 @@
             this.panel107.Name = "panel107";
             this.panel107.Size = new System.Drawing.Size(40, 40);
             this.panel107.TabIndex = 518;
+            this.panel107.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel108
             // 
@@ -1694,6 +1701,7 @@
             this.panel108.Name = "panel108";
             this.panel108.Size = new System.Drawing.Size(40, 40);
             this.panel108.TabIndex = 517;
+            this.panel108.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel109
             // 
@@ -1702,6 +1710,7 @@
             this.panel109.Name = "panel109";
             this.panel109.Size = new System.Drawing.Size(40, 40);
             this.panel109.TabIndex = 519;
+            this.panel109.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel110
             // 
@@ -1710,6 +1719,7 @@
             this.panel110.Name = "panel110";
             this.panel110.Size = new System.Drawing.Size(40, 40);
             this.panel110.TabIndex = 516;
+            this.panel110.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel111
             // 
@@ -1718,6 +1728,7 @@
             this.panel111.Name = "panel111";
             this.panel111.Size = new System.Drawing.Size(40, 40);
             this.panel111.TabIndex = 514;
+            this.panel111.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel112
             // 
@@ -1726,6 +1737,7 @@
             this.panel112.Name = "panel112";
             this.panel112.Size = new System.Drawing.Size(40, 40);
             this.panel112.TabIndex = 513;
+            this.panel112.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel113
             // 
@@ -1734,6 +1746,7 @@
             this.panel113.Name = "panel113";
             this.panel113.Size = new System.Drawing.Size(40, 40);
             this.panel113.TabIndex = 515;
+            this.panel113.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel114
             // 
@@ -1742,6 +1755,7 @@
             this.panel114.Name = "panel114";
             this.panel114.Size = new System.Drawing.Size(40, 40);
             this.panel114.TabIndex = 512;
+            this.panel114.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel115
             // 
@@ -1750,6 +1764,7 @@
             this.panel115.Name = "panel115";
             this.panel115.Size = new System.Drawing.Size(40, 40);
             this.panel115.TabIndex = 510;
+            this.panel115.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel116
             // 
@@ -1758,6 +1773,7 @@
             this.panel116.Name = "panel116";
             this.panel116.Size = new System.Drawing.Size(40, 40);
             this.panel116.TabIndex = 509;
+            this.panel116.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel117
             // 
@@ -1766,6 +1782,7 @@
             this.panel117.Name = "panel117";
             this.panel117.Size = new System.Drawing.Size(40, 40);
             this.panel117.TabIndex = 511;
+            this.panel117.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel118
             // 
@@ -1774,6 +1791,7 @@
             this.panel118.Name = "panel118";
             this.panel118.Size = new System.Drawing.Size(40, 40);
             this.panel118.TabIndex = 508;
+            this.panel118.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel119
             // 
@@ -1782,6 +1800,7 @@
             this.panel119.Name = "panel119";
             this.panel119.Size = new System.Drawing.Size(40, 40);
             this.panel119.TabIndex = 504;
+            this.panel119.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel120
             // 
@@ -1790,6 +1809,7 @@
             this.panel120.Name = "panel120";
             this.panel120.Size = new System.Drawing.Size(40, 40);
             this.panel120.TabIndex = 506;
+            this.panel120.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel121
             // 
@@ -1798,6 +1818,7 @@
             this.panel121.Name = "panel121";
             this.panel121.Size = new System.Drawing.Size(40, 40);
             this.panel121.TabIndex = 502;
+            this.panel121.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel122
             // 
@@ -1806,6 +1827,7 @@
             this.panel122.Name = "panel122";
             this.panel122.Size = new System.Drawing.Size(40, 40);
             this.panel122.TabIndex = 505;
+            this.panel122.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel123
             // 
@@ -1814,6 +1836,7 @@
             this.panel123.Name = "panel123";
             this.panel123.Size = new System.Drawing.Size(40, 40);
             this.panel123.TabIndex = 507;
+            this.panel123.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel124
             // 
@@ -1822,6 +1845,7 @@
             this.panel124.Name = "panel124";
             this.panel124.Size = new System.Drawing.Size(40, 40);
             this.panel124.TabIndex = 501;
+            this.panel124.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel125
             // 
@@ -1830,6 +1854,7 @@
             this.panel125.Name = "panel125";
             this.panel125.Size = new System.Drawing.Size(40, 40);
             this.panel125.TabIndex = 503;
+            this.panel125.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel126
             // 
@@ -1838,6 +1863,7 @@
             this.panel126.Name = "panel126";
             this.panel126.Size = new System.Drawing.Size(40, 40);
             this.panel126.TabIndex = 500;
+            this.panel126.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel127
             // 
@@ -1846,6 +1872,7 @@
             this.panel127.Name = "panel127";
             this.panel127.Size = new System.Drawing.Size(40, 40);
             this.panel127.TabIndex = 498;
+            this.panel127.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel128
             // 
@@ -1854,6 +1881,7 @@
             this.panel128.Name = "panel128";
             this.panel128.Size = new System.Drawing.Size(40, 40);
             this.panel128.TabIndex = 497;
+            this.panel128.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel129
             // 
@@ -1862,6 +1890,7 @@
             this.panel129.Name = "panel129";
             this.panel129.Size = new System.Drawing.Size(40, 40);
             this.panel129.TabIndex = 499;
+            this.panel129.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel130
             // 
@@ -1870,6 +1899,7 @@
             this.panel130.Name = "panel130";
             this.panel130.Size = new System.Drawing.Size(40, 40);
             this.panel130.TabIndex = 496;
+            this.panel130.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel131
             // 
@@ -1878,6 +1908,7 @@
             this.panel131.Name = "panel131";
             this.panel131.Size = new System.Drawing.Size(40, 40);
             this.panel131.TabIndex = 494;
+            this.panel131.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel132
             // 
@@ -1886,6 +1917,7 @@
             this.panel132.Name = "panel132";
             this.panel132.Size = new System.Drawing.Size(40, 40);
             this.panel132.TabIndex = 493;
+            this.panel132.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel133
             // 
@@ -1894,6 +1926,7 @@
             this.panel133.Name = "panel133";
             this.panel133.Size = new System.Drawing.Size(40, 40);
             this.panel133.TabIndex = 495;
+            this.panel133.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel134
             // 
@@ -1902,6 +1935,7 @@
             this.panel134.Name = "panel134";
             this.panel134.Size = new System.Drawing.Size(40, 40);
             this.panel134.TabIndex = 492;
+            this.panel134.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel135
             // 
@@ -1910,6 +1944,7 @@
             this.panel135.Name = "panel135";
             this.panel135.Size = new System.Drawing.Size(40, 40);
             this.panel135.TabIndex = 490;
+            this.panel135.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel136
             // 
@@ -1918,6 +1953,7 @@
             this.panel136.Name = "panel136";
             this.panel136.Size = new System.Drawing.Size(40, 40);
             this.panel136.TabIndex = 489;
+            this.panel136.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel137
             // 
@@ -1926,6 +1962,7 @@
             this.panel137.Name = "panel137";
             this.panel137.Size = new System.Drawing.Size(40, 40);
             this.panel137.TabIndex = 491;
+            this.panel137.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel138
             // 
@@ -1934,6 +1971,7 @@
             this.panel138.Name = "panel138";
             this.panel138.Size = new System.Drawing.Size(40, 40);
             this.panel138.TabIndex = 488;
+            this.panel138.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel139
             // 
@@ -1942,6 +1980,7 @@
             this.panel139.Name = "panel139";
             this.panel139.Size = new System.Drawing.Size(40, 40);
             this.panel139.TabIndex = 484;
+            this.panel139.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel140
             // 
@@ -1950,6 +1989,7 @@
             this.panel140.Name = "panel140";
             this.panel140.Size = new System.Drawing.Size(40, 40);
             this.panel140.TabIndex = 486;
+            this.panel140.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel141
             // 
@@ -1958,6 +1998,7 @@
             this.panel141.Name = "panel141";
             this.panel141.Size = new System.Drawing.Size(40, 40);
             this.panel141.TabIndex = 482;
+            this.panel141.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel142
             // 
@@ -1966,6 +2007,7 @@
             this.panel142.Name = "panel142";
             this.panel142.Size = new System.Drawing.Size(40, 40);
             this.panel142.TabIndex = 485;
+            this.panel142.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel143
             // 
@@ -1974,6 +2016,7 @@
             this.panel143.Name = "panel143";
             this.panel143.Size = new System.Drawing.Size(40, 40);
             this.panel143.TabIndex = 487;
+            this.panel143.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel144
             // 
@@ -1982,6 +2025,7 @@
             this.panel144.Name = "panel144";
             this.panel144.Size = new System.Drawing.Size(40, 40);
             this.panel144.TabIndex = 481;
+            this.panel144.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel145
             // 
@@ -1990,6 +2034,7 @@
             this.panel145.Name = "panel145";
             this.panel145.Size = new System.Drawing.Size(40, 40);
             this.panel145.TabIndex = 483;
+            this.panel145.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel146
             // 
@@ -1998,6 +2043,7 @@
             this.panel146.Name = "panel146";
             this.panel146.Size = new System.Drawing.Size(40, 40);
             this.panel146.TabIndex = 480;
+            this.panel146.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel147
             // 
@@ -2006,6 +2052,7 @@
             this.panel147.Name = "panel147";
             this.panel147.Size = new System.Drawing.Size(40, 40);
             this.panel147.TabIndex = 478;
+            this.panel147.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel148
             // 
@@ -2014,6 +2061,7 @@
             this.panel148.Name = "panel148";
             this.panel148.Size = new System.Drawing.Size(40, 40);
             this.panel148.TabIndex = 477;
+            this.panel148.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel149
             // 
@@ -2022,6 +2070,7 @@
             this.panel149.Name = "panel149";
             this.panel149.Size = new System.Drawing.Size(40, 40);
             this.panel149.TabIndex = 479;
+            this.panel149.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel150
             // 
@@ -2030,6 +2079,7 @@
             this.panel150.Name = "panel150";
             this.panel150.Size = new System.Drawing.Size(40, 40);
             this.panel150.TabIndex = 476;
+            this.panel150.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel151
             // 
@@ -2038,6 +2088,7 @@
             this.panel151.Name = "panel151";
             this.panel151.Size = new System.Drawing.Size(40, 40);
             this.panel151.TabIndex = 474;
+            this.panel151.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel152
             // 
@@ -2046,6 +2097,7 @@
             this.panel152.Name = "panel152";
             this.panel152.Size = new System.Drawing.Size(40, 40);
             this.panel152.TabIndex = 473;
+            this.panel152.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel153
             // 
@@ -2054,6 +2106,7 @@
             this.panel153.Name = "panel153";
             this.panel153.Size = new System.Drawing.Size(40, 40);
             this.panel153.TabIndex = 475;
+            this.panel153.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel154
             // 
@@ -2062,6 +2115,7 @@
             this.panel154.Name = "panel154";
             this.panel154.Size = new System.Drawing.Size(40, 40);
             this.panel154.TabIndex = 472;
+            this.panel154.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel155
             // 
@@ -2070,6 +2124,7 @@
             this.panel155.Name = "panel155";
             this.panel155.Size = new System.Drawing.Size(40, 40);
             this.panel155.TabIndex = 470;
+            this.panel155.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel156
             // 
@@ -2078,6 +2133,7 @@
             this.panel156.Name = "panel156";
             this.panel156.Size = new System.Drawing.Size(40, 40);
             this.panel156.TabIndex = 469;
+            this.panel156.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel157
             // 
@@ -2086,6 +2142,7 @@
             this.panel157.Name = "panel157";
             this.panel157.Size = new System.Drawing.Size(40, 40);
             this.panel157.TabIndex = 471;
+            this.panel157.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel158
             // 
@@ -2094,6 +2151,7 @@
             this.panel158.Name = "panel158";
             this.panel158.Size = new System.Drawing.Size(40, 40);
             this.panel158.TabIndex = 468;
+            this.panel158.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel159
             // 
@@ -2102,6 +2160,7 @@
             this.panel159.Name = "panel159";
             this.panel159.Size = new System.Drawing.Size(40, 40);
             this.panel159.TabIndex = 464;
+            this.panel159.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel160
             // 
@@ -2110,6 +2169,7 @@
             this.panel160.Name = "panel160";
             this.panel160.Size = new System.Drawing.Size(40, 40);
             this.panel160.TabIndex = 466;
+            this.panel160.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel161
             // 
@@ -2118,6 +2178,7 @@
             this.panel161.Name = "panel161";
             this.panel161.Size = new System.Drawing.Size(40, 40);
             this.panel161.TabIndex = 462;
+            this.panel161.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel162
             // 
@@ -2126,6 +2187,7 @@
             this.panel162.Name = "panel162";
             this.panel162.Size = new System.Drawing.Size(40, 40);
             this.panel162.TabIndex = 465;
+            this.panel162.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel163
             // 
@@ -2134,6 +2196,7 @@
             this.panel163.Name = "panel163";
             this.panel163.Size = new System.Drawing.Size(40, 40);
             this.panel163.TabIndex = 467;
+            this.panel163.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel164
             // 
@@ -2142,6 +2205,7 @@
             this.panel164.Name = "panel164";
             this.panel164.Size = new System.Drawing.Size(40, 40);
             this.panel164.TabIndex = 461;
+            this.panel164.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel165
             // 
@@ -2150,6 +2214,7 @@
             this.panel165.Name = "panel165";
             this.panel165.Size = new System.Drawing.Size(40, 40);
             this.panel165.TabIndex = 463;
+            this.panel165.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel166
             // 
@@ -2158,6 +2223,7 @@
             this.panel166.Name = "panel166";
             this.panel166.Size = new System.Drawing.Size(40, 40);
             this.panel166.TabIndex = 460;
+            this.panel166.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel167
             // 
@@ -2166,6 +2232,7 @@
             this.panel167.Name = "panel167";
             this.panel167.Size = new System.Drawing.Size(40, 40);
             this.panel167.TabIndex = 440;
+            this.panel167.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel168
             // 
@@ -2174,6 +2241,7 @@
             this.panel168.Name = "panel168";
             this.panel168.Size = new System.Drawing.Size(40, 40);
             this.panel168.TabIndex = 458;
+            this.panel168.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel169
             // 
@@ -2182,6 +2250,7 @@
             this.panel169.Name = "panel169";
             this.panel169.Size = new System.Drawing.Size(40, 40);
             this.panel169.TabIndex = 438;
+            this.panel169.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel170
             // 
@@ -2190,6 +2259,7 @@
             this.panel170.Name = "panel170";
             this.panel170.Size = new System.Drawing.Size(40, 40);
             this.panel170.TabIndex = 457;
+            this.panel170.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel171
             // 
@@ -2198,6 +2268,7 @@
             this.panel171.Name = "panel171";
             this.panel171.Size = new System.Drawing.Size(40, 40);
             this.panel171.TabIndex = 437;
+            this.panel171.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel172
             // 
@@ -2206,6 +2277,7 @@
             this.panel172.Name = "panel172";
             this.panel172.Size = new System.Drawing.Size(40, 40);
             this.panel172.TabIndex = 459;
+            this.panel172.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel173
             // 
@@ -2214,6 +2286,7 @@
             this.panel173.Name = "panel173";
             this.panel173.Size = new System.Drawing.Size(40, 40);
             this.panel173.TabIndex = 439;
+            this.panel173.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel174
             // 
@@ -2222,6 +2295,7 @@
             this.panel174.Name = "panel174";
             this.panel174.Size = new System.Drawing.Size(40, 40);
             this.panel174.TabIndex = 456;
+            this.panel174.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel175
             // 
@@ -2230,6 +2304,7 @@
             this.panel175.Name = "panel175";
             this.panel175.Size = new System.Drawing.Size(40, 40);
             this.panel175.TabIndex = 436;
+            this.panel175.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel176
             // 
@@ -2238,6 +2313,7 @@
             this.panel176.Name = "panel176";
             this.panel176.Size = new System.Drawing.Size(40, 40);
             this.panel176.TabIndex = 454;
+            this.panel176.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel177
             // 
@@ -2246,6 +2322,7 @@
             this.panel177.Name = "panel177";
             this.panel177.Size = new System.Drawing.Size(40, 40);
             this.panel177.TabIndex = 434;
+            this.panel177.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel178
             // 
@@ -2254,6 +2331,7 @@
             this.panel178.Name = "panel178";
             this.panel178.Size = new System.Drawing.Size(40, 40);
             this.panel178.TabIndex = 453;
+            this.panel178.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel179
             // 
@@ -2262,6 +2340,7 @@
             this.panel179.Name = "panel179";
             this.panel179.Size = new System.Drawing.Size(40, 40);
             this.panel179.TabIndex = 433;
+            this.panel179.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel180
             // 
@@ -2270,6 +2349,7 @@
             this.panel180.Name = "panel180";
             this.panel180.Size = new System.Drawing.Size(40, 40);
             this.panel180.TabIndex = 455;
+            this.panel180.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel181
             // 
@@ -2278,6 +2358,7 @@
             this.panel181.Name = "panel181";
             this.panel181.Size = new System.Drawing.Size(40, 40);
             this.panel181.TabIndex = 435;
+            this.panel181.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel182
             // 
@@ -2286,6 +2367,7 @@
             this.panel182.Name = "panel182";
             this.panel182.Size = new System.Drawing.Size(40, 40);
             this.panel182.TabIndex = 452;
+            this.panel182.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel183
             // 
@@ -2294,6 +2376,7 @@
             this.panel183.Name = "panel183";
             this.panel183.Size = new System.Drawing.Size(40, 40);
             this.panel183.TabIndex = 432;
+            this.panel183.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel184
             // 
@@ -2302,6 +2385,7 @@
             this.panel184.Name = "panel184";
             this.panel184.Size = new System.Drawing.Size(40, 40);
             this.panel184.TabIndex = 450;
+            this.panel184.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel185
             // 
@@ -2310,6 +2394,7 @@
             this.panel185.Name = "panel185";
             this.panel185.Size = new System.Drawing.Size(40, 40);
             this.panel185.TabIndex = 430;
+            this.panel185.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel186
             // 
@@ -2318,6 +2403,7 @@
             this.panel186.Name = "panel186";
             this.panel186.Size = new System.Drawing.Size(40, 40);
             this.panel186.TabIndex = 449;
+            this.panel186.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel187
             // 
@@ -2326,6 +2412,7 @@
             this.panel187.Name = "panel187";
             this.panel187.Size = new System.Drawing.Size(40, 40);
             this.panel187.TabIndex = 451;
+            this.panel187.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel188
             // 
@@ -2334,6 +2421,7 @@
             this.panel188.Name = "panel188";
             this.panel188.Size = new System.Drawing.Size(40, 40);
             this.panel188.TabIndex = 431;
+            this.panel188.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel189
             // 
@@ -2342,6 +2430,7 @@
             this.panel189.Name = "panel189";
             this.panel189.Size = new System.Drawing.Size(40, 40);
             this.panel189.TabIndex = 448;
+            this.panel189.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel190
             // 
@@ -2350,6 +2439,7 @@
             this.panel190.Name = "panel190";
             this.panel190.Size = new System.Drawing.Size(40, 40);
             this.panel190.TabIndex = 428;
+            this.panel190.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel191
             // 
@@ -2358,6 +2448,7 @@
             this.panel191.Name = "panel191";
             this.panel191.Size = new System.Drawing.Size(40, 40);
             this.panel191.TabIndex = 444;
+            this.panel191.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel192
             // 
@@ -2366,6 +2457,7 @@
             this.panel192.Name = "panel192";
             this.panel192.Size = new System.Drawing.Size(40, 40);
             this.panel192.TabIndex = 424;
+            this.panel192.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel193
             // 
@@ -2374,6 +2466,7 @@
             this.panel193.Name = "panel193";
             this.panel193.Size = new System.Drawing.Size(40, 40);
             this.panel193.TabIndex = 446;
+            this.panel193.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel194
             // 
@@ -2382,6 +2475,7 @@
             this.panel194.Name = "panel194";
             this.panel194.Size = new System.Drawing.Size(40, 40);
             this.panel194.TabIndex = 442;
+            this.panel194.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel195
             // 
@@ -2390,6 +2484,7 @@
             this.panel195.Name = "panel195";
             this.panel195.Size = new System.Drawing.Size(40, 40);
             this.panel195.TabIndex = 445;
+            this.panel195.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel196
             // 
@@ -2398,6 +2493,7 @@
             this.panel196.Name = "panel196";
             this.panel196.Size = new System.Drawing.Size(40, 40);
             this.panel196.TabIndex = 447;
+            this.panel196.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel197
             // 
@@ -2406,6 +2502,7 @@
             this.panel197.Name = "panel197";
             this.panel197.Size = new System.Drawing.Size(40, 40);
             this.panel197.TabIndex = 427;
+            this.panel197.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel198
             // 
@@ -2414,6 +2511,7 @@
             this.panel198.Name = "panel198";
             this.panel198.Size = new System.Drawing.Size(40, 40);
             this.panel198.TabIndex = 441;
+            this.panel198.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel199
             // 
@@ -2422,6 +2520,7 @@
             this.panel199.Name = "panel199";
             this.panel199.Size = new System.Drawing.Size(40, 40);
             this.panel199.TabIndex = 443;
+            this.panel199.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // panel200
             // 
@@ -2430,6 +2529,7 @@
             this.panel200.Name = "panel200";
             this.panel200.Size = new System.Drawing.Size(40, 40);
             this.panel200.TabIndex = 423;
+            this.panel200.Click += new System.EventHandler(this.enemyGridClick);
             // 
             // BattleFieldForm
             // 
@@ -2447,16 +2547,16 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.BattleFieldForm_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.MainPnl)).EndInit();
             this.MainPnl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PreviewGrbx.Panel)).EndInit();
-            this.PreviewGrbx.Panel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PreviewGrbx)).EndInit();
-            this.PreviewGrbx.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Player1GridGbox.Panel)).EndInit();
+            this.Player1GridGbox.Panel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Player1GridGbox)).EndInit();
+            this.Player1GridGbox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PreviewPnl)).EndInit();
             this.PreviewPnl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox1.Panel)).EndInit();
-            this.kryptonGroupBox1.Panel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox1)).EndInit();
-            this.kryptonGroupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Player2GridGbox.Panel)).EndInit();
+            this.Player2GridGbox.Panel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Player2GridGbox)).EndInit();
+            this.Player2GridGbox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).EndInit();
             this.kryptonPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -2468,7 +2568,7 @@
 		private ComponentFactory.Krypton.Toolkit.KryptonPanel MainPnl;
 		private ComponentFactory.Krypton.Toolkit.KryptonLabel BattlefieldLbl;
 		private System.Windows.Forms.Panel BorderPnl;
-        private ComponentFactory.Krypton.Toolkit.KryptonGroupBox kryptonGroupBox1;
+        private ComponentFactory.Krypton.Toolkit.KryptonGroupBox Player2GridGbox;
         private ComponentFactory.Krypton.Toolkit.KryptonPanel kryptonPanel1;
         private System.Windows.Forms.Panel panel91;
         private System.Windows.Forms.Panel panel92;
@@ -2570,7 +2670,7 @@
         private System.Windows.Forms.Panel panel198;
         private System.Windows.Forms.Panel panel199;
         private System.Windows.Forms.Panel panel200;
-        private ComponentFactory.Krypton.Toolkit.KryptonGroupBox PreviewGrbx;
+        private ComponentFactory.Krypton.Toolkit.KryptonGroupBox Player1GridGbox;
         private ComponentFactory.Krypton.Toolkit.KryptonPanel PreviewPnl;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel4;
