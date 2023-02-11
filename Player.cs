@@ -134,6 +134,8 @@ namespace Battleship
 					try
 					{
 						PlaceShip( randPos, ship.Type );
+						if (random.Next(0, 2) == 1)
+							RotateShip(ship.Type);
 						break;
 					}
 					catch( InvalidShipPlacementException ) {}
