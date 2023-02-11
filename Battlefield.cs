@@ -1,4 +1,6 @@
 ﻿#region Imports
+using System.Collections.Generic;
+using System.Linq;
 using System.Windows.Forms;
 using ComponentFactory.Krypton.Toolkit;
 #endregion
@@ -11,16 +13,20 @@ namespace Battleship
 
 		#region Variable Declarations
 		private GameManager gameManager;
+		private List<PictureBox> player1FleetPboxes;
+		private List<PictureBox> player2FleetPboxes;
 		#endregion
 
 		/// <summary>
 		/// Constructor Definition.
 		/// </summary>
-		public BattleFieldForm(GameManager gameManager)
+		public BattleFieldForm(GameManager gameManager, List<PictureBox> fleetPboxes)
 		{
 			InitializeComponent();
 			this.gameManager = gameManager;
-		}
+			player1FleetPboxes = fleetPboxes.ToList();
+            player2FleetPboxes = fleetPboxes.ToList();
+        }
 
 		#region Method Definition
 
@@ -535,8 +541,12 @@ namespace Battleship
 
 		}
 
-		#endregion
+        #endregion
 
-	}
+        private void panel_Click(object sender, MouseEventArgs e)
+        {
+
+        }
+    }
 
 }

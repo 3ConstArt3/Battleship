@@ -17,7 +17,8 @@ namespace Battleship
 		#region Variable Declarations
 		private GameManager gameManager;
 		private PictureBox selectedShipPBox;
-		private readonly Dictionary<ShipType, Point> initShipPBoxLocations;
+		private List<PictureBox> fleetPBoxes;
+        private readonly Dictionary<ShipType, Point> initShipPBoxLocations;
 		#endregion
 
 		/// <summary>
@@ -27,6 +28,16 @@ namespace Battleship
 		{
 			InitializeComponent();
             this.gameManager = gameManager;
+
+			fleetPBoxes = new List<PictureBox>()
+			{
+				CarrierPbx,
+				BattleShipPbx,
+				CruiserPbx,
+				SubmarinePbx,
+				DestroyerPbx
+			};
+
 			initShipPBoxLocations = new Dictionary<ShipType, Point>()
 			{
 				{ ShipType.Carrier, CarrierPbx.Location },
@@ -62,7 +73,7 @@ namespace Battleship
 			gameManager.GameState.PlayerRandomFleetPlacement(false);
 			gameManager.GameState.PlayerLockSetup(false);
 
-			new BattleFieldForm(gameManager).Show();
+			new BattleFieldForm(gameManager, fleetPBoxes).Show();
 			Close();
 		}
 
