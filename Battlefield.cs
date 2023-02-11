@@ -564,7 +564,7 @@ namespace Battleship
             int cellDist = panel2.Left - panel1.Left;
 
 			int cellX = (int)(cell.column * cellDist + panel1.Location.X);
-			int cellY = (int)(cell.row * cellDist + panel1.Location.Y);
+			int cellY = (int)((cell.row * cellDist + panel1.Location.Y) + (float)(cell.row * cellDist / 13.75));
 
             return new Point(cellX, cellY);
         }
