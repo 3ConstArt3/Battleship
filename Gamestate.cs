@@ -36,9 +36,9 @@ namespace Battleship
 			currentPlayer.Fire( where, getTargetPlayer( !isPlayer1Turn ) );
 		}
 
-		public bool PlayerCellContainsShip( Location where, bool isPlayer1 )
+		public bool PlayerCellContainsShip( Location where )
 		{
-			return getTargetPlayer( isPlayer1 ).IsCellPartOfShip( where );
+			return getTargetPlayer( !isPlayer1Turn ).IsCellPartOfShip( where );
 		}
 
 		public void PlayerPlaceShip( Location where, bool isPlayer1, ShipType shipType )

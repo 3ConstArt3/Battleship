@@ -56,7 +56,10 @@ namespace Battleship
 		{
 			checkCellsValidity( where );
 
-			if( HitBoxes.Contains( where ) ) { throw new InvalidShotException(); }
+            foreach (var currentCell in HitBoxes)
+                if (currentCell.row == where.row &&
+                    currentCell.column == where.column)
+						throw new InvalidShotException();
 				
 			++Attempts;
 			HitBoxes.Add( where );
