@@ -96,6 +96,7 @@
     </Compile>
     <Compile Include="GameManager.cs" />
     <Compile Include="GameState.cs" />
+    <Compile Include="IDrawShip.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="CustomExceptions.cs" />
     <Compile Include="Location.cs" />
@@ -174,9 +175,6 @@
     <None Include="Resources\minimize.Btn.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ReadyForBattleBtn.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\SetPlayerBg.png" />
   </ItemGroup>
   <ItemGroup>
@@ -207,7 +205,34 @@
     <None Include="Resources\MilitaryHelmet.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Battleship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carrier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cruiser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Destroyer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Submarine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10808479.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sailorhat_min.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\Sailorhat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReadyForBattleBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appicon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

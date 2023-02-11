@@ -3,6 +3,10 @@ using System;
 using System.Windows.Forms;
 using System.Drawing;
 using ComponentFactory.Krypton.Toolkit;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
+using System.Collections.Generic;
+using System.Linq;
+
 #endregion
 
 namespace Battleship
@@ -13,6 +17,7 @@ namespace Battleship
 		#region Variable Declarations
 		private GameManager gameManager;
 		private PictureBox selectedShipPBox;
+		private readonly Dictionary<ShipType, Point> initShipPBoxLocations;
 		#endregion
 
 		/// <summary>
@@ -21,7 +26,15 @@ namespace Battleship
 		public FleetDeploymentForm(GameManager gameManager)
 		{
 			InitializeComponent();
-			this.gameManager = gameManager;
+            this.gameManager = gameManager;
+			initShipPBoxLocations = new Dictionary<ShipType, Point>()
+			{
+				{ ShipType.Carrier, CarrierPbx.Location },
+				{ ShipType.Battleship, BattleShipPbx.Location },
+				{ ShipType.Cruiser, CruiserPbx.Location },
+				{ ShipType.Submarine, SubmarinePbx.Location },
+				{ ShipType.Destroyer, DestroyerPbx.Location }
+            };
 		}
 
 		#region Function Definition
@@ -29,7 +42,7 @@ namespace Battleship
 		private void ShipPBox_Click(object sender, System.EventArgs e)
 		{
 			if (selectedShipPBox != null)
-				selectedShipPBox.BackColor = Color.FromArgb(0, 0, 0, 0);
+				selectedShipPBox.BackColor = Color.Transparent;
 			selectedShipPBox = (PictureBox)sender;
 			selectedShipPBox.BackColor = Color.FromArgb(255, 230, 230, 230);
 		}
@@ -44,6 +57,10 @@ namespace Battleship
 			foreach( var ship in gameManager.GameState.GetPlayerFleet(true) )
 				if (ship.InitCell == null)
 					return;
+
+			gameManager.GameState.PlayerLockSetup(true);
+			gameManager.GameState.PlayerRandomFleetPlacement(false);
+			gameManager.GameState.PlayerLockSetup(false);
 
 			new BattleFieldForm(gameManager).Show();
 			Close();
@@ -64,7 +81,7 @@ namespace Battleship
 			catch (InvalidShipPlacementException) { return; }
 
 			Image img = CarrierPbx.Image;
-			CarrierPbx.Size = new Size(CarrierPbx.Size.Height, CarrierPbx.Size.Width);
+			CarrierPbx.Size = new Size(CarrierPbx.Size.Height , CarrierPbx.Size.Width);
 			img.RotateFlip(RotateFlipType.Rotate90FlipNone);
 			CarrierPbx.Image = img;
 		}
@@ -77,8 +94,18 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void ResetCarrierBtn_Click( object sender, System.EventArgs e )
 		{
-
-		}
+			gameManager.GameState.PlayerResetShip(ShipType.Carrier, true);
+            CarrierPbx.Parent = CarrierGBox;
+            CarrierPbx.Location = initShipPBoxLocations[ ShipType.Carrier ];
+			if(CarrierPbx.Width < CarrierPbx.Height)
+			{
+                Image img = CarrierPbx.Image;
+                CarrierPbx.Size = new Size(CarrierPbx.Size.Height, CarrierPbx.Size.Width);
+                img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                CarrierPbx.Image = img;
+            }
+			CarrierPbx.BackColor = Color.Transparent;
+        }
 
 		/// <summary>
 		/// Prompts BattleShip's PictureBox rotation
@@ -88,8 +115,17 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void RotateBattleShipBtn_Click( object sender, System.EventArgs e )
 		{
+            try
+            {
+                gameManager.GameState.PlayerRotateShip(ShipType.Battleship, true);
+            }
+            catch (InvalidShipPlacementException) { return; }
 
-		}
+            Image img = BattleShipPbx.Image;
+            BattleShipPbx.Size = new Size(BattleShipPbx.Size.Height, BattleShipPbx.Size.Width);
+            img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+            BattleShipPbx.Image = img;
+        }
 
 		/// <summary>
 		/// Prompts BattleShip's PictureBox angle reset
@@ -99,8 +135,18 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void ResetBattleShipBtn_Click( object sender, System.EventArgs e )
 		{
-
-		}
+            gameManager.GameState.PlayerResetShip(ShipType.Battleship, true);
+            BattleShipPbx.Parent = BattleshipGBox;
+            BattleShipPbx.Location = initShipPBoxLocations[ ShipType.Battleship ];
+            if (BattleShipPbx.Width < BattleShipPbx.Height)
+            {
+                Image img = BattleShipPbx.Image;
+                BattleShipPbx.Size = new Size(BattleShipPbx.Size.Height, BattleShipPbx.Size.Width);
+                img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                BattleShipPbx.Image = img;
+            }
+            BattleShipPbx.BackColor = Color.Transparent;
+        }
 
 		/// <summary>
 		/// Prompts Cruiser's PictureBox rotation
@@ -110,8 +156,17 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void RotateCruiserBtn_Click( object sender, System.EventArgs e )
 		{
+            try
+            {
+                gameManager.GameState.PlayerRotateShip(ShipType.Cruiser, true);
+            }
+            catch (InvalidShipPlacementException) { return; }
 
-		}
+            Image img = CruiserPbx.Image;
+            CruiserPbx.Size = new Size(CruiserPbx.Size.Height, CruiserPbx.Size.Width);
+            img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+            CruiserPbx.Image = img;
+        }
 
 		/// <summary>
 		/// Prompts Cruiser's PictureBox angle reset
@@ -121,8 +176,18 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void ResetCruiserBtn_Click( object sender, System.EventArgs e )
 		{
-
-		}
+			gameManager.GameState.PlayerResetShip(ShipType.Cruiser, true);
+            CruiserPbx.Parent = CruiserGBox;
+            CruiserPbx.Location = initShipPBoxLocations[ShipType.Cruiser];
+            if (CruiserPbx.Width < CruiserPbx.Height)
+            {
+                Image img = CruiserPbx.Image;
+                CruiserPbx.Size = new Size(CruiserPbx.Size.Height, CruiserPbx.Size.Width);
+                img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                CruiserPbx.Image = img;
+            }
+            CruiserPbx.BackColor = Color.Transparent;
+        }
 
 		/// <summary>
 		/// Prompts Submarine's PictureBox rotation
@@ -132,8 +197,17 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void RotateSubmarineBtn_Click( object sender, System.EventArgs e )
 		{
+            try
+            {
+                gameManager.GameState.PlayerRotateShip(ShipType.Submarine, true);
+            }
+            catch (InvalidShipPlacementException) { return; }
 
-		}
+            Image img = SubmarinePbx.Image;
+            SubmarinePbx.Size = new Size(SubmarinePbx.Size.Height, SubmarinePbx.Size.Width);
+            img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+            SubmarinePbx.Image = img;
+        }
 
 		/// <summary>
 		/// Prompts Submarine's PictureBox angle reset
@@ -142,9 +216,19 @@ namespace Battleship
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		private void ResetSubmarineBtn_Click( object sender, System.EventArgs e )
-		{
-
-		}
+		{	
+			gameManager.GameState.PlayerResetShip(ShipType.Submarine, true);
+            SubmarinePbx.Parent = SubmarineGBox;
+            SubmarinePbx.Location = initShipPBoxLocations[ShipType.Submarine];
+            if (SubmarinePbx.Width < SubmarinePbx.Height)
+            {
+                Image img = SubmarinePbx.Image;
+                SubmarinePbx.Size = new Size(SubmarinePbx.Size.Height, SubmarinePbx.Size.Width);
+                img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                SubmarinePbx.Image = img;
+            }
+            SubmarinePbx.BackColor = Color.Transparent;
+        }
 
 		/// <summary>
 		/// Prompts Destroyer's PictureBox rotation
@@ -154,8 +238,17 @@ namespace Battleship
 		/// <param name="e"></param>
 		private void RotateDestroyerBtn_Click( object sender, System.EventArgs e )
 		{
+            try
+            {
+                gameManager.GameState.PlayerRotateShip(ShipType.Destroyer, true);
+            }
+            catch (InvalidShipPlacementException) { return; }
 
-		}
+            Image img = DestroyerPbx.Image;
+            DestroyerPbx.Size = new Size(DestroyerPbx.Size.Height, DestroyerPbx.Size.Width);
+            img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+            DestroyerPbx.Image = img;
+        }
 
 		/// <summary>
 		/// Prompts Destroyer's PictureBox angle reset
@@ -164,18 +257,26 @@ namespace Battleship
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		private void ResetDestroyerBtn_Click( object sender, System.EventArgs e )
-		{
-
-		}
-		#endregion
+		{	
+			gameManager.GameState.PlayerResetShip(ShipType.Destroyer, true);
+            DestroyerPbx.Parent = DestroyerGBox;
+            DestroyerPbx.Location = initShipPBoxLocations[ShipType.Destroyer];
+            if (DestroyerPbx.Width < DestroyerPbx.Height)
+            {
+                Image img = DestroyerPbx.Image;
+                DestroyerPbx.Size = new Size(DestroyerPbx.Size.Height, DestroyerPbx.Size.Width);
+                img.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                DestroyerPbx.Image = img;
+            }
+            DestroyerPbx.BackColor = Color.Transparent;
+        }
 
 		private Location getCellFromCoords(Point p)
 		{
-			//int cellMargin = panel2.Left - panel1.Left - panel1.Width;
 			int cellDist = panel2.Left - panel1.Left;
 
-			int cellIndexColumn = (int)Math.Round((float)(p.X - panel1.Location.X) / cellDist);
-			int cellIndexRow = (int)Math.Round((float)(p.Y - panel1.Location.Y) / cellDist);
+			int cellIndexColumn = (int)Math.Round((float)((p.X - panel1.Location.X) / cellDist));
+			int cellIndexRow = (int)Math.Round((float)((p.Y - panel1.Location.Y) / cellDist));
 
 			return new Location((uint)cellIndexRow, (uint)cellIndexColumn);
 		}
@@ -199,25 +300,56 @@ namespace Battleship
 			}
 		}
 
-		private void panel_Click(object sender, EventArgs e)
+        private Panel getGBoxFromShipType(ShipType shipType)
+        {
+            switch (shipType)
+            {
+                case ShipType.Carrier:
+                    return CarrierGBox;
+                case ShipType.Battleship:
+                    return BattleshipGBox;
+                case ShipType.Cruiser:
+                    return CruiserGBox;
+                case ShipType.Submarine:
+                    return SubmarineGBox;
+                case ShipType.Destroyer:
+                    return DestroyerGBox;
+                default:
+                    throw new ArgumentException();
+            }
+        }
+
+        private void panel_Click(object sender, EventArgs e)
 		{
-			Controls.Remove(selectedShipPBox);
-			PictureBox newShip = selectedShipPBox;
+            PictureBox newShip = selectedShipPBox;
 			Controls.Add(newShip);
 			newShip.BringToFront();
-			newShip.BackColor = Color.LimeGreen;
+			newShip.BackColor = Color.Transparent;
+			
 			Panel targetPanel = (Panel)sender;
+            Location placedLoc = getCellFromCoords(targetPanel.Location);
 
-			try
-			{
-				Location placedLoc = getCellFromCoords(targetPanel.Location);
-				gameManager.GameState.PlayerPlaceShip(placedLoc, true, getTypeFromPBox((string)newShip.Tag));
+			ShipType pBoxShipType = getTypeFromPBox((string)newShip.Tag);
+
+            try
+			{  
+                gameManager.GameState.PlayerPlaceShip(placedLoc, true, pBoxShipType);
 			}
-			catch (InvalidShipPlacementException) { return; }
+			catch (InvalidShipPlacementException) 
+			{
+				List<IDrawShip> fleet = gameManager.GameState.GetPlayerFleet(true);
+				IDrawShip selectedShip = fleet.Single(sampleShip => sampleShip.Type == pBoxShipType);
 
-			newShip.Location = new Point(PreviewGrbx.Location.X + targetPanel.Location.X,
-			PreviewGrbx.Location.Y + targetPanel.Location.Y + targetPanel.Height);
+                if (selectedShip.InitCell == null)
+					newShip.Parent = getGBoxFromShipType(pBoxShipType);
+				return; 
+			}
+
+            newShip.Location = new Point(PreviewGrbx.Location.X + targetPanel.Location.X + 6,
+			PreviewGrbx.Location.Y + targetPanel.Location.Y + targetPanel.Height + 2);
 		}
-	}
+
+        #endregion
+    }
 
 }

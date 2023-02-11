@@ -10,7 +10,7 @@ namespace Battleship
     /// Represents a generic ship and holds all necessary information 
     /// about its type, state and position on the battlefield.
     /// </summary>
-    public class Ship
+    public class Ship : IDrawShip
     {
 
 		#region Variable Declaration
@@ -20,7 +20,6 @@ namespace Battleship
         public Location InitCell { get; private set; }
         public bool IsVertical { get; private set; }
 
-        private bool isPositionLocked;
         private HashSet<Location> occupiedCells;
         private HashSet<Location> damagedParts;
 
@@ -54,7 +53,6 @@ namespace Battleship
             Name = shipNames[ Type ];
             Size = shipSizes[ Type ];
 
-            isPositionLocked = false;
             occupiedCells = new HashSet<Location>();
             damagedParts = new HashSet<Location>();
 
@@ -98,18 +96,12 @@ namespace Battleship
         public bool IsSunk() => (Size == damagedParts.Count);
 
         /// <summary>
-        /// Location ship's position after exiting setup mode.
-        /// </summary>
-        public void LocationkPosition() { isPositionLocked = true; }
-
-        /// <summary>
         /// Change ship's initial cell Location during setup mode.
         /// </summary>
         /// <param name="newInitCell">New initial cell</param>
         /// <exception cref="InvalidShipPlacementException">Ship is out of battlefield bounds</exception>
         public void RenewPosition( Location newInitCell )
         {
-            if( isPositionLocked ) { return; }
             if( !isValidPlacement( newInitCell, IsVertical ) ) { throw new InvalidShipPlacementException(); }
 
             InitCell = newInitCell;
@@ -117,23 +109,25 @@ namespace Battleship
         }
 
 		/// <summary>
-		/// Check if provided ship has the same orientation as this ship.
-		/// </summary>
-		/// <param name="ship">Provided ship</param>
-		/// <returns>True if both ships have the same orientation</returns>
-		public bool HasEqualOrientation( Ship ship ) => (IsVertical == ship.IsVertical);
-
-		/// <summary>
 		/// Switch between vertical and horizontal ship orientation during setup mode.
 		/// </summary>
 		/// <exception cref="InvalidShipPlacementException">Ship is out of battlefield bounds.</exception>
 		public void SwitchOrientation()
         {
-            if( isPositionLocked ) { return; }
             if( !isValidPlacement( InitCell, !IsVertical ) ) { throw new InvalidShipPlacementException(); }
 
             IsVertical = !IsVertical;
             setOccupiedCells();
+        }
+
+        /// <summary>
+		/// Removes placed ship from grid and sets its orientation back to horizontal
+		/// </summary>
+		public void Reset()
+        {
+            InitCell = null;
+            IsVertical = false;
+            occupiedCells.Clear();
         }
 
         /// <summary>

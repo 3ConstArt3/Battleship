@@ -163,4 +163,25 @@
   <data name="Sailorhat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sailorhat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Battleship" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Battleship.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carrier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cruiser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cruiser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Destroyer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Destroyer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Submarine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Submarine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oceanBgnd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10808479.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

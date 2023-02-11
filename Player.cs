@@ -1,7 +1,11 @@
 ﻿#region Imports
 using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Diagnostics;
 using System.Linq;
+using System.Windows.Forms;
+
 #endregion
 
 namespace Battleship
@@ -16,6 +20,7 @@ namespace Battleship
 		public string Name { get; } = "";
 		public uint Attempts { get; private set; } = 0;
 
+        private bool isSetupLocked = false;
 		private static readonly Random random = new Random();
 		#endregion
 
@@ -72,15 +77,21 @@ namespace Battleship
 			return false;
 		}
 
-		/// <summary>
-		/// Places ship at given position, if it doesn't
-		/// collide with another ship.
-		/// </summary>
-		/// <param name="pos"></param>
-		/// <param name="shipType"></param>
-		public void PlaceShip( Location pos, ShipType shipType )
+        /// <summary>
+        /// Lock ship positions after exiting setup mode
+        /// </summary>
+        public void LockSetup() { isSetupLocked = true; }
+
+        /// <summary>
+        /// Places ship at given position, if it doesn't
+        /// collide with another ship.
+        /// </summary>
+        /// <param name="pos"></param>
+        /// <param name="shipType"></param>
+        public void PlaceShip( Location pos, ShipType shipType )
 		{
-			Ship selectedShip = getShipFromType( shipType );
+            if ( isSetupLocked ) { return; }
+            Ship selectedShip = getShipFromType( shipType );
 			checkOverlap( selectedShip.Size, pos, selectedShip.IsVertical, selectedShip.Type );
 			selectedShip.RenewPosition( pos );
 		}
@@ -92,16 +103,28 @@ namespace Battleship
 		/// <param name="shipType"></param>
 		public void RotateShip( ShipType shipType )
 		{
-			Ship selectedShip = getShipFromType( shipType );
-			checkOverlap( selectedShip.Size, selectedShip.InitCell, !selectedShip.IsVertical, selectedShip.Type );
+            if ( isSetupLocked ) { return; }
+            Ship selectedShip = getShipFromType( shipType );
+            if ( selectedShip.InitCell == null ) { throw new InvalidShipPlacementException(); }
+            checkOverlap( selectedShip.Size, selectedShip.InitCell, !selectedShip.IsVertical, selectedShip.Type );
 			selectedShip.SwitchOrientation();
 		}
 
 		/// <summary>
-		/// Places each ship of the Fleet, at a
-		/// random Location inside the grid.
+		/// Resets ship's placement based on provided ship type
 		/// </summary>
-		public void RandomFleetPlacement()
+		/// <param name="shipType">Provided ship type</param>
+		public void ResetShip(ShipType shipType)
+		{
+            if ( isSetupLocked ) { return; }
+            getShipFromType(shipType).Reset();
+		}
+
+        /// <summary>
+        /// Places each ship of the Fleet, at a
+        /// random Location inside the grid.
+        /// </summary>
+        public void RandomFleetPlacement()
 		{
 			foreach( var ship in Fleet )
 			{
@@ -173,30 +196,17 @@ namespace Battleship
 		{
 			foreach( var ship in Fleet )
 			{
-				if( shipType == ship.Type ) { continue; }
-                if ( ship.InitCell == null ) { continue; }
+				if( shipType == ship.Type || ship.InitCell == null ) { continue; }
 
-                uint deltaColumn = ( uint )Math.Abs( selectedShipLocation.column - ship.InitCell.column );
-				uint deltaRow = ( uint )Math.Abs( selectedShipLocation.row - ship.InitCell.row );
+                int deltaColumn = (int)selectedShipLocation.column - (int)ship.InitCell.column;
+				int deltaRow = (int)selectedShipLocation.row - (int)ship.InitCell.row;
 
-				if( selectedShipIsVertical == ship.IsVertical )
-				{
-					uint maxSize = Math.Max( selectedShipSize, ship.Size );
+                (int, int) deltaDimension = selectedShipIsVertical ? (deltaColumn, deltaRow) : (deltaRow, deltaColumn);
 
-					(deltaColumn, deltaRow) = selectedShipIsVertical ? (deltaColumn, deltaRow) : (deltaRow, deltaColumn);
-					checkOverlapSameOrientation( maxSize, deltaColumn, deltaRow );
-				}
+                if (selectedShipIsVertical == ship.IsVertical)
+                    checkOverlapSameOrientation(selectedShipSize, ship.Size, deltaDimension);
 				else
-				{
-					if( selectedShipIsVertical )
-					{
-						if ( selectedShipLocation.row < ship.InitCell.row )
-							checkOverlapDifferentOrientation( ship.Size, selectedShipSize, deltaRow, deltaColumn );
-						return;
-					}
-					if (selectedShipLocation.column < ship.InitCell.column)
-						checkOverlapDifferentOrientation( selectedShipSize, ship.Size, deltaRow, deltaColumn );
-				}
+					checkOverlapDifferentOrientation(selectedShipSize, ship.Size, deltaDimension);	
 			}
 		}
 
@@ -204,15 +214,19 @@ namespace Battleship
 		/// Validates if 2 ships with same orientations
 		/// collide with each other.
 		/// </summary>
-		/// <param name="maxSize"></param>
+		/// <param name="minSize"></param>
 		/// <param name="deltaDimension"></param>
 		/// <exception cref="InvalidShipPlacementException"></exception>
-		private void checkOverlapSameOrientation( uint maxSize, params uint[] deltaDimension )
+		private void checkOverlapSameOrientation(uint selectedShipSize, uint shipSize, (int, int) deltaDimension)
 		{
-			if( deltaDimension[ 0 ] == 0 )
-				if (deltaDimension[ 1 ] < maxSize)
+            if (deltaDimension.Item1 == 0)
+			{
+                uint firstShipSize = (deltaDimension.Item2 < 0) ? selectedShipSize : shipSize;
+                if (Math.Abs(deltaDimension.Item2) < firstShipSize)
 					throw new InvalidShipPlacementException();
-		}
+            }
+				
+        }
 
 		/// <summary>
 		/// Validates if 2 ships with different orientations
@@ -222,12 +236,11 @@ namespace Battleship
 		/// <param name="verticalShipSize"></param>
 		/// <param name="deltaDimension"></param>
 		/// <exception cref="InvalidShipPlacementException"></exception>
-		private void checkOverlapDifferentOrientation( uint horizontalShipSize, uint verticalShipSize, params uint[] deltaDimension )
+		private void checkOverlapDifferentOrientation(uint selectedShipSize, uint shipSize, (int, int) deltaDimension)
 		{
-			if( deltaDimension[ 0 ] < horizontalShipSize || deltaDimension[ 1 ] < verticalShipSize )
-			{
-				throw new InvalidShipPlacementException();
-			}
+			if (deltaDimension.Item2 <= 0 && deltaDimension.Item1 >= 0)
+				if (Math.Abs(deltaDimension.Item2) < selectedShipSize && Math.Abs(deltaDimension.Item1) < shipSize)
+					throw new InvalidShipPlacementException();
 		}
 
 		/// <summary>
