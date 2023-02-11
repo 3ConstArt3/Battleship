@@ -362,7 +362,7 @@
             this.BattleFieldKrptPlt.LabelStyles.LabelCommon.StateNormal.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.BattleFieldKrptPlt.LabelStyles.LabelCommon.StateNormal.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
             this.BattleFieldKrptPlt.LabelStyles.LabelCommon.StateNormal.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Near;
-            this.BattleFieldKrptPlt.PanelStyles.PanelCommon.StateCommon.Image = global::Battleship.Properties.Resources.BattlefieldBgnd;
+            this.BattleFieldKrptPlt.PanelStyles.PanelCommon.StateCommon.Image = global::Battleship.Properties.Resources.oceanBgnd;
             this.BattleFieldKrptPlt.PanelStyles.PanelCommon.StateCommon.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
             // 
             // MainPnl

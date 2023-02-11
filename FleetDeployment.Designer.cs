@@ -289,7 +289,7 @@
             this.FleetDeploymentKrptPlt.LabelStyles.LabelCommon.StateNormal.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
             this.FleetDeploymentKrptPlt.LabelStyles.LabelCommon.StateNormal.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
             this.FleetDeploymentKrptPlt.LabelStyles.LabelCommon.StateNormal.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Near;
-            this.FleetDeploymentKrptPlt.PanelStyles.PanelCommon.StateCommon.Image = global::Battleship.Properties.Resources.BattlefieldBgnd;
+            this.FleetDeploymentKrptPlt.PanelStyles.PanelCommon.StateCommon.Image = global::Battleship.Properties.Resources.oceanBgnd;
             this.FleetDeploymentKrptPlt.PanelStyles.PanelCommon.StateCommon.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
             // 
             // MainPnl
