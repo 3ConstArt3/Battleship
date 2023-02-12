@@ -1,4 +1,6 @@
-﻿namespace Battleship
+﻿using Battleship.Utils;
+
+namespace Battleship.Core
 {
     public interface IDrawShip
     {
@@ -7,5 +9,8 @@
         ShipType Type { get; }
         Location InitCell { get; }
         bool IsVertical { get; }
+
+        bool IsOccupiedCell(Location cell);
+        bool IsSunk();
     }
 }

@@ -1,33 +1,33 @@
-﻿namespace Battleship
+﻿namespace Battleship.Gui
 {
-	partial class MainForm
-	{
-		/// <summary>
-		/// Required designer variable.
-		/// </summary>
-		private System.ComponentModel.IContainer components = null;
+    partial class MainForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
 
-		/// <summary>
-		/// Clean up any resources being used.
-		/// </summary>
-		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-		protected override void Dispose( bool disposing )
-		{
-			if( disposing && (components != null) )
-			{
-				components.Dispose();
-			}
-			base.Dispose( disposing );
-		}
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
 
-		#region Windows Form Designer generated code
+        #region Windows Form Designer generated code
 
-		/// <summary>
-		/// Required method for Designer support - do not modify
-		/// the contents of this method with the code editor.
-		/// </summary>
-		private void InitializeComponent()
-		{
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.MainKrptPlt = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
@@ -50,8 +50,8 @@
             this.MainKrptPlt.ButtonStyles.ButtonForm.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
             this.MainKrptPlt.ButtonStyles.ButtonForm.StateCommon.Border.ColorAngle = 24F;
             this.MainKrptPlt.ButtonStyles.ButtonForm.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-            this.MainKrptPlt.ButtonStyles.ButtonForm.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            this.MainKrptPlt.ButtonStyles.ButtonForm.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.MainKrptPlt.ButtonStyles.ButtonForm.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.MainKrptPlt.ButtonStyles.ButtonForm.StateCommon.Border.Rounding = 27;
@@ -75,8 +75,8 @@
             this.MainKrptPlt.ButtonStyles.ButtonForm.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
             this.MainKrptPlt.ButtonStyles.ButtonForm.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
             this.MainKrptPlt.ButtonStyles.ButtonForm.StateNormal.Border.ColorAngle = 24F;
-            this.MainKrptPlt.ButtonStyles.ButtonForm.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            this.MainKrptPlt.ButtonStyles.ButtonForm.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.MainKrptPlt.ButtonStyles.ButtonForm.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.MainKrptPlt.ButtonStyles.ButtonForm.StateNormal.Border.Rounding = 27;
@@ -102,8 +102,8 @@
             this.MainKrptPlt.FormStyles.FormCommon.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
             this.MainKrptPlt.FormStyles.FormCommon.StateCommon.Border.ColorAngle = 24F;
             this.MainKrptPlt.FormStyles.FormCommon.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-            this.MainKrptPlt.FormStyles.FormCommon.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            this.MainKrptPlt.FormStyles.FormCommon.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.MainKrptPlt.FormStyles.FormCommon.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.MainKrptPlt.FormStyles.FormCommon.StateCommon.Border.Rounding = 18;
@@ -117,8 +117,8 @@
             this.MainKrptPlt.FormStyles.FormMain.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
             this.MainKrptPlt.FormStyles.FormMain.StateCommon.Border.ColorAngle = 24F;
             this.MainKrptPlt.FormStyles.FormMain.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-            this.MainKrptPlt.FormStyles.FormMain.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            this.MainKrptPlt.FormStyles.FormMain.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.MainKrptPlt.FormStyles.FormMain.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.MainKrptPlt.FormStyles.FormMain.StateCommon.Border.Rounding = 18;
@@ -132,8 +132,8 @@
             this.MainKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
             this.MainKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Border.ColorAngle = 33F;
             this.MainKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Sigma;
-            this.MainKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            this.MainKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.MainKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.MainKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Border.Rounding = 3;
@@ -179,8 +179,8 @@
             this.PreparationBtn.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
             this.PreparationBtn.StateCommon.Border.ColorAngle = 24F;
             this.PreparationBtn.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-            this.PreparationBtn.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            this.PreparationBtn.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.PreparationBtn.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.PreparationBtn.StateCommon.Border.Rounding = 27;
@@ -204,8 +204,8 @@
             this.PreparationBtn.StateDisabled.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
             this.PreparationBtn.StateDisabled.Border.ColorAngle = 24F;
             this.PreparationBtn.StateDisabled.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-            this.PreparationBtn.StateDisabled.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            this.PreparationBtn.StateDisabled.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.PreparationBtn.StateDisabled.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.PreparationBtn.StateDisabled.Border.Rounding = 27;
@@ -229,8 +229,8 @@
             this.PreparationBtn.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
             this.PreparationBtn.StateNormal.Border.ColorAngle = 24F;
             this.PreparationBtn.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-            this.PreparationBtn.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            this.PreparationBtn.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.PreparationBtn.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.PreparationBtn.StateNormal.Border.Image = global::Battleship.Properties.Resources.ReadyForBattleBtn;
@@ -255,8 +255,8 @@
             this.PreparationBtn.StatePressed.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
             this.PreparationBtn.StatePressed.Border.ColorAngle = 24F;
             this.PreparationBtn.StatePressed.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-            this.PreparationBtn.StatePressed.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            this.PreparationBtn.StatePressed.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.PreparationBtn.StatePressed.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.PreparationBtn.StatePressed.Border.Rounding = 27;
@@ -278,8 +278,8 @@
             this.PreparationBtn.StateTracking.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
             this.PreparationBtn.StateTracking.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
             this.PreparationBtn.StateTracking.Border.ColorAngle = 24F;
-            this.PreparationBtn.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            this.PreparationBtn.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom)
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left)
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.PreparationBtn.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.PreparationBtn.StateTracking.Border.Rounding = 27;
@@ -325,13 +325,13 @@
             this.MainPnl.ResumeLayout(false);
             this.ResumeLayout(false);
 
-		}
+        }
 
-		#endregion
+        #endregion
 
-		private ComponentFactory.Krypton.Toolkit.KryptonPalette MainKrptPlt;
-		private ComponentFactory.Krypton.Toolkit.KryptonPanel MainPnl;
-		private ComponentFactory.Krypton.Toolkit.KryptonLabel BattleShipIntroLbl;
-		private ComponentFactory.Krypton.Toolkit.KryptonButton PreparationBtn;
-	}
+        private ComponentFactory.Krypton.Toolkit.KryptonPalette MainKrptPlt;
+        private ComponentFactory.Krypton.Toolkit.KryptonPanel MainPnl;
+        private ComponentFactory.Krypton.Toolkit.KryptonLabel BattleShipIntroLbl;
+        private ComponentFactory.Krypton.Toolkit.KryptonButton PreparationBtn;
+    }
 }

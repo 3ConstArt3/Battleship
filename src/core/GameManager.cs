@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 #endregion
 
-namespace Battleship
+namespace Battleship.Core
 {
 
 	public class GameManager

@@ -1,6 +1,7 @@
 ﻿#region Imports
 using System;
 using System.Windows.Forms;
+using Battleship.Gui;
 #endregion
 
 namespace Battleship

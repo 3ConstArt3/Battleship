@@ -2,7 +2,7 @@
 using System;
 #endregion
 
-namespace Battleship
+namespace Battleship.Utils
 {
 
 	public class InvalidShipPlacementException : Exception

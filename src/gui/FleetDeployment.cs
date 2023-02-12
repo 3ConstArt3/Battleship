@@ -3,13 +3,14 @@ using System;
 using System.Windows.Forms;
 using System.Drawing;
 using ComponentFactory.Krypton.Toolkit;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 using System.Collections.Generic;
 using System.Linq;
+using Battleship.Utils;
+using Battleship.Core;
 
 #endregion
 
-namespace Battleship
+namespace Battleship.Gui
 {
 
 	public partial class FleetDeploymentForm : KryptonForm
@@ -73,7 +74,10 @@ namespace Battleship
 			gameManager.GameState.PlayerRandomFleetPlacement(false);
 			gameManager.GameState.PlayerLockSetup(false);
 
-			new BattleFieldForm(gameManager, fleetPBoxes).Show();
+			foreach (var shipPbox in fleetPBoxes)
+				shipPbox.Click -= ShipPBox_Click;
+
+            new BattleFieldForm(gameManager, fleetPBoxes).Show();
 			Close();
 		}
 
@@ -332,6 +336,9 @@ namespace Battleship
 
         private void panel_Click(object sender, EventArgs e)
 		{
+			if (selectedShipPBox == null) 
+				return;
+
             PictureBox newShip = selectedShipPBox;
 			Controls.Add(newShip);
 			newShip.BringToFront();
