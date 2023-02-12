@@ -41,6 +41,7 @@ namespace Battleship.Gui
 		/// <param name="e"></param>
 		private void DelpoyFleetBtn_Click( object sender, EventArgs e )
 		{
+			// TODO: recycle the next two lines in their own method
 			gameManager.StartNewGame(NameTxtBx.Text);
 			new FleetDeploymentForm(gameManager).Show();
 			this.Close();

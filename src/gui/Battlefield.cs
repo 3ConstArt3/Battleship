@@ -187,7 +187,6 @@ namespace Battleship.Gui
 
             bool player1Won = gs.IsPlayer1Winner();
             string player1Name = gs.GetPlayerName(true);
-            // TODO: add player name 
             string name = player1Won ? player1Name : "Computer";
             MessageBox.Show($"{name} is the winner!", "GameOver");
             Close();
