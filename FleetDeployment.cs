@@ -332,6 +332,9 @@ namespace Battleship
 
         private void panel_Click(object sender, EventArgs e)
 		{
+			if (selectedShipPBox == null) 
+				return;
+
             PictureBox newShip = selectedShipPBox;
 			Controls.Add(newShip);
 			newShip.BringToFront();
