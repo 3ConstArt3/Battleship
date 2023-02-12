@@ -7,5 +7,8 @@
         ShipType Type { get; }
         Location InitCell { get; }
         bool IsVertical { get; }
+
+        bool IsOccupiedCell(Location cell);
+        bool IsSunk();
     }
 }
