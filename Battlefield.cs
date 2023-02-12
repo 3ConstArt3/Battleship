@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
@@ -21,6 +22,7 @@ namespace Battleship
         private Panel[,] player1Grid;
         private List<PictureBox> player1FleetPboxes;
 		private List<PictureBox> player2FleetPboxes;
+        private Dictionary<string, List<PictureBox>> enemyFirePboxes;
 		private static Random random = new Random();
 		private bool mutexPlayerCanFire;
 		private const int computerShotDelay = 10;
@@ -46,6 +48,16 @@ namespace Battleship
 				{ p80, p81, p82, p83, p84, p85, p86, p87, p88, p89 },
 				{ p90, p91, p92, p93, p94, p95, p96, p97, p98, p99 }
 			};
+
+            enemyFirePboxes = new Dictionary<string, List<PictureBox>>
+            {
+                { "Carrier", new List<PictureBox>() },
+                { "Battleship", new List<PictureBox>() },
+                { "Cruiser", new List<PictureBox>() },
+                { "Submarine", new List<PictureBox>() },
+                { "Destroyer", new List<PictureBox>() }
+            };
+
             player1FleetPboxes = fleetPboxes.ToList();
 			player2FleetPboxes = fleetPboxes.ConvertAll(
 				pBox => new PictureBox()
@@ -149,12 +161,14 @@ namespace Battleship
                 List<IDrawShip> player1Fleet = gameManager.GameState.GetPlayerFleet(true);
 				string shipName = "";
 				Location shipInitCell = null;
+                bool shipIsSunk = false;
 
 				foreach (var ship in player1Fleet)
 					if (ship.IsOccupiedCell(firedAt))
 					{
 						shipName = ship.Name;
 						shipInitCell = ship.InitCell;
+                        shipIsSunk = ship.IsSunk();
 						break;
 					}
                 PictureBox shipPbox = player1FleetPboxes.Single(pbox => (string)pbox.Tag == shipName);
@@ -176,9 +190,18 @@ namespace Battleship
                     firePbox.Location = new Point(0 , targetCell.Height/2 - firePbox.Height / 2 -5 + (targetCell.Height * ((int)firedAt.row - (int)shipInitCell.row)));
 
                 firePbox.BringToFront();
+
+                if (shipIsSunk)
+                {
+                    Image originalImg = (Bitmap)shipPbox.Image.Clone();
+                    shipPbox.Image = SetAlpha((Bitmap)originalImg, 150);
+                }
+
             }
 			else
 				targetCell.BackColor = Color.CornflowerBlue;
+
+            
 
             if (gameManager.GameState.IsGameOver())
             {
@@ -246,10 +269,20 @@ namespace Battleship
                 firePbox.Location = new Point(targetCell.Width / 2 - firePbox.Width/2, targetCell.Height / 2 - firePbox.Height /2);
 
                 firePbox.BringToFront();
+                enemyFirePboxes[shipName].Add(firePbox);
 
 				if (shipIsSunk)
 				{
-                    //shipPbox.Visible = true;
+                    List<PictureBox> shipFirePBoxes = enemyFirePboxes[shipName];
+                    for (int i = shipFirePBoxes.Count-1; i > 0; i--)
+                    {
+                        shipFirePBoxes[i].Dispose();
+                        shipFirePBoxes.RemoveAt(i);
+                    }
+
+                    shipPbox.Visible = true;
+                    Image originalImg = (Bitmap)shipPbox.Image.Clone();
+                    shipPbox.Image = SetAlpha((Bitmap)originalImg, 150);
                 }
 
             }
@@ -265,6 +298,30 @@ namespace Battleship
             }
 				
             computerFire();
+        }
+
+        static Bitmap SetAlpha(Bitmap bmpIn, int alpha)
+        {
+            Bitmap bmpOut = new Bitmap(bmpIn.Width, bmpIn.Height);
+            float a = alpha / 255f;
+            Rectangle r = new Rectangle(0, 0, bmpIn.Width, bmpIn.Height);
+
+            float[][] matrixItems = {
+        new float[] {1, 0, 0, 0, 0},
+        new float[] {0, 1, 0, 0, 0},
+        new float[] {0, 0, 1, 0, 0},
+        new float[] {0, 0, 0, a, 0},
+        new float[] {0, 0, 0, 0, 1}};
+
+            ColorMatrix colorMatrix = new ColorMatrix(matrixItems);
+
+            ImageAttributes imageAtt = new ImageAttributes();
+            imageAtt.SetColorMatrix(colorMatrix, ColorMatrixFlag.Default, ColorAdjustType.Bitmap);
+
+            using (Graphics g = Graphics.FromImage(bmpOut))
+                g.DrawImage(bmpIn, r, r.X, r.Y, r.Width, r.Height, GraphicsUnit.Pixel, imageAtt);
+
+            return bmpOut;
         }
     }
 
