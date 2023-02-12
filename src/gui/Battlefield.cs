@@ -138,7 +138,9 @@ namespace Battleship.Gui
 		{
             mutexPlayerCanFire = true;
 			await Task.Delay(computerShotDelay);
-			Location firedAt;
+			
+            Location firedAt;
+            bool isPlayer1Turn = gameManager.GameState.IsPlayer1Turn;
 
             while (true)
 			{
@@ -148,16 +150,16 @@ namespace Battleship.Gui
 
                 try
 				{
-                    gameManager.GameState.PlayerFires(firedAt);
+                    gameManager.GameState.PlayerFires(firedAt, isPlayer1Turn);
 					break;
                 }
 				catch (InvalidShotException) { }
             }
 
 			Panel targetCell = player1Grid[firedAt.row, firedAt.column];
-            if (gameManager.GameState.PlayerCellContainsShip(firedAt))
+            if (gameManager.GameState.PlayerCellContainsShip(firedAt, !isPlayer1Turn))
 			{
-                List<IDrawShip> player1Fleet = gameManager.GameState.GetPlayerFleet(true);
+                List<IDrawShip> player1Fleet = gameManager.GameState.GetPlayerFleet(!isPlayer1Turn);
 				string shipName = "";
 				Location shipInitCell = null;
                 bool shipIsSunk = false;
@@ -230,21 +232,22 @@ namespace Battleship.Gui
 
 			Panel targetCell = (Panel)sender;
 			Location firedAt = getCellFromCoords(targetCell.Location);
+            bool isPlayer1Turn = gameManager.GameState.IsPlayer1Turn;
 
-			try
+            try
 			{
-                gameManager.GameState.PlayerFires(firedAt);
+                gameManager.GameState.PlayerFires(firedAt, isPlayer1Turn);
             }
 			catch (InvalidShotException) { return; }
 
-			if (gameManager.GameState.PlayerCellContainsShip(firedAt))
+			if (gameManager.GameState.PlayerCellContainsShip(firedAt, !isPlayer1Turn))
 			{
-                List<IDrawShip> player1Fleet = gameManager.GameState.GetPlayerFleet(false);
+                List<IDrawShip> player2Fleet = gameManager.GameState.GetPlayerFleet(!isPlayer1Turn);
                 string shipName = "";
                 Location shipInitCell = null;
 				bool shipIsSunk = false;
 
-                foreach (var ship in player1Fleet)
+                foreach (var ship in player2Fleet)
                     if (ship.IsOccupiedCell(firedAt))
                     {
                         shipName = ship.Name;
@@ -273,7 +276,7 @@ namespace Battleship.Gui
 				if (shipIsSunk)
 				{
                     List<PictureBox> shipFirePBoxes = enemyFirePboxes[shipName];
-                    for (int i = shipFirePBoxes.Count-1; i > 0; i--)
+                    for (int i = shipFirePBoxes.Count-1; i >= 0; i--)
                     {
                         shipFirePBoxes[i].Dispose();
                         shipFirePBoxes.RemoveAt(i);

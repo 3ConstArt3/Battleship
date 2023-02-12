@@ -16,30 +16,32 @@ namespace Battleship.Core
 		private Player player1;
 		private Player player2;
 		public const int GridDimension = 9;
-		private bool isPlayer1Turn = true;
 		private DateTime gameStartTimePoint;
-		#endregion
 
-		/// <summary>
-		/// Constructor Definition.
-		/// </summary>
-		public GameState( string player1Name, string player2Name )
+        public bool IsPlayer1Turn { get; private set; }
+        #endregion
+
+        /// <summary>
+        /// Constructor Definition.
+        /// </summary>
+        public GameState( string player1Name, string player2Name )
 		{
 			player1 = new Player( player1Name );
 			player2 = new Player( player2Name );
+			IsPlayer1Turn = true;
 			gameStartTimePoint = DateTime.Now;
 		}
 
 		#region Method Definition
-		public void PlayerFires( Location where )
+		public void PlayerFires(Location where, bool isPlayer1Turn)
 		{
 			Player currentPlayer = getTargetPlayer( isPlayer1Turn );
 			currentPlayer.Fire( where, getTargetPlayer( !isPlayer1Turn ) );
 		}
 
-		public bool PlayerCellContainsShip( Location where )
+		public bool PlayerCellContainsShip( Location where, bool isPlayer1Turn)
 		{
-			return getTargetPlayer( !isPlayer1Turn ).IsCellPartOfShip( where );
+			return getTargetPlayer( isPlayer1Turn ).IsCellPartOfShip( where );
 		}
 
 		public void PlayerPlaceShip( Location where, bool isPlayer1, ShipType shipType )
@@ -71,7 +73,7 @@ namespace Battleship.Core
 
 		public void ChangePlayerTurn()
 		{
-			isPlayer1Turn = !isPlayer1Turn;
+			IsPlayer1Turn = !IsPlayer1Turn;
 		}
 
 		public bool IsGameOver() => isPlayerFleetDestroyed(false) || isPlayerFleetDestroyed(true);
