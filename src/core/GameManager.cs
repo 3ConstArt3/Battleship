@@ -14,7 +14,7 @@ namespace Battleship.Core
 
 		#region Variable Declaration
 		public GameState GameState{ get; private set; }
-		//public DatabaseMgr DatabaseMgr{ get; private set; }
+		public DatabaseManager DatabaseManager{ get; private set; }
 
 		#endregion
 
