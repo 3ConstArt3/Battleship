@@ -32,110 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BattleFieldForm));
             this.BattleFieldKrptPlt = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
             this.MainPnl = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
-            this.BattlefieldLbl = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
-            this.BorderPnl = new System.Windows.Forms.Panel();
-            this.Player1GridGbox = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
-            this.PreviewPnl = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
-            this.p04 = new System.Windows.Forms.Panel();
-            this.p03 = new System.Windows.Forms.Panel();
-            this.p02 = new System.Windows.Forms.Panel();
-            this.p01 = new System.Windows.Forms.Panel();
-            this.p00 = new System.Windows.Forms.Panel();
-            this.p98 = new System.Windows.Forms.Panel();
-            this.p89 = new System.Windows.Forms.Panel();
-            this.p88 = new System.Windows.Forms.Panel();
-            this.p99 = new System.Windows.Forms.Panel();
-            this.p96 = new System.Windows.Forms.Panel();
-            this.p87 = new System.Windows.Forms.Panel();
-            this.p86 = new System.Windows.Forms.Panel();
-            this.p97 = new System.Windows.Forms.Panel();
-            this.p94 = new System.Windows.Forms.Panel();
-            this.p85 = new System.Windows.Forms.Panel();
-            this.p84 = new System.Windows.Forms.Panel();
-            this.p95 = new System.Windows.Forms.Panel();
-            this.p92 = new System.Windows.Forms.Panel();
-            this.p90 = new System.Windows.Forms.Panel();
-            this.p83 = new System.Windows.Forms.Panel();
-            this.p81 = new System.Windows.Forms.Panel();
-            this.p82 = new System.Windows.Forms.Panel();
-            this.p93 = new System.Windows.Forms.Panel();
-            this.p80 = new System.Windows.Forms.Panel();
-            this.p91 = new System.Windows.Forms.Panel();
-            this.p78 = new System.Windows.Forms.Panel();
-            this.p69 = new System.Windows.Forms.Panel();
-            this.p68 = new System.Windows.Forms.Panel();
-            this.p79 = new System.Windows.Forms.Panel();
-            this.p76 = new System.Windows.Forms.Panel();
-            this.p67 = new System.Windows.Forms.Panel();
-            this.p66 = new System.Windows.Forms.Panel();
-            this.p77 = new System.Windows.Forms.Panel();
-            this.p74 = new System.Windows.Forms.Panel();
-            this.p65 = new System.Windows.Forms.Panel();
-            this.p64 = new System.Windows.Forms.Panel();
-            this.p75 = new System.Windows.Forms.Panel();
-            this.p72 = new System.Windows.Forms.Panel();
-            this.p70 = new System.Windows.Forms.Panel();
-            this.p63 = new System.Windows.Forms.Panel();
-            this.p61 = new System.Windows.Forms.Panel();
-            this.p62 = new System.Windows.Forms.Panel();
-            this.p73 = new System.Windows.Forms.Panel();
-            this.p60 = new System.Windows.Forms.Panel();
-            this.p71 = new System.Windows.Forms.Panel();
-            this.p58 = new System.Windows.Forms.Panel();
-            this.p49 = new System.Windows.Forms.Panel();
-            this.p48 = new System.Windows.Forms.Panel();
-            this.p59 = new System.Windows.Forms.Panel();
-            this.p56 = new System.Windows.Forms.Panel();
-            this.p47 = new System.Windows.Forms.Panel();
-            this.p46 = new System.Windows.Forms.Panel();
-            this.p57 = new System.Windows.Forms.Panel();
-            this.p54 = new System.Windows.Forms.Panel();
-            this.p45 = new System.Windows.Forms.Panel();
-            this.p44 = new System.Windows.Forms.Panel();
-            this.p55 = new System.Windows.Forms.Panel();
-            this.p52 = new System.Windows.Forms.Panel();
-            this.p50 = new System.Windows.Forms.Panel();
-            this.p43 = new System.Windows.Forms.Panel();
-            this.p41 = new System.Windows.Forms.Panel();
-            this.p42 = new System.Windows.Forms.Panel();
-            this.p53 = new System.Windows.Forms.Panel();
-            this.p40 = new System.Windows.Forms.Panel();
-            this.p51 = new System.Windows.Forms.Panel();
-            this.p38 = new System.Windows.Forms.Panel();
-            this.p18 = new System.Windows.Forms.Panel();
-            this.p29 = new System.Windows.Forms.Panel();
-            this.p09 = new System.Windows.Forms.Panel();
-            this.p28 = new System.Windows.Forms.Panel();
-            this.p08 = new System.Windows.Forms.Panel();
-            this.p39 = new System.Windows.Forms.Panel();
-            this.p19 = new System.Windows.Forms.Panel();
-            this.p36 = new System.Windows.Forms.Panel();
-            this.p16 = new System.Windows.Forms.Panel();
-            this.p27 = new System.Windows.Forms.Panel();
-            this.p07 = new System.Windows.Forms.Panel();
-            this.p26 = new System.Windows.Forms.Panel();
-            this.p06 = new System.Windows.Forms.Panel();
-            this.p37 = new System.Windows.Forms.Panel();
-            this.p17 = new System.Windows.Forms.Panel();
-            this.p34 = new System.Windows.Forms.Panel();
-            this.p14 = new System.Windows.Forms.Panel();
-            this.p25 = new System.Windows.Forms.Panel();
-            this.p05 = new System.Windows.Forms.Panel();
-            this.p24 = new System.Windows.Forms.Panel();
-            this.p35 = new System.Windows.Forms.Panel();
-            this.p15 = new System.Windows.Forms.Panel();
-            this.p32 = new System.Windows.Forms.Panel();
-            this.p12 = new System.Windows.Forms.Panel();
-            this.p30 = new System.Windows.Forms.Panel();
-            this.p10 = new System.Windows.Forms.Panel();
-            this.p23 = new System.Windows.Forms.Panel();
-            this.p21 = new System.Windows.Forms.Panel();
-            this.p22 = new System.Windows.Forms.Panel();
-            this.p33 = new System.Windows.Forms.Panel();
-            this.p13 = new System.Windows.Forms.Panel();
-            this.p20 = new System.Windows.Forms.Panel();
-            this.p31 = new System.Windows.Forms.Panel();
-            this.p11 = new System.Windows.Forms.Panel();
             this.Player2GridGbox = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
             this.kryptonPanel1 = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.panel91 = new System.Windows.Forms.Panel();
@@ -238,20 +134,124 @@
             this.panel198 = new System.Windows.Forms.Panel();
             this.panel199 = new System.Windows.Forms.Panel();
             this.panel200 = new System.Windows.Forms.Panel();
+            this.Player1GridGbox = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
+            this.PreviewPnl = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
+            this.p04 = new System.Windows.Forms.Panel();
+            this.p03 = new System.Windows.Forms.Panel();
+            this.p02 = new System.Windows.Forms.Panel();
+            this.p01 = new System.Windows.Forms.Panel();
+            this.p00 = new System.Windows.Forms.Panel();
+            this.p98 = new System.Windows.Forms.Panel();
+            this.p89 = new System.Windows.Forms.Panel();
+            this.p88 = new System.Windows.Forms.Panel();
+            this.p99 = new System.Windows.Forms.Panel();
+            this.p96 = new System.Windows.Forms.Panel();
+            this.p87 = new System.Windows.Forms.Panel();
+            this.p86 = new System.Windows.Forms.Panel();
+            this.p97 = new System.Windows.Forms.Panel();
+            this.p94 = new System.Windows.Forms.Panel();
+            this.p85 = new System.Windows.Forms.Panel();
+            this.p84 = new System.Windows.Forms.Panel();
+            this.p95 = new System.Windows.Forms.Panel();
+            this.p92 = new System.Windows.Forms.Panel();
+            this.p90 = new System.Windows.Forms.Panel();
+            this.p83 = new System.Windows.Forms.Panel();
+            this.p81 = new System.Windows.Forms.Panel();
+            this.p82 = new System.Windows.Forms.Panel();
+            this.p93 = new System.Windows.Forms.Panel();
+            this.p80 = new System.Windows.Forms.Panel();
+            this.p91 = new System.Windows.Forms.Panel();
+            this.p78 = new System.Windows.Forms.Panel();
+            this.p69 = new System.Windows.Forms.Panel();
+            this.p68 = new System.Windows.Forms.Panel();
+            this.p79 = new System.Windows.Forms.Panel();
+            this.p76 = new System.Windows.Forms.Panel();
+            this.p67 = new System.Windows.Forms.Panel();
+            this.p66 = new System.Windows.Forms.Panel();
+            this.p77 = new System.Windows.Forms.Panel();
+            this.p74 = new System.Windows.Forms.Panel();
+            this.p65 = new System.Windows.Forms.Panel();
+            this.p64 = new System.Windows.Forms.Panel();
+            this.p75 = new System.Windows.Forms.Panel();
+            this.p72 = new System.Windows.Forms.Panel();
+            this.p70 = new System.Windows.Forms.Panel();
+            this.p63 = new System.Windows.Forms.Panel();
+            this.p61 = new System.Windows.Forms.Panel();
+            this.p62 = new System.Windows.Forms.Panel();
+            this.p73 = new System.Windows.Forms.Panel();
+            this.p60 = new System.Windows.Forms.Panel();
+            this.p71 = new System.Windows.Forms.Panel();
+            this.p58 = new System.Windows.Forms.Panel();
+            this.p49 = new System.Windows.Forms.Panel();
+            this.p48 = new System.Windows.Forms.Panel();
+            this.p59 = new System.Windows.Forms.Panel();
+            this.p56 = new System.Windows.Forms.Panel();
+            this.p47 = new System.Windows.Forms.Panel();
+            this.p46 = new System.Windows.Forms.Panel();
+            this.p57 = new System.Windows.Forms.Panel();
+            this.p54 = new System.Windows.Forms.Panel();
+            this.p45 = new System.Windows.Forms.Panel();
+            this.p44 = new System.Windows.Forms.Panel();
+            this.p55 = new System.Windows.Forms.Panel();
+            this.p52 = new System.Windows.Forms.Panel();
+            this.p50 = new System.Windows.Forms.Panel();
+            this.p43 = new System.Windows.Forms.Panel();
+            this.p41 = new System.Windows.Forms.Panel();
+            this.p42 = new System.Windows.Forms.Panel();
+            this.p53 = new System.Windows.Forms.Panel();
+            this.p40 = new System.Windows.Forms.Panel();
+            this.p51 = new System.Windows.Forms.Panel();
+            this.p38 = new System.Windows.Forms.Panel();
+            this.p18 = new System.Windows.Forms.Panel();
+            this.p29 = new System.Windows.Forms.Panel();
+            this.p09 = new System.Windows.Forms.Panel();
+            this.p28 = new System.Windows.Forms.Panel();
+            this.p08 = new System.Windows.Forms.Panel();
+            this.p39 = new System.Windows.Forms.Panel();
+            this.p19 = new System.Windows.Forms.Panel();
+            this.p36 = new System.Windows.Forms.Panel();
+            this.p16 = new System.Windows.Forms.Panel();
+            this.p27 = new System.Windows.Forms.Panel();
+            this.p07 = new System.Windows.Forms.Panel();
+            this.p26 = new System.Windows.Forms.Panel();
+            this.p06 = new System.Windows.Forms.Panel();
+            this.p37 = new System.Windows.Forms.Panel();
+            this.p17 = new System.Windows.Forms.Panel();
+            this.p34 = new System.Windows.Forms.Panel();
+            this.p14 = new System.Windows.Forms.Panel();
+            this.p25 = new System.Windows.Forms.Panel();
+            this.p05 = new System.Windows.Forms.Panel();
+            this.p24 = new System.Windows.Forms.Panel();
+            this.p35 = new System.Windows.Forms.Panel();
+            this.p15 = new System.Windows.Forms.Panel();
+            this.p32 = new System.Windows.Forms.Panel();
+            this.p12 = new System.Windows.Forms.Panel();
+            this.p30 = new System.Windows.Forms.Panel();
+            this.p10 = new System.Windows.Forms.Panel();
+            this.p23 = new System.Windows.Forms.Panel();
+            this.p21 = new System.Windows.Forms.Panel();
+            this.p22 = new System.Windows.Forms.Panel();
+            this.p33 = new System.Windows.Forms.Panel();
+            this.p13 = new System.Windows.Forms.Panel();
+            this.p20 = new System.Windows.Forms.Panel();
+            this.p31 = new System.Windows.Forms.Panel();
+            this.p11 = new System.Windows.Forms.Panel();
+            this.BattlefieldLbl = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
+            this.BorderPnl = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.MainPnl)).BeginInit();
             this.MainPnl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Player1GridGbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Player1GridGbox.Panel)).BeginInit();
-            this.Player1GridGbox.Panel.SuspendLayout();
-            this.Player1GridGbox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PreviewPnl)).BeginInit();
-            this.PreviewPnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Player2GridGbox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Player2GridGbox.Panel)).BeginInit();
             this.Player2GridGbox.Panel.SuspendLayout();
             this.Player2GridGbox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).BeginInit();
             this.kryptonPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Player1GridGbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Player1GridGbox.Panel)).BeginInit();
+            this.Player1GridGbox.Panel.SuspendLayout();
+            this.Player1GridGbox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PreviewPnl)).BeginInit();
+            this.PreviewPnl.SuspendLayout();
             this.SuspendLayout();
             // 
             // BattleFieldKrptPlt
@@ -378,1054 +378,6 @@
             this.MainPnl.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
             this.MainPnl.Size = new System.Drawing.Size(1161, 618);
             this.MainPnl.TabIndex = 0;
-            // 
-            // BattlefieldLbl
-            // 
-            this.BattlefieldLbl.AutoSize = false;
-            this.BattlefieldLbl.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BattlefieldLbl.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldPanel;
-            this.BattlefieldLbl.Location = new System.Drawing.Point(0, 0);
-            this.BattlefieldLbl.Name = "BattlefieldLbl";
-            this.BattlefieldLbl.Size = new System.Drawing.Size(1161, 85);
-            this.BattlefieldLbl.StateCommon.LongText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.BattlefieldLbl.StateCommon.LongText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.BattlefieldLbl.StateCommon.LongText.ColorAngle = 66F;
-            this.BattlefieldLbl.StateCommon.LongText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Dashed;
-            this.BattlefieldLbl.StateCommon.LongText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.BattlefieldLbl.StateCommon.Padding = new System.Windows.Forms.Padding(3);
-            this.BattlefieldLbl.StateCommon.ShortText.Color1 = System.Drawing.Color.White;
-            this.BattlefieldLbl.StateCommon.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.BattlefieldLbl.StateCommon.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.BattlefieldLbl.StateCommon.ShortText.ColorAngle = 36F;
-            this.BattlefieldLbl.StateCommon.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
-            this.BattlefieldLbl.StateCommon.ShortText.Font = new System.Drawing.Font("Sitka Banner", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.BattlefieldLbl.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-            this.BattlefieldLbl.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.BattlefieldLbl.StateCommon.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.BattlefieldLbl.StateNormal.Padding = new System.Windows.Forms.Padding(3);
-            this.BattlefieldLbl.StateNormal.ShortText.Color1 = System.Drawing.Color.White;
-            this.BattlefieldLbl.StateNormal.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.BattlefieldLbl.StateNormal.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.BattlefieldLbl.StateNormal.ShortText.ColorAngle = 36F;
-            this.BattlefieldLbl.StateNormal.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
-            this.BattlefieldLbl.StateNormal.ShortText.Font = new System.Drawing.Font("Sitka Text", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.BattlefieldLbl.StateNormal.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-            this.BattlefieldLbl.StateNormal.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.BattlefieldLbl.StateNormal.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.BattlefieldLbl.TabIndex = 40;
-            this.BattlefieldLbl.Values.Text = "Battlefield";
-            // 
-            // BorderPnl
-            // 
-            this.BorderPnl.BackColor = System.Drawing.Color.DarkGray;
-            this.BorderPnl.Location = new System.Drawing.Point(571, 98);
-            this.BorderPnl.Name = "BorderPnl";
-            this.BorderPnl.Size = new System.Drawing.Size(23, 504);
-            this.BorderPnl.TabIndex = 37;
-            // 
-            // Player1GridGbox
-            // 
-            this.Player1GridGbox.CaptionOverlap = 0.7D;
-            this.Player1GridGbox.Location = new System.Drawing.Point(66, 98);
-            this.Player1GridGbox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Player1GridGbox.Name = "Player1GridGbox";
-            // 
-            // Player1GridGbox.Panel
-            // 
-            this.Player1GridGbox.Panel.Controls.Add(this.PreviewPnl);
-            this.Player1GridGbox.Size = new System.Drawing.Size(435, 459);
-            this.Player1GridGbox.StateCommon.Back.Color1 = System.Drawing.Color.White;
-            this.Player1GridGbox.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.Player1GridGbox.StateCommon.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.Player1GridGbox.StateCommon.Back.ColorAngle = 36F;
-            this.Player1GridGbox.StateCommon.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
-            this.Player1GridGbox.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.Player1GridGbox.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.Player1GridGbox.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.Player1GridGbox.StateCommon.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.Player1GridGbox.StateCommon.Border.ColorAngle = 33F;
-            this.Player1GridGbox.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-            this.Player1GridGbox.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.Player1GridGbox.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.Player1GridGbox.StateCommon.Border.Rounding = 9;
-            this.Player1GridGbox.StateCommon.Border.Width = 1;
-            this.Player1GridGbox.StateCommon.Content.Padding = new System.Windows.Forms.Padding(3);
-            this.Player1GridGbox.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.Player1GridGbox.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
-            this.Player1GridGbox.StateCommon.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.Player1GridGbox.StateCommon.Content.ShortText.ColorAngle = 24F;
-            this.Player1GridGbox.StateCommon.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-            this.Player1GridGbox.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player1GridGbox.StateCommon.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-            this.Player1GridGbox.StateCommon.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.Player1GridGbox.StateCommon.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.Player1GridGbox.StateDisabled.Back.Color1 = System.Drawing.Color.White;
-            this.Player1GridGbox.StateDisabled.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.Player1GridGbox.StateDisabled.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.Player1GridGbox.StateDisabled.Back.ColorAngle = 36F;
-            this.Player1GridGbox.StateDisabled.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
-            this.Player1GridGbox.StateDisabled.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.Player1GridGbox.StateDisabled.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.Player1GridGbox.StateDisabled.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.Player1GridGbox.StateDisabled.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.Player1GridGbox.StateDisabled.Border.ColorAngle = 33F;
-            this.Player1GridGbox.StateDisabled.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-            this.Player1GridGbox.StateDisabled.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.Player1GridGbox.StateDisabled.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.Player1GridGbox.StateDisabled.Border.Rounding = 9;
-            this.Player1GridGbox.StateDisabled.Border.Width = 1;
-            this.Player1GridGbox.StateDisabled.Content.Padding = new System.Windows.Forms.Padding(3);
-            this.Player1GridGbox.StateDisabled.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.Player1GridGbox.StateDisabled.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
-            this.Player1GridGbox.StateDisabled.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.Player1GridGbox.StateDisabled.Content.ShortText.ColorAngle = 24F;
-            this.Player1GridGbox.StateDisabled.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
-            this.Player1GridGbox.StateDisabled.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player1GridGbox.StateDisabled.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-            this.Player1GridGbox.StateDisabled.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.Player1GridGbox.StateDisabled.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.Player1GridGbox.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.Player1GridGbox.StateNormal.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.Player1GridGbox.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.Player1GridGbox.StateNormal.Back.ColorAngle = 45F;
-            this.Player1GridGbox.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear33;
-            this.Player1GridGbox.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.Player1GridGbox.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.Player1GridGbox.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
-            this.Player1GridGbox.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.Player1GridGbox.StateNormal.Border.ColorAngle = 33F;
-            this.Player1GridGbox.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
-            this.Player1GridGbox.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.Player1GridGbox.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.Player1GridGbox.StateNormal.Border.Rounding = 9;
-            this.Player1GridGbox.StateNormal.Border.Width = 1;
-            this.Player1GridGbox.StateNormal.Content.Padding = new System.Windows.Forms.Padding(3);
-            this.Player1GridGbox.StateNormal.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.Player1GridGbox.StateNormal.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.Player1GridGbox.StateNormal.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
-            this.Player1GridGbox.StateNormal.Content.ShortText.ColorAngle = 36F;
-            this.Player1GridGbox.StateNormal.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
-            this.Player1GridGbox.StateNormal.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Player1GridGbox.StateNormal.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
-            this.Player1GridGbox.StateNormal.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.Player1GridGbox.StateNormal.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.Player1GridGbox.TabIndex = 41;
-            this.Player1GridGbox.Values.Heading = "Your Fleet";
-            // 
-            // PreviewPnl
-            // 
-            this.PreviewPnl.Controls.Add(this.p04);
-            this.PreviewPnl.Controls.Add(this.p03);
-            this.PreviewPnl.Controls.Add(this.p02);
-            this.PreviewPnl.Controls.Add(this.p01);
-            this.PreviewPnl.Controls.Add(this.p00);
-            this.PreviewPnl.Controls.Add(this.p98);
-            this.PreviewPnl.Controls.Add(this.p89);
-            this.PreviewPnl.Controls.Add(this.p88);
-            this.PreviewPnl.Controls.Add(this.p99);
-            this.PreviewPnl.Controls.Add(this.p96);
-            this.PreviewPnl.Controls.Add(this.p87);
-            this.PreviewPnl.Controls.Add(this.p86);
-            this.PreviewPnl.Controls.Add(this.p97);
-            this.PreviewPnl.Controls.Add(this.p94);
-            this.PreviewPnl.Controls.Add(this.p85);
-            this.PreviewPnl.Controls.Add(this.p84);
-            this.PreviewPnl.Controls.Add(this.p95);
-            this.PreviewPnl.Controls.Add(this.p92);
-            this.PreviewPnl.Controls.Add(this.p90);
-            this.PreviewPnl.Controls.Add(this.p83);
-            this.PreviewPnl.Controls.Add(this.p81);
-            this.PreviewPnl.Controls.Add(this.p82);
-            this.PreviewPnl.Controls.Add(this.p93);
-            this.PreviewPnl.Controls.Add(this.p80);
-            this.PreviewPnl.Controls.Add(this.p91);
-            this.PreviewPnl.Controls.Add(this.p78);
-            this.PreviewPnl.Controls.Add(this.p69);
-            this.PreviewPnl.Controls.Add(this.p68);
-            this.PreviewPnl.Controls.Add(this.p79);
-            this.PreviewPnl.Controls.Add(this.p76);
-            this.PreviewPnl.Controls.Add(this.p67);
-            this.PreviewPnl.Controls.Add(this.p66);
-            this.PreviewPnl.Controls.Add(this.p77);
-            this.PreviewPnl.Controls.Add(this.p74);
-            this.PreviewPnl.Controls.Add(this.p65);
-            this.PreviewPnl.Controls.Add(this.p64);
-            this.PreviewPnl.Controls.Add(this.p75);
-            this.PreviewPnl.Controls.Add(this.p72);
-            this.PreviewPnl.Controls.Add(this.p70);
-            this.PreviewPnl.Controls.Add(this.p63);
-            this.PreviewPnl.Controls.Add(this.p61);
-            this.PreviewPnl.Controls.Add(this.p62);
-            this.PreviewPnl.Controls.Add(this.p73);
-            this.PreviewPnl.Controls.Add(this.p60);
-            this.PreviewPnl.Controls.Add(this.p71);
-            this.PreviewPnl.Controls.Add(this.p58);
-            this.PreviewPnl.Controls.Add(this.p49);
-            this.PreviewPnl.Controls.Add(this.p48);
-            this.PreviewPnl.Controls.Add(this.p59);
-            this.PreviewPnl.Controls.Add(this.p56);
-            this.PreviewPnl.Controls.Add(this.p47);
-            this.PreviewPnl.Controls.Add(this.p46);
-            this.PreviewPnl.Controls.Add(this.p57);
-            this.PreviewPnl.Controls.Add(this.p54);
-            this.PreviewPnl.Controls.Add(this.p45);
-            this.PreviewPnl.Controls.Add(this.p44);
-            this.PreviewPnl.Controls.Add(this.p55);
-            this.PreviewPnl.Controls.Add(this.p52);
-            this.PreviewPnl.Controls.Add(this.p50);
-            this.PreviewPnl.Controls.Add(this.p43);
-            this.PreviewPnl.Controls.Add(this.p41);
-            this.PreviewPnl.Controls.Add(this.p42);
-            this.PreviewPnl.Controls.Add(this.p53);
-            this.PreviewPnl.Controls.Add(this.p40);
-            this.PreviewPnl.Controls.Add(this.p51);
-            this.PreviewPnl.Controls.Add(this.p38);
-            this.PreviewPnl.Controls.Add(this.p18);
-            this.PreviewPnl.Controls.Add(this.p29);
-            this.PreviewPnl.Controls.Add(this.p09);
-            this.PreviewPnl.Controls.Add(this.p28);
-            this.PreviewPnl.Controls.Add(this.p08);
-            this.PreviewPnl.Controls.Add(this.p39);
-            this.PreviewPnl.Controls.Add(this.p19);
-            this.PreviewPnl.Controls.Add(this.p36);
-            this.PreviewPnl.Controls.Add(this.p16);
-            this.PreviewPnl.Controls.Add(this.p27);
-            this.PreviewPnl.Controls.Add(this.p07);
-            this.PreviewPnl.Controls.Add(this.p26);
-            this.PreviewPnl.Controls.Add(this.p06);
-            this.PreviewPnl.Controls.Add(this.p37);
-            this.PreviewPnl.Controls.Add(this.p17);
-            this.PreviewPnl.Controls.Add(this.p34);
-            this.PreviewPnl.Controls.Add(this.p14);
-            this.PreviewPnl.Controls.Add(this.p25);
-            this.PreviewPnl.Controls.Add(this.p05);
-            this.PreviewPnl.Controls.Add(this.p24);
-            this.PreviewPnl.Controls.Add(this.p35);
-            this.PreviewPnl.Controls.Add(this.p15);
-            this.PreviewPnl.Controls.Add(this.p32);
-            this.PreviewPnl.Controls.Add(this.p12);
-            this.PreviewPnl.Controls.Add(this.p30);
-            this.PreviewPnl.Controls.Add(this.p10);
-            this.PreviewPnl.Controls.Add(this.p23);
-            this.PreviewPnl.Controls.Add(this.p21);
-            this.PreviewPnl.Controls.Add(this.p22);
-            this.PreviewPnl.Controls.Add(this.p33);
-            this.PreviewPnl.Controls.Add(this.p13);
-            this.PreviewPnl.Controls.Add(this.p20);
-            this.PreviewPnl.Controls.Add(this.p31);
-            this.PreviewPnl.Controls.Add(this.p11);
-            this.PreviewPnl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PreviewPnl.Location = new System.Drawing.Point(0, 0);
-            this.PreviewPnl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.PreviewPnl.Name = "PreviewPnl";
-            this.PreviewPnl.Size = new System.Drawing.Size(427, 420);
-            this.PreviewPnl.TabIndex = 0;
-            // 
-            // p04
-            // 
-            this.p04.Location = new System.Drawing.Point(172, 7);
-            this.p04.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p04.Name = "p04";
-            this.p04.Size = new System.Drawing.Size(40, 40);
-            this.p04.TabIndex = 429;
-            // 
-            // p03
-            // 
-            this.p03.Location = new System.Drawing.Point(131, 7);
-            this.p03.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p03.Name = "p03";
-            this.p03.Size = new System.Drawing.Size(40, 40);
-            this.p03.TabIndex = 426;
-            // 
-            // p02
-            // 
-            this.p02.Location = new System.Drawing.Point(89, 7);
-            this.p02.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p02.Name = "p02";
-            this.p02.Size = new System.Drawing.Size(40, 40);
-            this.p02.TabIndex = 425;
-            // 
-            // p01
-            // 
-            this.p01.Location = new System.Drawing.Point(48, 7);
-            this.p01.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p01.Name = "p01";
-            this.p01.Size = new System.Drawing.Size(40, 40);
-            this.p01.TabIndex = 414;
-            // 
-            // p00
-            // 
-            this.p00.Location = new System.Drawing.Point(7, 7);
-            this.p00.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p00.Name = "p00";
-            this.p00.Size = new System.Drawing.Size(40, 40);
-            this.p00.TabIndex = 412;
-            // 
-            // p98
-            // 
-            this.p98.Location = new System.Drawing.Point(337, 373);
-            this.p98.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p98.Name = "p98";
-            this.p98.Size = new System.Drawing.Size(40, 40);
-            this.p98.TabIndex = 520;
-            // 
-            // p89
-            // 
-            this.p89.Location = new System.Drawing.Point(378, 332);
-            this.p89.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p89.Name = "p89";
-            this.p89.Size = new System.Drawing.Size(40, 40);
-            this.p89.TabIndex = 518;
-            // 
-            // p88
-            // 
-            this.p88.Location = new System.Drawing.Point(337, 332);
-            this.p88.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p88.Name = "p88";
-            this.p88.Size = new System.Drawing.Size(40, 40);
-            this.p88.TabIndex = 517;
-            // 
-            // p99
-            // 
-            this.p99.Location = new System.Drawing.Point(378, 373);
-            this.p99.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p99.Name = "p99";
-            this.p99.Size = new System.Drawing.Size(40, 40);
-            this.p99.TabIndex = 519;
-            // 
-            // p96
-            // 
-            this.p96.Location = new System.Drawing.Point(255, 373);
-            this.p96.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p96.Name = "p96";
-            this.p96.Size = new System.Drawing.Size(40, 40);
-            this.p96.TabIndex = 516;
-            // 
-            // p87
-            // 
-            this.p87.Location = new System.Drawing.Point(296, 332);
-            this.p87.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p87.Name = "p87";
-            this.p87.Size = new System.Drawing.Size(40, 40);
-            this.p87.TabIndex = 514;
-            // 
-            // p86
-            // 
-            this.p86.Location = new System.Drawing.Point(255, 332);
-            this.p86.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p86.Name = "p86";
-            this.p86.Size = new System.Drawing.Size(40, 40);
-            this.p86.TabIndex = 513;
-            // 
-            // p97
-            // 
-            this.p97.Location = new System.Drawing.Point(296, 373);
-            this.p97.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p97.Name = "p97";
-            this.p97.Size = new System.Drawing.Size(40, 40);
-            this.p97.TabIndex = 515;
-            // 
-            // p94
-            // 
-            this.p94.Location = new System.Drawing.Point(172, 373);
-            this.p94.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p94.Name = "p94";
-            this.p94.Size = new System.Drawing.Size(40, 40);
-            this.p94.TabIndex = 512;
-            // 
-            // p85
-            // 
-            this.p85.Location = new System.Drawing.Point(213, 332);
-            this.p85.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p85.Name = "p85";
-            this.p85.Size = new System.Drawing.Size(40, 40);
-            this.p85.TabIndex = 510;
-            // 
-            // p84
-            // 
-            this.p84.Location = new System.Drawing.Point(172, 332);
-            this.p84.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p84.Name = "p84";
-            this.p84.Size = new System.Drawing.Size(40, 40);
-            this.p84.TabIndex = 509;
-            // 
-            // p95
-            // 
-            this.p95.Location = new System.Drawing.Point(213, 373);
-            this.p95.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p95.Name = "p95";
-            this.p95.Size = new System.Drawing.Size(40, 40);
-            this.p95.TabIndex = 511;
-            // 
-            // p92
-            // 
-            this.p92.Location = new System.Drawing.Point(89, 373);
-            this.p92.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p92.Name = "p92";
-            this.p92.Size = new System.Drawing.Size(40, 40);
-            this.p92.TabIndex = 508;
-            // 
-            // p90
-            // 
-            this.p90.Location = new System.Drawing.Point(7, 373);
-            this.p90.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p90.Name = "p90";
-            this.p90.Size = new System.Drawing.Size(40, 40);
-            this.p90.TabIndex = 504;
-            // 
-            // p83
-            // 
-            this.p83.Location = new System.Drawing.Point(131, 332);
-            this.p83.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p83.Name = "p83";
-            this.p83.Size = new System.Drawing.Size(40, 40);
-            this.p83.TabIndex = 506;
-            // 
-            // p81
-            // 
-            this.p81.Location = new System.Drawing.Point(48, 332);
-            this.p81.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p81.Name = "p81";
-            this.p81.Size = new System.Drawing.Size(40, 40);
-            this.p81.TabIndex = 502;
-            // 
-            // p82
-            // 
-            this.p82.Location = new System.Drawing.Point(89, 332);
-            this.p82.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p82.Name = "p82";
-            this.p82.Size = new System.Drawing.Size(40, 40);
-            this.p82.TabIndex = 505;
-            // 
-            // p93
-            // 
-            this.p93.Location = new System.Drawing.Point(131, 373);
-            this.p93.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p93.Name = "p93";
-            this.p93.Size = new System.Drawing.Size(40, 40);
-            this.p93.TabIndex = 507;
-            // 
-            // p80
-            // 
-            this.p80.Location = new System.Drawing.Point(7, 332);
-            this.p80.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p80.Name = "p80";
-            this.p80.Size = new System.Drawing.Size(40, 40);
-            this.p80.TabIndex = 501;
-            // 
-            // p91
-            // 
-            this.p91.Location = new System.Drawing.Point(48, 373);
-            this.p91.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p91.Name = "p91";
-            this.p91.Size = new System.Drawing.Size(40, 40);
-            this.p91.TabIndex = 503;
-            // 
-            // p78
-            // 
-            this.p78.Location = new System.Drawing.Point(337, 292);
-            this.p78.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p78.Name = "p78";
-            this.p78.Size = new System.Drawing.Size(40, 40);
-            this.p78.TabIndex = 500;
-            // 
-            // p69
-            // 
-            this.p69.Location = new System.Drawing.Point(378, 251);
-            this.p69.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p69.Name = "p69";
-            this.p69.Size = new System.Drawing.Size(40, 40);
-            this.p69.TabIndex = 498;
-            // 
-            // p68
-            // 
-            this.p68.Location = new System.Drawing.Point(337, 251);
-            this.p68.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p68.Name = "p68";
-            this.p68.Size = new System.Drawing.Size(40, 40);
-            this.p68.TabIndex = 497;
-            // 
-            // p79
-            // 
-            this.p79.Location = new System.Drawing.Point(378, 292);
-            this.p79.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p79.Name = "p79";
-            this.p79.Size = new System.Drawing.Size(40, 40);
-            this.p79.TabIndex = 499;
-            // 
-            // p76
-            // 
-            this.p76.Location = new System.Drawing.Point(255, 292);
-            this.p76.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p76.Name = "p76";
-            this.p76.Size = new System.Drawing.Size(40, 40);
-            this.p76.TabIndex = 496;
-            // 
-            // p67
-            // 
-            this.p67.Location = new System.Drawing.Point(296, 251);
-            this.p67.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p67.Name = "p67";
-            this.p67.Size = new System.Drawing.Size(40, 40);
-            this.p67.TabIndex = 494;
-            // 
-            // p66
-            // 
-            this.p66.Location = new System.Drawing.Point(255, 251);
-            this.p66.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p66.Name = "p66";
-            this.p66.Size = new System.Drawing.Size(40, 40);
-            this.p66.TabIndex = 493;
-            // 
-            // p77
-            // 
-            this.p77.Location = new System.Drawing.Point(296, 292);
-            this.p77.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p77.Name = "p77";
-            this.p77.Size = new System.Drawing.Size(40, 40);
-            this.p77.TabIndex = 495;
-            // 
-            // p74
-            // 
-            this.p74.Location = new System.Drawing.Point(172, 292);
-            this.p74.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p74.Name = "p74";
-            this.p74.Size = new System.Drawing.Size(40, 40);
-            this.p74.TabIndex = 492;
-            // 
-            // p65
-            // 
-            this.p65.Location = new System.Drawing.Point(213, 251);
-            this.p65.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p65.Name = "p65";
-            this.p65.Size = new System.Drawing.Size(40, 40);
-            this.p65.TabIndex = 490;
-            // 
-            // p64
-            // 
-            this.p64.Location = new System.Drawing.Point(172, 251);
-            this.p64.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p64.Name = "p64";
-            this.p64.Size = new System.Drawing.Size(40, 40);
-            this.p64.TabIndex = 489;
-            // 
-            // p75
-            // 
-            this.p75.Location = new System.Drawing.Point(213, 292);
-            this.p75.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p75.Name = "p75";
-            this.p75.Size = new System.Drawing.Size(40, 40);
-            this.p75.TabIndex = 491;
-            // 
-            // p72
-            // 
-            this.p72.Location = new System.Drawing.Point(89, 292);
-            this.p72.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p72.Name = "p72";
-            this.p72.Size = new System.Drawing.Size(40, 40);
-            this.p72.TabIndex = 488;
-            // 
-            // p70
-            // 
-            this.p70.Location = new System.Drawing.Point(7, 292);
-            this.p70.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p70.Name = "p70";
-            this.p70.Size = new System.Drawing.Size(40, 40);
-            this.p70.TabIndex = 484;
-            // 
-            // p63
-            // 
-            this.p63.Location = new System.Drawing.Point(131, 251);
-            this.p63.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p63.Name = "p63";
-            this.p63.Size = new System.Drawing.Size(40, 40);
-            this.p63.TabIndex = 486;
-            // 
-            // p61
-            // 
-            this.p61.Location = new System.Drawing.Point(48, 251);
-            this.p61.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p61.Name = "p61";
-            this.p61.Size = new System.Drawing.Size(40, 40);
-            this.p61.TabIndex = 482;
-            // 
-            // p62
-            // 
-            this.p62.Location = new System.Drawing.Point(89, 251);
-            this.p62.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p62.Name = "p62";
-            this.p62.Size = new System.Drawing.Size(40, 40);
-            this.p62.TabIndex = 485;
-            // 
-            // p73
-            // 
-            this.p73.Location = new System.Drawing.Point(131, 292);
-            this.p73.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p73.Name = "p73";
-            this.p73.Size = new System.Drawing.Size(40, 40);
-            this.p73.TabIndex = 487;
-            // 
-            // p60
-            // 
-            this.p60.Location = new System.Drawing.Point(7, 251);
-            this.p60.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p60.Name = "p60";
-            this.p60.Size = new System.Drawing.Size(40, 40);
-            this.p60.TabIndex = 481;
-            // 
-            // p71
-            // 
-            this.p71.Location = new System.Drawing.Point(48, 292);
-            this.p71.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p71.Name = "p71";
-            this.p71.Size = new System.Drawing.Size(40, 40);
-            this.p71.TabIndex = 483;
-            // 
-            // p58
-            // 
-            this.p58.Location = new System.Drawing.Point(337, 211);
-            this.p58.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p58.Name = "p58";
-            this.p58.Size = new System.Drawing.Size(40, 40);
-            this.p58.TabIndex = 480;
-            // 
-            // p49
-            // 
-            this.p49.Location = new System.Drawing.Point(378, 170);
-            this.p49.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p49.Name = "p49";
-            this.p49.Size = new System.Drawing.Size(40, 40);
-            this.p49.TabIndex = 478;
-            // 
-            // p48
-            // 
-            this.p48.Location = new System.Drawing.Point(337, 170);
-            this.p48.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p48.Name = "p48";
-            this.p48.Size = new System.Drawing.Size(40, 40);
-            this.p48.TabIndex = 477;
-            // 
-            // p59
-            // 
-            this.p59.Location = new System.Drawing.Point(378, 211);
-            this.p59.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p59.Name = "p59";
-            this.p59.Size = new System.Drawing.Size(40, 40);
-            this.p59.TabIndex = 479;
-            // 
-            // p56
-            // 
-            this.p56.Location = new System.Drawing.Point(255, 211);
-            this.p56.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p56.Name = "p56";
-            this.p56.Size = new System.Drawing.Size(40, 40);
-            this.p56.TabIndex = 476;
-            // 
-            // p47
-            // 
-            this.p47.Location = new System.Drawing.Point(296, 170);
-            this.p47.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p47.Name = "p47";
-            this.p47.Size = new System.Drawing.Size(40, 40);
-            this.p47.TabIndex = 474;
-            // 
-            // p46
-            // 
-            this.p46.Location = new System.Drawing.Point(255, 170);
-            this.p46.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p46.Name = "p46";
-            this.p46.Size = new System.Drawing.Size(40, 40);
-            this.p46.TabIndex = 473;
-            // 
-            // p57
-            // 
-            this.p57.Location = new System.Drawing.Point(296, 211);
-            this.p57.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p57.Name = "p57";
-            this.p57.Size = new System.Drawing.Size(40, 40);
-            this.p57.TabIndex = 475;
-            // 
-            // p54
-            // 
-            this.p54.Location = new System.Drawing.Point(172, 211);
-            this.p54.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p54.Name = "p54";
-            this.p54.Size = new System.Drawing.Size(40, 40);
-            this.p54.TabIndex = 472;
-            // 
-            // p45
-            // 
-            this.p45.Location = new System.Drawing.Point(213, 170);
-            this.p45.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p45.Name = "p45";
-            this.p45.Size = new System.Drawing.Size(40, 40);
-            this.p45.TabIndex = 470;
-            // 
-            // p44
-            // 
-            this.p44.Location = new System.Drawing.Point(172, 170);
-            this.p44.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p44.Name = "p44";
-            this.p44.Size = new System.Drawing.Size(40, 40);
-            this.p44.TabIndex = 469;
-            // 
-            // p55
-            // 
-            this.p55.Location = new System.Drawing.Point(213, 211);
-            this.p55.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p55.Name = "p55";
-            this.p55.Size = new System.Drawing.Size(40, 40);
-            this.p55.TabIndex = 471;
-            // 
-            // p52
-            // 
-            this.p52.Location = new System.Drawing.Point(89, 211);
-            this.p52.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p52.Name = "p52";
-            this.p52.Size = new System.Drawing.Size(40, 40);
-            this.p52.TabIndex = 468;
-            // 
-            // p50
-            // 
-            this.p50.Location = new System.Drawing.Point(7, 211);
-            this.p50.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p50.Name = "p50";
-            this.p50.Size = new System.Drawing.Size(40, 40);
-            this.p50.TabIndex = 464;
-            // 
-            // p43
-            // 
-            this.p43.Location = new System.Drawing.Point(131, 170);
-            this.p43.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p43.Name = "p43";
-            this.p43.Size = new System.Drawing.Size(40, 40);
-            this.p43.TabIndex = 466;
-            // 
-            // p41
-            // 
-            this.p41.Location = new System.Drawing.Point(48, 170);
-            this.p41.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p41.Name = "p41";
-            this.p41.Size = new System.Drawing.Size(40, 40);
-            this.p41.TabIndex = 462;
-            // 
-            // p42
-            // 
-            this.p42.Location = new System.Drawing.Point(89, 170);
-            this.p42.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p42.Name = "p42";
-            this.p42.Size = new System.Drawing.Size(40, 40);
-            this.p42.TabIndex = 465;
-            // 
-            // p53
-            // 
-            this.p53.Location = new System.Drawing.Point(131, 211);
-            this.p53.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p53.Name = "p53";
-            this.p53.Size = new System.Drawing.Size(40, 40);
-            this.p53.TabIndex = 467;
-            // 
-            // p40
-            // 
-            this.p40.Location = new System.Drawing.Point(7, 170);
-            this.p40.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p40.Name = "p40";
-            this.p40.Size = new System.Drawing.Size(40, 40);
-            this.p40.TabIndex = 461;
-            // 
-            // p51
-            // 
-            this.p51.Location = new System.Drawing.Point(48, 211);
-            this.p51.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p51.Name = "p51";
-            this.p51.Size = new System.Drawing.Size(40, 40);
-            this.p51.TabIndex = 463;
-            // 
-            // p38
-            // 
-            this.p38.Location = new System.Drawing.Point(337, 129);
-            this.p38.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p38.Name = "p38";
-            this.p38.Size = new System.Drawing.Size(40, 40);
-            this.p38.TabIndex = 460;
-            // 
-            // p18
-            // 
-            this.p18.Location = new System.Drawing.Point(337, 48);
-            this.p18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p18.Name = "p18";
-            this.p18.Size = new System.Drawing.Size(40, 40);
-            this.p18.TabIndex = 440;
-            // 
-            // p29
-            // 
-            this.p29.Location = new System.Drawing.Point(378, 89);
-            this.p29.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p29.Name = "p29";
-            this.p29.Size = new System.Drawing.Size(40, 40);
-            this.p29.TabIndex = 458;
-            // 
-            // p09
-            // 
-            this.p09.Location = new System.Drawing.Point(378, 7);
-            this.p09.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p09.Name = "p09";
-            this.p09.Size = new System.Drawing.Size(40, 40);
-            this.p09.TabIndex = 438;
-            // 
-            // p28
-            // 
-            this.p28.Location = new System.Drawing.Point(337, 89);
-            this.p28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p28.Name = "p28";
-            this.p28.Size = new System.Drawing.Size(40, 40);
-            this.p28.TabIndex = 457;
-            // 
-            // p08
-            // 
-            this.p08.Location = new System.Drawing.Point(337, 7);
-            this.p08.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p08.Name = "p08";
-            this.p08.Size = new System.Drawing.Size(40, 40);
-            this.p08.TabIndex = 437;
-            // 
-            // p39
-            // 
-            this.p39.Location = new System.Drawing.Point(378, 129);
-            this.p39.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p39.Name = "p39";
-            this.p39.Size = new System.Drawing.Size(40, 40);
-            this.p39.TabIndex = 459;
-            // 
-            // p19
-            // 
-            this.p19.Location = new System.Drawing.Point(378, 48);
-            this.p19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p19.Name = "p19";
-            this.p19.Size = new System.Drawing.Size(40, 40);
-            this.p19.TabIndex = 439;
-            // 
-            // p36
-            // 
-            this.p36.Location = new System.Drawing.Point(255, 129);
-            this.p36.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p36.Name = "p36";
-            this.p36.Size = new System.Drawing.Size(40, 40);
-            this.p36.TabIndex = 456;
-            // 
-            // p16
-            // 
-            this.p16.Location = new System.Drawing.Point(255, 48);
-            this.p16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p16.Name = "p16";
-            this.p16.Size = new System.Drawing.Size(40, 40);
-            this.p16.TabIndex = 436;
-            // 
-            // p27
-            // 
-            this.p27.Location = new System.Drawing.Point(296, 89);
-            this.p27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p27.Name = "p27";
-            this.p27.Size = new System.Drawing.Size(40, 40);
-            this.p27.TabIndex = 454;
-            // 
-            // p07
-            // 
-            this.p07.Location = new System.Drawing.Point(296, 7);
-            this.p07.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p07.Name = "p07";
-            this.p07.Size = new System.Drawing.Size(40, 40);
-            this.p07.TabIndex = 434;
-            // 
-            // p26
-            // 
-            this.p26.Location = new System.Drawing.Point(255, 89);
-            this.p26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p26.Name = "p26";
-            this.p26.Size = new System.Drawing.Size(40, 40);
-            this.p26.TabIndex = 453;
-            // 
-            // p06
-            // 
-            this.p06.Location = new System.Drawing.Point(255, 7);
-            this.p06.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p06.Name = "p06";
-            this.p06.Size = new System.Drawing.Size(40, 40);
-            this.p06.TabIndex = 433;
-            // 
-            // p37
-            // 
-            this.p37.Location = new System.Drawing.Point(296, 129);
-            this.p37.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p37.Name = "p37";
-            this.p37.Size = new System.Drawing.Size(40, 40);
-            this.p37.TabIndex = 455;
-            // 
-            // p17
-            // 
-            this.p17.Location = new System.Drawing.Point(296, 48);
-            this.p17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p17.Name = "p17";
-            this.p17.Size = new System.Drawing.Size(40, 40);
-            this.p17.TabIndex = 435;
-            // 
-            // p34
-            // 
-            this.p34.Location = new System.Drawing.Point(172, 129);
-            this.p34.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p34.Name = "p34";
-            this.p34.Size = new System.Drawing.Size(40, 40);
-            this.p34.TabIndex = 452;
-            // 
-            // p14
-            // 
-            this.p14.Location = new System.Drawing.Point(172, 48);
-            this.p14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p14.Name = "p14";
-            this.p14.Size = new System.Drawing.Size(40, 40);
-            this.p14.TabIndex = 432;
-            // 
-            // p25
-            // 
-            this.p25.Location = new System.Drawing.Point(213, 89);
-            this.p25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p25.Name = "p25";
-            this.p25.Size = new System.Drawing.Size(40, 40);
-            this.p25.TabIndex = 450;
-            // 
-            // p05
-            // 
-            this.p05.Location = new System.Drawing.Point(213, 7);
-            this.p05.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p05.Name = "p05";
-            this.p05.Size = new System.Drawing.Size(40, 40);
-            this.p05.TabIndex = 430;
-            // 
-            // p24
-            // 
-            this.p24.Location = new System.Drawing.Point(172, 89);
-            this.p24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p24.Name = "p24";
-            this.p24.Size = new System.Drawing.Size(40, 40);
-            this.p24.TabIndex = 449;
-            // 
-            // p35
-            // 
-            this.p35.Location = new System.Drawing.Point(213, 129);
-            this.p35.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p35.Name = "p35";
-            this.p35.Size = new System.Drawing.Size(40, 40);
-            this.p35.TabIndex = 451;
-            // 
-            // p15
-            // 
-            this.p15.Location = new System.Drawing.Point(213, 48);
-            this.p15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p15.Name = "p15";
-            this.p15.Size = new System.Drawing.Size(40, 40);
-            this.p15.TabIndex = 431;
-            // 
-            // p32
-            // 
-            this.p32.Location = new System.Drawing.Point(89, 129);
-            this.p32.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p32.Name = "p32";
-            this.p32.Size = new System.Drawing.Size(40, 40);
-            this.p32.TabIndex = 448;
-            // 
-            // p12
-            // 
-            this.p12.Location = new System.Drawing.Point(89, 48);
-            this.p12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p12.Name = "p12";
-            this.p12.Size = new System.Drawing.Size(40, 40);
-            this.p12.TabIndex = 428;
-            // 
-            // p30
-            // 
-            this.p30.Location = new System.Drawing.Point(7, 129);
-            this.p30.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p30.Name = "p30";
-            this.p30.Size = new System.Drawing.Size(40, 40);
-            this.p30.TabIndex = 444;
-            // 
-            // p10
-            // 
-            this.p10.Location = new System.Drawing.Point(7, 48);
-            this.p10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p10.Name = "p10";
-            this.p10.Size = new System.Drawing.Size(40, 40);
-            this.p10.TabIndex = 424;
-            // 
-            // p23
-            // 
-            this.p23.Location = new System.Drawing.Point(131, 89);
-            this.p23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p23.Name = "p23";
-            this.p23.Size = new System.Drawing.Size(40, 40);
-            this.p23.TabIndex = 446;
-            // 
-            // p21
-            // 
-            this.p21.Location = new System.Drawing.Point(48, 89);
-            this.p21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p21.Name = "p21";
-            this.p21.Size = new System.Drawing.Size(40, 40);
-            this.p21.TabIndex = 442;
-            // 
-            // p22
-            // 
-            this.p22.Location = new System.Drawing.Point(89, 89);
-            this.p22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p22.Name = "p22";
-            this.p22.Size = new System.Drawing.Size(40, 40);
-            this.p22.TabIndex = 445;
-            // 
-            // p33
-            // 
-            this.p33.Location = new System.Drawing.Point(131, 129);
-            this.p33.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p33.Name = "p33";
-            this.p33.Size = new System.Drawing.Size(40, 40);
-            this.p33.TabIndex = 447;
-            // 
-            // p13
-            // 
-            this.p13.Location = new System.Drawing.Point(131, 48);
-            this.p13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p13.Name = "p13";
-            this.p13.Size = new System.Drawing.Size(40, 40);
-            this.p13.TabIndex = 427;
-            // 
-            // p20
-            // 
-            this.p20.Location = new System.Drawing.Point(7, 89);
-            this.p20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p20.Name = "p20";
-            this.p20.Size = new System.Drawing.Size(40, 40);
-            this.p20.TabIndex = 441;
-            // 
-            // p31
-            // 
-            this.p31.Location = new System.Drawing.Point(48, 129);
-            this.p31.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p31.Name = "p31";
-            this.p31.Size = new System.Drawing.Size(40, 40);
-            this.p31.TabIndex = 443;
-            // 
-            // p11
-            // 
-            this.p11.Location = new System.Drawing.Point(48, 48);
-            this.p11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.p11.Name = "p11";
-            this.p11.Size = new System.Drawing.Size(40, 40);
-            this.p11.TabIndex = 423;
             // 
             // Player2GridGbox
             // 
@@ -2531,6 +1483,1054 @@
             this.panel200.TabIndex = 423;
             this.panel200.Click += new System.EventHandler(this.enemyGridClick);
             // 
+            // Player1GridGbox
+            // 
+            this.Player1GridGbox.CaptionOverlap = 0.7D;
+            this.Player1GridGbox.Location = new System.Drawing.Point(66, 98);
+            this.Player1GridGbox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Player1GridGbox.Name = "Player1GridGbox";
+            // 
+            // Player1GridGbox.Panel
+            // 
+            this.Player1GridGbox.Panel.Controls.Add(this.PreviewPnl);
+            this.Player1GridGbox.Size = new System.Drawing.Size(435, 459);
+            this.Player1GridGbox.StateCommon.Back.Color1 = System.Drawing.Color.White;
+            this.Player1GridGbox.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Player1GridGbox.StateCommon.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player1GridGbox.StateCommon.Back.ColorAngle = 36F;
+            this.Player1GridGbox.StateCommon.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
+            this.Player1GridGbox.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Player1GridGbox.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player1GridGbox.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player1GridGbox.StateCommon.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player1GridGbox.StateCommon.Border.ColorAngle = 33F;
+            this.Player1GridGbox.StateCommon.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+            this.Player1GridGbox.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.Player1GridGbox.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Player1GridGbox.StateCommon.Border.Rounding = 9;
+            this.Player1GridGbox.StateCommon.Border.Width = 1;
+            this.Player1GridGbox.StateCommon.Content.Padding = new System.Windows.Forms.Padding(3);
+            this.Player1GridGbox.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Player1GridGbox.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
+            this.Player1GridGbox.StateCommon.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player1GridGbox.StateCommon.Content.ShortText.ColorAngle = 24F;
+            this.Player1GridGbox.StateCommon.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+            this.Player1GridGbox.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player1GridGbox.StateCommon.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+            this.Player1GridGbox.StateCommon.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.Player1GridGbox.StateCommon.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.Player1GridGbox.StateDisabled.Back.Color1 = System.Drawing.Color.White;
+            this.Player1GridGbox.StateDisabled.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Player1GridGbox.StateDisabled.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player1GridGbox.StateDisabled.Back.ColorAngle = 36F;
+            this.Player1GridGbox.StateDisabled.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
+            this.Player1GridGbox.StateDisabled.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Player1GridGbox.StateDisabled.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player1GridGbox.StateDisabled.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player1GridGbox.StateDisabled.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player1GridGbox.StateDisabled.Border.ColorAngle = 33F;
+            this.Player1GridGbox.StateDisabled.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+            this.Player1GridGbox.StateDisabled.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.Player1GridGbox.StateDisabled.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Player1GridGbox.StateDisabled.Border.Rounding = 9;
+            this.Player1GridGbox.StateDisabled.Border.Width = 1;
+            this.Player1GridGbox.StateDisabled.Content.Padding = new System.Windows.Forms.Padding(3);
+            this.Player1GridGbox.StateDisabled.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Player1GridGbox.StateDisabled.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(224)))), ((int)(((byte)(180)))));
+            this.Player1GridGbox.StateDisabled.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player1GridGbox.StateDisabled.Content.ShortText.ColorAngle = 24F;
+            this.Player1GridGbox.StateDisabled.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Switch33;
+            this.Player1GridGbox.StateDisabled.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player1GridGbox.StateDisabled.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+            this.Player1GridGbox.StateDisabled.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.Player1GridGbox.StateDisabled.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.Player1GridGbox.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player1GridGbox.StateNormal.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player1GridGbox.StateNormal.Back.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player1GridGbox.StateNormal.Back.ColorAngle = 45F;
+            this.Player1GridGbox.StateNormal.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Linear33;
+            this.Player1GridGbox.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Player1GridGbox.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player1GridGbox.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.Player1GridGbox.StateNormal.Border.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player1GridGbox.StateNormal.Border.ColorAngle = 33F;
+            this.Player1GridGbox.StateNormal.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+            this.Player1GridGbox.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.Player1GridGbox.StateNormal.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Player1GridGbox.StateNormal.Border.Rounding = 9;
+            this.Player1GridGbox.StateNormal.Border.Width = 1;
+            this.Player1GridGbox.StateNormal.Content.Padding = new System.Windows.Forms.Padding(3);
+            this.Player1GridGbox.StateNormal.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Player1GridGbox.StateNormal.Content.ShortText.Color2 = System.Drawing.Color.White;
+            this.Player1GridGbox.StateNormal.Content.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.Player1GridGbox.StateNormal.Content.ShortText.ColorAngle = 36F;
+            this.Player1GridGbox.StateNormal.Content.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
+            this.Player1GridGbox.StateNormal.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player1GridGbox.StateNormal.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+            this.Player1GridGbox.StateNormal.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.Player1GridGbox.StateNormal.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.Player1GridGbox.TabIndex = 41;
+            this.Player1GridGbox.Values.Heading = "Your Fleet";
+            // 
+            // PreviewPnl
+            // 
+            this.PreviewPnl.Controls.Add(this.p04);
+            this.PreviewPnl.Controls.Add(this.p03);
+            this.PreviewPnl.Controls.Add(this.p02);
+            this.PreviewPnl.Controls.Add(this.p01);
+            this.PreviewPnl.Controls.Add(this.p00);
+            this.PreviewPnl.Controls.Add(this.p98);
+            this.PreviewPnl.Controls.Add(this.p89);
+            this.PreviewPnl.Controls.Add(this.p88);
+            this.PreviewPnl.Controls.Add(this.p99);
+            this.PreviewPnl.Controls.Add(this.p96);
+            this.PreviewPnl.Controls.Add(this.p87);
+            this.PreviewPnl.Controls.Add(this.p86);
+            this.PreviewPnl.Controls.Add(this.p97);
+            this.PreviewPnl.Controls.Add(this.p94);
+            this.PreviewPnl.Controls.Add(this.p85);
+            this.PreviewPnl.Controls.Add(this.p84);
+            this.PreviewPnl.Controls.Add(this.p95);
+            this.PreviewPnl.Controls.Add(this.p92);
+            this.PreviewPnl.Controls.Add(this.p90);
+            this.PreviewPnl.Controls.Add(this.p83);
+            this.PreviewPnl.Controls.Add(this.p81);
+            this.PreviewPnl.Controls.Add(this.p82);
+            this.PreviewPnl.Controls.Add(this.p93);
+            this.PreviewPnl.Controls.Add(this.p80);
+            this.PreviewPnl.Controls.Add(this.p91);
+            this.PreviewPnl.Controls.Add(this.p78);
+            this.PreviewPnl.Controls.Add(this.p69);
+            this.PreviewPnl.Controls.Add(this.p68);
+            this.PreviewPnl.Controls.Add(this.p79);
+            this.PreviewPnl.Controls.Add(this.p76);
+            this.PreviewPnl.Controls.Add(this.p67);
+            this.PreviewPnl.Controls.Add(this.p66);
+            this.PreviewPnl.Controls.Add(this.p77);
+            this.PreviewPnl.Controls.Add(this.p74);
+            this.PreviewPnl.Controls.Add(this.p65);
+            this.PreviewPnl.Controls.Add(this.p64);
+            this.PreviewPnl.Controls.Add(this.p75);
+            this.PreviewPnl.Controls.Add(this.p72);
+            this.PreviewPnl.Controls.Add(this.p70);
+            this.PreviewPnl.Controls.Add(this.p63);
+            this.PreviewPnl.Controls.Add(this.p61);
+            this.PreviewPnl.Controls.Add(this.p62);
+            this.PreviewPnl.Controls.Add(this.p73);
+            this.PreviewPnl.Controls.Add(this.p60);
+            this.PreviewPnl.Controls.Add(this.p71);
+            this.PreviewPnl.Controls.Add(this.p58);
+            this.PreviewPnl.Controls.Add(this.p49);
+            this.PreviewPnl.Controls.Add(this.p48);
+            this.PreviewPnl.Controls.Add(this.p59);
+            this.PreviewPnl.Controls.Add(this.p56);
+            this.PreviewPnl.Controls.Add(this.p47);
+            this.PreviewPnl.Controls.Add(this.p46);
+            this.PreviewPnl.Controls.Add(this.p57);
+            this.PreviewPnl.Controls.Add(this.p54);
+            this.PreviewPnl.Controls.Add(this.p45);
+            this.PreviewPnl.Controls.Add(this.p44);
+            this.PreviewPnl.Controls.Add(this.p55);
+            this.PreviewPnl.Controls.Add(this.p52);
+            this.PreviewPnl.Controls.Add(this.p50);
+            this.PreviewPnl.Controls.Add(this.p43);
+            this.PreviewPnl.Controls.Add(this.p41);
+            this.PreviewPnl.Controls.Add(this.p42);
+            this.PreviewPnl.Controls.Add(this.p53);
+            this.PreviewPnl.Controls.Add(this.p40);
+            this.PreviewPnl.Controls.Add(this.p51);
+            this.PreviewPnl.Controls.Add(this.p38);
+            this.PreviewPnl.Controls.Add(this.p18);
+            this.PreviewPnl.Controls.Add(this.p29);
+            this.PreviewPnl.Controls.Add(this.p09);
+            this.PreviewPnl.Controls.Add(this.p28);
+            this.PreviewPnl.Controls.Add(this.p08);
+            this.PreviewPnl.Controls.Add(this.p39);
+            this.PreviewPnl.Controls.Add(this.p19);
+            this.PreviewPnl.Controls.Add(this.p36);
+            this.PreviewPnl.Controls.Add(this.p16);
+            this.PreviewPnl.Controls.Add(this.p27);
+            this.PreviewPnl.Controls.Add(this.p07);
+            this.PreviewPnl.Controls.Add(this.p26);
+            this.PreviewPnl.Controls.Add(this.p06);
+            this.PreviewPnl.Controls.Add(this.p37);
+            this.PreviewPnl.Controls.Add(this.p17);
+            this.PreviewPnl.Controls.Add(this.p34);
+            this.PreviewPnl.Controls.Add(this.p14);
+            this.PreviewPnl.Controls.Add(this.p25);
+            this.PreviewPnl.Controls.Add(this.p05);
+            this.PreviewPnl.Controls.Add(this.p24);
+            this.PreviewPnl.Controls.Add(this.p35);
+            this.PreviewPnl.Controls.Add(this.p15);
+            this.PreviewPnl.Controls.Add(this.p32);
+            this.PreviewPnl.Controls.Add(this.p12);
+            this.PreviewPnl.Controls.Add(this.p30);
+            this.PreviewPnl.Controls.Add(this.p10);
+            this.PreviewPnl.Controls.Add(this.p23);
+            this.PreviewPnl.Controls.Add(this.p21);
+            this.PreviewPnl.Controls.Add(this.p22);
+            this.PreviewPnl.Controls.Add(this.p33);
+            this.PreviewPnl.Controls.Add(this.p13);
+            this.PreviewPnl.Controls.Add(this.p20);
+            this.PreviewPnl.Controls.Add(this.p31);
+            this.PreviewPnl.Controls.Add(this.p11);
+            this.PreviewPnl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PreviewPnl.Location = new System.Drawing.Point(0, 0);
+            this.PreviewPnl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PreviewPnl.Name = "PreviewPnl";
+            this.PreviewPnl.Size = new System.Drawing.Size(427, 420);
+            this.PreviewPnl.TabIndex = 0;
+            // 
+            // p04
+            // 
+            this.p04.Location = new System.Drawing.Point(172, 7);
+            this.p04.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p04.Name = "p04";
+            this.p04.Size = new System.Drawing.Size(40, 40);
+            this.p04.TabIndex = 429;
+            // 
+            // p03
+            // 
+            this.p03.Location = new System.Drawing.Point(131, 7);
+            this.p03.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p03.Name = "p03";
+            this.p03.Size = new System.Drawing.Size(40, 40);
+            this.p03.TabIndex = 426;
+            // 
+            // p02
+            // 
+            this.p02.Location = new System.Drawing.Point(89, 7);
+            this.p02.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p02.Name = "p02";
+            this.p02.Size = new System.Drawing.Size(40, 40);
+            this.p02.TabIndex = 425;
+            // 
+            // p01
+            // 
+            this.p01.Location = new System.Drawing.Point(48, 7);
+            this.p01.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p01.Name = "p01";
+            this.p01.Size = new System.Drawing.Size(40, 40);
+            this.p01.TabIndex = 414;
+            // 
+            // p00
+            // 
+            this.p00.Location = new System.Drawing.Point(7, 7);
+            this.p00.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p00.Name = "p00";
+            this.p00.Size = new System.Drawing.Size(40, 40);
+            this.p00.TabIndex = 412;
+            // 
+            // p98
+            // 
+            this.p98.Location = new System.Drawing.Point(337, 373);
+            this.p98.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p98.Name = "p98";
+            this.p98.Size = new System.Drawing.Size(40, 40);
+            this.p98.TabIndex = 520;
+            // 
+            // p89
+            // 
+            this.p89.Location = new System.Drawing.Point(378, 332);
+            this.p89.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p89.Name = "p89";
+            this.p89.Size = new System.Drawing.Size(40, 40);
+            this.p89.TabIndex = 518;
+            // 
+            // p88
+            // 
+            this.p88.Location = new System.Drawing.Point(337, 332);
+            this.p88.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p88.Name = "p88";
+            this.p88.Size = new System.Drawing.Size(40, 40);
+            this.p88.TabIndex = 517;
+            // 
+            // p99
+            // 
+            this.p99.Location = new System.Drawing.Point(378, 373);
+            this.p99.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p99.Name = "p99";
+            this.p99.Size = new System.Drawing.Size(40, 40);
+            this.p99.TabIndex = 519;
+            // 
+            // p96
+            // 
+            this.p96.Location = new System.Drawing.Point(255, 373);
+            this.p96.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p96.Name = "p96";
+            this.p96.Size = new System.Drawing.Size(40, 40);
+            this.p96.TabIndex = 516;
+            // 
+            // p87
+            // 
+            this.p87.Location = new System.Drawing.Point(296, 332);
+            this.p87.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p87.Name = "p87";
+            this.p87.Size = new System.Drawing.Size(40, 40);
+            this.p87.TabIndex = 514;
+            // 
+            // p86
+            // 
+            this.p86.Location = new System.Drawing.Point(255, 332);
+            this.p86.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p86.Name = "p86";
+            this.p86.Size = new System.Drawing.Size(40, 40);
+            this.p86.TabIndex = 513;
+            // 
+            // p97
+            // 
+            this.p97.Location = new System.Drawing.Point(296, 373);
+            this.p97.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p97.Name = "p97";
+            this.p97.Size = new System.Drawing.Size(40, 40);
+            this.p97.TabIndex = 515;
+            // 
+            // p94
+            // 
+            this.p94.Location = new System.Drawing.Point(172, 373);
+            this.p94.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p94.Name = "p94";
+            this.p94.Size = new System.Drawing.Size(40, 40);
+            this.p94.TabIndex = 512;
+            // 
+            // p85
+            // 
+            this.p85.Location = new System.Drawing.Point(213, 332);
+            this.p85.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p85.Name = "p85";
+            this.p85.Size = new System.Drawing.Size(40, 40);
+            this.p85.TabIndex = 510;
+            // 
+            // p84
+            // 
+            this.p84.Location = new System.Drawing.Point(172, 332);
+            this.p84.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p84.Name = "p84";
+            this.p84.Size = new System.Drawing.Size(40, 40);
+            this.p84.TabIndex = 509;
+            // 
+            // p95
+            // 
+            this.p95.Location = new System.Drawing.Point(213, 373);
+            this.p95.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p95.Name = "p95";
+            this.p95.Size = new System.Drawing.Size(40, 40);
+            this.p95.TabIndex = 511;
+            // 
+            // p92
+            // 
+            this.p92.Location = new System.Drawing.Point(89, 373);
+            this.p92.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p92.Name = "p92";
+            this.p92.Size = new System.Drawing.Size(40, 40);
+            this.p92.TabIndex = 508;
+            // 
+            // p90
+            // 
+            this.p90.Location = new System.Drawing.Point(7, 373);
+            this.p90.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p90.Name = "p90";
+            this.p90.Size = new System.Drawing.Size(40, 40);
+            this.p90.TabIndex = 504;
+            // 
+            // p83
+            // 
+            this.p83.Location = new System.Drawing.Point(131, 332);
+            this.p83.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p83.Name = "p83";
+            this.p83.Size = new System.Drawing.Size(40, 40);
+            this.p83.TabIndex = 506;
+            // 
+            // p81
+            // 
+            this.p81.Location = new System.Drawing.Point(48, 332);
+            this.p81.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p81.Name = "p81";
+            this.p81.Size = new System.Drawing.Size(40, 40);
+            this.p81.TabIndex = 502;
+            // 
+            // p82
+            // 
+            this.p82.Location = new System.Drawing.Point(89, 332);
+            this.p82.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p82.Name = "p82";
+            this.p82.Size = new System.Drawing.Size(40, 40);
+            this.p82.TabIndex = 505;
+            // 
+            // p93
+            // 
+            this.p93.Location = new System.Drawing.Point(131, 373);
+            this.p93.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p93.Name = "p93";
+            this.p93.Size = new System.Drawing.Size(40, 40);
+            this.p93.TabIndex = 507;
+            // 
+            // p80
+            // 
+            this.p80.Location = new System.Drawing.Point(7, 332);
+            this.p80.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p80.Name = "p80";
+            this.p80.Size = new System.Drawing.Size(40, 40);
+            this.p80.TabIndex = 501;
+            // 
+            // p91
+            // 
+            this.p91.Location = new System.Drawing.Point(48, 373);
+            this.p91.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p91.Name = "p91";
+            this.p91.Size = new System.Drawing.Size(40, 40);
+            this.p91.TabIndex = 503;
+            // 
+            // p78
+            // 
+            this.p78.Location = new System.Drawing.Point(337, 292);
+            this.p78.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p78.Name = "p78";
+            this.p78.Size = new System.Drawing.Size(40, 40);
+            this.p78.TabIndex = 500;
+            // 
+            // p69
+            // 
+            this.p69.Location = new System.Drawing.Point(378, 251);
+            this.p69.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p69.Name = "p69";
+            this.p69.Size = new System.Drawing.Size(40, 40);
+            this.p69.TabIndex = 498;
+            // 
+            // p68
+            // 
+            this.p68.Location = new System.Drawing.Point(337, 251);
+            this.p68.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p68.Name = "p68";
+            this.p68.Size = new System.Drawing.Size(40, 40);
+            this.p68.TabIndex = 497;
+            // 
+            // p79
+            // 
+            this.p79.Location = new System.Drawing.Point(378, 292);
+            this.p79.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p79.Name = "p79";
+            this.p79.Size = new System.Drawing.Size(40, 40);
+            this.p79.TabIndex = 499;
+            // 
+            // p76
+            // 
+            this.p76.Location = new System.Drawing.Point(255, 292);
+            this.p76.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p76.Name = "p76";
+            this.p76.Size = new System.Drawing.Size(40, 40);
+            this.p76.TabIndex = 496;
+            // 
+            // p67
+            // 
+            this.p67.Location = new System.Drawing.Point(296, 251);
+            this.p67.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p67.Name = "p67";
+            this.p67.Size = new System.Drawing.Size(40, 40);
+            this.p67.TabIndex = 494;
+            // 
+            // p66
+            // 
+            this.p66.Location = new System.Drawing.Point(255, 251);
+            this.p66.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p66.Name = "p66";
+            this.p66.Size = new System.Drawing.Size(40, 40);
+            this.p66.TabIndex = 493;
+            // 
+            // p77
+            // 
+            this.p77.Location = new System.Drawing.Point(296, 292);
+            this.p77.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p77.Name = "p77";
+            this.p77.Size = new System.Drawing.Size(40, 40);
+            this.p77.TabIndex = 495;
+            // 
+            // p74
+            // 
+            this.p74.Location = new System.Drawing.Point(172, 292);
+            this.p74.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p74.Name = "p74";
+            this.p74.Size = new System.Drawing.Size(40, 40);
+            this.p74.TabIndex = 492;
+            // 
+            // p65
+            // 
+            this.p65.Location = new System.Drawing.Point(213, 251);
+            this.p65.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p65.Name = "p65";
+            this.p65.Size = new System.Drawing.Size(40, 40);
+            this.p65.TabIndex = 490;
+            // 
+            // p64
+            // 
+            this.p64.Location = new System.Drawing.Point(172, 251);
+            this.p64.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p64.Name = "p64";
+            this.p64.Size = new System.Drawing.Size(40, 40);
+            this.p64.TabIndex = 489;
+            // 
+            // p75
+            // 
+            this.p75.Location = new System.Drawing.Point(213, 292);
+            this.p75.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p75.Name = "p75";
+            this.p75.Size = new System.Drawing.Size(40, 40);
+            this.p75.TabIndex = 491;
+            // 
+            // p72
+            // 
+            this.p72.Location = new System.Drawing.Point(89, 292);
+            this.p72.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p72.Name = "p72";
+            this.p72.Size = new System.Drawing.Size(40, 40);
+            this.p72.TabIndex = 488;
+            // 
+            // p70
+            // 
+            this.p70.Location = new System.Drawing.Point(7, 292);
+            this.p70.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p70.Name = "p70";
+            this.p70.Size = new System.Drawing.Size(40, 40);
+            this.p70.TabIndex = 484;
+            // 
+            // p63
+            // 
+            this.p63.Location = new System.Drawing.Point(131, 251);
+            this.p63.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p63.Name = "p63";
+            this.p63.Size = new System.Drawing.Size(40, 40);
+            this.p63.TabIndex = 486;
+            // 
+            // p61
+            // 
+            this.p61.Location = new System.Drawing.Point(48, 251);
+            this.p61.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p61.Name = "p61";
+            this.p61.Size = new System.Drawing.Size(40, 40);
+            this.p61.TabIndex = 482;
+            // 
+            // p62
+            // 
+            this.p62.Location = new System.Drawing.Point(89, 251);
+            this.p62.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p62.Name = "p62";
+            this.p62.Size = new System.Drawing.Size(40, 40);
+            this.p62.TabIndex = 485;
+            // 
+            // p73
+            // 
+            this.p73.Location = new System.Drawing.Point(131, 292);
+            this.p73.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p73.Name = "p73";
+            this.p73.Size = new System.Drawing.Size(40, 40);
+            this.p73.TabIndex = 487;
+            // 
+            // p60
+            // 
+            this.p60.Location = new System.Drawing.Point(7, 251);
+            this.p60.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p60.Name = "p60";
+            this.p60.Size = new System.Drawing.Size(40, 40);
+            this.p60.TabIndex = 481;
+            // 
+            // p71
+            // 
+            this.p71.Location = new System.Drawing.Point(48, 292);
+            this.p71.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p71.Name = "p71";
+            this.p71.Size = new System.Drawing.Size(40, 40);
+            this.p71.TabIndex = 483;
+            // 
+            // p58
+            // 
+            this.p58.Location = new System.Drawing.Point(337, 211);
+            this.p58.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p58.Name = "p58";
+            this.p58.Size = new System.Drawing.Size(40, 40);
+            this.p58.TabIndex = 480;
+            // 
+            // p49
+            // 
+            this.p49.Location = new System.Drawing.Point(378, 170);
+            this.p49.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p49.Name = "p49";
+            this.p49.Size = new System.Drawing.Size(40, 40);
+            this.p49.TabIndex = 478;
+            // 
+            // p48
+            // 
+            this.p48.Location = new System.Drawing.Point(337, 170);
+            this.p48.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p48.Name = "p48";
+            this.p48.Size = new System.Drawing.Size(40, 40);
+            this.p48.TabIndex = 477;
+            // 
+            // p59
+            // 
+            this.p59.Location = new System.Drawing.Point(378, 211);
+            this.p59.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p59.Name = "p59";
+            this.p59.Size = new System.Drawing.Size(40, 40);
+            this.p59.TabIndex = 479;
+            // 
+            // p56
+            // 
+            this.p56.Location = new System.Drawing.Point(255, 211);
+            this.p56.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p56.Name = "p56";
+            this.p56.Size = new System.Drawing.Size(40, 40);
+            this.p56.TabIndex = 476;
+            // 
+            // p47
+            // 
+            this.p47.Location = new System.Drawing.Point(296, 170);
+            this.p47.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p47.Name = "p47";
+            this.p47.Size = new System.Drawing.Size(40, 40);
+            this.p47.TabIndex = 474;
+            // 
+            // p46
+            // 
+            this.p46.Location = new System.Drawing.Point(255, 170);
+            this.p46.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p46.Name = "p46";
+            this.p46.Size = new System.Drawing.Size(40, 40);
+            this.p46.TabIndex = 473;
+            // 
+            // p57
+            // 
+            this.p57.Location = new System.Drawing.Point(296, 211);
+            this.p57.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p57.Name = "p57";
+            this.p57.Size = new System.Drawing.Size(40, 40);
+            this.p57.TabIndex = 475;
+            // 
+            // p54
+            // 
+            this.p54.Location = new System.Drawing.Point(172, 211);
+            this.p54.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p54.Name = "p54";
+            this.p54.Size = new System.Drawing.Size(40, 40);
+            this.p54.TabIndex = 472;
+            // 
+            // p45
+            // 
+            this.p45.Location = new System.Drawing.Point(213, 170);
+            this.p45.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p45.Name = "p45";
+            this.p45.Size = new System.Drawing.Size(40, 40);
+            this.p45.TabIndex = 470;
+            // 
+            // p44
+            // 
+            this.p44.Location = new System.Drawing.Point(172, 170);
+            this.p44.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p44.Name = "p44";
+            this.p44.Size = new System.Drawing.Size(40, 40);
+            this.p44.TabIndex = 469;
+            // 
+            // p55
+            // 
+            this.p55.Location = new System.Drawing.Point(213, 211);
+            this.p55.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p55.Name = "p55";
+            this.p55.Size = new System.Drawing.Size(40, 40);
+            this.p55.TabIndex = 471;
+            // 
+            // p52
+            // 
+            this.p52.Location = new System.Drawing.Point(89, 211);
+            this.p52.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p52.Name = "p52";
+            this.p52.Size = new System.Drawing.Size(40, 40);
+            this.p52.TabIndex = 468;
+            // 
+            // p50
+            // 
+            this.p50.Location = new System.Drawing.Point(7, 211);
+            this.p50.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p50.Name = "p50";
+            this.p50.Size = new System.Drawing.Size(40, 40);
+            this.p50.TabIndex = 464;
+            // 
+            // p43
+            // 
+            this.p43.Location = new System.Drawing.Point(131, 170);
+            this.p43.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p43.Name = "p43";
+            this.p43.Size = new System.Drawing.Size(40, 40);
+            this.p43.TabIndex = 466;
+            // 
+            // p41
+            // 
+            this.p41.Location = new System.Drawing.Point(48, 170);
+            this.p41.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p41.Name = "p41";
+            this.p41.Size = new System.Drawing.Size(40, 40);
+            this.p41.TabIndex = 462;
+            // 
+            // p42
+            // 
+            this.p42.Location = new System.Drawing.Point(89, 170);
+            this.p42.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p42.Name = "p42";
+            this.p42.Size = new System.Drawing.Size(40, 40);
+            this.p42.TabIndex = 465;
+            // 
+            // p53
+            // 
+            this.p53.Location = new System.Drawing.Point(131, 211);
+            this.p53.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p53.Name = "p53";
+            this.p53.Size = new System.Drawing.Size(40, 40);
+            this.p53.TabIndex = 467;
+            // 
+            // p40
+            // 
+            this.p40.Location = new System.Drawing.Point(7, 170);
+            this.p40.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p40.Name = "p40";
+            this.p40.Size = new System.Drawing.Size(40, 40);
+            this.p40.TabIndex = 461;
+            // 
+            // p51
+            // 
+            this.p51.Location = new System.Drawing.Point(48, 211);
+            this.p51.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p51.Name = "p51";
+            this.p51.Size = new System.Drawing.Size(40, 40);
+            this.p51.TabIndex = 463;
+            // 
+            // p38
+            // 
+            this.p38.Location = new System.Drawing.Point(337, 129);
+            this.p38.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p38.Name = "p38";
+            this.p38.Size = new System.Drawing.Size(40, 40);
+            this.p38.TabIndex = 460;
+            // 
+            // p18
+            // 
+            this.p18.Location = new System.Drawing.Point(337, 48);
+            this.p18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p18.Name = "p18";
+            this.p18.Size = new System.Drawing.Size(40, 40);
+            this.p18.TabIndex = 440;
+            // 
+            // p29
+            // 
+            this.p29.Location = new System.Drawing.Point(378, 89);
+            this.p29.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p29.Name = "p29";
+            this.p29.Size = new System.Drawing.Size(40, 40);
+            this.p29.TabIndex = 458;
+            // 
+            // p09
+            // 
+            this.p09.Location = new System.Drawing.Point(378, 7);
+            this.p09.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p09.Name = "p09";
+            this.p09.Size = new System.Drawing.Size(40, 40);
+            this.p09.TabIndex = 438;
+            // 
+            // p28
+            // 
+            this.p28.Location = new System.Drawing.Point(337, 89);
+            this.p28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p28.Name = "p28";
+            this.p28.Size = new System.Drawing.Size(40, 40);
+            this.p28.TabIndex = 457;
+            // 
+            // p08
+            // 
+            this.p08.Location = new System.Drawing.Point(337, 7);
+            this.p08.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p08.Name = "p08";
+            this.p08.Size = new System.Drawing.Size(40, 40);
+            this.p08.TabIndex = 437;
+            // 
+            // p39
+            // 
+            this.p39.Location = new System.Drawing.Point(378, 129);
+            this.p39.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p39.Name = "p39";
+            this.p39.Size = new System.Drawing.Size(40, 40);
+            this.p39.TabIndex = 459;
+            // 
+            // p19
+            // 
+            this.p19.Location = new System.Drawing.Point(378, 48);
+            this.p19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p19.Name = "p19";
+            this.p19.Size = new System.Drawing.Size(40, 40);
+            this.p19.TabIndex = 439;
+            // 
+            // p36
+            // 
+            this.p36.Location = new System.Drawing.Point(255, 129);
+            this.p36.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p36.Name = "p36";
+            this.p36.Size = new System.Drawing.Size(40, 40);
+            this.p36.TabIndex = 456;
+            // 
+            // p16
+            // 
+            this.p16.Location = new System.Drawing.Point(255, 48);
+            this.p16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p16.Name = "p16";
+            this.p16.Size = new System.Drawing.Size(40, 40);
+            this.p16.TabIndex = 436;
+            // 
+            // p27
+            // 
+            this.p27.Location = new System.Drawing.Point(296, 89);
+            this.p27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p27.Name = "p27";
+            this.p27.Size = new System.Drawing.Size(40, 40);
+            this.p27.TabIndex = 454;
+            // 
+            // p07
+            // 
+            this.p07.Location = new System.Drawing.Point(296, 7);
+            this.p07.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p07.Name = "p07";
+            this.p07.Size = new System.Drawing.Size(40, 40);
+            this.p07.TabIndex = 434;
+            // 
+            // p26
+            // 
+            this.p26.Location = new System.Drawing.Point(255, 89);
+            this.p26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p26.Name = "p26";
+            this.p26.Size = new System.Drawing.Size(40, 40);
+            this.p26.TabIndex = 453;
+            // 
+            // p06
+            // 
+            this.p06.Location = new System.Drawing.Point(255, 7);
+            this.p06.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p06.Name = "p06";
+            this.p06.Size = new System.Drawing.Size(40, 40);
+            this.p06.TabIndex = 433;
+            // 
+            // p37
+            // 
+            this.p37.Location = new System.Drawing.Point(296, 129);
+            this.p37.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p37.Name = "p37";
+            this.p37.Size = new System.Drawing.Size(40, 40);
+            this.p37.TabIndex = 455;
+            // 
+            // p17
+            // 
+            this.p17.Location = new System.Drawing.Point(296, 48);
+            this.p17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p17.Name = "p17";
+            this.p17.Size = new System.Drawing.Size(40, 40);
+            this.p17.TabIndex = 435;
+            // 
+            // p34
+            // 
+            this.p34.Location = new System.Drawing.Point(172, 129);
+            this.p34.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p34.Name = "p34";
+            this.p34.Size = new System.Drawing.Size(40, 40);
+            this.p34.TabIndex = 452;
+            // 
+            // p14
+            // 
+            this.p14.Location = new System.Drawing.Point(172, 48);
+            this.p14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p14.Name = "p14";
+            this.p14.Size = new System.Drawing.Size(40, 40);
+            this.p14.TabIndex = 432;
+            // 
+            // p25
+            // 
+            this.p25.Location = new System.Drawing.Point(213, 89);
+            this.p25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p25.Name = "p25";
+            this.p25.Size = new System.Drawing.Size(40, 40);
+            this.p25.TabIndex = 450;
+            // 
+            // p05
+            // 
+            this.p05.Location = new System.Drawing.Point(213, 7);
+            this.p05.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p05.Name = "p05";
+            this.p05.Size = new System.Drawing.Size(40, 40);
+            this.p05.TabIndex = 430;
+            // 
+            // p24
+            // 
+            this.p24.Location = new System.Drawing.Point(172, 89);
+            this.p24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p24.Name = "p24";
+            this.p24.Size = new System.Drawing.Size(40, 40);
+            this.p24.TabIndex = 449;
+            // 
+            // p35
+            // 
+            this.p35.Location = new System.Drawing.Point(213, 129);
+            this.p35.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p35.Name = "p35";
+            this.p35.Size = new System.Drawing.Size(40, 40);
+            this.p35.TabIndex = 451;
+            // 
+            // p15
+            // 
+            this.p15.Location = new System.Drawing.Point(213, 48);
+            this.p15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p15.Name = "p15";
+            this.p15.Size = new System.Drawing.Size(40, 40);
+            this.p15.TabIndex = 431;
+            // 
+            // p32
+            // 
+            this.p32.Location = new System.Drawing.Point(89, 129);
+            this.p32.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p32.Name = "p32";
+            this.p32.Size = new System.Drawing.Size(40, 40);
+            this.p32.TabIndex = 448;
+            // 
+            // p12
+            // 
+            this.p12.Location = new System.Drawing.Point(89, 48);
+            this.p12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p12.Name = "p12";
+            this.p12.Size = new System.Drawing.Size(40, 40);
+            this.p12.TabIndex = 428;
+            // 
+            // p30
+            // 
+            this.p30.Location = new System.Drawing.Point(7, 129);
+            this.p30.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p30.Name = "p30";
+            this.p30.Size = new System.Drawing.Size(40, 40);
+            this.p30.TabIndex = 444;
+            // 
+            // p10
+            // 
+            this.p10.Location = new System.Drawing.Point(7, 48);
+            this.p10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p10.Name = "p10";
+            this.p10.Size = new System.Drawing.Size(40, 40);
+            this.p10.TabIndex = 424;
+            // 
+            // p23
+            // 
+            this.p23.Location = new System.Drawing.Point(131, 89);
+            this.p23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p23.Name = "p23";
+            this.p23.Size = new System.Drawing.Size(40, 40);
+            this.p23.TabIndex = 446;
+            // 
+            // p21
+            // 
+            this.p21.Location = new System.Drawing.Point(48, 89);
+            this.p21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p21.Name = "p21";
+            this.p21.Size = new System.Drawing.Size(40, 40);
+            this.p21.TabIndex = 442;
+            // 
+            // p22
+            // 
+            this.p22.Location = new System.Drawing.Point(89, 89);
+            this.p22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p22.Name = "p22";
+            this.p22.Size = new System.Drawing.Size(40, 40);
+            this.p22.TabIndex = 445;
+            // 
+            // p33
+            // 
+            this.p33.Location = new System.Drawing.Point(131, 129);
+            this.p33.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p33.Name = "p33";
+            this.p33.Size = new System.Drawing.Size(40, 40);
+            this.p33.TabIndex = 447;
+            // 
+            // p13
+            // 
+            this.p13.Location = new System.Drawing.Point(131, 48);
+            this.p13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p13.Name = "p13";
+            this.p13.Size = new System.Drawing.Size(40, 40);
+            this.p13.TabIndex = 427;
+            // 
+            // p20
+            // 
+            this.p20.Location = new System.Drawing.Point(7, 89);
+            this.p20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p20.Name = "p20";
+            this.p20.Size = new System.Drawing.Size(40, 40);
+            this.p20.TabIndex = 441;
+            // 
+            // p31
+            // 
+            this.p31.Location = new System.Drawing.Point(48, 129);
+            this.p31.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p31.Name = "p31";
+            this.p31.Size = new System.Drawing.Size(40, 40);
+            this.p31.TabIndex = 443;
+            // 
+            // p11
+            // 
+            this.p11.Location = new System.Drawing.Point(48, 48);
+            this.p11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.p11.Name = "p11";
+            this.p11.Size = new System.Drawing.Size(40, 40);
+            this.p11.TabIndex = 423;
+            // 
+            // BattlefieldLbl
+            // 
+            this.BattlefieldLbl.AutoSize = false;
+            this.BattlefieldLbl.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BattlefieldLbl.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldPanel;
+            this.BattlefieldLbl.Location = new System.Drawing.Point(0, 0);
+            this.BattlefieldLbl.Name = "BattlefieldLbl";
+            this.BattlefieldLbl.Size = new System.Drawing.Size(1161, 85);
+            this.BattlefieldLbl.StateCommon.LongText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.BattlefieldLbl.StateCommon.LongText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
+            this.BattlefieldLbl.StateCommon.LongText.ColorAngle = 66F;
+            this.BattlefieldLbl.StateCommon.LongText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Dashed;
+            this.BattlefieldLbl.StateCommon.LongText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.BattlefieldLbl.StateCommon.Padding = new System.Windows.Forms.Padding(3);
+            this.BattlefieldLbl.StateCommon.ShortText.Color1 = System.Drawing.Color.White;
+            this.BattlefieldLbl.StateCommon.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.BattlefieldLbl.StateCommon.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.BattlefieldLbl.StateCommon.ShortText.ColorAngle = 36F;
+            this.BattlefieldLbl.StateCommon.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
+            this.BattlefieldLbl.StateCommon.ShortText.Font = new System.Drawing.Font("Sitka Banner", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.BattlefieldLbl.StateCommon.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+            this.BattlefieldLbl.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.BattlefieldLbl.StateCommon.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.BattlefieldLbl.StateNormal.Padding = new System.Windows.Forms.Padding(3);
+            this.BattlefieldLbl.StateNormal.ShortText.Color1 = System.Drawing.Color.White;
+            this.BattlefieldLbl.StateNormal.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.BattlefieldLbl.StateNormal.ShortText.ColorAlign = ComponentFactory.Krypton.Toolkit.PaletteRectangleAlign.Local;
+            this.BattlefieldLbl.StateNormal.ShortText.ColorAngle = 36F;
+            this.BattlefieldLbl.StateNormal.ShortText.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding3;
+            this.BattlefieldLbl.StateNormal.ShortText.Font = new System.Drawing.Font("Sitka Text", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.BattlefieldLbl.StateNormal.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+            this.BattlefieldLbl.StateNormal.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.BattlefieldLbl.StateNormal.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.BattlefieldLbl.TabIndex = 40;
+            this.BattlefieldLbl.Values.Text = "Battlefield";
+            // 
+            // BorderPnl
+            // 
+            this.BorderPnl.BackColor = System.Drawing.Color.DarkGray;
+            this.BorderPnl.Location = new System.Drawing.Point(571, 98);
+            this.BorderPnl.Name = "BorderPnl";
+            this.BorderPnl.Size = new System.Drawing.Size(23, 504);
+            this.BorderPnl.TabIndex = 37;
+            // 
             // BattleFieldForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2547,18 +2547,18 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.BattleFieldForm_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.MainPnl)).EndInit();
             this.MainPnl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Player1GridGbox.Panel)).EndInit();
-            this.Player1GridGbox.Panel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Player1GridGbox)).EndInit();
-            this.Player1GridGbox.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PreviewPnl)).EndInit();
-            this.PreviewPnl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Player2GridGbox.Panel)).EndInit();
             this.Player2GridGbox.Panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Player2GridGbox)).EndInit();
             this.Player2GridGbox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPanel1)).EndInit();
             this.kryptonPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Player1GridGbox.Panel)).EndInit();
+            this.Player1GridGbox.Panel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Player1GridGbox)).EndInit();
+            this.Player1GridGbox.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PreviewPnl)).EndInit();
+            this.PreviewPnl.ResumeLayout(false);
             this.ResumeLayout(false);
 
 		}

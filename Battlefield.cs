@@ -45,18 +45,18 @@ namespace Battleship
 				{ p70, p71, p72, p73, p74, p75, p76, p77, p78, p79 },
 				{ p80, p81, p82, p83, p84, p85, p86, p87, p88, p89 },
 				{ p90, p91, p92, p93, p94, p95, p96, p97, p98, p99 }
-			}; 
-
+			};
             player1FleetPboxes = fleetPboxes.ToList();
-            player2FleetPboxes = fleetPboxes.ConvertAll(
-                pBox => new PictureBox()
-                {
+			player2FleetPboxes = fleetPboxes.ConvertAll(
+				pBox => new PictureBox()
+				{
 					Height = pBox.Height,
 					Width = pBox.Width,
 					Image = (Image)pBox.Image.Clone(),
 					Tag = pBox.Tag,
 					SizeMode = pBox.SizeMode,
-                });
+					Visible = false
+				});
 
             placePlayerFleet(true);
             placePlayerFleet(false);
@@ -145,9 +145,40 @@ namespace Battleship
 
 			Panel targetCell = player1Grid[firedAt.row, firedAt.column];
             if (gameManager.GameState.PlayerCellContainsShip(firedAt))
-				targetCell.BackColor = Color.Red;
-            else
-                targetCell.BackColor = Color.CornflowerBlue;
+			{
+                List<IDrawShip> player1Fleet = gameManager.GameState.GetPlayerFleet(true);
+				string shipName = "";
+				Location shipInitCell = null;
+
+				foreach (var ship in player1Fleet)
+					if (ship.IsOccupiedCell(firedAt))
+					{
+						shipName = ship.Name;
+						shipInitCell = ship.InitCell;
+						break;
+					}
+                PictureBox shipPbox = player1FleetPboxes.Single(pbox => (string)pbox.Tag == shipName);
+
+                PictureBox firePbox = new PictureBox()
+                {
+                    Width = (int)(0.8 * targetCell.Width),
+                    Height = (int)(0.8 * targetCell.Height),
+                    Image = Properties.Resources.fire,
+                    BackColor = Color.Transparent,
+                    SizeMode = PictureBoxSizeMode.StretchImage
+                };
+                Controls.Add(firePbox);
+                firePbox.Parent = shipPbox;
+
+				if (shipPbox.Width > shipPbox.Height)
+					firePbox.Location = new Point(targetCell.Width/2 - firePbox.Width/2 + (targetCell.Width * ((int)firedAt.column - (int)shipInitCell.column)), -2);
+				else
+                    firePbox.Location = new Point(0 , targetCell.Height/2 - firePbox.Height / 2 -5 + (targetCell.Height * ((int)firedAt.row - (int)shipInitCell.row)));
+
+                firePbox.BringToFront();
+            }
+			else
+				targetCell.BackColor = Color.CornflowerBlue;
 
             if (gameManager.GameState.IsGameOver())
             {
@@ -185,7 +216,43 @@ namespace Battleship
 			catch (InvalidShotException) { return; }
 
 			if (gameManager.GameState.PlayerCellContainsShip(firedAt))
-				targetCell.BackColor = Color.Red;
+			{
+                List<IDrawShip> player1Fleet = gameManager.GameState.GetPlayerFleet(false);
+                string shipName = "";
+                Location shipInitCell = null;
+				bool shipIsSunk = false;
+
+                foreach (var ship in player1Fleet)
+                    if (ship.IsOccupiedCell(firedAt))
+                    {
+                        shipName = ship.Name;
+                        shipInitCell = ship.InitCell;
+						shipIsSunk = ship.IsSunk();
+                        break;
+                    }
+                PictureBox shipPbox = player2FleetPboxes.Single(pbox => (string)pbox.Tag == shipName);
+
+                PictureBox firePbox = new PictureBox()
+                {
+                    Width = (int)(0.8 * targetCell.Width),
+                    Height = (int)(0.8 * targetCell.Height),
+                    Image = Properties.Resources.fire,
+                    BackColor = Color.Transparent,
+                    SizeMode = PictureBoxSizeMode.StretchImage
+                };
+                Controls.Add(firePbox);
+                firePbox.Parent = targetCell;
+
+                firePbox.Location = new Point(targetCell.Width / 2 - firePbox.Width/2, targetCell.Height / 2 - firePbox.Height /2);
+
+                firePbox.BringToFront();
+
+				if (shipIsSunk)
+				{
+                    //shipPbox.Visible = true;
+                }
+
+            }
 			else
 				targetCell.BackColor = Color.CornflowerBlue;
 
