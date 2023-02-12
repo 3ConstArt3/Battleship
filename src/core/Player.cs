@@ -17,6 +17,8 @@ namespace Battleship.Core
 		private List<Location> HitBoxes { get; } = new List<Location>();
 		public string Name { get; } = "";
 		public uint Attempts { get; private set; } = 0;
+		public static uint UserWins { get; private set; } = 0;
+		public static uint UserDefeats { get; private set; } = 0;
 
         private bool isSetupLocked = false;
 		private static readonly Random random = new Random();
@@ -42,6 +44,14 @@ namespace Battleship.Core
 		{
 			Ship ship = getShipFromCell( where );
 			ship?.DamagePart( where );
+		}
+
+		public void UpdateScore(bool isUserWinner)
+		{
+			if (isUserWinner)
+				++UserWins;
+			else
+				++UserDefeats;
 		}
 
 		/// <summary>

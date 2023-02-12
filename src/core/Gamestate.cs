@@ -85,6 +85,16 @@ namespace Battleship.Core
 			return isPlayerFleetDestroyed(false);
 		}
 
+		public void UpdateScore()
+		{
+			player1.UpdateScore(IsPlayer1Winner());
+		}
+
+		public (uint, uint) GetPlayer1Stats()
+		{
+			return (Player.UserWins, Player.UserDefeats);
+		}
+
 		public TimeSpan GetGameDuration() => DateTime.Now - gameStartTimePoint;
 
 		private bool isPlayerFleetDestroyed(bool isPlayer1)
