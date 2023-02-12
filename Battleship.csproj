@@ -101,46 +101,46 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BattleField.cs">
+    <Compile Include="src\gui\BattleField.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BattleField.Designer.cs">
+    <Compile Include="src\gui\BattleField.Designer.cs">
       <DependentUpon>BattleField.cs</DependentUpon>
     </Compile>
-    <Compile Include="BattleShip.cs">
+    <Compile Include="src\gui\BattleShip.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BattleShip.Designer.cs">
+    <Compile Include="src\gui\BattleShip.Designer.cs">
       <DependentUpon>BattleShip.cs</DependentUpon>
     </Compile>
-    <Compile Include="GameManager.cs" />
-    <Compile Include="GameState.cs" />
-    <Compile Include="IDrawShip.cs" />
-    <Compile Include="Player.cs" />
-    <Compile Include="CustomExceptions.cs" />
-    <Compile Include="Location.cs" />
-    <Compile Include="FleetDeployment.cs">
+    <Compile Include="src\core\GameManager.cs" />
+    <Compile Include="src\core\GameState.cs" />
+    <Compile Include="src\core\IDrawShip.cs" />
+    <Compile Include="src\core\Player.cs" />
+    <Compile Include="src\utils\CustomExceptions.cs" />
+    <Compile Include="src\core\Location.cs" />
+    <Compile Include="src\gui\FleetDeployment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FleetDeployment.Designer.cs">
+    <Compile Include="src\gui\FleetDeployment.Designer.cs">
       <DependentUpon>FleetDeployment.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="src\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SetPlayer.cs">
+    <Compile Include="src\gui\SetPlayer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SetPlayer.Designer.cs">
+    <Compile Include="src\gui\SetPlayer.Designer.cs">
       <DependentUpon>SetPlayer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ship.cs" />
-    <EmbeddedResource Include="BattleField.resx">
+    <Compile Include="src\core\Ship.cs" />
+    <EmbeddedResource Include="src\gui\BattleField.resx">
       <DependentUpon>BattleField.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BattleShip.resx">
+    <EmbeddedResource Include="src\gui\BattleShip.resx">
       <DependentUpon>BattleShip.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FleetDeployment.resx">
+    <EmbeddedResource Include="src\gui\FleetDeployment.resx">
       <DependentUpon>FleetDeployment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -148,7 +148,7 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="SetPlayer.resx">
+    <EmbeddedResource Include="src\gui\SetPlayer.resx">
       <DependentUpon>SetPlayer.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
