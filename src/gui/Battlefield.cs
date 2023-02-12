@@ -200,6 +200,8 @@ namespace Battleship.Gui
 
         private void enemyGridClick(object sender, System.EventArgs e)
         {
+            playerMessageLabel.Text = "";
+
             if (mutexPlayerCanFire) return;
 
             if (gameManager.GameState.IsGameOver())
@@ -297,6 +299,10 @@ namespace Battleship.Gui
 
                 Image originalImg = (Bitmap)shipPbox.Image.Clone();
                 shipPbox.Image = ImageUtils.SetBitmapAlpha((Bitmap)originalImg, 150);
+
+                string playerName = gameManager.GameState.GetPlayerName(!isPlayer1Turn);
+                string sunkShipMsg = $"My {shipName} is sunk!";
+                playerMessageLabel.Text = playerName + ": " + sunkShipMsg;
             }
 
             shipHitted.Play();
