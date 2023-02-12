@@ -263,19 +263,17 @@ namespace Battleship.Gui
                 BackColor = Color.Transparent,
                 SizeMode = PictureBoxSizeMode.StretchImage
             };
-            Controls.Add(firePbox);
-            if (isPlayer1Turn)
-                firePbox.Parent = targetCell;
-            else
-                firePbox.Parent = shipPbox;
+            Controls.Add(firePbox); 
 
             if (isPlayer1Turn)
             {
+                firePbox.Parent = targetCell;
                 firePbox.Location = new Point(targetCell.Width / 2 - firePbox.Width / 2, targetCell.Height / 2 - firePbox.Height / 2);
                 enemyFirePboxes[shipName].Add(firePbox);
             }
             else
             {
+                firePbox.Parent = shipPbox;
                 if (shipPbox.Width > shipPbox.Height)
                     firePbox.Location = new Point(targetCell.Width / 2 - firePbox.Width / 2 + (targetCell.Width * ((int)firedAt.column - (int)shipInitCell.column)), -2);
                 else
