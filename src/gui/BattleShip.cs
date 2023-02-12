@@ -20,9 +20,18 @@ namespace Battleship.Gui
 		{
 			InitializeComponent();
 			gameManager = new GameManager();
+			setAndStartMediaPlayer();
 		}
 
 		#region Method Definition
+		private void setAndStartMediaPlayer()
+		{
+			mediaPlayer.URL = @"BattleShipAnthem.mp3";
+			mediaPlayer.Ctlcontrols.play();
+			mediaPlayer.settings.setMode("loop", true);
+			mediaPlayer.Visible = false;
+		}
+
 		/// <summary>
 		/// Opens SetPlayerForm UI.
 		/// </summary>
