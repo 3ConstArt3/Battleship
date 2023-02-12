@@ -3,13 +3,14 @@ using System;
 using System.Windows.Forms;
 using System.Drawing;
 using ComponentFactory.Krypton.Toolkit;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 using System.Collections.Generic;
 using System.Linq;
+using Battleship.Utils;
+using Battleship.Core;
 
 #endregion
 
-namespace Battleship
+namespace Battleship.Gui
 {
 
 	public partial class FleetDeploymentForm : KryptonForm

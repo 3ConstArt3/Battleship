@@ -1,4 +1,4 @@
-﻿namespace Battleship
+﻿namespace Battleship.Gui
 {
 	partial class FleetDeploymentForm
 	{

@@ -118,7 +118,7 @@
     <Compile Include="src\core\IDrawShip.cs" />
     <Compile Include="src\core\Player.cs" />
     <Compile Include="src\utils\CustomExceptions.cs" />
-    <Compile Include="src\core\Location.cs" />
+    <Compile Include="src\utils\Location.cs" />
     <Compile Include="src\gui\FleetDeployment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +134,7 @@
       <DependentUpon>SetPlayer.cs</DependentUpon>
     </Compile>
     <Compile Include="src\core\Ship.cs" />
+    <Compile Include="src\utils\ImageUtils.cs" />
     <EmbeddedResource Include="src\gui\BattleField.resx">
       <DependentUpon>BattleField.cs</DependentUpon>
     </EmbeddedResource>

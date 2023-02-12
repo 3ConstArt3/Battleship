@@ -1,4 +1,6 @@
-﻿namespace Battleship
+﻿using Battleship.Utils;
+
+namespace Battleship.Core
 {
     public interface IDrawShip
     {

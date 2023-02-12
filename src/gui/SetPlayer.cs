@@ -1,9 +1,10 @@
 ﻿#region Imports
 using System;
 using ComponentFactory.Krypton.Toolkit;
+using Battleship.Core;
 #endregion
 
-namespace Battleship
+namespace Battleship.Gui
 {
 
 	public partial class SetPlayerForm : KryptonForm

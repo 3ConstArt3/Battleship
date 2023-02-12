@@ -1,9 +1,10 @@
 ﻿#region Imports
 using System.Collections.Generic;
 using System.Diagnostics;
+using Battleship.Utils;
 #endregion
 
-namespace Battleship
+namespace Battleship.Core
 {
 
     /// <summary>

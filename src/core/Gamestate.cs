@@ -2,10 +2,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Battleship.Utils;
 
 #endregion
 
-namespace Battleship
+namespace Battleship.Core
 {
 
 	public class GameState

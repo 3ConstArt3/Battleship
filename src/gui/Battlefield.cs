@@ -2,16 +2,15 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
-using System.Drawing.Imaging;
 using System.Linq;
-using System.Linq.Expressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ComponentFactory.Krypton.Toolkit;
-using ComponentFactory.Krypton.Workspace;
+using Battleship.Utils;
+using Battleship.Core;
 #endregion
 
-namespace Battleship
+namespace Battleship.Gui
 {
 
 	public partial class BattleFieldForm : KryptonForm
@@ -194,7 +193,7 @@ namespace Battleship
                 if (shipIsSunk)
                 {
                     Image originalImg = (Bitmap)shipPbox.Image.Clone();
-                    shipPbox.Image = SetAlpha((Bitmap)originalImg, 150);
+                    shipPbox.Image = ImageUtils.SetBitmapAlpha((Bitmap)originalImg, 150);
                 }
 
             }
@@ -282,7 +281,7 @@ namespace Battleship
 
                     shipPbox.Visible = true;
                     Image originalImg = (Bitmap)shipPbox.Image.Clone();
-                    shipPbox.Image = SetAlpha((Bitmap)originalImg, 150);
+                    shipPbox.Image = ImageUtils.SetBitmapAlpha((Bitmap)originalImg, 150);
                 }
 
             }
@@ -299,30 +298,5 @@ namespace Battleship
 				
             computerFire();
         }
-
-        static Bitmap SetAlpha(Bitmap bmpIn, int alpha)
-        {
-            Bitmap bmpOut = new Bitmap(bmpIn.Width, bmpIn.Height);
-            float a = alpha / 255f;
-            Rectangle r = new Rectangle(0, 0, bmpIn.Width, bmpIn.Height);
-
-            float[][] matrixItems = {
-        new float[] {1, 0, 0, 0, 0},
-        new float[] {0, 1, 0, 0, 0},
-        new float[] {0, 0, 1, 0, 0},
-        new float[] {0, 0, 0, a, 0},
-        new float[] {0, 0, 0, 0, 1}};
-
-            ColorMatrix colorMatrix = new ColorMatrix(matrixItems);
-
-            ImageAttributes imageAtt = new ImageAttributes();
-            imageAtt.SetColorMatrix(colorMatrix, ColorMatrixFlag.Default, ColorAdjustType.Bitmap);
-
-            using (Graphics g = Graphics.FromImage(bmpOut))
-                g.DrawImage(bmpIn, r, r.X, r.Y, r.Width, r.Height, GraphicsUnit.Pixel, imageAtt);
-
-            return bmpOut;
-        }
     }
-
 }
