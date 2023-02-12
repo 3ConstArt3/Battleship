@@ -11,7 +11,7 @@ namespace Battleship.Gui
 	{
 
 		#region Variable Declarations
-		private GameManager gameManager;
+		private readonly GameManager gameManager;
 		#endregion
 
 		/// <summary>

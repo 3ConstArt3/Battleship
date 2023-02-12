@@ -18,12 +18,12 @@ namespace Battleship.Gui
     {
 
         #region Variable Declarations
-        private GameManager gameManager;
-        private Panel[,] player1Grid;
-        private List<PictureBox> player1FleetPboxes;
-        private List<PictureBox> player2FleetPboxes;
-        private Dictionary<string, List<PictureBox>> enemyFirePboxes;
-        private static Random random = new Random();
+        private readonly GameManager gameManager;
+        private readonly Panel[,] player1Grid;
+        private readonly List<PictureBox> player1FleetPboxes;
+        private readonly List<PictureBox> player2FleetPboxes;
+        private readonly Dictionary<string, List<PictureBox>> enemyFirePboxes;
+        private readonly static Random random = new Random();
         private bool mutexPlayerCanFire;
         private const int computerShotDelay = 1800;
         private readonly SoundPlayer shipHitted;

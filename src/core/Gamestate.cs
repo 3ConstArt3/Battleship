@@ -13,10 +13,10 @@ namespace Battleship.Core
 	{
 
 		#region Variable Declaration
-		private Player player1;
-		private Player player2;
+		private readonly Player player1;
+		private readonly Player player2;
 		public const int GridDimension = 9;
-		private DateTime gameStartTimePoint;
+		private readonly DateTime gameStartTimePoint;
 
         public bool IsPlayer1Turn { get; private set; }
         #endregion

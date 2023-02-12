@@ -16,9 +16,9 @@ namespace Battleship.Gui
 	public partial class FleetDeploymentForm : KryptonForm
 	{
 		#region Variable Declarations
-		private GameManager gameManager;
+		private readonly GameManager gameManager;
 		private PictureBox selectedShipPBox;
-		private List<PictureBox> fleetPBoxes;
+		private readonly List<PictureBox> fleetPBoxes;
         private readonly Dictionary<ShipType, Point> initShipPBoxLocations;
 		#endregion
 
