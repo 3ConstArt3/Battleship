@@ -90,6 +90,8 @@ namespace Battleship.Core
 			player1.UpdateScore(IsPlayer1Winner());
 		}
 
+		public string GetPlayerName(bool isPlayer1) => getTargetPlayer(isPlayer1).Name;
+
 		public (uint, uint) GetPlayer1Stats()
 		{
 			return (Player.UserWins, Player.UserDefeats);

@@ -173,7 +173,7 @@ namespace Battleship.Gui
 
             if (gameManager.GameState.IsGameOver())
             {
-                showGameOverMessage();
+                gameOverActions();
                 return;
             }
 
@@ -183,12 +183,21 @@ namespace Battleship.Gui
 
         private void showGameOverMessage()
         {
-            bool player1Won = gameManager.GameState.IsPlayer1Winner();
+            GameState gs = gameManager.GameState;
+
+            bool player1Won = gs.IsPlayer1Winner();
+            string player1Name = gs.GetPlayerName(true);
             // TODO: add player name 
-            string name = player1Won ? "Player" : "Computer";
+            string name = player1Won ? player1Name : "Computer";
             MessageBox.Show($"{name} is the winner!", "GameOver");
             Close();
         }
+
+        private void gameOverActions()
+		{
+            gameManager.GameState.UpdateScore();
+            showGameOverMessage();
+		}
 
         private void enemyGridClick(object sender, System.EventArgs e)
         {
@@ -219,7 +228,7 @@ namespace Battleship.Gui
 
             if (gameManager.GameState.IsGameOver())
             {
-                showGameOverMessage();
+                gameOverActions();
                 return;
             }
 
