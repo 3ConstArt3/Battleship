@@ -24,7 +24,7 @@ namespace Battleship.Gui
 			mediaPlayer.URL = @"BattleShipAnthem.mp3";
 			mediaPlayer.Ctlcontrols.play();
 			mediaPlayer.settings.setMode("loop", true);
-			mediaPlayer.settings.volume = 20;
+			mediaPlayer.settings.volume = 10;
 			mediaPlayer.Visible = false;
 		}
 
