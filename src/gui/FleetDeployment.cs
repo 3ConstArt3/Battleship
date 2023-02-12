@@ -74,7 +74,10 @@ namespace Battleship.Gui
 			gameManager.GameState.PlayerRandomFleetPlacement(false);
 			gameManager.GameState.PlayerLockSetup(false);
 
-			new BattleFieldForm(gameManager, fleetPBoxes).Show();
+			foreach (var shipPbox in fleetPBoxes)
+				shipPbox.Click -= ShipPBox_Click;
+
+            new BattleFieldForm(gameManager, fleetPBoxes).Show();
 			Close();
 		}
 
