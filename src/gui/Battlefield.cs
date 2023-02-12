@@ -8,6 +8,7 @@ using System.Windows.Forms;
 using ComponentFactory.Krypton.Toolkit;
 using Battleship.Utils;
 using Battleship.Core;
+using System.Media;
 #endregion
 
 namespace Battleship.Gui
@@ -24,7 +25,9 @@ namespace Battleship.Gui
         private Dictionary<string, List<PictureBox>> enemyFirePboxes;
         private static Random random = new Random();
         private bool mutexPlayerCanFire;
-        private const int computerShotDelay = 1000;
+        private const int computerShotDelay = 1800;
+        private readonly SoundPlayer shipHitted;
+        private readonly SoundPlayer splash;
         #endregion
 
         /// <summary>
@@ -68,6 +71,9 @@ namespace Battleship.Gui
                     SizeMode = pBox.SizeMode,
                     Visible = false
                 });
+
+            shipHitted = new SoundPlayer(Properties.Resources.explosion);
+            splash = new SoundPlayer(Properties.Resources.splash);
 
             placePlayerFleet(true);
             placePlayerFleet(false);
@@ -160,7 +166,10 @@ namespace Battleship.Gui
             if (gameManager.GameState.PlayerCellContainsShip(firedAt, !isPlayer1Turn))
                 hitShip(isPlayer1Turn, firedAt, targetCell);
             else
+            {
                 targetCell.BackColor = Color.CornflowerBlue;
+                splash.Play();
+            }
 
             if (gameManager.GameState.IsGameOver())
             {
@@ -201,7 +210,10 @@ namespace Battleship.Gui
             if (gameManager.GameState.PlayerCellContainsShip(firedAt, !isPlayer1Turn))
                 hitShip(isPlayer1Turn, firedAt, targetCell);
             else
+            {
                 targetCell.BackColor = Color.CornflowerBlue;
+                splash.Play();
+            }
 
             gameManager.GameState.ChangePlayerTurn();
 
@@ -278,6 +290,8 @@ namespace Battleship.Gui
                 Image originalImg = (Bitmap)shipPbox.Image.Clone();
                 shipPbox.Image = ImageUtils.SetBitmapAlpha((Bitmap)originalImg, 150);
             }
+
+            shipHitted.Play();
         }
     }
 }
