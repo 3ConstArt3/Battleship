@@ -79,7 +79,7 @@ namespace Battleship.Core
 
 		private void createGameTable()
 		{
-			const string createTable = "create table if not exists Game(p1Name Text, p2Name Text, p1Won integer, gameDuration Text";
+			const string createTable = "create table if not exists Game(p1Name Text, p2Name Text, p1Won integer, gameDuration Text)";
 			SQLiteCommand command = new SQLiteCommand(createTable, connection);
 			command.ExecuteNonQuery();
 		}
