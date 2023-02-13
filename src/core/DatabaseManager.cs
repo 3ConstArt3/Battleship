@@ -65,6 +65,7 @@ namespace Battleship.Core
 			{
 				isOpenConnection = true;
 				connection = new SQLiteConnection(connectionString);
+				connection.Open();
 			}
 		}
 
