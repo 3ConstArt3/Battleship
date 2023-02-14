@@ -28,6 +28,18 @@ namespace Battleship.src.gui
 
 			this.gameManager = gameManager;
             setLabelVals();
+			saveGameData();
+		}
+
+		private void saveGameData()
+		{
+			DatabaseManager database = new DatabaseManager();
+			database.AddGameData(
+				gameManager.GameState.GetPlayerName(true),
+				gameManager.GameState.GetPlayerName(false),
+				gameManager.GameState.IsPlayer1Winner(),
+				gameManager.GameState.GetGameDuration()
+			);
 		}
 
 		private void setLabelVals()
