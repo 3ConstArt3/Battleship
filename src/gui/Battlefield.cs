@@ -259,7 +259,7 @@ namespace Battleship.Gui
             {
                 Width = (int)(0.8 * targetCell.Width),
                 Height = (int)(0.8 * targetCell.Height),
-                Image = Properties.Resources.fire,
+                Image = Properties.Resources.Fire,
                 BackColor = Color.Transparent,
                 SizeMode = PictureBoxSizeMode.StretchImage
             };

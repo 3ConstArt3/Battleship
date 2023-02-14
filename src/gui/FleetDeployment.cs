@@ -363,8 +363,8 @@ namespace Battleship.Gui
 				return; 
 			}
 
-            newShip.Location = new Point(PreviewGrbx.Location.X + targetPanel.Location.X + 6,
-			PreviewGrbx.Location.Y + targetPanel.Location.Y + targetPanel.Height + 2);
+            newShip.Location = new Point(BattleFieldPreviewGrbx.Location.X + targetPanel.Location.X + 6,
+			BattleFieldPreviewGrbx.Location.Y + targetPanel.Location.Y + targetPanel.Height + 2);
 		}
 
         #endregion

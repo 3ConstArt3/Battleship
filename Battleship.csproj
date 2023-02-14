@@ -189,43 +189,13 @@
     <None Include="Resources\BattleShipIntroIcon.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\closeBtn.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\maximizeBtn.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\minimize.Btn.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\SetPlayerBg.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\CarrierBattleS.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BattleShipBattleS.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\CruiserBattleS.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\SubmarineBattleS.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\DestroyerBattleS.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\RotateShip.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\BattlefieldBgnd.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Undo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\MilitaryHelmet.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Battleship.png" />
@@ -243,12 +213,6 @@
     <None Include="Resources\Submarine.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\10808479.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\sailorhat_min.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Sailorhat.png" />
   </ItemGroup>
   <ItemGroup>
@@ -256,9 +220,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\appicon.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\1087497_831dc.gif" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="AxWMPLib">
@@ -284,6 +245,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\splash.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fire.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OceanBgnd.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

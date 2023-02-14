@@ -19,7 +19,7 @@ namespace Battleship.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -73,29 +73,9 @@ namespace Battleship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BattlefieldBgnd {
-            get {
-                object obj = ResourceManager.GetObject("BattlefieldBgnd", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Battleship {
             get {
                 object obj = ResourceManager.GetObject("Battleship", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap BattleShipBattleS {
-            get {
-                object obj = ResourceManager.GetObject("BattleShipBattleS", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,26 +103,6 @@ namespace Battleship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CarrierBattleS {
-            get {
-                object obj = ResourceManager.GetObject("CarrierBattleS", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap closeBtn {
-            get {
-                object obj = ResourceManager.GetObject("closeBtn", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Cruiser {
             get {
                 object obj = ResourceManager.GetObject("Cruiser", resourceCulture);
@@ -153,29 +113,9 @@ namespace Battleship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CruiserBattleS {
-            get {
-                object obj = ResourceManager.GetObject("CruiserBattleS", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Destroyer {
             get {
                 object obj = ResourceManager.GetObject("Destroyer", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap DestroyerBattleS {
-            get {
-                object obj = ResourceManager.GetObject("DestroyerBattleS", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -192,9 +132,9 @@ namespace Battleship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fire {
+        internal static System.Drawing.Bitmap Fire {
             get {
-                object obj = ResourceManager.GetObject("fire", resourceCulture);
+                object obj = ResourceManager.GetObject("Fire", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -202,29 +142,9 @@ namespace Battleship.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap maximizeBtn {
+        internal static System.Drawing.Bitmap OceanBgnd {
             get {
-                object obj = ResourceManager.GetObject("maximizeBtn", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap minimize_Btn {
-            get {
-                object obj = ResourceManager.GetObject("minimize.Btn", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap oceanBgnd {
-            get {
-                object obj = ResourceManager.GetObject("oceanBgnd", resourceCulture);
+                object obj = ResourceManager.GetObject("OceanBgnd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -284,16 +204,6 @@ namespace Battleship.Properties {
         internal static System.Drawing.Bitmap Submarine {
             get {
                 object obj = ResourceManager.GetObject("Submarine", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap SubmarineBattleS {
-            get {
-                object obj = ResourceManager.GetObject("SubmarineBattleS", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

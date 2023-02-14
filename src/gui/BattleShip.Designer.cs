@@ -31,13 +31,13 @@
 			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			this.MainKrptPlt = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
-			this.MainPnl = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
-			this.PreparationBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
 			this.BattleShipIntroLbl = new ComponentFactory.Krypton.Toolkit.KryptonLabel();
+			this.PreparationBtn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
 			this.mediaPlayer = new AxWMPLib.AxWindowsMediaPlayer();
+			this.MainPnl = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
+			((System.ComponentModel.ISupportInitialize)(this.mediaPlayer)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.MainPnl)).BeginInit();
 			this.MainPnl.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.mediaPlayer)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// MainKrptPlt
@@ -151,28 +151,53 @@
 			this.MainKrptPlt.PanelStyles.PanelCommon.StateCommon.Image = global::Battleship.Properties.Resources.BattleShipIntroIcon;
 			this.MainKrptPlt.PanelStyles.PanelCommon.StateCommon.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
 			// 
-			// MainPnl
+			// BattleShipIntroLbl
 			// 
-			this.MainPnl.Controls.Add(this.mediaPlayer);
-			this.MainPnl.Controls.Add(this.PreparationBtn);
-			this.MainPnl.Controls.Add(this.BattleShipIntroLbl);
-			this.MainPnl.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.MainPnl.Location = new System.Drawing.Point(0, 0);
-			this.MainPnl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-			this.MainPnl.Name = "MainPnl";
-			this.MainPnl.Palette = this.MainKrptPlt;
-			this.MainPnl.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
-			this.MainPnl.Size = new System.Drawing.Size(617, 425);
-			this.MainPnl.TabIndex = 0;
+			this.BattleShipIntroLbl.AutoSize = false;
+			this.BattleShipIntroLbl.Dock = System.Windows.Forms.DockStyle.Top;
+			this.BattleShipIntroLbl.Location = new System.Drawing.Point(0, 0);
+			this.BattleShipIntroLbl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+			this.BattleShipIntroLbl.Name = "BattleShipIntroLbl";
+			this.BattleShipIntroLbl.Palette = this.MainKrptPlt;
+			this.BattleShipIntroLbl.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
+			this.BattleShipIntroLbl.Size = new System.Drawing.Size(823, 229);
+			this.BattleShipIntroLbl.TabIndex = 4;
+			this.BattleShipIntroLbl.Values.Text = "BattleShip";
 			// 
 			// PreparationBtn
 			// 
-			this.PreparationBtn.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.PreparationBtn.Location = new System.Drawing.Point(222, 273);
-			this.PreparationBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.PreparationBtn.Location = new System.Drawing.Point(300, 336);
 			this.PreparationBtn.Name = "PreparationBtn";
+			this.PreparationBtn.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(196)))), ((int)(((byte)(185)))));
+			this.PreparationBtn.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.PreparationBtn.OverrideDefault.Back.ColorAngle = 24F;
+			this.PreparationBtn.OverrideDefault.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding5;
+			this.PreparationBtn.OverrideDefault.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.PreparationBtn.OverrideDefault.Back.Image = global::Battleship.Properties.Resources.Sailorhat;
+			this.PreparationBtn.OverrideFocus.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(196)))), ((int)(((byte)(185)))));
+			this.PreparationBtn.OverrideFocus.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.PreparationBtn.OverrideFocus.Back.ColorAngle = 24F;
+			this.PreparationBtn.OverrideFocus.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Rounding5;
+			this.PreparationBtn.OverrideFocus.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.PreparationBtn.OverrideFocus.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.CenterRight;
+			this.PreparationBtn.OverrideFocus.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.PreparationBtn.OverrideFocus.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
+			this.PreparationBtn.OverrideFocus.Border.ColorAngle = 24F;
+			this.PreparationBtn.OverrideFocus.Border.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.LinearShadow;
+			this.PreparationBtn.OverrideFocus.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+			this.PreparationBtn.OverrideFocus.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+			this.PreparationBtn.OverrideFocus.Border.Rounding = 27;
+			this.PreparationBtn.OverrideFocus.Border.Width = 1;
+			this.PreparationBtn.OverrideFocus.Content.Padding = new System.Windows.Forms.Padding(0, 0, 24, 0);
+			this.PreparationBtn.OverrideFocus.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+			this.PreparationBtn.OverrideFocus.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
+			this.PreparationBtn.OverrideFocus.Content.ShortText.ColorAngle = 24F;
+			this.PreparationBtn.OverrideFocus.Content.ShortText.Font = new System.Drawing.Font("Snap ITC", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.PreparationBtn.OverrideFocus.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
 			this.PreparationBtn.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-			this.PreparationBtn.Size = new System.Drawing.Size(183, 68);
+			this.PreparationBtn.Size = new System.Drawing.Size(238, 84);
 			this.PreparationBtn.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(196)))), ((int)(((byte)(185)))));
 			this.PreparationBtn.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(97)))), ((int)(((byte)(89)))));
 			this.PreparationBtn.StateCommon.Back.ColorAngle = 24F;
@@ -194,7 +219,7 @@
 			this.PreparationBtn.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
 			this.PreparationBtn.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
 			this.PreparationBtn.StateCommon.Content.ShortText.ColorAngle = 24F;
-			this.PreparationBtn.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.PreparationBtn.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Snap ITC", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.PreparationBtn.StateCommon.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
 			this.PreparationBtn.StateCommon.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
 			this.PreparationBtn.StateCommon.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
@@ -219,7 +244,7 @@
 			this.PreparationBtn.StateDisabled.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
 			this.PreparationBtn.StateDisabled.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
 			this.PreparationBtn.StateDisabled.Content.ShortText.ColorAngle = 24F;
-			this.PreparationBtn.StateDisabled.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.PreparationBtn.StateDisabled.Content.ShortText.Font = new System.Drawing.Font("Snap ITC", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.PreparationBtn.StateDisabled.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
 			this.PreparationBtn.StateDisabled.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
 			this.PreparationBtn.StateDisabled.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Near;
@@ -245,7 +270,7 @@
 			this.PreparationBtn.StateNormal.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
 			this.PreparationBtn.StateNormal.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
 			this.PreparationBtn.StateNormal.Content.ShortText.ColorAngle = 24F;
-			this.PreparationBtn.StateNormal.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.PreparationBtn.StateNormal.Content.ShortText.Font = new System.Drawing.Font("Snap ITC", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.PreparationBtn.StateNormal.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
 			this.PreparationBtn.StateNormal.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
 			this.PreparationBtn.StateNormal.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
@@ -270,7 +295,7 @@
 			this.PreparationBtn.StatePressed.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
 			this.PreparationBtn.StatePressed.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
 			this.PreparationBtn.StatePressed.Content.ShortText.ColorAngle = 24F;
-			this.PreparationBtn.StatePressed.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.PreparationBtn.StatePressed.Content.ShortText.Font = new System.Drawing.Font("Snap ITC", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.PreparationBtn.StatePressed.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
 			this.PreparationBtn.StatePressed.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
 			this.PreparationBtn.StatePressed.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
@@ -293,7 +318,7 @@
 			this.PreparationBtn.StateTracking.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
 			this.PreparationBtn.StateTracking.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
 			this.PreparationBtn.StateTracking.Content.ShortText.ColorAngle = 24F;
-			this.PreparationBtn.StateTracking.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.PreparationBtn.StateTracking.Content.ShortText.Font = new System.Drawing.Font("Snap ITC", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.PreparationBtn.StateTracking.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
 			this.PreparationBtn.StateTracking.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
 			this.PreparationBtn.StateTracking.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
@@ -301,45 +326,47 @@
 			this.PreparationBtn.Values.Text = "Let\'s Battle!";
 			this.PreparationBtn.Click += new System.EventHandler(this.PreparationBtn_Click);
 			// 
-			// BattleShipIntroLbl
-			// 
-			this.BattleShipIntroLbl.AutoSize = false;
-			this.BattleShipIntroLbl.Dock = System.Windows.Forms.DockStyle.Top;
-			this.BattleShipIntroLbl.Location = new System.Drawing.Point(0, 0);
-			this.BattleShipIntroLbl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-			this.BattleShipIntroLbl.Name = "BattleShipIntroLbl";
-			this.BattleShipIntroLbl.Palette = this.MainKrptPlt;
-			this.BattleShipIntroLbl.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
-			this.BattleShipIntroLbl.Size = new System.Drawing.Size(617, 186);
-			this.BattleShipIntroLbl.TabIndex = 4;
-			this.BattleShipIntroLbl.Values.Text = "BattleShip";
-			// 
 			// mediaPlayer
 			// 
 			this.mediaPlayer.Enabled = true;
 			this.mediaPlayer.Location = new System.Drawing.Point(12, 242);
+			this.mediaPlayer.Margin = new System.Windows.Forms.Padding(4);
 			this.mediaPlayer.Name = "mediaPlayer";
 			this.mediaPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("mediaPlayer.OcxState")));
 			this.mediaPlayer.Size = new System.Drawing.Size(189, 171);
 			this.mediaPlayer.TabIndex = 30;
 			// 
+			// MainPnl
+			// 
+			this.MainPnl.Controls.Add(this.mediaPlayer);
+			this.MainPnl.Controls.Add(this.PreparationBtn);
+			this.MainPnl.Controls.Add(this.BattleShipIntroLbl);
+			this.MainPnl.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.MainPnl.Location = new System.Drawing.Point(0, 0);
+			this.MainPnl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+			this.MainPnl.Name = "MainPnl";
+			this.MainPnl.Palette = this.MainKrptPlt;
+			this.MainPnl.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
+			this.MainPnl.Size = new System.Drawing.Size(823, 523);
+			this.MainPnl.TabIndex = 0;
+			// 
 			// MainForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(196)))), ((int)(((byte)(185)))));
-			this.ClientSize = new System.Drawing.Size(617, 425);
+			this.ClientSize = new System.Drawing.Size(823, 523);
 			this.Controls.Add(this.MainPnl);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-			this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.Name = "MainForm";
 			this.Palette = this.MainKrptPlt;
 			this.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+			((System.ComponentModel.ISupportInitialize)(this.mediaPlayer)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.MainPnl)).EndInit();
 			this.MainPnl.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.mediaPlayer)).EndInit();
 			this.ResumeLayout(false);
 
         }
@@ -347,9 +374,9 @@
         #endregion
 
         private ComponentFactory.Krypton.Toolkit.KryptonPalette MainKrptPlt;
-        private ComponentFactory.Krypton.Toolkit.KryptonPanel MainPnl;
-        private ComponentFactory.Krypton.Toolkit.KryptonLabel BattleShipIntroLbl;
-        private ComponentFactory.Krypton.Toolkit.KryptonButton PreparationBtn;
+		private ComponentFactory.Krypton.Toolkit.KryptonLabel BattleShipIntroLbl;
+		private ComponentFactory.Krypton.Toolkit.KryptonButton PreparationBtn;
 		private AxWMPLib.AxWindowsMediaPlayer mediaPlayer;
+		private ComponentFactory.Krypton.Toolkit.KryptonPanel MainPnl;
 	}
 }
