@@ -2,6 +2,7 @@
 using System;
 using System.Windows.Forms;
 using Battleship.Gui;
+using Battleship.src.gui;
 #endregion
 
 namespace Battleship
@@ -20,7 +21,7 @@ namespace Battleship
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault( false );
-            Application.Run( new MainForm() );
+            Application.Run( new CommanderStatsForm() );
         }
 
     }
