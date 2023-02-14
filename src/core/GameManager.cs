@@ -14,17 +14,8 @@ namespace Battleship.Core
 
 		#region Variable Declaration
 		public GameState GameState{ get; private set; }
-		public DatabaseManager DatabaseManager{ get; private set; }
 
 		#endregion
-
-		/// <summary>
-		/// Constructor Definition.
-		/// </summary>
-		public GameManager()
-		{
-			
-		}
 
 		#region Method Declaration
 
