@@ -25,16 +25,6 @@ namespace Battleship.Gui
 
 		#region Function Definition
 		/// <summary>
-		/// Prompts registrations of user's name.
-		/// </summary>
-		/// <param name="sender"></param>
-		/// <param name="e"></param>
-		private void RegisterNameBtn_Click( object sender, EventArgs e )
-		{
-
-		}
-
-		/// <summary>
 		/// Closes SetPlayerForm UI & invokes FleetDeploymentForm UI.
 		/// </summary>
 		/// <param name="sender"></param>
