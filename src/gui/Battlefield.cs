@@ -9,6 +9,7 @@ using ComponentFactory.Krypton.Toolkit;
 using Battleship.Utils;
 using Battleship.Core;
 using System.Media;
+using Battleship.src.gui;
 #endregion
 
 namespace Battleship.Gui
@@ -25,7 +26,7 @@ namespace Battleship.Gui
         private readonly Dictionary<string, List<PictureBox>> enemyFirePboxes;
         private readonly static Random random = new Random();
         private bool mutexPlayerCanFire;
-        private const int computerShotDelay = 1800;
+        private const int computerShotDelay = 0;
         private readonly SoundPlayer shipHitted;
         private readonly SoundPlayer splash;
         #endregion
@@ -88,7 +89,7 @@ namespace Battleship.Gui
         /// <param name="e"></param>
         private void BattleFieldForm_FormClosed(object sender, FormClosedEventArgs e)
         {
-            // new HighScoresForm().Show();
+            
         }
 
         private Point getCoordsFromCell(Location cell)
@@ -187,8 +188,10 @@ namespace Battleship.Gui
 
             bool player1Won = gs.IsPlayer1Winner();
             string player1Name = gs.GetPlayerName(true);
-            string name = player1Won ? player1Name : "Computer";
+            string player2Name = gs.GetPlayerName(false);
+            string name = player1Won ? player1Name : player2Name;
             MessageBox.Show($"{name} is the winner!", "GameOver");
+            new CommanderStatsForm(gameManager).Show();
             Close();
         }
 

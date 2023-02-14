@@ -92,10 +92,7 @@ namespace Battleship.Core
 
 		public string GetPlayerName(bool isPlayer1) => getTargetPlayer(isPlayer1).Name;
 
-		public (uint, uint) GetPlayer1Stats()
-		{
-			return (Player.UserWins, Player.UserDefeats);
-		}
+		public uint GetPlayerAttempts(bool isPlayer1) => getTargetPlayer(isPlayer1).Attempts;
 
 		public TimeSpan GetGameDuration() => DateTime.Now - gameStartTimePoint;
 
