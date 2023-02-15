@@ -45,7 +45,7 @@ namespace Battleship.src.gui
 		private void setLabelVals()
 		{
 			AttemptsLbl.Text += $" {gameManager.GameState.GetPlayerAttempts(true)}";
-			WarDurationLbl.Text += $" {gameManager.GameState.GetGameDuration().TotalMinutes.ToString().Substring(0, 5)}";
+			WarDurationLbl.Text += $" {gameManager.GameState.GetGameDuration().TotalMinutes.ToString().Substring(0, 5)} min";
 			WarsWonLbl.Text += $" {Player.UserWins}";
 			WarsLostLbl.Text += $" {Player.UserDefeats}";
 		}
