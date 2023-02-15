@@ -89,7 +89,8 @@ namespace Battleship.Gui
         /// <param name="e"></param>
         private void BattleFieldForm_FormClosed(object sender, FormClosedEventArgs e)
         {
-            
+            if (Application.OpenForms.Count == 1)
+                Application.OpenForms[0].Show();
         }
 
         private Point getCoordsFromCell(Location cell)

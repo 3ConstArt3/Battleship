@@ -586,6 +586,7 @@
             this.Palette = this.CommanderStatsKrptPlt;
             this.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.CommanderStatsForm_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.MainPnl)).EndInit();
             this.MainPnl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.StatsGrbx.Panel)).EndInit();

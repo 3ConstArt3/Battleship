@@ -2,6 +2,7 @@
 using System;
 using ComponentFactory.Krypton.Toolkit;
 using Battleship.Core;
+using System.Windows.Forms;
 #endregion
 
 namespace Battleship.Gui
@@ -38,8 +39,13 @@ namespace Battleship.Gui
 			this.Hide();
 			new SetPlayerForm(new GameManager()).Show();
 		}
-		#endregion
+        #endregion
 
-	}
+        private void MainForm_FormClosed(object sender, System.Windows.Forms.FormClosedEventArgs e)
+        {
+            if (Application.OpenForms.Count == 1)
+                Application.OpenForms[0].Show();
+        }
+    }
 
 }

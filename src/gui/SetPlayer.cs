@@ -2,6 +2,7 @@
 using System;
 using ComponentFactory.Krypton.Toolkit;
 using Battleship.Core;
+using System.Windows.Forms;
 #endregion
 
 namespace Battleship.Gui
@@ -33,11 +34,17 @@ namespace Battleship.Gui
 		{
 			// TODO: recycle the next two lines in their own method
 			gameManager.StartNewGame(NameTxtBx.Text);
+			Player.InitUserStats();
 			new FleetDeploymentForm(gameManager).Show();
 			this.Close();
 		}
-		#endregion
+        #endregion
 
-	}
+        private void SetPlayerForm_FormClosed(object sender, System.Windows.Forms.FormClosedEventArgs e)
+        {
+			if (Application.OpenForms.Count == 1)
+				Application.OpenForms[0].Show();
+        }
+    }
 
 }

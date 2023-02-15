@@ -368,6 +368,12 @@ namespace Battleship.Gui
 		}
 
         #endregion
+
+        private void FleetDeploymentForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if (Application.OpenForms.Count == 1)
+                Application.OpenForms[0].Show();
+        }
     }
 
 }
