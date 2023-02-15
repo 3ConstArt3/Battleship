@@ -90,7 +90,7 @@ namespace Battleship.Core
         /// Determines whether the ship has any undamaged parts left.
         /// </summary>
         /// <returns>True if no undamaged ship parts are left</returns>
-        public bool IsSunk() => (Size == damagedParts.Count);
+        public bool IsSank() => (Size == damagedParts.Count);
 
         /// <summary>
         /// Change ship's initial cell Location during setup mode.

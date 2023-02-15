@@ -101,7 +101,7 @@ namespace Battleship.Core
 			Player player = getTargetPlayer(isPlayer1);
 			foreach (Ship ship in player.Fleet)
 			{
-				if (!ship.IsSunk())
+				if (!ship.IsSank())
 					return false;
 			}
 			return true;

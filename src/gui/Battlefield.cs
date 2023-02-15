@@ -26,7 +26,7 @@ namespace Battleship.Gui
         private readonly Dictionary<string, List<PictureBox>> enemyFirePboxes;
         private readonly static Random random = new Random();
         private bool mutexPlayerCanFire;
-        private const int computerShotDelay = 0;
+        private const int computerShotDelay = 1800;
         private readonly SoundPlayer shipHitted;
         private readonly SoundPlayer splash;
         #endregion
@@ -252,7 +252,7 @@ namespace Battleship.Gui
                 {
                     shipName = ship.Name;
                     shipInitCell = ship.InitCell;
-                    shipIsSunk = ship.IsSunk();
+                    shipIsSunk = ship.IsSank();
                     break;
                 }
 
@@ -303,7 +303,7 @@ namespace Battleship.Gui
                 shipPbox.Image = ImageUtils.SetBitmapAlpha((Bitmap)originalImg, 150);
 
                 string playerName = gameManager.GameState.GetPlayerName(!isPlayer1Turn);
-                string sunkShipMsg = $"My {shipName} is sunk!";
+                string sunkShipMsg = $"My {shipName} has sunk!";
                 playerMessageLabel.Text = playerName + ": " + sunkShipMsg;
             }
 

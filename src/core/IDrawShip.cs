@@ -11,6 +11,6 @@ namespace Battleship.Core
         bool IsVertical { get; }
 
         bool IsOccupiedCell(Location cell);
-        bool IsSunk();
+        bool IsSank();
     }
 }
