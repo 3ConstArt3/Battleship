@@ -254,7 +254,6 @@
             this.NameTxtBx.StateNormal.Content.Font = new System.Drawing.Font("MV Boli", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NameTxtBx.StateNormal.Content.Padding = new System.Windows.Forms.Padding(3);
             this.NameTxtBx.TabIndex = 10;
-            this.NameTxtBx.Text = "Commander Name";
             this.NameTxtBx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // DelpoyFleetBtn
