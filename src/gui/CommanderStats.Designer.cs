@@ -159,13 +159,13 @@
             this.MainPnl.Name = "MainPnl";
             this.MainPnl.Palette = this.CommanderStatsKrptPlt;
             this.MainPnl.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
-            this.MainPnl.Size = new System.Drawing.Size(518, 410);
+            this.MainPnl.Size = new System.Drawing.Size(550, 410);
             this.MainPnl.TabIndex = 0;
             // 
             // ExitBtn
             // 
             this.ExitBtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.ExitBtn.Location = new System.Drawing.Point(293, 326);
+            this.ExitBtn.Location = new System.Drawing.Point(304, 326);
             this.ExitBtn.Name = "ExitBtn";
             this.ExitBtn.Size = new System.Drawing.Size(152, 65);
             this.ExitBtn.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(159)))), ((int)(((byte)(106)))));
@@ -296,7 +296,7 @@
             // 
             this.StatsGrbx.Panel.Controls.Add(this.LastSessionPnl);
             this.StatsGrbx.Panel.Controls.Add(this.LastBattlePnl);
-            this.StatsGrbx.Size = new System.Drawing.Size(432, 231);
+            this.StatsGrbx.Size = new System.Drawing.Size(463, 231);
             this.StatsGrbx.StateCommon.Back.Image = global::Battleship.Properties.Resources.SetPlayerBg;
             this.StatsGrbx.StateCommon.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
             this.StatsGrbx.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
@@ -315,7 +315,7 @@
             // 
             this.LastSessionPnl.Controls.Add(this.LastSessionGrbx);
             this.LastSessionPnl.Dock = System.Windows.Forms.DockStyle.Right;
-            this.LastSessionPnl.Location = new System.Drawing.Point(216, 0);
+            this.LastSessionPnl.Location = new System.Drawing.Point(247, 0);
             this.LastSessionPnl.Name = "LastSessionPnl";
             this.LastSessionPnl.Palette = this.CommanderStatsKrptPlt;
             this.LastSessionPnl.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
@@ -380,11 +380,12 @@
             this.LastBattlePnl.Name = "LastBattlePnl";
             this.LastBattlePnl.Palette = this.CommanderStatsKrptPlt;
             this.LastBattlePnl.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
-            this.LastBattlePnl.Size = new System.Drawing.Size(210, 217);
+            this.LastBattlePnl.Size = new System.Drawing.Size(241, 217);
             this.LastBattlePnl.TabIndex = 23;
             // 
             // LastGameGrbx
             // 
+            this.LastGameGrbx.AutoSize = true;
             this.LastGameGrbx.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LastGameGrbx.Location = new System.Drawing.Point(0, 0);
             this.LastGameGrbx.Name = "LastGameGrbx";
@@ -393,7 +394,7 @@
             // 
             this.LastGameGrbx.Panel.Controls.Add(this.WarDurationLbl);
             this.LastGameGrbx.Panel.Controls.Add(this.AttemptsLbl);
-            this.LastGameGrbx.Size = new System.Drawing.Size(210, 217);
+            this.LastGameGrbx.Size = new System.Drawing.Size(241, 217);
             this.LastGameGrbx.StateCommon.Back.Image = global::Battleship.Properties.Resources.SetPlayerBg;
             this.LastGameGrbx.StateCommon.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Stretch;
             this.LastGameGrbx.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
@@ -437,7 +438,7 @@
             // NewBattleBtn
             // 
             this.NewBattleBtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.NewBattleBtn.Location = new System.Drawing.Point(71, 326);
+            this.NewBattleBtn.Location = new System.Drawing.Point(82, 326);
             this.NewBattleBtn.Name = "NewBattleBtn";
             this.NewBattleBtn.Size = new System.Drawing.Size(189, 65);
             this.NewBattleBtn.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(159)))), ((int)(((byte)(106)))));
@@ -563,7 +564,7 @@
             this.SetPlayerIntroLbl.Dock = System.Windows.Forms.DockStyle.Top;
             this.SetPlayerIntroLbl.Location = new System.Drawing.Point(0, 0);
             this.SetPlayerIntroLbl.Name = "SetPlayerIntroLbl";
-            this.SetPlayerIntroLbl.Size = new System.Drawing.Size(518, 78);
+            this.SetPlayerIntroLbl.Size = new System.Drawing.Size(550, 78);
             this.SetPlayerIntroLbl.StateCommon.Padding = new System.Windows.Forms.Padding(-1, 15, -1, -1);
             this.SetPlayerIntroLbl.StateCommon.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
             this.SetPlayerIntroLbl.StateCommon.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
@@ -579,7 +580,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(518, 410);
+            this.ClientSize = new System.Drawing.Size(550, 410);
             this.Controls.Add(this.MainPnl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "CommanderStatsForm";
@@ -602,6 +603,7 @@
             this.LastSessionGrbx.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.LastBattlePnl)).EndInit();
             this.LastBattlePnl.ResumeLayout(false);
+            this.LastBattlePnl.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LastGameGrbx.Panel)).EndInit();
             this.LastGameGrbx.Panel.ResumeLayout(false);
             this.LastGameGrbx.Panel.PerformLayout();
