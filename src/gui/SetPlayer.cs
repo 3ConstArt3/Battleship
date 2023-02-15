@@ -34,7 +34,7 @@ namespace Battleship.Gui
 		{
 			// TODO: recycle the next two lines in their own method
 			gameManager.StartNewGame(NameTxtBx.Text);
-			Player.InitUserStats();
+			Player.ResetUserStats();
 			new FleetDeploymentForm(gameManager).Show();
 			this.Close();
 		}

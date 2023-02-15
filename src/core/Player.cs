@@ -11,14 +11,13 @@ namespace Battleship.Core
 
 	class Player
 	{
-
 		#region Variable Declaration
 		public List<Ship> Fleet { get; } = new List<Ship>();
 		private List<Location> HitBoxes { get; } = new List<Location>();
 		public string Name { get; } = "";
 		public uint Attempts { get; private set; } = 0;
-		public static uint UserWins { get; private set; } = 0;
-		public static uint UserDefeats { get; private set; } = 0;
+		public static uint UserWins { get; private set; }
+		public static uint UserDefeats { get; private set; }
 
         private bool isSetupLocked = false;
 		private static readonly Random random = new Random();
@@ -152,6 +151,12 @@ namespace Battleship.Core
 					catch( InvalidShipPlacementException ) {}
 				}
 			}
+		}
+
+		public static void ResetUserStats()
+		{
+			UserWins = 0;
+			UserDefeats = 0;
 		}
 
 		/// <summary>
