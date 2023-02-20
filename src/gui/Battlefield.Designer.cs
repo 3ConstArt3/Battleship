@@ -354,6 +354,14 @@
 			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
 			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Border.Rounding = 3;
 			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Border.Width = 1;
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Content.Padding = new System.Windows.Forms.Padding(0);
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(69)))), ((int)(((byte)(69)))));
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Content.ShortText.ColorAngle = 24F;
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Content.ShortText.Hint = ComponentFactory.Krypton.Toolkit.PaletteTextHint.AntiAlias;
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Content.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
+			this.BattleFieldKrptPlt.HeaderStyles.HeaderCommon.StateCommon.Content.ShortText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
 			this.BattleFieldKrptPlt.LabelStyles.LabelCommon.StateNormal.Padding = new System.Windows.Forms.Padding(24, 36, -1, -1);
 			this.BattleFieldKrptPlt.LabelStyles.LabelCommon.StateNormal.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
 			this.BattleFieldKrptPlt.LabelStyles.LabelCommon.StateNormal.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(186)))), ((int)(((byte)(175)))));
@@ -384,7 +392,7 @@
 			// 
 			this.playerMessageLabel.AutoSize = false;
 			this.playerMessageLabel.Location = new System.Drawing.Point(4, 534);
-			this.playerMessageLabel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.playerMessageLabel.Margin = new System.Windows.Forms.Padding(4);
 			this.playerMessageLabel.Name = "playerMessageLabel";
 			this.playerMessageLabel.Size = new System.Drawing.Size(1153, 69);
 			this.playerMessageLabel.StateNormal.LongText.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
@@ -2527,6 +2535,7 @@
 			this.Palette = this.BattleFieldKrptPlt;
 			this.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+			this.Text = "Battlefield";
 			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.BattleFieldForm_FormClosed);
 			((System.ComponentModel.ISupportInitialize)(this.MainPnl)).EndInit();
 			this.MainPnl.ResumeLayout(false);
