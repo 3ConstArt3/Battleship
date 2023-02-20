@@ -108,11 +108,11 @@
     <Compile Include="src\gui\BattleField.Designer.cs">
       <DependentUpon>BattleField.cs</DependentUpon>
     </Compile>
-    <Compile Include="src\gui\BattleShip.cs">
+    <Compile Include="src\gui\Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="src\gui\BattleShip.Designer.cs">
-      <DependentUpon>BattleShip.cs</DependentUpon>
+    <Compile Include="src\gui\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="src\core\GameManager.cs" />
     <Compile Include="src\core\GameState.cs" />
@@ -134,19 +134,19 @@
     </Compile>
     <Compile Include="src\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="src\gui\SetPlayer.cs">
+    <Compile Include="src\gui\SetCommander.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="src\gui\SetPlayer.Designer.cs">
-      <DependentUpon>SetPlayer.cs</DependentUpon>
+    <Compile Include="src\gui\SetCommander.Designer.cs">
+      <DependentUpon>SetCommander.cs</DependentUpon>
     </Compile>
     <Compile Include="src\core\Ship.cs" />
     <Compile Include="src\utils\ImageUtils.cs" />
     <EmbeddedResource Include="src\gui\BattleField.resx">
       <DependentUpon>BattleField.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="src\gui\BattleShip.resx">
-      <DependentUpon>BattleShip.cs</DependentUpon>
+    <EmbeddedResource Include="src\gui\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="src\gui\CommanderStats.resx">
       <DependentUpon>CommanderStats.cs</DependentUpon>
@@ -159,8 +159,8 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="src\gui\SetPlayer.resx">
-      <DependentUpon>SetPlayer.cs</DependentUpon>
+    <EmbeddedResource Include="src\gui\SetCommander.resx">
+      <DependentUpon>SetCommander.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
