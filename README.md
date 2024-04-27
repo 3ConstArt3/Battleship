@@ -1,5 +1,5 @@
 # Battleship
-A simulation of the classic Battleship board game, using the Windows Forms Framework and the KryptonForm components. Group assignment for university semester 2022-2023.
+A simulation of the classic Battleship board game, using the Windows Forms Framework and the KryptonForm components. Group assignment for the purposes of OOP class, University of Piraeus 2022-2023.
 
 Screenshots:
 
